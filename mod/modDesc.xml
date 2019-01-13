@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="42">
+    <author>Balu</author>
+	<title>
+		<en>Story Mode</en>
+		<de>Story Mode</de>
+	</title>
+	<description>
+		<en>
+<![CDATA[This mod adds a story mode the game. Only use when starting new savegames!
+]]>
+		</en>
+		<de>
+<![CDATA[Dieser Mod fügt einen Storymodus hinzu. Nur bei neuen Spielständen benutzen
+]]>
+	   </de>
+	</description>
+	
+    <version>1.0.0.0</version>
+	
+	<multiplayer supported="false"/>  
+	
+	<iconFilename>store.dds</iconFilename>
+
+	<l10n>
+		<text name="input_StoryMode_Settings">			<en>StoryMode: Open Settings</en>  											<de>StoryMode: Einstellungen öffnen</de>				</text>
+		<text name="gui_sm_Setting">					<en>Story Mode - Settings</en>  											<de>Story Mode - Einstellungen</de>						</text>
+	</l10n>
+
+    <extraSourceFiles>
+		<sourceFile filename="gui/smGui.lua"/>
+        <sourceFile filename="StoryMode.lua" />
+    </extraSourceFiles>	
+	
+	<actions>
+		<action name="StoryMode_Settings"	category="SYSTEM"   axisType="HALF" ignoreComboMask="false"/>	
+	</actions>
+	
+	<inputBindings>
+		<actionBinding action="StoryMode_Settings">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_5" />
+			<binding device="0_XINPUT_GAMEPAD" input="BUTTON_5 BUTTON_15" />
+		</actionBinding>
+	</inputBindings>
+	
+</modDesc>
+
