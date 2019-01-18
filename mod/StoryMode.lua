@@ -7,33 +7,13 @@ StoryMode.directory = g_currentModDirectory;
 StoryMode.storyDirectory = g_currentModDirectory .. "story/";
 
 source(Utils.getFilename("gui/smGui.lua", g_currentModDirectory))
+source(Utils.getFilename("Trigger.lua", g_currentModDirectory))
 
 StoryMode.currentStory = 1;
 StoryMode.currentStoryPresented = false;
 StoryMode.lastStory = 3;
-
---StoryMode.storyParts = {};
---StoryMode.storyParts[1] = {};
---StoryMode.storyParts[1].titleText = "Introductions";
---StoryMode.storyParts[1].storyText = "Hello there buddy. My name is Thomas Witherfield and I am the mayor of Felsbrunn! I heard you are interested in starting a farm here. Here is the deal: I offer you a starter loan and in exchange you are going to follow my plans. See, i have a vision in my mind of how we can make Felsbrunn so much more attractive to tourists and turn the fields around here into a beautiful scenery of growing plants of all variety and animals living in free range. Do you accept?";
---StoryMode.storyParts[1].requirements = {};
---StoryMode.storyParts[1].bonus = {};
---StoryMode.storyParts[1].bonus.money = 500000;
-
---StoryMode.storyParts[2] = {};
---StoryMode.storyParts[2].titleText = "Buy your first patch of land";
---StoryMode.storyParts[2].storyText = "Hello there buddy. I am glad you accepted my proposal. So let's get started, we have so much work ahead of us. Felsbrunn will become the greatest town. I am so glad I finally found someone willing to put in all the work. Let us start of by buying a patch of land to build you a farmhouse on. I would suggest field number 20, it has a lot of space for buildings and is not to expensive.";
---StoryMode.storyParts[2].requirements = {};
---StoryMode.storyParts[2].requirements.fields = {};
---StoryMode.storyParts[2].requirements.fields[1] = {};
---StoryMode.storyParts[2].requirements.fields[1].number = 18;
---StoryMode.storyParts[2].requirements.fields[1].farmLandID = 29;
---StoryMode.storyParts[2].requirements.fields[1].owned = true;
---StoryMode.storyParts[2].requirements.fields[1].crop = 0; --0 = any, otherwise, id of crop
---StoryMode.storyParts[2].requirements.property = {"FarmhousePlaceable"};
---StoryMode.storyParts[2].bonus = {};
---StoryMode.storyParts[2].bonus.money = 200000;
-
+StoryMode.waitTime = 2000;
+StoryMode.waitTimeConstant = 10000;
 
 function StoryMode:prerequisitesPresent(specializations)
     return true;
@@ -74,7 +54,7 @@ end;
 
 -- only needed for global action event
 function StoryMode:registerActionEventsMenu()
-    print("StoryMode registerActionEventsMenu")
+    --print("StoryMode registerActionEventsMenu")
     local erg, eventName = InputBinding.registerActionEvent(g_inputBinding, 'StoryMode_Settings',self, StoryMode.onOpenSettings ,false ,true ,false ,true)
     if erg then
          g_inputBinding.events[eventName].displayIsVisible = false
@@ -118,6 +98,12 @@ function StoryMode:StoryMode_init()
 end;
 
 function StoryMode:update(dt)
+	StoryMode.waitTime - dt;
+	if StoryMode.waitTime > 0 then
+		return;
+	end;
+	
+	StoryMode.waitTime = StoryMode.waitTimeConstant;
 	--print("StoryMode - update(dt)");
 
 	if StoryMode.currentStory < StoryMode.lastStory then
@@ -154,13 +140,11 @@ function StoryMode:update(dt)
 			end;
 		else
 			if g_gui.currentGui == nil then
-				if StoryMode:checkRequirements() == true then
-					print("StoryMode - Requirements for " .. StoryMode.currentStory .. " fulfilled");
-
-					StoryMode:handleBonus();
-
-					StoryMode.currentStory = StoryMode.currentStory + 1;
-					StoryMode.currentStoryPresented = false;
+				local fulfilledOptions = StoryMode:checkRequirements();
+				for _,storyOption in pairs(StoryMode.storyParts[StoryMode.currentStory].options) do
+					if (fulfilledOptions[storyOption] == true) then
+						StoryMode:handleFulFilledStory(storyOption);
+					end;
 				end;
 			end;
 		end;
@@ -168,76 +152,31 @@ function StoryMode:update(dt)
 end;
 
 function StoryMode:checkRequirements()
-	if StoryMode.storyParts[StoryMode.currentStory].requirements == nil then
-		return true;
-	else
+	local fulfilledOptions = {};
+	for _,storyOption in pairs(StoryMode.storyParts[StoryMode.currentStory].options) do
+		--print("Checking storyOption: ");
 		local fulfilled = true;
-		
-		if StoryMode.storyParts[StoryMode.currentStory].requirements.fields ~= nil then
-			fulfilled = fulfilled and StoryMode:checkRequirementFields();
-		end;
-		
-		if StoryMode.storyParts[StoryMode.currentStory].requirements.property ~= nil then
-			fulfilled = fulfilled and StoryMode:checkRequirementProperty();
+		for _,trigger in pairs(storyOption.triggers) do
+			--print("Checking trigger: " .. trigger.triggerType);
+			local triggerCheck = trigger:checkFulfilled();
+			fulfilled = fulfilled and triggerCheck;
 		end;
 
-		return fulfilled;
+		fulfilledOptions[storyOption] = fulfilled;			
 	end;
 
-	return false;
+	return fulfilledOptions;
 end;
 
-function StoryMode:checkRequirementProperty()
-	if StoryMode.storyParts[StoryMode.currentStory].requirements.property == nil then
-		return true;
-	else
-		local fulfilled = true;
-		
-		for _,propertyName in pairs( StoryMode.storyParts[StoryMode.currentStory].requirements.property ) do
-			local propFound = false;
-			for _,className in pairs( g_currentMission.objectsToClassName ) do
-				--print("StoryMode - comparing " .. propertyName .. " with " .. className) ;
-				if className == propertyName then
-					propFound = true;
-				end;
-			end
-
-			if propFound == false then
-				fulfilled = false;
-			end;
-		end 
-
-		return fulfilled;
-	end;
-
-	return false;
-end;
-
-function StoryMode:checkRequirementFields()
-	if StoryMode.storyParts[StoryMode.currentStory].requirements.fields == nil then
-		return true;
-	else
-		local fulfilled = true;
-		
-		for _,fieldDesc in pairs( StoryMode.storyParts[StoryMode.currentStory].requirements.fields ) do
-			if fieldDesc.owned == true then
-				fulfilled = fulfilled and g_currentMission.landscapingController.farmlandManager.farmlands[fieldDesc.farmLandID].isOwned;
-			end;
-		end 
-
-		return fulfilled;
-	end;
-
-	return false;
-end;
-
-function StoryMode:handleBonus()
-	if StoryMode.storyParts[StoryMode.currentStory].bonus ~= nil then
-		if StoryMode.storyParts[StoryMode.currentStory].bonus.money ~= nil then
+function StoryMode:handleFulFilledStory(storyOption)
+	if storyOption.bonus ~= nil then
+		if storyOption.bonus.money ~= nil then
 			local owner = g_currentMission.player.farmId
-			g_currentMission:addMoney(StoryMode.storyParts[StoryMode.currentStory].bonus.money, owner, "addMoney");
+			g_currentMission:addMoney(storyOption.bonus.money, owner, "addMoney");
 		end;
 	end;
+	StoryMode.currentStory = storyOption.nextStory;
+	StoryMode.currentStoryPresented = false;
 end;
 
 function StoryMode:draw()
@@ -314,28 +253,29 @@ function StoryMode:readStoryXML()
 				StoryMode.storyParts[i].titleText = getXMLString(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".titleText");
 				StoryMode.storyParts[i].storyText = getXMLString(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyText");
 
-				StoryMode.storyParts[i].requirements = {};
+				StoryMode.storyParts[i].options = {};
+				local storyOptions = getXMLInt(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyOptions");
 				
-				StoryMode.storyParts[i].requirements.fields = {};
-				local fieldRequirements = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.fieldRequirements");
-				for r=1, fieldRequirements, 1 do
-					StoryMode.storyParts[i].requirements.fields[r] = {};
-					StoryMode.storyParts[i].requirements.fields[r].number = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.fields.field_" .. r .. "(0)#number");
-					StoryMode.storyParts[i].requirements.fields[r].farmLandID = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.fields.field_" .. r .. "(0)#farmLandID");
-					StoryMode.storyParts[i].requirements.fields[r].owned = getXMLBool(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.fields.field_" .. r .. "(0)#owned");
-					StoryMode.storyParts[i].requirements.fields[r].crop = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.fields.field_" .. r .. "(0)#crop");
+				for storyOption=1, storyOptions, 1 do
+					StoryMode.storyParts[i].options[storyOption] = {};
+					StoryMode.storyParts[i].options[storyOption].triggers = {};
+					
+					local triggerCount = getXMLInt(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".triggers_" .. storyOption .. ".triggerCount");
+					for trigger=1, triggerCount, 1 do						
+						local triggerType = getXMLString(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".triggers_" .. storyOption .. ".trigger_" .. trigger .. "(0)#triggerType");
+						local triggerSticks = getXMLBool(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".triggers_" .. storyOption .. ".trigger_" .. trigger .. "(0)#triggerSticks");
+						local triggerAttributes = getXMLString(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".triggers_" .. storyOption .. ".trigger_" .. trigger .. "(0)#triggerAttributes");
+						local newTrigger = Trigger:new(triggerType, triggerSticks, triggerAttributes);
+						StoryMode.storyParts[i].options[storyOption].triggers[trigger] = newTrigger;
+					end;
+					
+					StoryMode.storyParts[i].options[storyOption].bonus = {};
+					StoryMode.storyParts[i].options[storyOption].bonus.money = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".bonus_" .. storyOption .. ".money");
+				
+					StoryMode.storyParts[i].options[storyOption].nextStory = getXMLInt(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".nextStoryPart_" .. storyOption);
+					
 				end;
-
-				StoryMode.storyParts[i].requirements.property = {};
-				local propertyRequirements = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.propertyRequirements");
-				for p=1, propertyRequirements, 1 do
-					StoryMode.storyParts[i].requirements.property[p] = getXMLString(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".requirements.property.property_" .. p);
-				end;
-
-				StoryMode.storyParts[i].bonus = {};
-				StoryMode.storyParts[i].bonus.money = getXMLInt(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".bonus.money");
 			end;
-
 		end
 	end;
 end

@@ -1,5 +1,5 @@
 --
--- RealisticSteeringGUI
+-- StoryMode GUI
 -- V1.0.0.0
 --
 -- @author Stephan Schlosser
