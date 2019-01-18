@@ -140,8 +140,9 @@ function Trigger:checkPlayerInRange()
         positionBounds["z"] = tonumber(playerPosField[2]);
         positionBounds["radius"] = tonumber(playerPosField[3]);
 
-        local x = 1 -- getPlayerPosX;
-        local z = 1 -- getPlayerPosZ;
+        local x,z = self:getPlayerPos();
+        x = 1;
+        z = 1;
 
         local dist = math.sqrt(math.pow(x-positionBounds.x,2) + math.pow(z-positionBounds.z,2) );
         
@@ -149,6 +150,11 @@ function Trigger:checkPlayerInRange()
     end;
 
     return false;
+end;
+
+function Trigger:getPlayerPos()
+    --ToDo;
+    return {1,1};
 end;
 
 
