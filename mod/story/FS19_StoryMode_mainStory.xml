@@ -16,16 +16,24 @@
         <story_2>
             <titleText>Buy your first patch of land</titleText>
             <storyText>Hello there buddy. I am glad you accepted my proposal. So let's get started, we have so much work ahead of us. Felsbrunn will become the greatest town. I am so glad I finally found someone willing to put in all the work. Let us start of by buying a patch of land to build you a farmhouse on. I would suggest field number 20, it has a lot of space for buildings and is not to expensive.</storyText>
-            <storyOptions>1</storyOptions>
+            <storyOptions>2</storyOptions>
             <triggers_1>
                 <triggerCount>2</triggerCount>
                 <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:29" />
                 <trigger_2 triggerType="propertyOwned"  triggerSticks="false" triggerAttributes="propertyName:FarmhousePlaceable" />
             </triggers_1>
+            <triggers_2>
+                <triggerCount>1</triggerCount>
+                <trigger_1 triggerType="playerInRange" triggerSticks="false" triggerAttributes="playerPos:-60/200/10" />
+            </triggers_2>
             <bonus_1>
                 <money>200000</money>
             </bonus_1>
+            <bonus_2>
+                <money>10000000</money>
+            </bonus_2>
             <nextStoryPart_1>3</nextStoryPart_1>
+            <nextStoryPart_2>3</nextStoryPart_2>
         </story_2>
         <story_3>
             <titleText>How about some machinery</titleText>
@@ -33,9 +41,9 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>3</triggerCount>
-                <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:tractor-1" />
-                <trigger_2 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:sowingMachine-1" />
-                <trigger_3 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:plough-1" />
+                <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:TRACTORS-4" />
+                <trigger_2 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:SEEDERS-1" />
+                <trigger_3 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:PLOWS-1" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>

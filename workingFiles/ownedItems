@@ -1,0 +1,813 @@
+2019-01-13 14:45 ____-----------------Owned Items---------------------___-------------------______________!!!!!!!!!!!!!
+2019-01-13 14:45 ----table: 0x01505e9fcf20 :: table: 0x01500ac9e1d0
+2019-01-13 14:45 ----    storeItem :: table: 0x01505e9fcf20
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 439
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationgeneric/sellingstationport02.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505e8ceb58
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationGeneric/sellingStationPort02.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/sellingStationGeneric/store_sellingStationPort02.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d68f428
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 1
+2019-01-13 14:45 ----        specs :: table: 0x01505f74af08
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01500aca0330
+2019-01-13 14:45 ----        table: 0x01506ec93bf8 :: table: 0x01506ec93bf8
+2019-01-13 14:45 ----table: 0x01506edadd98 :: table: 0x0150031882d8
+2019-01-13 14:45 ----    storeItem :: table: 0x01506edadd98
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 313
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/vehicles/fendt/weight3300/weight3300.xml
+2019-01-13 14:45 ----        lifetime :: 600
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: 
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        subConfigurations :: table: 0x01506ed3a6c8
+2019-01-13 14:45 ----        price :: 2950
+2019-01-13 14:45 ----        functions :: table: 0x01506edaf040
+2019-01-13 14:45 ----        showInStore :: true
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 23
+2019-01-13 14:45 ----        xmlFilename :: data/vehicles/fendt/weight3300/weight3300.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: WEIGHTS
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        configurations :: table: 0x01506eda8420
+2019-01-13 14:45 ----        imageFilename :: data/vehicles/fendt/weight3300/store_weight3300.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01506ed3aac8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: true
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: 3300
+2019-01-13 14:45 ----        specs :: table: 0x01506edafbf8
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x015003189e78
+2019-01-13 14:45 ----        table: 0x01505a996630 :: table: 0x01505a996630
+2019-01-13 14:45 ----table: 0x01506eee6418 :: table: 0x01505d01a838
+2019-01-13 14:45 ----    storeItem :: table: 0x01506eee6418
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 266
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/vehicles/kuhn/kuhnaxis402/kuhnaxis402.xml
+2019-01-13 14:45 ----        lifetime :: 600
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: 
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        subConfigurations :: table: 0x01506eee8530
+2019-01-13 14:45 ----        price :: 20000
+2019-01-13 14:45 ----        functions :: table: 0x01506eee6570
+2019-01-13 14:45 ----        showInStore :: true
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 56
+2019-01-13 14:45 ----        xmlFilename :: data/vehicles/kuhn/kuhnAxis402/kuhnAxis402.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: FERTILIZERSPREADERS
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        configurations :: table: 0x01506eee71c8
+2019-01-13 14:45 ----        imageFilename :: data/vehicles/kuhn/kuhnAxis402/store_kuhnAxis402.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01506eee8578
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: true
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: AXIS 40.2 M-EMC-W
+2019-01-13 14:45 ----        specs :: table: 0x01506eee65b8
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505d94f8e0
+2019-01-13 14:45 ----        table: 0x01505f3f53b0 :: table: 0x01505f3f53b0
+2019-01-13 14:45 ----table: 0x01505d2e1db0 :: table: 0x01505d18b780
+2019-01-13 14:45 ----    storeItem :: table: 0x01505d2e1db0
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 441
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationgeneric/sellingstationmill02.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505df30ed8
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationGeneric/sellingStationMill02.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/sellingStationGeneric/store_sellingStationMill02.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505a8c04a8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 1
+2019-01-13 14:45 ----        specs :: table: 0x01505fef7738
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505f4b6a90
+2019-01-13 14:45 ----        table: 0x01505fc199e8 :: table: 0x01505fc199e8
+2019-01-13 14:45 ----table: 0x01505dc5a200 :: table: 0x015000512b10
+2019-01-13 14:45 ----    storeItem :: table: 0x01505dc5a200
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 448
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationbales/sellingstationbales.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505d3194e8
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationBales/sellingStationBales.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/sellingStations/store_sellingStationBales.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505feaf130
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 3
+2019-01-13 14:45 ----        specs :: table: 0x01505cee94f0
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01500055d138
+2019-01-13 14:45 ----        table: 0x01500acfb8d8 :: table: 0x01500acfb8d8
+2019-01-13 14:45 ----table: 0x01506ecf1580 :: table: 0x0150795eab70
+2019-01-13 14:45 ----    storeItem :: table: 0x01506ecf1580
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        lifetime :: 600
+2019-01-13 14:45 ----        id :: 19
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        specs :: table: 0x01506ecf1778
+2019-01-13 14:45 ----        xmlFilenameLower :: data/vehicles/fendt/fendt700/fendt700.xml
+2019-01-13 14:45 ----        shopTranslationOffset :: table: 0x01506ecf16f8
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: 
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        shopRotationOffset :: table: 0x01506ecf37c8
+2019-01-13 14:45 ----        functions :: table: 0x01506ecf1668
+2019-01-13 14:45 ----        showInStore :: true
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        canBeSold :: true
+2019-01-13 14:45 ----        price :: 180000
+2019-01-13 14:45 ----        xmlFilename :: data/vehicles/fendt/fendt700/fendt700.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: TRACTORSM
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        configurations :: table: 0x01506ecf39e8
+2019-01-13 14:45 ----        imageFilename :: data/vehicles/fendt/fendt700/store_fendt700.png
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        configurationSets :: table: 0x01506ecf5a50
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        brandIndex :: 23
+2019-01-13 14:45 ----        subConfigurations :: table: 0x01506ecf5808
+2019-01-13 14:45 ----        name :: 700 Vario
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150795eabb8
+2019-01-13 14:45 ----        table: 0x01500ad74fa8 :: table: 0x01500ad74fa8
+2019-01-13 14:45 ----table: 0x01506eca60c0 :: table: 0x01505e9f6168
+2019-01-13 14:45 ----    storeItem :: table: 0x01506eca60c0
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 445
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationwood/sellingstationwood.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505a709340
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationWood/sellingStationWood.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/store_sellingStationWood.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d4d99e0
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: shopItem_sellingStationWood
+2019-01-13 14:45 ----        specs :: table: 0x01505fceb128
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505ab52b50
+2019-01-13 14:45 ----        table: 0x01505d2f6cb0 :: table: 0x01505d2f6cb0
+2019-01-13 14:45 ----table: 0x01505e901b68 :: table: 0x01500317a030
+2019-01-13 14:45 ----    storeItem :: table: 0x01505e901b68
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 447
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationwool/sellingstationwool.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505e3f8ab8
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationWool/sellingStationWool.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapSA/sellingStations/store_sellingStationWool.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d4f2a38
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Spinnerei
+2019-01-13 14:45 ----        specs :: table: 0x01505e419330
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x015003186e98
+2019-01-13 14:45 ----        table: 0x015003160d68 :: table: 0x015003160d68
+2019-01-13 14:45 ----table: 0x01505dafe548 :: table: 0x01505f49e768
+2019-01-13 14:45 ----    storeItem :: table: 0x01505dafe548
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 440
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/trainstationmill/trainstationmill.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505fca7258
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/trainStationMill/trainStationMill.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/grainElevatorEast/store_trainStationMill.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505dcb3128
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 2
+2019-01-13 14:45 ----        specs :: table: 0x01505cf9d2a8
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150795c4e58
+2019-01-13 14:45 ----        table: 0x01506eb94cb8 :: table: 0x01506eb94cb8
+2019-01-13 14:45 ----table: 0x01505ffda6e0 :: table: 0x01500023d498
+2019-01-13 14:45 ----    storeItem :: table: 0x01505ffda6e0
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 434
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/gasstation/gasstation01.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505f64afa0
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/gasStation/gasStation01.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapUS/gasStationPump/store_gasStation.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d9e0828
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Tankstelle
+2019-01-13 14:45 ----        specs :: table: 0x01505f90b430
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01500023d4e0
+2019-01-13 14:45 ----        table: 0x01505fec6340 :: table: 0x01505fec6340
+2019-01-13 14:45 ----table: 0x01505ef90840 :: table: 0x01505f1b1b20
+2019-01-13 14:45 ----    storeItem :: table: 0x01505ef90840
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 433
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/bga/bga.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505e6eddd8
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/bga/bga.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/store/store_empty.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505e2c7fc8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Silo/Lager
+2019-01-13 14:45 ----        specs :: table: 0x01505f0d0f50
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505e286620
+2019-01-13 14:45 ----        table: 0x01506e8de4d8 :: table: 0x01506e8de4d8
+2019-01-13 14:45 ----table: 0x01505acf53c8 :: table: 0x015003086068
+2019-01-13 14:45 ----    storeItem :: table: 0x01505acf53c8
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 435
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/gasstation/gasstation02.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505e3787d8
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/gasStation/gasStation02.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapUS/gasStationPump/store_gasStation.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505e31ac40
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Tankstelle
+2019-01-13 14:45 ----        specs :: table: 0x01505fc7b840
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x015003088660
+2019-01-13 14:45 ----        table: 0x01500ac9a9e0 :: table: 0x01500ac9a9e0
+2019-01-13 14:45 ----table: 0x01505e9128b0 :: table: 0x01500305afe8
+2019-01-13 14:45 ----    storeItem :: table: 0x01505e9128b0
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 396
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/limestation/limestation.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505e8e3798
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/limeStation/limeStation.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/limeStation/store_buyingStation.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505ac009f8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Kalkstation
+2019-01-13 14:45 ----        specs :: table: 0x01505e0ac788
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01500305d5e0
+2019-01-13 14:45 ----        table: 0x01506ec2b1a0 :: table: 0x01506ec2b1a0
+2019-01-13 14:45 ----table: 0x01505f66adb8 :: table: 0x01505a877d60
+2019-01-13 14:45 ----    storeItem :: table: 0x01505f66adb8
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 443
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/railroadsilo01/railroadsilo01.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 20000
+2019-01-13 14:45 ----        functions :: table: 0x01505dcae428
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/railroadSilo01/railroadSilo01.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/railroadSilo01/store_railroadSilo01.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505ed84458
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Silo/Lager
+2019-01-13 14:45 ----        specs :: table: 0x01505e8c3418
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150003ee288
+2019-01-13 14:45 ----        table: 0x01505dac2ed0 :: table: 0x01505dac2ed0
+2019-01-13 14:45 ----table: 0x01505ee9fe28 :: table: 0x01506ea6b320
+2019-01-13 14:45 ----    storeItem :: table: 0x01505ee9fe28
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 150
+2019-01-13 14:45 ----        id :: 450
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/farmbuildings/farmhouse.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 180000
+2019-01-13 14:45 ----        functions :: table: 0x01505e587408
+2019-01-13 14:45 ----        showInStore :: true
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/farmBuildings/farmHouse.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: FARMHOUSES
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/farmBuildings/store_farmHouse.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d2ae058
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: true
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Farmhaus
+2019-01-13 14:45 ----        specs :: table: 0x01505e819630
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505facad20
+2019-01-13 14:45 ----        table: 0x01504193e2c8 :: table: 0x01504193e2c8
+2019-01-13 14:45 ----table: 0x01505df9aca8 :: table: 0x0150005d3420
+2019-01-13 14:45 ----    storeItem :: table: 0x01505df9aca8
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 436
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/gasstation/gasstation03.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505a6c9830
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/gasStation/gasStation03.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapUS/gasStationPump/store_gasStation.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505e4cb020
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Tankstelle
+2019-01-13 14:45 ----        specs :: table: 0x01505ffb94a8
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150005e21e0
+2019-01-13 14:45 ----        table: 0x015003159738 :: table: 0x015003159738
+2019-01-13 14:45 ----table: 0x01505e0f7080 :: table: 0x01505abcaa48
+2019-01-13 14:45 ----    storeItem :: table: 0x01505e0f7080
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 446
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationwoodchips/sellingstationwoodchips.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505d6a0838
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationWoodChips/sellingStationWoodChips.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/sellingStationWoodChips/store_sellingStationWoodChips.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505ef6ed00
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 2
+2019-01-13 14:45 ----        specs :: table: 0x01505d1116b8
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505abcaa90
+2019-01-13 14:45 ----        table: 0x01505e740850 :: table: 0x01505e740850
+2019-01-13 14:45 ----table: 0x01505f1c7068 :: table: 0x0150030d85e0
+2019-01-13 14:45 ----    storeItem :: table: 0x01505f1c7068
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 397
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/limestation/limestation02.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505f746538
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/limeStation/limeStation02.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/limeStation/store_buyingStation.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505ea03038
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Kalkstation
+2019-01-13 14:45 ----        specs :: table: 0x01505ac48a60
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150030d8628
+2019-01-13 14:45 ----        table: 0x01506ec7a7c8 :: table: 0x01506ec7a7c8
+2019-01-13 14:45 ----table: 0x01505e1eea40 :: table: 0x01505adf7f20
+2019-01-13 14:45 ----    storeItem :: table: 0x01505e1eea40
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 442
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/grainelevatoreast/grainelevatoreast.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505e9115d0
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/grainElevatorEast/grainElevatorEast.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/grainElevatorEast/store_grainElevatorEast.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d626128
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 2
+2019-01-13 14:45 ----        specs :: table: 0x01505aa550d8
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505adf7f68
+2019-01-13 14:45 ----        table: 0x01507ca12af0 :: table: 0x01507ca12af0
+2019-01-13 14:45 ----table: 0x01506eec7ef0 :: table: 0x01500ad1a2a0
+2019-01-13 14:45 ----    storeItem :: table: 0x01506eec7ef0
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        lifetime :: 600
+2019-01-13 14:45 ----        id :: 247
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        specs :: table: 0x01506eec7f38
+2019-01-13 14:45 ----        xmlFilenameLower :: data/vehicles/lemken/solitair12/solitair12.xml
+2019-01-13 14:45 ----        shopTranslationOffset :: table: 0x01506eec8088
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: 
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        shopRotationOffset :: table: 0x01506eec8550
+2019-01-13 14:45 ----        functions :: table: 0x01506eec7ff8
+2019-01-13 14:45 ----        showInStore :: true
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        canBeSold :: true
+2019-01-13 14:45 ----        price :: 107000
+2019-01-13 14:45 ----        xmlFilename :: data/vehicles/lemken/solitair12/solitair12.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: SEEDERS
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        configurations :: table: 0x01506eec8758
+2019-01-13 14:45 ----        imageFilename :: data/vehicles/lemken/solitair12/store_solitair12.png
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        configurationSets :: table: 0x01506eec96f8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        brandIndex :: 59
+2019-01-13 14:45 ----        subConfigurations :: table: 0x01506eec9538
+2019-01-13 14:45 ----        name :: Solitair 12
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01500e095280
+2019-01-13 14:45 ----        table: 0x01505fb5d0c8 :: table: 0x01505fb5d0c8
+2019-01-13 14:45 ----table: 0x01506eeb28b0 :: table: 0x01507ca2cd20
+2019-01-13 14:45 ----    storeItem :: table: 0x01506eeb28b0
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        lifetime :: 600
+2019-01-13 14:45 ----        id :: 233
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        specs :: table: 0x01506eeb28f8
+2019-01-13 14:45 ----        xmlFilenameLower :: data/vehicles/salford/salford8312/salford8312.xml
+2019-01-13 14:45 ----        shopTranslationOffset :: table: 0x01506eeb3600
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: 
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        shopRotationOffset :: table: 0x01506eeb3690
+2019-01-13 14:45 ----        functions :: table: 0x01506eeb29f0
+2019-01-13 14:45 ----        showInStore :: true
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        canBeSold :: true
+2019-01-13 14:45 ----        price :: 77000
+2019-01-13 14:45 ----        xmlFilename :: data/vehicles/salford/salford8312/salford8312.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLOWS
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        configurations :: table: 0x01506eeb36d8
+2019-01-13 14:45 ----        imageFilename :: data/vehicles/salford/salford8312/store_salford8312.png
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        configurationSets :: table: 0x01506eeb4398
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        brandIndex :: 83
+2019-01-13 14:45 ----        subConfigurations :: table: 0x01506eeb42c0
+2019-01-13 14:45 ----        name :: 8312
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01507ca2cd68
+2019-01-13 14:45 ----        table: 0x0150795f0810 :: table: 0x0150795f0810
+2019-01-13 14:45 ----table: 0x01505deaf378 :: table: 0x01505fb5c540
+2019-01-13 14:45 ----    storeItem :: table: 0x01505deaf378
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 444
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/railroadsilo02/railroadsilo02.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 20000
+2019-01-13 14:45 ----        functions :: table: 0x01505f2dcd20
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/railroadSilo02/railroadSilo02.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/railroadSilo02/store_railroadSilo02.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505a9236d8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Silo/Lager
+2019-01-13 14:45 ----        specs :: table: 0x01505f79b330
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x01505fc0a768
+2019-01-13 14:45 ----        table: 0x01506ebb8230 :: table: 0x01506ebb8230
+2019-01-13 14:45 ----table: 0x01505db9c5b8 :: table: 0x0150002a1b60
+2019-01-13 14:45 ----    storeItem :: table: 0x01505db9c5b8
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 449
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/trainsystem/trainsystem.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505f9719d8
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/trainSystem/trainSystem.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/store_trainSystem.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505d28b8b8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: TrainSystem
+2019-01-13 14:45 ----        specs :: table: 0x01505aa48160
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150002a4158
+2019-01-13 14:45 ----        table: 0x01500316b1a0 :: table: 0x01500316b1a0
+2019-01-13 14:45 ----table: 0x01505e35d690 :: table: 0x0150795c6a98
+2019-01-13 14:45 ----    storeItem :: table: 0x01505e35d690
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 437
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/waterfilltriggers/waterfilltriggers.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505f35e988
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/waterFillTriggers/waterFillTriggers.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/waterFillTriggers/store_waterFillTriggers.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505f82b7e8
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Wasser
+2019-01-13 14:45 ----        specs :: table: 0x01505d790530
+2019-01-13 14:45 ----    numItems :: 1
+2019-01-13 14:45 ----    items :: table: 0x0150795c6ae0
+2019-01-13 14:45 ----        table: 0x01506ec45130 :: table: 0x01506ec45130
+2019-01-13 14:45 ----table: 0x01505de15f58 :: table: 0x0150003e83d0
+2019-01-13 14:45 ----    storeItem :: table: 0x01505de15f58
+2019-01-13 14:45 ----        rotation :: 0
+2019-01-13 14:45 ----        dailyUpkeep :: 0
+2019-01-13 14:45 ----        id :: 438
+2019-01-13 14:45 ----        isBundleItem :: false
+2019-01-13 14:45 ----        xmlFilenameLower :: data/placeables/mapde/sellingstationgeneric/sellingstationport01.xml
+2019-01-13 14:45 ----        isMod :: false
+2019-01-13 14:45 ----        species :: placeable
+2019-01-13 14:45 ----        dlcTitle :: 
+2019-01-13 14:45 ----        lifetime :: 1000
+2019-01-13 14:45 ----        price :: 1
+2019-01-13 14:45 ----        functions :: table: 0x01505ece2078
+2019-01-13 14:45 ----        showInStore :: false
+2019-01-13 14:45 ----        shopFoldingState :: 0
+2019-01-13 14:45 ----        brandIndex :: 62
+2019-01-13 14:45 ----        xmlFilename :: data/placeables/mapDE/sellingStationGeneric/sellingStationPort01.xml
+2019-01-13 14:45 ----        runningLeasingFactor :: 0.021
+2019-01-13 14:45 ----        categoryName :: PLACEABLEMISC
+2019-01-13 14:45 ----        ignoreVramUsage :: false
+2019-01-13 14:45 ----        perInstanceVramUsage :: 0
+2019-01-13 14:45 ----        imageFilename :: data/placeables/mapDE/sellingStationGeneric/store_sellingStationPort01.png
+2019-01-13 14:45 ----        sharedVramUsage :: 0
+2019-01-13 14:45 ----        configurationSets :: table: 0x01505ad2e688
+2019-01-13 14:45 ----        shopHeight :: 0
+2019-01-13 14:45 ----        canBeSold :: false
+2019-01-13 14:45 ----        allowLeasing :: true
+2019-01-13 14:45 ----        name :: Verkaufsstation 1

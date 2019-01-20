@@ -1,0 +1,288 @@
+2019-01-18 14:55 ____-----------------g_currentMission.players---------------------___-------------------______________!!!!!!!!!!!!!
+2019-01-18 14:55 ----114500 :: table: 0x01b0fb1e42b0
+2019-01-18 14:55 ----    thirdPersonRightHandNode :: 114665
+2019-01-18 14:55 ----    chainsawSplitShapeFocus :: 114707
+2019-01-18 14:55 ----    networkInformation :: table: 0x01b0fd7941e0
+2019-01-18 14:55 ----        updateTargetTranslationPhysicsIndex :: -1
+2019-01-18 14:55 ----        interpolatorPosition :: table: 0x01b0fd467bf8
+2019-01-18 14:55 ----        tickTranslation :: table: 0x01b0fcf37be8
+2019-01-18 14:55 ----        history :: table: 0x01b0fcfbdb40
+2019-01-18 14:55 ----        creatorConnection :: table: 0x01b0f85110e0
+2019-01-18 14:55 ----        rotateObjectInputH :: 0
+2019-01-18 14:55 ----        rotateObjectInputV :: 0
+2019-01-18 14:55 ----        dirtyFlag :: 1
+2019-01-18 14:55 ----        interpolationTime :: table: 0x01b0fd879768
+2019-01-18 14:55 ----        index :: 55
+2019-01-18 14:55 ----        rotateObject :: false
+2019-01-18 14:55 ----        sendIndex :: 0
+2019-01-18 14:55 ----        interpolatorOnGround :: table: 0x01b0fc3c6a50
+2019-01-18 14:55 ----        interpolatorQuaternion :: table: 0x01b0fb8258f0
+2019-01-18 14:55 ----    lastEstimatedForwardVelocity :: 0
+2019-01-18 14:55 ----    isOwner :: true
+2019-01-18 14:55 ----    pickUpKinematicHelperNodeChild :: 114705
+2019-01-18 14:55 ----    inputInformation :: table: 0x01b0fb4507b8
+2019-01-18 14:55 ----        yawCamera :: 0
+2019-01-18 14:55 ----        crouchState :: 3
+2019-01-18 14:55 ----        registrationList :: table: 0x01b0fc90be28
+2019-01-18 14:55 ----        moveRight :: 0
+2019-01-18 14:55 ----        runAxis :: 0
+2019-01-18 14:55 ----        moveForward :: 0
+2019-01-18 14:55 ----        isMouseRotation :: true
+2019-01-18 14:55 ----        pitchCamera :: 0
+2019-01-18 14:55 ----        moveUp :: 0
+2019-01-18 14:55 ----        interactState :: 3
+2019-01-18 14:55 ----    skeletonRootNode :: 114708
+2019-01-18 14:55 ----    pickedUpObjectOverlay :: table: 0x01b0fca8df70
+2019-01-18 14:55 ----        filename :: dataS2/menu/hud/hud_elements_1080p.png
+2019-01-18 14:55 ----        x :: 0.5
+2019-01-18 14:55 ----        rotationCenterY :: 0
+2019-01-18 14:55 ----        y :: 0.5
+2019-01-18 14:55 ----        scaleWidth :: 1
+2019-01-18 14:55 ----        overlayId :: 114759
+2019-01-18 14:55 ----        offsetX :: -0.0052083332945282
+2019-01-18 14:55 ----        uvs :: table: 0x01b08cb20d08
+2019-01-18 14:55 ----        defaultHeight :: 0.074074074074074
+2019-01-18 14:55 ----        alignmentVertical :: 2
+2019-01-18 14:55 ----        alignmentHorizontal :: 5
+2019-01-18 14:55 ----        debugEnabled :: false
+2019-01-18 14:55 ----        offsetY :: -0.0092592592592593
+2019-01-18 14:55 ----        visible :: true
+2019-01-18 14:55 ----        a :: 0.3
+2019-01-18 14:55 ----        b :: 1
+2019-01-18 14:55 ----        g :: 1
+2019-01-18 14:55 ----        invertX :: false
+2019-01-18 14:55 ----        r :: 1
+2019-01-18 14:55 ----        rotationCenterX :: 0
+2019-01-18 14:55 ----        rotation :: 0
+2019-01-18 14:55 ----        defaultWidth :: 0.041666666356226
+2019-01-18 14:55 ----        scaleHeight :: 1
+2019-01-18 14:55 ----        height :: 0.018518518518519
+2019-01-18 14:55 ----        width :: 0.010416666589056
+2019-01-18 14:55 ----    canRideAnimal :: false
+2019-01-18 14:55 ----    nextDirtyFlag :: 2
+2019-01-18 14:55 ----    lightNode :: 114699
+2019-01-18 14:55 ----    filename :: dataS2/character/humans/player/player01.i3d
+2019-01-18 14:55 ----    playerStateMachine :: table: 0x01b09a8fa928
+2019-01-18 14:55 ----        playerStateCrouch :: table: 0x01b0df3375f0
+2019-01-18 14:55 ----        playerStateAnimalFeed :: table: 0x01b0fc4ac410
+2019-01-18 14:55 ----        playerStateAnimalInteract :: table: 0x01b0fb8cbc98
+2019-01-18 14:55 ----        playerStateDrop :: table: 0x01b0fcbd2a18
+2019-01-18 14:55 ----        playerStateThrow :: table: 0x01b0fb7fb760
+2019-01-18 14:55 ----        player :: table: 0x01b0fb1e42b0
+2019-01-18 14:55 ----        playerStateJump :: table: 0x01b09a944d48
+2019-01-18 14:55 ----        stateList :: table: 0x01b0f8702980
+2019-01-18 14:55 ----        playerStateAnimalRide :: table: 0x01b0fc5d2d98
+2019-01-18 14:55 ----        fsmTable :: table: 0x01b0fb18b908
+2019-01-18 14:55 ----        playerStatePickup :: table: 0x01b0d65fa670
+2019-01-18 14:55 ----        playerStateActicateObject :: table: 0x01b0f8566838
+2019-01-18 14:55 ----        playerStateFall :: table: 0x01b0df33d6f0
+2019-01-18 14:55 ----        playerStateIdle :: table: 0x01b09a908dd0
+2019-01-18 14:55 ----        playerStateAnimalPet :: table: 0x01b0d65a5dc0
+2019-01-18 14:55 ----        playerStateUseLight :: table: 0x01b0fd984888
+2019-01-18 14:55 ----        debugMode :: false
+2019-01-18 14:55 ----        playerStateCycleHandtool :: table: 0x01b0fbdef670
+2019-01-18 14:55 ----        playerStateWalk :: table: 0x01b09a914d10
+2019-01-18 14:55 ----        playerStateRun :: table: 0x01b09a923290
+2019-01-18 14:55 ----        playerStateSwim :: table: 0x01b0d6604e58
+2019-01-18 14:55 ----    targetGraphicsRotY :: 1.5707962830835
+2019-01-18 14:55 ----    lockedInput :: false
+2019-01-18 14:55 ----    graphicsRootNode :: 114704
+2019-01-18 14:55 ----    rootNode :: 114500
+2019-01-18 14:55 ----    thirdPersonSuspensionNode :: 114628
+2019-01-18 14:55 ----    soundInformation :: table: 0x01b09752d898
+2019-01-18 14:55 ----        distancePerFootstep :: table: 0x01b09757ed60
+2019-01-18 14:55 ----        deleteHandtoolStopSampleAfterPlay :: false
+2019-01-18 14:55 ----        surfaceNameToSound :: table: 0x01b08cbd5140
+2019-01-18 14:55 ----        samples :: table: 0x01b0975432d0
+2019-01-18 14:55 ----        surfaceIdToSound :: table: 0x01b096b80998
+2019-01-18 14:55 ----        surfaceSounds :: table: 0x01b096b778f0
+2019-01-18 14:55 ----        distanceSinceLastFootstep :: 0
+2019-01-18 14:55 ----    isLightActive :: false
+2019-01-18 14:55 ----    thirdPersonSpineNode :: 114619
+2019-01-18 14:55 ----    lastAnimPosY :: 68.09610901475
+2019-01-18 14:55 ----    maxCutDistance :: 2
+2019-01-18 14:55 ----    isEntered :: true
+2019-01-18 14:55 ----    rotX :: 0
+2019-01-18 14:55 ----    leftArmToolNode :: 114712
+2019-01-18 14:55 ----    thirdPersonHeadNode :: 114632
+2019-01-18 14:55 ----    pickedUpObjectHeight :: 0.074074074074074
+2019-01-18 14:55 ----    lastAnimPosZ :: 221.21260070801
+2019-01-18 14:55 ----    pickedUpObjectAimingWidth :: 0.010416666589056
+2019-01-18 14:55 ----    isControlled :: true
+2019-01-18 14:55 ----    owner :: table: 0x01b0f85110e0
+2019-01-18 14:55 ----        isConnected :: true
+2019-01-18 14:55 ----        highestAckedSeq :: 0
+2019-01-18 14:55 ----        isServer :: false
+2019-01-18 14:55 ----        objectsInfo :: table: 0x01b0f8511128
+2019-01-18 14:55 ----        hasPacketsToAck :: false
+2019-01-18 14:55 ----        streamId :: 0
+2019-01-18 14:55 ----        ackPingPacketSent :: false
+2019-01-18 14:55 ----        pendingDeleteObjects :: table: 0x01b0fc2e2b00
+2019-01-18 14:55 ----        lastSeqReceived :: 0
+2019-01-18 14:55 ----        pendingDeleteObjectPacketIds :: table: 0x01b0fc2e2b48
+2019-01-18 14:55 ----        ackMask :: 0
+2019-01-18 14:55 ----        compressionRatio :: 1
+2019-01-18 14:55 ----        lastSeqSent :: 0
+2019-01-18 14:55 ----        sendStatsTime :: 0
+2019-01-18 14:55 ----        localConnection :: table: 0x01b0fc90d040
+2019-01-18 14:55 ----        isReadyForObjects :: true
+2019-01-18 14:55 ----        isReadyForEvents :: true
+2019-01-18 14:55 ----    foliageBendingId :: 63
+2019-01-18 14:55 ----    rightArmToolNode :: 114713
+2019-01-18 14:55 ----    clipDistance :: 500
+2019-01-18 14:55 ----    meshThirdPerson :: 114682
+2019-01-18 14:55 ----    debugFlightModeRunningFactor :: 1
+2019-01-18 14:55 ----    controllerIndex :: 0
+2019-01-18 14:55 ----    rotY :: 1.5707962830835
+2019-01-18 14:55 ----    ownerFarmId :: 0
+2019-01-18 14:55 ----    pickedUpObjectAimingHeight :: 0.018518518518519
+2019-01-18 14:55 ----    debugFlightModeWalkingSpeed :: 0.016
+2019-01-18 14:55 ----    isClient :: true
+2019-01-18 14:55 ----    pickedUpObjectAimingUVs :: table: 0x01b08cb20d08
+2019-01-18 14:55 ----        1 :: 0
+2019-01-18 14:55 ----        2 :: 0.90625
+2019-01-18 14:55 ----        3 :: 0
+2019-01-18 14:55 ----        4 :: 0.953125
+2019-01-18 14:55 ----        5 :: 0.046875
+2019-01-18 14:55 ----        6 :: 0.90625
+2019-01-18 14:55 ----        7 :: 0.046875
+2019-01-18 14:55 ----        8 :: 0.953125
+2019-01-18 14:55 ----    foliageBendingNode :: 114709
+2019-01-18 14:55 ----    pickedUpObjectWidth :: 0.041666666356226
+2019-01-18 14:55 ----    particleSystemsInformation :: table: 0x01b0975839e0
+2019-01-18 14:55 ----        systems :: table: 0x01b097594708
+2019-01-18 14:55 ----        plungeNode :: 114715
+2019-01-18 14:55 ----        swimNode :: 114714
+2019-01-18 14:55 ----    xmlFilename :: dataS/character/humans/player/player01.xml
+2019-01-18 14:55 ----    isCarryingObject :: false
+2019-01-18 14:55 ----    animUpdateTime :: 0
+2019-01-18 14:55 ----    skeletonThirdPerson :: 114618
+2019-01-18 14:55 ----    isObjectInRange :: false
+2019-01-18 14:55 ----    walkDistance :: 0
+2019-01-18 14:55 ----    chainsawCameraFocus :: 114706
+2019-01-18 14:55 ----    pickedUpObjectHandUVs :: table: 0x01b0f3ed80e8
+2019-01-18 14:55 ----        1 :: 0
+2019-01-18 14:55 ----        2 :: 0.787109375
+2019-01-18 14:55 ----        3 :: 0
+2019-01-18 14:55 ----        4 :: 0.865234375
+2019-01-18 14:55 ----        5 :: 0.078125
+2019-01-18 14:55 ----        6 :: 0.787109375
+2019-01-18 14:55 ----        7 :: 0.078125
+2019-01-18 14:55 ----        8 :: 0.865234375
+2019-01-18 14:55 ----    cutDetectionDistance :: 10
+2019-01-18 14:55 ----    requestedFieldData :: false
+2019-01-18 14:55 ----    deleteListeners :: table: 0x01b0fb40de80
+2019-01-18 14:55 ----    pickUpKinematicHelperNode :: 114700
+2019-01-18 14:55 ----    farmId :: 1
+2019-01-18 14:55 ----    visualInformation :: table: 0x01b0fb7a2dc8
+2019-01-18 14:55 ----        jackets :: table: 0x01b09a7ba228
+2019-01-18 14:55 ----        selectedJacketIndex :: 0
+2019-01-18 14:55 ----        useDefault :: false
+2019-01-18 14:55 ----        selectedHatIndex :: 7
+2019-01-18 14:55 ----        selectedColorIndex :: 7
+2019-01-18 14:55 ----        player :: table: 0x01b0fb1e42b0
+2019-01-18 14:55 ----        playerHatNode :: 114633
+2019-01-18 14:55 ----        selectedModelIndex :: 1
+2019-01-18 14:55 ----        hatReferenceFilename :: $dataS/playerClothing.xml
+2019-01-18 14:55 ----        hairs :: table: 0x01b0f88f6400
+2019-01-18 14:55 ----        protection :: table: 0x01b0d65e8170
+2019-01-18 14:55 ----        selectedBodyIndex :: 1
+2019-01-18 14:55 ----        playerName :: Stephan
+2019-01-18 14:55 ----        selectedHairIndex :: 2
+2019-01-18 14:55 ----        accessoryNode :: 114743
+2019-01-18 14:55 ----        bodies :: table: 0x01b0fc1eea70
+2019-01-18 14:55 ----        hatNode :: 114737
+2019-01-18 14:55 ----        playerAccessoryNode :: 114633
+2019-01-18 14:55 ----        accessoryReferenceFilename :: $dataS/playerClothing.xml
+2019-01-18 14:55 ----        accessories :: table: 0x01b0fb9a8678
+2019-01-18 14:55 ----        selectedAccessoryIndex :: 1
+2019-01-18 14:55 ----    isManuallyReplicated :: false
+2019-01-18 14:55 ----    camY :: 1.6892199516296
+2019-01-18 14:55 ----    id :: 128
+2019-01-18 14:55 ----    camZ :: 0
+2019-01-18 14:55 ----    isServer :: true
+2019-01-18 14:55 ----    isRegistered :: true
+2019-01-18 14:55 ----    cameraNode :: 114698
+2019-01-18 14:55 ----    dirtyMask :: 0
+2019-01-18 14:55 ----    camX :: 0
+2019-01-18 14:55 ----    fovY :: 1.0471975803375
+2019-01-18 14:55 ----    animationInformation :: table: 0x01b099e343c0
+2019-01-18 14:55 ----        player :: 114711
+2019-01-18 14:55 ----        newYaw :: 0
+2019-01-18 14:55 ----        estimatedYawVelocity :: 0
+2019-01-18 14:55 ----        oldYaw :: 0
+2019-01-18 14:55 ----        parameters :: table: 0x01b099e39040
+2019-01-18 14:55 ----    debugFlightCoolDown :: -55
+2019-01-18 14:55 ----    animRootThirdPerson :: 114696
+2019-01-18 14:55 ----    ikChains :: table: 0x01b0fb9bdc08
+2019-01-18 14:55 ----    baseInformation :: table: 0x01b0fbca9b60
+2019-01-18 14:55 ----        isOnGroundPhysics :: true
+2019-01-18 14:55 ----        isInWater :: false
+2019-01-18 14:55 ----        isUsingChainsawVertical :: false
+2019-01-18 14:55 ----        currentWaterCameraOffset :: 0
+2019-01-18 14:55 ----        isInDebug :: false
+2019-01-18 14:55 ----        waterCameraOffset :: 0.3
+2019-01-18 14:55 ----        lastCameraAmplitudeScale :: 0
+2019-01-18 14:55 ----        isOnGround :: true
+2019-01-18 14:55 ----        capsuleRadius :: 0.40000000596046
+2019-01-18 14:55 ----        wasInWater :: false
+2019-01-18 14:55 ----        capsuleTotalHeight :: 1.8000000119209
+2019-01-18 14:55 ----        headBobTime :: 0
+2019-01-18 14:55 ----        plungedYVelocityThreshold :: -2
+2019-01-18 14:55 ----        isCrouched :: false
+2019-01-18 14:55 ----        isUsingChainsawHorizontal :: false
+2019-01-18 14:55 ----        lastPositionZ :: 221.21260070801
+2019-01-18 14:55 ----        animDt :: 0
+2019-01-18 14:55 ----        tagOffset :: table: 0x01b0fb483068
+2019-01-18 14:55 ----        plungedInWater :: false
+2019-01-18 14:55 ----        translationAlphaDifference :: 0
+2019-01-18 14:55 ----        isCloseToGround :: true
+2019-01-18 14:55 ----        capsuleHeight :: 1
+2019-01-18 14:55 ----        lastPositionX :: -63.571403503418
+2019-01-18 14:55 ----        waterLevel :: -1.4
+2019-01-18 14:55 ----    minCutDistance :: 0.5
+2019-01-18 14:55 ----    userId :: 1
+2019-01-18 14:55 ----    lastAnimPosX :: -63.571403503418
+2019-01-18 14:55 ----    cuttingCameraNode :: 114701
+2019-01-18 14:55 ----    debugFlightMode :: false
+2019-01-18 14:55 ----    thirdPersonLeftHandNode :: 114645
+2019-01-18 14:55 ----    camera :: 0
+2019-01-18 14:55 ----    baseDirectory :: 
+2019-01-18 14:55 ----    cameraRotY :: 1.5707962830835
+2019-01-18 14:55 ----    motionInformation :: table: 0x01b0fda6dc48
+2019-01-18 14:55 ----        mass :: 80
+2019-01-18 14:55 ----        maxDeceleration :: 50
+2019-01-18 14:55 ----        isReverse :: false
+2019-01-18 14:55 ----        gravity :: -9.8
+2019-01-18 14:55 ----        justMoved :: false
+2019-01-18 14:55 ----        brakeDelay :: 0.001
+2019-01-18 14:55 ----        maxCrouchingSpeed :: 2
+2019-01-18 14:55 ----        coveredGroundDistance :: 0
+2019-01-18 14:55 ----        currentWorldDirX :: 0
+2019-01-18 14:55 ----        maxSpeedDelay :: 0.1
+2019-01-18 14:55 ----        currentWorldDirZ :: 1
+2019-01-18 14:55 ----        minimumFallingSpeed :: -1e-05
+2019-01-18 14:55 ----        inverseMass :: 0.0125
+2019-01-18 14:55 ----        currentGroundSpeed :: 0
+2019-01-18 14:55 ----        brakeForce :: table: 0x01b0fadb6b88
+2019-01-18 14:55 ----        currentCoveredGroundDistance :: 0
+2019-01-18 14:55 ----        currentSpeedX :: 0
+2019-01-18 14:55 ----        currentSpeedZ :: 0
+2019-01-18 14:55 ----        maxWalkingSpeed :: 4
+2019-01-18 14:55 ----        currentSpeedY :: -58.457637379074
+2019-01-18 14:55 ----        maxCheatRunningSpeed :: 34
+2019-01-18 14:55 ----        maxPresentationRunningSpeed :: 128
+2019-01-18 14:55 ----        damping :: 0.8
+2019-01-18 14:55 ----        maxRunningSpeed :: 9
+2019-01-18 14:55 ----        maxIdleSpeed :: 0.1
+2019-01-18 14:55 ----        maxAcceleration :: 50
+2019-01-18 14:55 ----        isBraking :: false
+2019-01-18 14:55 ----        desiredSpeed :: 0
+2019-01-18 14:55 ----        maxSwimmingSpeed :: 3
+2019-01-18 14:55 ----        lastSpeed :: 0
+2019-01-18 14:55 ----        jumpHeight :: 1.5
+2019-01-18 14:55 ----        maxFallingSpeed :: 6
+2019-01-18 14:55 ----        currentSpeed :: 0
+2019-01-18 14:55 ----    walkingIsLocked :: false
+2019-01-18 14:55 ----    time :: 2004.971830368
+2019-01-18 14:55 ----    graphicsRotY :: 1.5707962830835

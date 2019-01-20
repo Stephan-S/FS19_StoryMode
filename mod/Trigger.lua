@@ -1,4 +1,5 @@
 Trigger = {};
+Trigger.vehicleCategories = {"PLOWS" , "FERTILIZERSPREADERS", "TRACTORS", "TRACTORSM", "SEEDERS", "HARVESTERS", "CUTTERS", "SPRAYERS", "POWERHARROWS", "WEEDERS"}
 
 function string:split(sep)
     local sep, fields = sep or ":", {}
@@ -48,7 +49,7 @@ function Trigger:checkFulfilled()
     elseif self.triggerType == "statToCheck" then
         fulfilled = self:checkStatisticReached()
     elseif self.triggerType == "playerInRange" then
-        fulfilled = self:checkStatisticReached()
+        fulfilled = self:checkPlayerInRange()
     end;
 
     self.alreadyFulfilled = fulfilled;
@@ -80,7 +81,7 @@ end;
 
 function Trigger:checkStatisticReached()
     local statistic = self.statToCheck;
-    local statPair = self.statToCkeck:split("-");
+    local statPair = self.statToCheck:split("-");
     if statPair ~= nil and statPair[1] ~= nil and statPair[2] ~= nil then
         --print("Found attr: " .. attrFields[1] .. " with value: " .. attrFields[2]);
         self.statsToCheck = {};
@@ -106,12 +107,12 @@ function Trigger:getStatisticValue(statistic)
 end;
 
 function Trigger:checkMachineryOwned()
-    local vehicleDesc = self.statToCheck;
-    local vehicleDescSplitted = self.statToCkeck:split("-");
+    local vehicleDesc = self.vehicleType;
+    local vehicleDescSplitted = self.vehicleType:split("-");
     if vehicleDescSplitted ~= nil and vehicleDescSplitted[1] ~= nil and vehicleDescSplitted[2] ~= nil then
         --print("Found attr: " .. attrFields[1] .. " with value: " .. attrFields[2]);
         self.vehciclesToCount = {};
-        self.vehciclesToCount[vehicleDescSplitted[1]] = vehicleDescSplitted[2];
+        self.vehciclesToCount[vehicleDescSplitted[1]] = tonumber(vehicleDescSplitted[2]);
     end;
 
     if self.vehciclesToCount ~= nil then
@@ -124,16 +125,32 @@ end;
 function Trigger:checkVehicleCount(vehicleType, vehicleCount)
     local currentVehiclesOfType = self:getVehcicleCount(vehicleType);
 
-    return currentVehiclesOfType > vehicleCount;
+    return currentVehiclesOfType >= vehicleCount;
 end;
 
 function Trigger:getVehcicleCount(vehicleType)
-    --ToDo;
+    local count = 0;
+    for _,ownedItem in pairs(g_currentMission.ownedItems) do
+        if ownedItem.storeItem.categoryName ~= nil then
+            if string.find(vehicleType, "TRACTORS") ~= nil then
+                if string.find(ownedItem.storeItem.categoryName, "TRACTORS") ~= nil then
+                    count = count + ownedItem.numItems;
+                    --print("StoryMode - Trigger: found item of type: " .. vehicleType);
+                end;                
+            else
+                if ownedItem.storeItem.categoryName == vehicleType then
+                    count = count + ownedItem.numItems;
+                    --print("StoryMode - Trigger: found item of type: " .. vehicleType);
+                end;
+            end;
+        end;
+    end;
+    return count;
 end;
 
 function Trigger:checkPlayerInRange()
     local positionBounds = {};
-    local playerPosField = self.playerPos:split("-");
+    local playerPosField = self.playerPos:split("/");
     
     if playerPosField ~= nil and playerPosField[1] ~= nil and playerPosField[2] ~= nil and playerPosField[3] ~= nil then
         positionBounds["x"] = tonumber(playerPosField[1]);
@@ -141,20 +158,27 @@ function Trigger:checkPlayerInRange()
         positionBounds["radius"] = tonumber(playerPosField[3]);
 
         local x,z = self:getPlayerPos();
-        x = 1;
-        z = 1;
 
-        local dist = math.sqrt(math.pow(x-positionBounds.x,2) + math.pow(z-positionBounds.z,2) );
+        local dist = math.sqrt(math.pow(x-positionBounds["x"],2) + math.pow(z-positionBounds["z"],2) );
         
-        return dist <= positionBounds.radius;
+        return dist <= positionBounds["radius"];
     end;
 
     return false;
 end;
 
 function Trigger:getPlayerPos()
-    --ToDo;
-    return {1,1};
+    --ToDo: test;
+    local x = 0;
+    local z = 0;
+    for _,player in pairs(g_currentMission.players) do
+        x = player.baseInformation.lastPositionX;
+        print("x: " .. x);
+        z = player.baseInformation.lastPositionZ;
+        print("z: " .. z);
+    end;
+
+    return x,z;
 end;
 
 

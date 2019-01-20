@@ -1,0 +1,1558 @@
+2019-01-19 11:33 ____-----------------g_currentMission.inGameMenu.baseIngameMap---------------------___-------------------______________!!!!!!!!!!!!!
+2019-01-19 11:33 ----playerMapArrowElement :: table: 0x01aa63798978
+2019-01-19 11:33 ----    pivotY :: 0
+2019-01-19 11:33 ----    pivotX :: 0
+2019-01-19 11:33 ----    animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        elapsedTime :: 0
+2019-01-19 11:33 ----        insertCallback :: function: 0x01aa4aa37af0
+2019-01-19 11:33 ----        callbacksCalled :: table: 0x01aa4aa379d0
+2019-01-19 11:33 ----        getFinished :: function: 0x01aa4aa37cb0
+2019-01-19 11:33 ----        insertInterval :: function: 0x01aa4aa37ac0
+2019-01-19 11:33 ----        addInterval :: function: 0x01aa4aa37588
+2019-01-19 11:33 ----        isFinished :: true
+2019-01-19 11:33 ----        isLooping :: false
+2019-01-19 11:33 ----        insertTween :: function: 0x01aa4aa37a90
+2019-01-19 11:33 ----        callbackStates :: table: 0x01aa4aa37988
+2019-01-19 11:33 ----        addCallback :: function: 0x01aa4aa37a60
+2019-01-19 11:33 ----        totalDuration :: 0
+2019-01-19 11:33 ----        callbackInstants :: table: 0x01aa4aa37510
+2019-01-19 11:33 ----        addTween :: function: 0x01aa4aa37558
+2019-01-19 11:33 ----        tweenUpdateRanges :: table: 0x01aa4aa37a18
+2019-01-19 11:33 ----    children :: table: 0x01aa637989c0
+2019-01-19 11:33 ----    defaultPivotY :: 0
+2019-01-19 11:33 ----    overlay :: table: 0x01aa63797e80
+2019-01-19 11:33 ----        filename :: dataS2/menu/hud/mapHotspots_256.png
+2019-01-19 11:33 ----        x :: 0.080729166065188
+2019-01-19 11:33 ----        rotationCenterY :: 0.019444444444444
+2019-01-19 11:33 ----        y :: 0.11435185185185
+2019-01-19 11:33 ----        scaleWidth :: 1.4
+2019-01-19 11:33 ----        overlayId :: 14390
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa637988e8
+2019-01-19 11:33 ----        defaultHeight :: 0.027777777777778
+2019-01-19 11:33 ----        alignmentVertical :: 1
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: 0
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 1
+2019-01-19 11:33 ----        b :: 0.25
+2019-01-19 11:33 ----        g :: 1
+2019-01-19 11:33 ----        invertX :: false
+2019-01-19 11:33 ----        r :: 0.25
+2019-01-19 11:33 ----        rotationCenterX :: 0.010937499918509
+2019-01-19 11:33 ----        rotation :: 1.1495902366155
+2019-01-19 11:33 ----        defaultWidth :: 0.015624999883585
+2019-01-19 11:33 ----        scaleHeight :: 1.4
+2019-01-19 11:33 ----        height :: 0.038888888888889
+2019-01-19 11:33 ----        width :: 0.021874999837019
+2019-01-19 11:33 ----    defaultPivotX :: 0
+2019-01-19 11:33 ----playerMapArrowOverlay :: table: 0x01aa63797e80
+2019-01-19 11:33 ----    filename :: dataS2/menu/hud/mapHotspots_256.png
+2019-01-19 11:33 ----    x :: 0.080729166065188
+2019-01-19 11:33 ----    rotationCenterY :: 0.019444444444444
+2019-01-19 11:33 ----    y :: 0.11435185185185
+2019-01-19 11:33 ----    scaleWidth :: 1.4
+2019-01-19 11:33 ----    overlayId :: 14390
+2019-01-19 11:33 ----    offsetX :: 0
+2019-01-19 11:33 ----    uvs :: table: 0x01aa637988e8
+2019-01-19 11:33 ----        1 :: 0
+2019-01-19 11:33 ----        2 :: 0.75
+2019-01-19 11:33 ----        3 :: 0
+2019-01-19 11:33 ----        4 :: 1
+2019-01-19 11:33 ----        5 :: 0.25
+2019-01-19 11:33 ----        6 :: 0.75
+2019-01-19 11:33 ----        7 :: 0.25
+2019-01-19 11:33 ----        8 :: 1
+2019-01-19 11:33 ----    defaultHeight :: 0.027777777777778
+2019-01-19 11:33 ----    alignmentVertical :: 1
+2019-01-19 11:33 ----    alignmentHorizontal :: 4
+2019-01-19 11:33 ----    debugEnabled :: false
+2019-01-19 11:33 ----    offsetY :: 0
+2019-01-19 11:33 ----    visible :: true
+2019-01-19 11:33 ----    a :: 1
+2019-01-19 11:33 ----    b :: 0.25
+2019-01-19 11:33 ----    g :: 1
+2019-01-19 11:33 ----    invertX :: false
+2019-01-19 11:33 ----    r :: 0.25
+2019-01-19 11:33 ----    rotationCenterX :: 0.010937499918509
+2019-01-19 11:33 ----    rotation :: 1.1495902366155
+2019-01-19 11:33 ----    defaultWidth :: 0.015624999883585
+2019-01-19 11:33 ----    scaleHeight :: 1.4
+2019-01-19 11:33 ----    height :: 0.038888888888889
+2019-01-19 11:33 ----    width :: 0.021874999837019
+2019-01-19 11:33 ----mapElement :: table: 0x01aa36174878
+2019-01-19 11:33 ----    pivotY :: 0
+2019-01-19 11:33 ----    pivotX :: 0
+2019-01-19 11:33 ----    animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        elapsedTime :: 0
+2019-01-19 11:33 ----        insertCallback :: function: 0x01aa4aa37af0
+2019-01-19 11:33 ----        callbacksCalled :: table: 0x01aa4aa379d0
+2019-01-19 11:33 ----        getFinished :: function: 0x01aa4aa37cb0
+2019-01-19 11:33 ----        insertInterval :: function: 0x01aa4aa37ac0
+2019-01-19 11:33 ----        addInterval :: function: 0x01aa4aa37588
+2019-01-19 11:33 ----        isFinished :: true
+2019-01-19 11:33 ----        isLooping :: false
+2019-01-19 11:33 ----        insertTween :: function: 0x01aa4aa37a90
+2019-01-19 11:33 ----        callbackStates :: table: 0x01aa4aa37988
+2019-01-19 11:33 ----        addCallback :: function: 0x01aa4aa37a60
+2019-01-19 11:33 ----        totalDuration :: 0
+2019-01-19 11:33 ----        callbackInstants :: table: 0x01aa4aa37510
+2019-01-19 11:33 ----        addTween :: function: 0x01aa4aa37558
+2019-01-19 11:33 ----        tweenUpdateRanges :: table: 0x01aa4aa37a18
+2019-01-19 11:33 ----    children :: table: 0x01aa361748c0
+2019-01-19 11:33 ----    defaultPivotY :: 0
+2019-01-19 11:33 ----    overlay :: table: 0x01aa361747a0
+2019-01-19 11:33 ----        filename :: data/maps/mapDE/pda_map_H.png
+2019-01-19 11:33 ----        x :: 0.013541666565773
+2019-01-19 11:33 ----        rotationCenterY :: 0
+2019-01-19 11:33 ----        y :: 0.026851851851852
+2019-01-19 11:33 ----        scaleWidth :: 1
+2019-01-19 11:33 ----        overlayId :: 101308
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa361747e8
+2019-01-19 11:33 ----        defaultHeight :: 0.21388888888889
+2019-01-19 11:33 ----        alignmentVertical :: 1
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: 0
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 1
+2019-01-19 11:33 ----        b :: 1
+2019-01-19 11:33 ----        g :: 1
+2019-01-19 11:33 ----        invertX :: false
+2019-01-19 11:33 ----        r :: 1
+2019-01-19 11:33 ----        rotationCenterX :: 0
+2019-01-19 11:33 ----        rotation :: 0
+2019-01-19 11:33 ----        defaultWidth :: 0.15624999883585
+2019-01-19 11:33 ----        scaleHeight :: 1
+2019-01-19 11:33 ----        height :: 0.21388888888889
+2019-01-19 11:33 ----        width :: 0.15624999883585
+2019-01-19 11:33 ----    defaultPivotX :: 0
+2019-01-19 11:33 ----mapFrameElement :: table: 0x01aa63793890
+2019-01-19 11:33 ----    frameHeight :: 0.00092592592592593
+2019-01-19 11:33 ----    pivotX :: 0
+2019-01-19 11:33 ----    children :: table: 0x01aa637938d8
+2019-01-19 11:33 ----        1 :: table: 0x01aa63794718
+2019-01-19 11:33 ----        2 :: table: 0x01aa63794da0
+2019-01-19 11:33 ----        3 :: table: 0x01aa63795428
+2019-01-19 11:33 ----        4 :: table: 0x01aa63795bd0
+2019-01-19 11:33 ----    topLine :: table: 0x01aa63794718
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        parent :: table: 0x01aa63793890
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        children :: table: 0x01aa63794760
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        overlay :: table: 0x01aa63794508
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----    parent :: table: 0x01aa63792b40
+2019-01-19 11:33 ----        playerMapArrowElement :: table: 0x01aa63798978
+2019-01-19 11:33 ----        playerMapArrowOverlay :: table: 0x01aa63797e80
+2019-01-19 11:33 ----        mapElement :: table: 0x01aa36174878
+2019-01-19 11:33 ----        mapFrameElement :: table: 0x01aa63793890
+2019-01-19 11:33 ----        toggleSizeGlyphOffsetX :: 0
+2019-01-19 11:33 ----        resizeTime :: 100
+2019-01-19 11:33 ----        mapArrowWidth :: 0.015624999883585
+2019-01-19 11:33 ----        coordOffsetY :: 0.0055555555555556
+2019-01-19 11:33 ----        mapOverlay :: table: 0x01aa361747a0
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----        mapLabelText :: KARTE
+2019-01-19 11:33 ----        state :: 0
+2019-01-19 11:33 ----        worldCenterOffsetX :: 1024
+2019-01-19 11:33 ----        mapOffsetY :: 0.0037037037037037
+2019-01-19 11:33 ----        mapArrowRedOverlay :: table: 0x01aa63798f10
+2019-01-19 11:33 ----        isVisible :: true
+2019-01-19 11:33 ----        mapOffsetX :: 0.00052083332945282
+2019-01-19 11:33 ----        mapArrowYPos :: 0.11990740740741
+2019-01-19 11:33 ----        centerXPos :: 0.46875
+2019-01-19 11:33 ----        mapAspectRatio :: 1.2987012890252
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        mapToFrameDiffX :: 0.0010416666589056
+2019-01-19 11:33 ----        mapArrowXPos :: 0.083854166041904
+2019-01-19 11:33 ----        maxIconZoom :: 1.4
+2019-01-19 11:33 ----        fontSize :: 0.014814814814815
+2019-01-19 11:33 ----        mapToFrameDiffY :: 0.0037037037037037
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        mapWidth :: 0.15624999883585
+2019-01-19 11:33 ----        children :: table: 0x01aa63792b88
+2019-01-19 11:33 ----        mapLabelOffsetX :: 0
+2019-01-19 11:33 ----        maxMapWidth :: 0.36770833333333
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        mapLabelOffsetY :: 0.0027777777777778
+2019-01-19 11:33 ----        worldSizeX :: 2048
+2019-01-19 11:33 ----        toggleMapSizeGlyph :: table: 0x01aa63796348
+2019-01-19 11:33 ----        mapSizeY :: 0.21388888888889
+2019-01-19 11:33 ----        hotspots :: table: 0x01aa63793fc8
+2019-01-19 11:33 ----        mapLabelTextSize :: 0.018518518518519
+2019-01-19 11:33 ----        mapVisWidth :: 0.3
+2019-01-19 11:33 ----        toggleMapSizeEventId :: TOGGLE_MAP_SIZE|table: 0x01aa63792b40|1
+2019-01-19 11:33 ----        mapSizeX :: 0.15624999883585
+2019-01-19 11:33 ----        uiScale :: 1
+2019-01-19 11:33 ----        hotspots_sorted :: table: 0x01aa53901438
+2019-01-19 11:33 ----        mapAlpha :: 1
+2019-01-19 11:33 ----        normalizedPlayerPosZ :: 0.60791015625
+2019-01-19 11:33 ----        inputDisplayManager :: table: 0x01aa4f18be78
+2019-01-19 11:33 ----        playerNameOffsetY :: 0.0037037037037037
+2019-01-19 11:33 ----        allowToggle :: true
+2019-01-19 11:33 ----        filter :: table: 0x01aa63799120
+2019-01-19 11:33 ----        selectHotspotTextSize :: 0.014814814814815
+2019-01-19 11:33 ----        mapArrowHeight :: 0.027777777777778
+2019-01-19 11:33 ----        centerZPos :: 0.60791015625
+2019-01-19 11:33 ----        playerFontSize :: 0.011111111111111
+2019-01-19 11:33 ----        worldSizeZ :: 2048
+2019-01-19 11:33 ----        mapUVs :: table: 0x01aa63793f38
+2019-01-19 11:33 ----        mapVisWidthMin :: 0.3
+2019-01-19 11:33 ----        minMapHeight :: 0.21388888888889
+2019-01-19 11:33 ----        mapVisHeight :: 0.23100000172108
+2019-01-19 11:33 ----        overlay :: table: 0x01aa637928b0
+2019-01-19 11:33 ----        iconZoom :: 1.4
+2019-01-19 11:33 ----        selectHotspotText :: Auswählen
+2019-01-19 11:33 ----        playerNameOffsetX :: 0
+2019-01-19 11:33 ----        mapHeight :: 0.21388888888889
+2019-01-19 11:33 ----        coordOffsetX :: 0.0031249999767169
+2019-01-19 11:33 ----        minMapWidth :: 0.15624999883585
+2019-01-19 11:33 ----        playerRotation :: 1.1495902366155
+2019-01-19 11:33 ----        mapPosX :: 0.013541666565773
+2019-01-19 11:33 ----        mapPosY :: 0.026851851851852
+2019-01-19 11:33 ----        toggleSizeGlyphOffsetY :: 0.0027777777777778
+2019-01-19 11:33 ----        maxMapVisWidth :: 1
+2019-01-19 11:33 ----        maxMapHeight :: 0.6537037037037
+2019-01-19 11:33 ----        resizeDir :: 0
+2019-01-19 11:33 ----        worldCenterOffsetZ :: 1024
+2019-01-19 11:33 ----        normalizedPlayerPosX :: 0.46875
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        minMapVisWidth :: 0.3
+2019-01-19 11:33 ----    rightLine :: table: 0x01aa63795428
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        parent :: table: 0x01aa63793890
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        children :: table: 0x01aa63795470
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        overlay :: table: 0x01aa63794e30
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----    pivotY :: 0
+2019-01-19 11:33 ----    leftLine :: table: 0x01aa63794da0
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        parent :: table: 0x01aa63793890
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        children :: table: 0x01aa63794de8
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        overlay :: table: 0x01aa637947a8
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----    frameWidth :: 0.00052083333333333
+2019-01-19 11:33 ----    animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        elapsedTime :: 0
+2019-01-19 11:33 ----        insertCallback :: function: 0x01aa4aa37af0
+2019-01-19 11:33 ----        callbacksCalled :: table: 0x01aa4aa379d0
+2019-01-19 11:33 ----        getFinished :: function: 0x01aa4aa37cb0
+2019-01-19 11:33 ----        insertInterval :: function: 0x01aa4aa37ac0
+2019-01-19 11:33 ----        addInterval :: function: 0x01aa4aa37588
+2019-01-19 11:33 ----        isFinished :: true
+2019-01-19 11:33 ----        isLooping :: false
+2019-01-19 11:33 ----        insertTween :: function: 0x01aa4aa37a90
+2019-01-19 11:33 ----        callbackStates :: table: 0x01aa4aa37988
+2019-01-19 11:33 ----        addCallback :: function: 0x01aa4aa37a60
+2019-01-19 11:33 ----        totalDuration :: 0
+2019-01-19 11:33 ----        callbackInstants :: table: 0x01aa4aa37510
+2019-01-19 11:33 ----        addTween :: function: 0x01aa4aa37558
+2019-01-19 11:33 ----        tweenUpdateRanges :: table: 0x01aa4aa37a18
+2019-01-19 11:33 ----    overlay :: table: 0x01aa63792d38
+2019-01-19 11:33 ----        filename :: dataS2/menu/hud/hud_elements_1080p.png
+2019-01-19 11:33 ----        x :: 0.013020833236321
+2019-01-19 11:33 ----        rotationCenterY :: 0
+2019-01-19 11:33 ----        y :: 0.023148148148148
+2019-01-19 11:33 ----        scaleWidth :: 1
+2019-01-19 11:33 ----        overlayId :: 14382
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa63793800
+2019-01-19 11:33 ----        defaultHeight :: 0.21759259259259
+2019-01-19 11:33 ----        alignmentVertical :: 1
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: 0
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 0
+2019-01-19 11:33 ----        b :: 0
+2019-01-19 11:33 ----        g :: 0
+2019-01-19 11:33 ----        invertX :: false
+2019-01-19 11:33 ----        r :: 0
+2019-01-19 11:33 ----        rotationCenterX :: 0
+2019-01-19 11:33 ----        rotation :: 0
+2019-01-19 11:33 ----        defaultWidth :: 0.15729166549475
+2019-01-19 11:33 ----        scaleHeight :: 1
+2019-01-19 11:33 ----        height :: 0.21759259259259
+2019-01-19 11:33 ----        width :: 0.15729166549475
+2019-01-19 11:33 ----    defaultPivotX :: 0
+2019-01-19 11:33 ----    defaultPivotY :: 0
+2019-01-19 11:33 ----    bottomBar :: table: 0x01aa63795bd0
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        parent :: table: 0x01aa63793890
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        children :: table: 0x01aa63795c18
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        overlay :: table: 0x01aa637959c0
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----toggleSizeGlyphOffsetX :: 0
+2019-01-19 11:33 ----resizeTime :: 100
+2019-01-19 11:33 ----mapArrowWidth :: 0.015624999883585
+2019-01-19 11:33 ----coordOffsetY :: 0.0055555555555556
+2019-01-19 11:33 ----mapOverlay :: table: 0x01aa361747a0
+2019-01-19 11:33 ----    filename :: data/maps/mapDE/pda_map_H.png
+2019-01-19 11:33 ----    x :: 0.013541666565773
+2019-01-19 11:33 ----    rotationCenterY :: 0
+2019-01-19 11:33 ----    y :: 0.026851851851852
+2019-01-19 11:33 ----    scaleWidth :: 1
+2019-01-19 11:33 ----    overlayId :: 101308
+2019-01-19 11:33 ----    offsetX :: 0
+2019-01-19 11:33 ----    uvs :: table: 0x01aa361747e8
+2019-01-19 11:33 ----        1 :: 1
+2019-01-19 11:33 ----        2 :: 0
+2019-01-19 11:33 ----        3 :: 1
+2019-01-19 11:33 ----        4 :: 1
+2019-01-19 11:33 ----        5 :: 0
+2019-01-19 11:33 ----        6 :: 0
+2019-01-19 11:33 ----        7 :: 0
+2019-01-19 11:33 ----        8 :: 1
+2019-01-19 11:33 ----    defaultHeight :: 0.21388888888889
+2019-01-19 11:33 ----    alignmentVertical :: 1
+2019-01-19 11:33 ----    alignmentHorizontal :: 4
+2019-01-19 11:33 ----    debugEnabled :: false
+2019-01-19 11:33 ----    offsetY :: 0
+2019-01-19 11:33 ----    visible :: true
+2019-01-19 11:33 ----    a :: 1
+2019-01-19 11:33 ----    b :: 1
+2019-01-19 11:33 ----    g :: 1
+2019-01-19 11:33 ----    invertX :: false
+2019-01-19 11:33 ----    r :: 1
+2019-01-19 11:33 ----    rotationCenterX :: 0
+2019-01-19 11:33 ----    rotation :: 0
+2019-01-19 11:33 ----    defaultWidth :: 0.15624999883585
+2019-01-19 11:33 ----    scaleHeight :: 1
+2019-01-19 11:33 ----    height :: 0.21388888888889
+2019-01-19 11:33 ----    width :: 0.15624999883585
+2019-01-19 11:33 ----defaultPivotX :: 0
+2019-01-19 11:33 ----mapLabelText :: KARTE
+2019-01-19 11:33 ----state :: 0
+2019-01-19 11:33 ----worldCenterOffsetX :: 1024
+2019-01-19 11:33 ----mapOffsetY :: 0.0037037037037037
+2019-01-19 11:33 ----mapArrowRedOverlay :: table: 0x01aa63798f10
+2019-01-19 11:33 ----    filename :: dataS2/menu/hud/mapHotspots_256.png
+2019-01-19 11:33 ----    x :: 0
+2019-01-19 11:33 ----    rotationCenterY :: 0
+2019-01-19 11:33 ----    y :: 0
+2019-01-19 11:33 ----    scaleWidth :: 1.4
+2019-01-19 11:33 ----    overlayId :: 14391
+2019-01-19 11:33 ----    offsetX :: 0
+2019-01-19 11:33 ----    uvs :: table: 0x01aa63799090
+2019-01-19 11:33 ----        1 :: 0
+2019-01-19 11:33 ----        2 :: 0.75
+2019-01-19 11:33 ----        3 :: 0
+2019-01-19 11:33 ----        4 :: 1
+2019-01-19 11:33 ----        5 :: 0.25
+2019-01-19 11:33 ----        6 :: 0.75
+2019-01-19 11:33 ----        7 :: 0.25
+2019-01-19 11:33 ----        8 :: 1
+2019-01-19 11:33 ----    defaultHeight :: 0.027777777777778
+2019-01-19 11:33 ----    alignmentVertical :: 1
+2019-01-19 11:33 ----    alignmentHorizontal :: 4
+2019-01-19 11:33 ----    debugEnabled :: false
+2019-01-19 11:33 ----    offsetY :: 0
+2019-01-19 11:33 ----    visible :: true
+2019-01-19 11:33 ----    a :: 1
+2019-01-19 11:33 ----    b :: 0.0097
+2019-01-19 11:33 ----    g :: 0.0097
+2019-01-19 11:33 ----    invertX :: false
+2019-01-19 11:33 ----    r :: 0.8069
+2019-01-19 11:33 ----    rotationCenterX :: 0
+2019-01-19 11:33 ----    rotation :: 0
+2019-01-19 11:33 ----    defaultWidth :: 0.015624999883585
+2019-01-19 11:33 ----    scaleHeight :: 1.4
+2019-01-19 11:33 ----    height :: 0.038888888888889
+2019-01-19 11:33 ----    width :: 0.021874999837019
+2019-01-19 11:33 ----isVisible :: true
+2019-01-19 11:33 ----mapOffsetX :: 0.00052083332945282
+2019-01-19 11:33 ----mapArrowYPos :: 0.11990740740741
+2019-01-19 11:33 ----centerXPos :: 0.46875
+2019-01-19 11:33 ----mapAspectRatio :: 1.2987012890252
+2019-01-19 11:33 ----pivotY :: 0
+2019-01-19 11:33 ----mapToFrameDiffX :: 0.0010416666589056
+2019-01-19 11:33 ----mapArrowXPos :: 0.083854166041904
+2019-01-19 11:33 ----maxIconZoom :: 1.4
+2019-01-19 11:33 ----fontSize :: 0.014814814814815
+2019-01-19 11:33 ----mapToFrameDiffY :: 0.0037037037037037
+2019-01-19 11:33 ----pivotX :: 0
+2019-01-19 11:33 ----mapWidth :: 0.15624999883585
+2019-01-19 11:33 ----children :: table: 0x01aa63792b88
+2019-01-19 11:33 ----    1 :: table: 0x01aa63793890
+2019-01-19 11:33 ----        frameHeight :: 0.00092592592592593
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        children :: table: 0x01aa637938d8
+2019-01-19 11:33 ----        topLine :: table: 0x01aa63794718
+2019-01-19 11:33 ----        parent :: table: 0x01aa63792b40
+2019-01-19 11:33 ----        rightLine :: table: 0x01aa63795428
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        leftLine :: table: 0x01aa63794da0
+2019-01-19 11:33 ----        frameWidth :: 0.00052083333333333
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        overlay :: table: 0x01aa63792d38
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        bottomBar :: table: 0x01aa63795bd0
+2019-01-19 11:33 ----    2 :: table: 0x01aa63796348
+2019-01-19 11:33 ----        lowerCase :: false
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        baseWidth :: 0.015624999883585
+2019-01-19 11:33 ----        inputDisplayManager :: table: 0x01aa4f18be78
+2019-01-19 11:33 ----        orIconSizeY :: 0.013888888888889
+2019-01-19 11:33 ----        parent :: table: 0x01aa63792b40
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        plusIconSizeX :: 0.0078124999417923
+2019-01-19 11:33 ----        textOffsetX :: 0.0020833333178113
+2019-01-19 11:33 ----        bold :: false
+2019-01-19 11:33 ----        actionNames :: table: 0x01aa637977a8
+2019-01-19 11:33 ----        keyNames :: table: 0x01aa63797880
+2019-01-19 11:33 ----        alignX :: 1
+2019-01-19 11:33 ----        orOverlay :: table: 0x01aa4f1a5440
+2019-01-19 11:33 ----        alignmentOffsetY :: 0
+2019-01-19 11:33 ----        color :: table: 0x01aa4aaef380
+2019-01-19 11:33 ----        plusOverlay :: table: 0x01aa4f1a3200
+2019-01-19 11:33 ----        buttonOverlays :: table: 0x01aa637977f0
+2019-01-19 11:33 ----        baseHeight :: 0.027777777777778
+2019-01-19 11:33 ----        overlay :: table: 0x01aa63796270
+2019-01-19 11:33 ----        upperCase :: false
+2019-01-19 11:33 ----        plusIconSizeY :: 0.013888888888889
+2019-01-19 11:33 ----        alignmentOffsetX :: 0
+2019-01-19 11:33 ----        separators :: table: 0x01aa639d09f8
+2019-01-19 11:33 ----        iconSizeY :: 0.027777777777778
+2019-01-19 11:33 ----        children :: table: 0x01aa63796390
+2019-01-19 11:33 ----        actionTextSize :: 12
+2019-01-19 11:33 ----        alignY :: 1
+2019-01-19 11:33 ----        overlayCopies :: table: 0x01aa637978c8
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        buttonColor :: table: 0x01aa63797230
+2019-01-19 11:33 ----        keyboardOverlay :: table: 0x01aa637963d8
+2019-01-19 11:33 ----        orIconSizeX :: 0.0078124999417923
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----        iconSizeX :: 0.015624999883585
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        glyphOffsetX :: 0.0010416666589056
+2019-01-19 11:33 ----mapLabelOffsetX :: 0
+2019-01-19 11:33 ----maxMapWidth :: 0.36770833333333
+2019-01-19 11:33 ----animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----    elapsedTime :: 0
+2019-01-19 11:33 ----    insertCallback :: function: 0x01aa4aa37af0
+2019-01-19 11:33 ----    callbacksCalled :: table: 0x01aa4aa379d0
+2019-01-19 11:33 ----    getFinished :: function: 0x01aa4aa37cb0
+2019-01-19 11:33 ----    insertInterval :: function: 0x01aa4aa37ac0
+2019-01-19 11:33 ----    addInterval :: function: 0x01aa4aa37588
+2019-01-19 11:33 ----    isFinished :: true
+2019-01-19 11:33 ----    isLooping :: false
+2019-01-19 11:33 ----    insertTween :: function: 0x01aa4aa37a90
+2019-01-19 11:33 ----    callbackStates :: table: 0x01aa4aa37988
+2019-01-19 11:33 ----    addCallback :: function: 0x01aa4aa37a60
+2019-01-19 11:33 ----    totalDuration :: 0
+2019-01-19 11:33 ----    callbackInstants :: table: 0x01aa4aa37510
+2019-01-19 11:33 ----    addTween :: function: 0x01aa4aa37558
+2019-01-19 11:33 ----    tweenUpdateRanges :: table: 0x01aa4aa37a18
+2019-01-19 11:33 ----mapLabelOffsetY :: 0.0027777777777778
+2019-01-19 11:33 ----worldSizeX :: 2048
+2019-01-19 11:33 ----toggleMapSizeGlyph :: table: 0x01aa63796348
+2019-01-19 11:33 ----    lowerCase :: false
+2019-01-19 11:33 ----    pivotX :: 0
+2019-01-19 11:33 ----    baseWidth :: 0.015624999883585
+2019-01-19 11:33 ----    inputDisplayManager :: table: 0x01aa4f18be78
+2019-01-19 11:33 ----        orOverlay :: table: 0x01aa4f1a5440
+2019-01-19 11:33 ----        actionList :: table: 0x01aa4f18bfd0
+2019-01-19 11:33 ----        axisIconOverlays :: table: 0x01aa4f1a25c8
+2019-01-19 11:33 ----        controllerSymbols :: table: 0x01aa4f1a23f8
+2019-01-19 11:33 ----        eventHelpElements :: table: 0x01aa4f3bca80
+2019-01-19 11:33 ----        plusOverlay :: table: 0x01aa4f1a3200
+2019-01-19 11:33 ----        inputManager :: table: 0x01aa4f03c070
+2019-01-19 11:33 ----        keyboardKeyOverlay :: table: 0x01aa4f25ced0
+2019-01-19 11:33 ----        eventComboButtons :: table: 0x01aa52987120
+2019-01-19 11:33 ----        isConsoleVersion :: false
+2019-01-19 11:33 ----        buttonIconSize :: 45
+2019-01-19 11:33 ----        uiScale :: 1
+2019-01-19 11:33 ----        modManager :: table: 0x01aa4ac5ffb8
+2019-01-19 11:33 ----        actionBindings :: table: 0x01aa4f1a1e38
+2019-01-19 11:33 ----    orIconSizeY :: 0.013888888888889
+2019-01-19 11:33 ----    parent :: table: 0x01aa63792b40
+2019-01-19 11:33 ----        playerMapArrowElement :: table: 0x01aa63798978
+2019-01-19 11:33 ----        playerMapArrowOverlay :: table: 0x01aa63797e80
+2019-01-19 11:33 ----        mapElement :: table: 0x01aa36174878
+2019-01-19 11:33 ----        mapFrameElement :: table: 0x01aa63793890
+2019-01-19 11:33 ----        toggleSizeGlyphOffsetX :: 0
+2019-01-19 11:33 ----        resizeTime :: 100
+2019-01-19 11:33 ----        mapArrowWidth :: 0.015624999883585
+2019-01-19 11:33 ----        coordOffsetY :: 0.0055555555555556
+2019-01-19 11:33 ----        mapOverlay :: table: 0x01aa361747a0
+2019-01-19 11:33 ----        defaultPivotX :: 0
+2019-01-19 11:33 ----        mapLabelText :: KARTE
+2019-01-19 11:33 ----        state :: 0
+2019-01-19 11:33 ----        worldCenterOffsetX :: 1024
+2019-01-19 11:33 ----        mapOffsetY :: 0.0037037037037037
+2019-01-19 11:33 ----        mapArrowRedOverlay :: table: 0x01aa63798f10
+2019-01-19 11:33 ----        isVisible :: true
+2019-01-19 11:33 ----        mapOffsetX :: 0.00052083332945282
+2019-01-19 11:33 ----        mapArrowYPos :: 0.11990740740741
+2019-01-19 11:33 ----        centerXPos :: 0.46875
+2019-01-19 11:33 ----        mapAspectRatio :: 1.2987012890252
+2019-01-19 11:33 ----        pivotY :: 0
+2019-01-19 11:33 ----        mapToFrameDiffX :: 0.0010416666589056
+2019-01-19 11:33 ----        mapArrowXPos :: 0.083854166041904
+2019-01-19 11:33 ----        maxIconZoom :: 1.4
+2019-01-19 11:33 ----        fontSize :: 0.014814814814815
+2019-01-19 11:33 ----        mapToFrameDiffY :: 0.0037037037037037
+2019-01-19 11:33 ----        pivotX :: 0
+2019-01-19 11:33 ----        mapWidth :: 0.15624999883585
+2019-01-19 11:33 ----        children :: table: 0x01aa63792b88
+2019-01-19 11:33 ----        mapLabelOffsetX :: 0
+2019-01-19 11:33 ----        maxMapWidth :: 0.36770833333333
+2019-01-19 11:33 ----        animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        mapLabelOffsetY :: 0.0027777777777778
+2019-01-19 11:33 ----        worldSizeX :: 2048
+2019-01-19 11:33 ----        toggleMapSizeGlyph :: table: 0x01aa63796348
+2019-01-19 11:33 ----        mapSizeY :: 0.21388888888889
+2019-01-19 11:33 ----        hotspots :: table: 0x01aa63793fc8
+2019-01-19 11:33 ----        mapLabelTextSize :: 0.018518518518519
+2019-01-19 11:33 ----        mapVisWidth :: 0.3
+2019-01-19 11:33 ----        toggleMapSizeEventId :: TOGGLE_MAP_SIZE|table: 0x01aa63792b40|1
+2019-01-19 11:33 ----        mapSizeX :: 0.15624999883585
+2019-01-19 11:33 ----        uiScale :: 1
+2019-01-19 11:33 ----        hotspots_sorted :: table: 0x01aa53901438
+2019-01-19 11:33 ----        mapAlpha :: 1
+2019-01-19 11:33 ----        normalizedPlayerPosZ :: 0.60791015625
+2019-01-19 11:33 ----        inputDisplayManager :: table: 0x01aa4f18be78
+2019-01-19 11:33 ----        playerNameOffsetY :: 0.0037037037037037
+2019-01-19 11:33 ----        allowToggle :: true
+2019-01-19 11:33 ----        filter :: table: 0x01aa63799120
+2019-01-19 11:33 ----        selectHotspotTextSize :: 0.014814814814815
+2019-01-19 11:33 ----        mapArrowHeight :: 0.027777777777778
+2019-01-19 11:33 ----        centerZPos :: 0.60791015625
+2019-01-19 11:33 ----        playerFontSize :: 0.011111111111111
+2019-01-19 11:33 ----        worldSizeZ :: 2048
+2019-01-19 11:33 ----        mapUVs :: table: 0x01aa63793f38
+2019-01-19 11:33 ----        mapVisWidthMin :: 0.3
+2019-01-19 11:33 ----        minMapHeight :: 0.21388888888889
+2019-01-19 11:33 ----        mapVisHeight :: 0.23100000172108
+2019-01-19 11:33 ----        overlay :: table: 0x01aa637928b0
+2019-01-19 11:33 ----        iconZoom :: 1.4
+2019-01-19 11:33 ----        selectHotspotText :: Auswählen
+2019-01-19 11:33 ----        playerNameOffsetX :: 0
+2019-01-19 11:33 ----        mapHeight :: 0.21388888888889
+2019-01-19 11:33 ----        coordOffsetX :: 0.0031249999767169
+2019-01-19 11:33 ----        minMapWidth :: 0.15624999883585
+2019-01-19 11:33 ----        playerRotation :: 1.1495902366155
+2019-01-19 11:33 ----        mapPosX :: 0.013541666565773
+2019-01-19 11:33 ----        mapPosY :: 0.026851851851852
+2019-01-19 11:33 ----        toggleSizeGlyphOffsetY :: 0.0027777777777778
+2019-01-19 11:33 ----        maxMapVisWidth :: 1
+2019-01-19 11:33 ----        maxMapHeight :: 0.6537037037037
+2019-01-19 11:33 ----        resizeDir :: 0
+2019-01-19 11:33 ----        worldCenterOffsetZ :: 1024
+2019-01-19 11:33 ----        normalizedPlayerPosX :: 0.46875
+2019-01-19 11:33 ----        defaultPivotY :: 0
+2019-01-19 11:33 ----        minMapVisWidth :: 0.3
+2019-01-19 11:33 ----    animation :: table: 0x01aa4aa374c8
+2019-01-19 11:33 ----        elapsedTime :: 0
+2019-01-19 11:33 ----        insertCallback :: function: 0x01aa4aa37af0
+2019-01-19 11:33 ----        callbacksCalled :: table: 0x01aa4aa379d0
+2019-01-19 11:33 ----        getFinished :: function: 0x01aa4aa37cb0
+2019-01-19 11:33 ----        insertInterval :: function: 0x01aa4aa37ac0
+2019-01-19 11:33 ----        addInterval :: function: 0x01aa4aa37588
+2019-01-19 11:33 ----        isFinished :: true
+2019-01-19 11:33 ----        isLooping :: false
+2019-01-19 11:33 ----        insertTween :: function: 0x01aa4aa37a90
+2019-01-19 11:33 ----        callbackStates :: table: 0x01aa4aa37988
+2019-01-19 11:33 ----        addCallback :: function: 0x01aa4aa37a60
+2019-01-19 11:33 ----        totalDuration :: 0
+2019-01-19 11:33 ----        callbackInstants :: table: 0x01aa4aa37510
+2019-01-19 11:33 ----        addTween :: function: 0x01aa4aa37558
+2019-01-19 11:33 ----        tweenUpdateRanges :: table: 0x01aa4aa37a18
+2019-01-19 11:33 ----    plusIconSizeX :: 0.0078124999417923
+2019-01-19 11:33 ----    textOffsetX :: 0.0020833333178113
+2019-01-19 11:33 ----    bold :: false
+2019-01-19 11:33 ----    actionNames :: table: 0x01aa637977a8
+2019-01-19 11:33 ----        1 :: TOGGLE_MAP_SIZE
+2019-01-19 11:33 ----    keyNames :: table: 0x01aa63797880
+2019-01-19 11:33 ----        TOGGLE_MAP_SIZE :: table: 0x01aa36305cf8
+2019-01-19 11:33 ----    alignX :: 1
+2019-01-19 11:33 ----    orOverlay :: table: 0x01aa4f1a5440
+2019-01-19 11:33 ----        filename :: dataS/menu/controllerSymbols2048.png
+2019-01-19 11:33 ----        x :: 0
+2019-01-19 11:33 ----        rotationCenterY :: 0
+2019-01-19 11:33 ----        y :: 0
+2019-01-19 11:33 ----        scaleWidth :: 1
+2019-01-19 11:33 ----        overlayId :: 206
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa4f1a5518
+2019-01-19 11:33 ----        defaultHeight :: 0.020833333333333
+2019-01-19 11:33 ----        alignmentVertical :: 2
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: -0.020833333333333
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 1
+2019-01-19 11:33 ----        b :: 1
+2019-01-19 11:33 ----        g :: 1
+2019-01-19 11:33 ----        invertX :: false
+2019-01-19 11:33 ----        r :: 1
+2019-01-19 11:33 ----        rotationCenterX :: 0
+2019-01-19 11:33 ----        rotation :: 0
+2019-01-19 11:33 ----        defaultWidth :: 0.011718749912689
+2019-01-19 11:33 ----        scaleHeight :: 1
+2019-01-19 11:33 ----        height :: 0.020833333333333
+2019-01-19 11:33 ----        width :: 0.011718749912689
+2019-01-19 11:33 ----    alignmentOffsetY :: 0
+2019-01-19 11:33 ----    color :: table: 0x01aa4aaef380
+2019-01-19 11:33 ----        1 :: 1
+2019-01-19 11:33 ----        2 :: 1
+2019-01-19 11:33 ----        3 :: 1
+2019-01-19 11:33 ----        4 :: 1
+2019-01-19 11:33 ----    plusOverlay :: table: 0x01aa4f1a3200
+2019-01-19 11:33 ----        filename :: dataS/menu/controllerSymbols2048.png
+2019-01-19 11:33 ----        x :: 0
+2019-01-19 11:33 ----        rotationCenterY :: 0
+2019-01-19 11:33 ----        y :: 0
+2019-01-19 11:33 ----        scaleWidth :: 1
+2019-01-19 11:33 ----        overlayId :: 205
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa4f1a3170
+2019-01-19 11:33 ----        defaultHeight :: 0.020833333333333
+2019-01-19 11:33 ----        alignmentVertical :: 2
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: -0.020833333333333
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 1
+2019-01-19 11:33 ----        b :: 1
+2019-01-19 11:33 ----        g :: 1
+2019-01-19 11:33 ----        invertX :: false
+2019-01-19 11:33 ----        r :: 1
+2019-01-19 11:33 ----        rotationCenterX :: 0
+2019-01-19 11:33 ----        rotation :: 0
+2019-01-19 11:33 ----        defaultWidth :: 0.011718749912689
+2019-01-19 11:33 ----        scaleHeight :: 1
+2019-01-19 11:33 ----        height :: 0.020833333333333
+2019-01-19 11:33 ----        width :: 0.011718749912689
+2019-01-19 11:33 ----    buttonOverlays :: table: 0x01aa637977f0
+2019-01-19 11:33 ----    baseHeight :: 0.027777777777778
+2019-01-19 11:33 ----    overlay :: table: 0x01aa63796270
+2019-01-19 11:33 ----        x :: 0.15468749873107
+2019-01-19 11:33 ----        rotationCenterY :: 0
+2019-01-19 11:33 ----        y :: 0.24351851851852
+2019-01-19 11:33 ----        scaleWidth :: 1
+2019-01-19 11:33 ----        overlayId :: 0
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa637962b8
+2019-01-19 11:33 ----        defaultHeight :: 0.027777777777778
+2019-01-19 11:33 ----        alignmentVertical :: 1
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: 0
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 1
+2019-01-19 11:33 ----        rotationCenterX :: 0
+2019-01-19 11:33 ----        rotation :: 0
+2019-01-19 11:33 ----        width :: 0.015625
+2019-01-19 11:33 ----        zMapPos :: -56.866100311279
+2019-01-19 11:33 ----    65 :: table: 0x01aa639bd700
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa639d2900
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.30644479960368
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.61635695932388
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: 780.5419921875
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa638a1f68
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa639cfd30
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa6db3b180
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 4
+2019-01-19 11:33 ----        zMapPos :: -846.34698486328
+2019-01-19 11:33 ----    66 :: table: 0x01aa53152708
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa51f69b20
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.12651412936041
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.28006275107209
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: 73.025802612305
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa52f32e20
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa52f59660
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa5253ec48
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 11
+2019-01-19 11:33 ----        zMapPos :: -102.5179977417
+2019-01-19 11:33 ----    67 :: table: 0x01aa52b079d0
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa526da980
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.22520293984411
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.1048706039182
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: 461.08599853516
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa5486f268
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa636ea490
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa2df21178
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 30
+2019-01-19 11:33 ----        zMapPos :: 284.97900390625
+2019-01-19 11:33 ----    68 :: table: 0x01aa638f6bb8
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa52e960a8
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.022574359258704
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.096228937698271
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: -335.68200683594
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa5258ff30
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa53b5cbf0
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa633534e8
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 26
+2019-01-19 11:33 ----        zMapPos :: 304.09298706055
+2019-01-19 11:33 ----    69 :: table: 0x01aa635ff768
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa63ab7c40
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: -0.010166425306352
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.4198924906484
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: -464.42401123047
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa51eb0728
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa63a058c0
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa52f46358
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 6
+2019-01-19 11:33 ----        zMapPos :: -411.79901123047
+2019-01-19 11:33 ----    70 :: table: 0x01aa5222f7b0
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa53aea9c8
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.13520380547429
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.15455277204502
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: 107.19499969482
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa53b68a98
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa53ddfa90
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa63352410
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 21
+2019-01-19 11:33 ----        zMapPos :: 175.08999633789
+2019-01-19 11:33 ----    71 :: table: 0x01aa5277d7d0
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa53a2bd10
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: -0.056520336321093
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.14759069433575
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: -646.69500732422
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa548e16d8
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa548396f0
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa2def65f0
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 16
+2019-01-19 11:33 ----        zMapPos :: 190.48899841309
+2019-01-19 11:33 ----    72 :: table: 0x01aa6378d948
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa638337d0
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.17734476437908
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.58849962500593
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: 272.89999389648
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa53e68768
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa637d33f0
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa52a50478
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 2
+2019-01-19 11:33 ----        zMapPos :: -784.73101806641
+2019-01-19 11:33 ----    73 :: table: 0x01aa6351d8c8
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 1
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa51d12ab8
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.0064814814814815
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.12841122761
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.057349987180159
+2019-01-19 11:33 ----        showName :: true
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa4a9e6240
+2019-01-19 11:33 ----        name :: field
+2019-01-19 11:33 ----        xMapPos :: 80.485496520996
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa52b03018
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        verticalAlignment :: 3
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa53b85920
+2019-01-19 11:33 ----        category :: 1
+2019-01-19 11:33 ----        textColor :: table: 0x01aa2df168b0
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: 29
+2019-01-19 11:33 ----        zMapPos :: 390.08700561523
+2019-01-19 11:33 ----    74 :: table: 0x01aa527e5fb8
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 0.7
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa51967950
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0.00092592592592593
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0.016666666666667
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: -0.042306721689999
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.033063513395076
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        category :: 0
+2019-01-19 11:33 ----        bgImageFilename :: dataS2/menu/hud/mapHotspots_512.png
+2019-01-19 11:33 ----        verticalAlignment :: 2
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0.0093749999301508
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa5415ccf0
+2019-01-19 11:33 ----        name :: livestockDealer
+2019-01-19 11:33 ----        xMapPos :: -565
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa4f064a88
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa5264a470
+2019-01-19 11:33 ----        bgImageUVs :: table: 0x01aa4f1903d0
+2019-01-19 11:33 ----        textColor :: table: 0x01aa52b03428
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: Viehhändler
+2019-01-19 11:33 ----        zMapPos :: 418
+2019-01-19 11:33 ----    75 :: table: 0x01aa716eb1d8
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 0.7
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa716eb9e0
+2019-01-19 11:33 ----        objectId :: 123651
+2019-01-19 11:33 ----        ownerFarmId :: 1
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0.016666666666667
+2019-01-19 11:33 ----        showNameDefault :: false
+2019-01-19 11:33 ----        x :: 0.08521316375735
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.12203351024196
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        category :: 0
+2019-01-19 11:33 ----        bgImageFilename :: dataS2/menu/hud/mapHotspots_512.png
+2019-01-19 11:33 ----        verticalAlignment :: 2
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0.0093749999301508
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa716ed0f8
+2019-01-19 11:33 ----        name :: Farm house
+2019-01-19 11:33 ----        xMapPos :: -63.571403503418
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa716ed1d0
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa716ec160
+2019-01-19 11:33 ----        bgImageUVs :: table: 0x01aa716ee8b0
+2019-01-19 11:33 ----        textColor :: table: 0x01aa716eb220
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: Farmhaus
+2019-01-19 11:33 ----        zMapPos :: 221.21260070801
+2019-01-19 11:33 ----    76 :: table: 0x01aa36175248
+2019-01-19 11:33 ----        active :: true
+2019-01-19 11:33 ----        iconScale :: 0.7
+2019-01-19 11:33 ----        persistent :: false
+2019-01-19 11:33 ----        overlayBg :: table: 0x01aa3617a090
+2019-01-19 11:33 ----        ownerFarmId :: 0
+2019-01-19 11:33 ----        textOffsetX :: 0
+2019-01-19 11:33 ----        textAlignment :: 1
+2019-01-19 11:33 ----        textOffsetY :: 0
+2019-01-19 11:33 ----        renderLast :: false
+2019-01-19 11:33 ----        height :: 0.016666666666667
+2019-01-19 11:33 ----        showNameDefault :: true
+2019-01-19 11:33 ----        x :: 0.17182494989168
+2019-01-19 11:33 ----        blinking :: false
+2019-01-19 11:33 ----        y :: 0.014526910523925
+2019-01-19 11:33 ----        bgImageColor :: table: 0x01aa4aaaa3f0
+2019-01-19 11:33 ----        hasDetails :: true
+2019-01-19 11:33 ----        category :: 0
+2019-01-19 11:33 ----        bgImageFilename :: dataS2/menu/hud/mapHotspots_512.png
+2019-01-19 11:33 ----        verticalAlignment :: 2
+2019-01-19 11:33 ----        zoom :: 1.4
+2019-01-19 11:33 ----        width :: 0.0093749999301508
+2019-01-19 11:33 ----        imageUVs :: table: 0x01aa36174f28
+2019-01-19 11:33 ----        name :: Shop
+2019-01-19 11:33 ----        xMapPos :: 277
+2019-01-19 11:33 ----        visible :: false
+2019-01-19 11:33 ----        enabled :: true
+2019-01-19 11:33 ----        baseColor :: table: 0x01aa36176ca0
+2019-01-19 11:33 ----        textBold :: false
+2019-01-19 11:33 ----        textSize :: 0.011111111111111
+2019-01-19 11:33 ----        overlays :: table: 0x01aa36178970
+2019-01-19 11:33 ----        bgImageUVs :: table: 0x01aa36177f68
+2019-01-19 11:33 ----        textColor :: table: 0x01aa36175290
+2019-01-19 11:33 ----        defaultTextSize :: 0.011111111111111
+2019-01-19 11:33 ----        fullViewName :: Shop
+2019-01-19 11:33 ----        zMapPos :: 459
+2019-01-19 11:33 ----mapLabelTextSize :: 0.018518518518519
+2019-01-19 11:33 ----mapVisWidth :: 0.3
+2019-01-19 11:33 ----toggleMapSizeEventId :: TOGGLE_MAP_SIZE|table: 0x01aa63792b40|1
+2019-01-19 11:33 ----mapSizeX :: 0.15624999883585
+2019-01-19 11:33 ----uiScale :: 1
+2019-01-19 11:33 ----hotspots_sorted :: table: 0x01aa53901438
+2019-01-19 11:33 ----    false :: table: 0x01aa638b4130
+2019-01-19 11:33 ----        1 :: table: 0x01aa4f1be458
+2019-01-19 11:33 ----        2 :: table: 0x01aa633ef388
+2019-01-19 11:33 ----        3 :: table: 0x01aa6daf66a8
+2019-01-19 11:33 ----        4 :: table: 0x01aa51e9e3d0
+2019-01-19 11:33 ----        5 :: table: 0x01aa5293b230
+2019-01-19 11:33 ----        6 :: table: 0x01aa5374b948
+2019-01-19 11:33 ----        7 :: table: 0x01aa533cc4a8
+2019-01-19 11:33 ----        8 :: table: 0x01aa30767e50
+2019-01-19 11:33 ----        9 :: table: 0x01aa635ab8c8
+2019-01-19 11:33 ----        10 :: table: 0x01aa6e34ab40
+2019-01-19 11:33 ----        11 :: table: 0x01aa6db29998
+2019-01-19 11:33 ----        12 :: table: 0x01aa6e2f7010
+2019-01-19 11:33 ----        13 :: table: 0x01aa5211ceb8
+2019-01-19 11:33 ----        14 :: table: 0x01aa63631d58
+2019-01-19 11:33 ----        15 :: table: 0x01aa6350be78
+2019-01-19 11:33 ----        16 :: table: 0x01aa363279c0
+2019-01-19 11:33 ----        17 :: table: 0x01aa360df250
+2019-01-19 11:33 ----        18 :: table: 0x01aa6343c6a0
+2019-01-19 11:33 ----        19 :: table: 0x01aa6370aa58
+2019-01-19 11:33 ----        20 :: table: 0x01aa638174e8
+2019-01-19 11:33 ----        21 :: table: 0x01aa635d9780
+2019-01-19 11:33 ----        22 :: table: 0x01aa63544138
+2019-01-19 11:33 ----        23 :: table: 0x01aa2de77ce0
+2019-01-19 11:33 ----        24 :: table: 0x01aa7169cb08
+2019-01-19 11:33 ----        25 :: table: 0x01aa63a23bb0
+2019-01-19 11:33 ----        26 :: table: 0x01aa6334a4d8
+2019-01-19 11:33 ----        27 :: table: 0x01aa716c95e8
+2019-01-19 11:33 ----        28 :: table: 0x01aa716febb8
+2019-01-19 11:33 ----        29 :: table: 0x01aa633e6bb8
+2019-01-19 11:33 ----        30 :: table: 0x01aa716a1708
+2019-01-19 11:33 ----        31 :: table: 0x01aa716b2638
+2019-01-19 11:33 ----        32 :: table: 0x01aa538bd170
+2019-01-19 11:33 ----        33 :: table: 0x01aa63abd4d0
+2019-01-19 11:33 ----        34 :: table: 0x01aa63ac0168
+2019-01-19 11:33 ----        35 :: table: 0x01aa716bb9c0
+2019-01-19 11:33 ----        36 :: table: 0x01aa716d1dc0
+2019-01-19 11:33 ----        37 :: table: 0x01aa306dd588
+2019-01-19 11:33 ----        38 :: table: 0x01aa53928488
+2019-01-19 11:33 ----        39 :: table: 0x01aa521c39d8
+2019-01-19 11:33 ----        40 :: table: 0x01aa2df17b48
+2019-01-19 11:33 ----        41 :: table: 0x01aa5323be08
+2019-01-19 11:33 ----        42 :: table: 0x01aa63789918
+2019-01-19 11:33 ----        43 :: table: 0x01aa530e6150
+2019-01-19 11:33 ----        44 :: table: 0x01aa6391a168
+2019-01-19 11:33 ----        45 :: table: 0x01aa547dbce0
+2019-01-19 11:33 ----        46 :: table: 0x01aa532577f0
+2019-01-19 11:33 ----        47 :: table: 0x01aa63a2a760
+2019-01-19 11:33 ----        48 :: table: 0x01aa53990020
+2019-01-19 11:33 ----        49 :: table: 0x01aa6345a580
+2019-01-19 11:33 ----        50 :: table: 0x01aa5352d270
+2019-01-19 11:33 ----        51 :: table: 0x01aa517e3578
+2019-01-19 11:33 ----        52 :: table: 0x01aa639b5f98
+2019-01-19 11:33 ----        53 :: table: 0x01aa52504f08
+2019-01-19 11:33 ----        54 :: table: 0x01aa53490868
+2019-01-19 11:33 ----        55 :: table: 0x01aa52a3d9f0
+2019-01-19 11:33 ----        56 :: table: 0x01aa54590bf0
+2019-01-19 11:33 ----        57 :: table: 0x01aa63a1d788
+2019-01-19 11:33 ----        58 :: table: 0x01aa63954878
+2019-01-19 11:33 ----        59 :: table: 0x01aa51994be8
+2019-01-19 11:33 ----        60 :: table: 0x01aa528e47a8
+2019-01-19 11:33 ----        61 :: table: 0x01aa53c5c560
+2019-01-19 11:33 ----        62 :: table: 0x01aa4f5157a0
+2019-01-19 11:33 ----        63 :: table: 0x01aa63a89e90
+2019-01-19 11:33 ----        64 :: table: 0x01aa63a03db0
+2019-01-19 11:33 ----        65 :: table: 0x01aa639bd700
+2019-01-19 11:33 ----        66 :: table: 0x01aa53152708
+2019-01-19 11:33 ----        67 :: table: 0x01aa52b079d0
+2019-01-19 11:33 ----        68 :: table: 0x01aa638f6bb8
+2019-01-19 11:33 ----        69 :: table: 0x01aa635ff768
+2019-01-19 11:33 ----        70 :: table: 0x01aa5222f7b0
+2019-01-19 11:33 ----        71 :: table: 0x01aa5277d7d0
+2019-01-19 11:33 ----        72 :: table: 0x01aa6378d948
+2019-01-19 11:33 ----        73 :: table: 0x01aa6351d8c8
+2019-01-19 11:33 ----        74 :: table: 0x01aa527e5fb8
+2019-01-19 11:33 ----        75 :: table: 0x01aa716eb1d8
+2019-01-19 11:33 ----        76 :: table: 0x01aa36175248
+2019-01-19 11:33 ----    true :: table: 0x01aa52ea3a98
+2019-01-19 11:33 ----mapAlpha :: 1
+2019-01-19 11:33 ----normalizedPlayerPosZ :: 0.60791015625
+2019-01-19 11:33 ----inputDisplayManager :: table: 0x01aa4f18be78
+2019-01-19 11:33 ----    orOverlay :: table: 0x01aa4f1a5440
+2019-01-19 11:33 ----        filename :: dataS/menu/controllerSymbols2048.png
+2019-01-19 11:33 ----        x :: 0
+2019-01-19 11:33 ----        rotationCenterY :: 0
+2019-01-19 11:33 ----        y :: 0
+2019-01-19 11:33 ----        scaleWidth :: 1
+2019-01-19 11:33 ----        overlayId :: 206
+2019-01-19 11:33 ----        offsetX :: 0
+2019-01-19 11:33 ----        uvs :: table: 0x01aa4f1a5518
+2019-01-19 11:33 ----        defaultHeight :: 0.020833333333333
+2019-01-19 11:33 ----        alignmentVertical :: 2
+2019-01-19 11:33 ----        alignmentHorizontal :: 4
+2019-01-19 11:33 ----        debugEnabled :: false
+2019-01-19 11:33 ----        offsetY :: -0.020833333333333
+2019-01-19 11:33 ----        visible :: true
+2019-01-19 11:33 ----        a :: 1
+2019-01-19 11:33 ----        b :: 1
+2019-01-19 11:33 ----        g :: 1
+2019-01-19 11:33 ----        invertX :: false
+2019-01-19 11:33 ----        r :: 1
+2019-01-19 11:33 ----        rotationCenterX :: 0
+2019-01-19 11:33 ----        rotation :: 0
+2019-01-19 11:33 ----        defaultWidth :: 0.011718749912689
+2019-01-19 11:33 ----        scaleHeight :: 1
+2019-01-19 11:33 ----        height :: 0.020833333333333
+2019-01-19 11:33 ----        width :: 0.011718749912689
+2019-01-19 11:33 ----    actionList :: table: 0x01aa4f18bfd0
+2019-01-19 11:33 ----        1 :: [JUMP: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        2 :: [ACTIVATE_HANDTOOL: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        3 :: [ROTATE_OBJECT_LEFT_RIGHT: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        4 :: [ROTATE_OBJECT_UP_DOWN: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        5 :: [INTERACT: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        6 :: [THROW_OBJECT: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        7 :: [ENTER: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        8 :: [CROUCH: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        9 :: [TOGGLE_LIGHTS_FPS: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        10 :: [CAMERA_SWITCH: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        11 :: [ACTIVATE_OBJECT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        12 :: [PAUSE: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        13 :: [SKIP_MESSAGE_BOX: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        14 :: [CAMERA_ZOOM_IN: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        15 :: [CAMERA_ZOOM_OUT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        16 :: [SWITCH_VEHICLE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        17 :: [SWITCH_VEHICLE_BACK: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        18 :: [MENU: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        19 :: [TOGGLE_STORE: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        20 :: [ATTACH: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        21 :: [SWITCH_IMPLEMENT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        22 :: [TOGGLE_AI: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        23 :: [HONK: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        24 :: [TOGGLE_MOTOR_STATE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        25 :: [SHIFT_GEAR_UP: category=3, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        26 :: [SHIFT_GEAR_DOWN: category=3, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        27 :: [TOGGLE_TIPSTATE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        28 :: [TOGGLE_LIGHTS: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        29 :: [TOGGLE_BEACON_LIGHTS: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        30 :: [TOGGLE_TIPSIDE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        31 :: [TOGGLE_TURNLIGHT_LEFT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        32 :: [TOGGLE_TURNLIGHT_RIGHT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        33 :: [TOGGLE_CRABSTEERING: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        34 :: [TOGGLE_WORKMODE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        35 :: [TOGGLE_TENSION_BELTS: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        36 :: [LOWER_IMPLEMENT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        37 :: [IMPLEMENT_EXTRA: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        38 :: [IMPLEMENT_EXTRA2: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        39 :: [IMPLEMENT_EXTRA3: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        40 :: [IMPLEMENT_EXTRA4: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        41 :: [TOGGLE_PIPE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        42 :: [TOGGLE_COVER: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        43 :: [TOGGLE_CHOPPER: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        44 :: [TOGGLE_MAP_SIZE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        45 :: [TOGGLE_CONTROLGROUP: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        46 :: [CHANGE_DRIVING_DIRECTION: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        47 :: [TOGGLE_TIPSTATE_GROUND: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        48 :: [TOGGLE_CRUISE_CONTROL: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        49 :: [RADIO_TOGGLE: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        50 :: [RADIO_NEXT_CHANNEL: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        51 :: [RADIO_PREVIOUS_CHANNEL: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        52 :: [RADIO_NEXT_ITEM: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        53 :: [RADIO_PREVIOUS_ITEM: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        54 :: [INGAMEMAP_ACCEPT: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        55 :: [MENU_ACTIVATE: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        56 :: [MENU_ACCEPT: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        57 :: [MENU_CANCEL: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        58 :: [MENU_BACK: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        59 :: [MENU_EXTRA_1: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        60 :: [MENU_EXTRA_2: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        61 :: [MENU_PAGE_PREV: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        62 :: [MENU_PAGE_NEXT: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        63 :: [TAKE_SCREENSHOT: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        64 :: [CHAT: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        65 :: [TOGGLE_TURNLIGHT_HAZARD: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        66 :: [TOGGLE_WORK_LIGHT_BACK: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        67 :: [TOGGLE_WORK_LIGHT_FRONT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        68 :: [TOGGLE_HIGH_BEAM_LIGHT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        69 :: [TOGGLE_LIGHT_FRONT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        70 :: [LOWER_ALL_IMPLEMENTS: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        71 :: [TOGGLE_HELP_TEXT: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        72 :: [INCREASE_TIMESCALE: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        73 :: [DECREASE_TIMESCALE: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        74 :: [CRABSTEERING_ALLWHEEL: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        75 :: [CRABSTEERING_CRABLEFT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        76 :: [CRABSTEERING_CRABRIGHT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        77 :: [WORKMODE_MIDDLE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        78 :: [WORKMODE_LEFT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        79 :: [WORKMODE_RIGHT: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        80 :: [RESET_HEAD_TRACKING: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        81 :: [SNAP_PLACEABLE: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        82 :: [UNLOAD: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        83 :: [MENU_AXIS_UP_DOWN: category=1, axisType=FULL, isLocked=true]
+2019-01-19 11:33 ----        84 :: [MENU_AXIS_LEFT_RIGHT: category=1, axisType=FULL, isLocked=true]
+2019-01-19 11:33 ----        85 :: [AXIS_RUN: category=2, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        86 :: [AXIS_PLACEMENT_ROTATE_CAMERA: category=1, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        87 :: [AXIS_PLACEMENT_ROTATE_OBJECT: category=1, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        88 :: [AXIS_PLACEMENT_CHANGE_HEIGHT: category=1, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        89 :: [AXIS_MOVE_FORWARD_PLAYER: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        90 :: [AXIS_MOVE_SIDE_PLAYER: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        91 :: [AXIS_LOOK_UPDOWN_PLAYER: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        92 :: [AXIS_LOOK_LEFTRIGHT_PLAYER: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        93 :: [AXIS_ROTATE_HANDTOOL: category=2, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        94 :: [AXIS_DOOR: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        95 :: [AXIS_DOOR_2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        96 :: [AXIS_DOOR_3: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        97 :: [AXIS_BRAKE_VEHICLE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        98 :: [AXIS_ACCELERATE_VEHICLE: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        99 :: [AXIS_MOVE_SIDE_VEHICLE: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        100 :: [AXIS_LOOK_UPDOWN_VEHICLE: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        101 :: [AXIS_LOOK_LEFTRIGHT_VEHICLE: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        102 :: [AXIS_HYDRAULICATTACHER1: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        103 :: [AXIS_HYDRAULICATTACHER2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        104 :: [AXIS_FRONTLOADER_ARM: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        105 :: [AXIS_FRONTLOADER_ARM2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        106 :: [AXIS_FRONTLOADER_TOOL: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        107 :: [AXIS_FRONTLOADER_TOOL2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        108 :: [AXIS_FRONTLOADER_TOOL3: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        109 :: [AXIS_FRONTLOADER_TOOL4: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        110 :: [AXIS_FRONTLOADER_TOOL5: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        111 :: [AXIS_CRANE_ARM: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        112 :: [AXIS_CRANE_ARM2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        113 :: [AXIS_CRANE_ARM3: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        114 :: [AXIS_CRANE_ARM4: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        115 :: [AXIS_CRANE_TOOL: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        116 :: [AXIS_CRANE_TOOL2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        117 :: [AXIS_CRANE_TOOL3: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        118 :: [AXIS_CRANE_SUPPORT: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        119 :: [AXIS_CUTTER_REEL: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        120 :: [AXIS_CUTTER_REEL2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        121 :: [AXIS_PIPE: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        122 :: [AXIS_PIPE2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        123 :: [AXIS_DRAWBAR: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        124 :: [AXIS_DRAWBAR2: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        125 :: [AXIS_SPRAYER_ARM: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        126 :: [AXIS_WHEEL_BASE: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        127 :: [AXIS_CRUISE_CONTROL: category=3, axisType=FULL, isLocked=false]
+2019-01-19 11:33 ----        128 :: [NEXT_HANDTOOL: category=2, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        129 :: [PREVIOUS_HANDTOOL: category=2, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        130 :: [DEBUG_PLAYER_UP_DOWN: category=1, axisType=FULL, isLocked=true]
+2019-01-19 11:33 ----        131 :: [DEBUG_PLAYER_ENABLE: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        132 :: [CONSOLE_ALT_COMMAND_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        133 :: [CONSOLE_ALT_COMMAND2_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        134 :: [CONSOLE_ALT_COMMAND3_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        135 :: [CONSOLE_DEBUG_TOGGLE_FPS: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        136 :: [CONSOLE_DEBUG_TOGGLE_STATS: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        137 :: [CONSOLE_DEBUG_FILLUNIT_NEXT: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        138 :: [CONSOLE_DEBUG_FILLUNIT_INC: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        139 :: [CONSOLE_DEBUG_FILLUNIT_DEC: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        140 :: [MOUSE_ALT_COMMAND_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        141 :: [MOUSE_ALT_COMMAND2_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        142 :: [MOUSE_ALT_COMMAND3_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        143 :: [MOUSE_ALT_COMMAND4_BUTTON: category=1, axisType=HALF, isLocked=true]
+2019-01-19 11:33 ----        144 :: [AXIS_LOOK_LEFTRIGHT_DRAG: category=1, axisType=FULL, isLocked=true]
+2019-01-19 11:33 ----        145 :: [AXIS_LOOK_UPDOWN_DRAG: category=1, axisType=FULL, isLocked=true]
+2019-01-19 11:33 ----        146 :: [FrontLoaderCam_Toggle: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        147 :: [FrontLoaderCam_MoveCam: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        148 :: [RealisticSteering_Toggle: category=3, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        149 :: [RealisticSteering_Settings: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----        150 :: [StoryMode_Settings: category=1, axisType=HALF, isLocked=false]
+2019-01-19 11:33 ----    axisIconOverlays :: table: 0x01aa4f1a25c8
+2019-01-19 11:33 ----        PIPE_ROTATE_Y :: table: 0x01aa4f263b20
+2019-01-19 11:33 ----        CRANE_ARM1_ROTATE_Y :: table: 0x01aa4f25ea98
+2019-01-19 11:33 ----        GRABBER_ROTATE_Y :: table: 0x01aa4f2622c0
+2019-01-19 11:33 ----        CRANE_ARM1_ROTATE_X :: table: 0x01aa4f25e780
+2019-01-19 11:33 ----        REEL_TRANSLATE_Y :: table: 0x01aa4f264748
+2019-01-19 11:33 ----        IMPLEMENT_ATTACHER_ROTX :: table: 0x01aa4f2628e8
+2019-01-19 11:33 ----        GRABBER_OPEN_CLOSE :: table: 0x01aa4f262000
+2019-01-19 11:33 ----        FRONTLOADER_ARM_ROTATE :: table: 0x01aa4f260fc0
+2019-01-19 11:33 ----        FRONTLOADER_ARM_ROTATE_TOOL :: table: 0x01aa4f2615e0
+2019-01-19 11:33 ----        SEAT_ROT_Y :: table: 0x01aa4f268b90
+2019-01-19 11:33 ----        CRANE_EC_TRANSLATE_Y :: table: 0x01aa4f267348
+2019-01-19 11:33 ----        REEL_TRANSLATE_X :: table: 0x01aa4f264130
+2019-01-19 11:33 ----        BEET_PICKUP_TRANS_Y :: table: 0x01aa4f268588
+2019-01-19 11:33 ----        TOP_DOOR_ROTATE :: table: 0x01aa4f266108
+2019-01-19 11:33 ----        CRANE_EC_TRANSLATE_Z :: table: 0x01aa4f267950
+2019-01-19 11:33 ----        WORKING_WIDTH_TRANSLATE_X :: table: 0x01aa4f266d40
+2019-01-19 11:33 ----        SUPPORT_ARM_TRANSLATE_Y :: table: 0x01aa4f2654f0
+2019-01-19 11:33 ----        WHEEL_BASE_TRANSLATE_X :: table: 0x01aa4f266720
+2019-01-19 11:33 ----        CRANE_ARM1_TRANSLATE :: table: 0x01aa4f25f0b0
+2019-01-19 11:33 ----        SPRAYER_ARM_TRANSLATE_Y :: table: 0x01aa4f264c10
+2019-01-19 11:33 ----        BEET_PICKUP_TRANS_X :: table: 0x01aa4f267f70
+2019-01-19 11:33 ----        IMPLEMENT_ATTACHER_TRANS :: table: 0x01aa4f262ef8
+2019-01-19 11:33 ----        TOOL_OPEN_CLOSE :: table: 0x01aa4f265b08
+2019-01-19 11:33 ----        DRAWBAR_ROTATE_X :: table: 0x01aa4f260988
+2019-01-19 11:33 ----        CRANE_ARM2_TRANSLATE :: table: 0x01aa4f25fd50
+2019-01-19 11:33 ----        PIPE_END_ROTATE :: table: 0x01aa4f263510
+2019-01-19 11:33 ----        CRANE_ARM2_ROTATE_X :: table: 0x01aa4f25f6e8
+2019-01-19 11:33 ----        CRANE_ARM2_ROTATE_TOOL :: table: 0x01aa4f25fd08
+2019-01-19 11:33 ----    controllerSymbols :: table: 0x01aa4f1a23f8
+2019-01-19 11:33 ----        4 :: table: 0x01aa4f1a8bd0
+2019-01-19 11:33 ----        xbox_DP-Rightxbox_DP-Left :: table: 0x01aa4f2178c8
+2019-01-19 11:33 ----        10 :: table: 0x01aa4f1ae590
+2019-01-19 11:33 ----        S3-XS3-Y :: table: 0x01aa4f1d8bb0
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_MIDDLEmouse_AxisX :: table: 0x01aa4f24f438
+2019-01-19 11:33 ----        22 :: table: 0x01aa4f1baad0
+2019-01-19 11:33 ----        L3 :: table: 0x01aa4f202b48
+2019-01-19 11:33 ----        ps_RS-Xps_RS-Y :: table: 0x01aa4f23cfa8
+2019-01-19 11:33 ----        12 :: table: 0x01aa4f1b0630
+2019-01-19 11:33 ----        DP-UpDP-Down :: table: 0x01aa4f1e7080
+2019-01-19 11:33 ----        ps_LS-Y :: table: 0x01aa4f23afc0
+2019-01-19 11:33 ----        ps_LS-Xps_LS-Y :: table: 0x01aa4f239008
+2019-01-19 11:33 ----        ps_DP-Down :: table: 0x01aa4f22e178
+2019-01-19 11:33 ----        14 :: table: 0x01aa4f1b26d0
+2019-01-19 11:33 ----        8 :: table: 0x01aa4f1ac4f0
+2019-01-19 11:33 ----        CLT :: table: 0x01aa4f2099c0
+2019-01-19 11:33 ----        DP-Down :: table: 0x01aa4f1e5078
+2019-01-19 11:33 ----        24 :: table: 0x01aa4f1bcae0
+2019-01-19 11:33 ----        6 :: table: 0x01aa4f1aa650
+2019-01-19 11:33 ----        16 :: table: 0x01aa4f1b48f0
+2019-01-19 11:33 ----        26 :: table: 0x01aa4f1beaa0
+2019-01-19 11:33 ----        S3-X :: table: 0x01aa4f1d9b50
+2019-01-19 11:33 ----        Options :: table: 0x01aa4f204ac8
+2019-01-19 11:33 ----        S3-Y :: table: 0x01aa4f1daaf0
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFT :: table: 0x01aa4f247010
+2019-01-19 11:33 ----        S3-Z :: table: 0x01aa4f1dbad0
+2019-01-19 11:33 ----        RS-X :: table: 0x01aa4f1f6e48
+2019-01-19 11:33 ----        28 :: table: 0x01aa4f1c0a60
+2019-01-19 11:33 ----        ps_Circle :: table: 0x01aa4f228168
+2019-01-19 11:33 ----        18 :: table: 0x01aa4f1b6990
+2019-01-19 11:33 ----        RS-Y :: table: 0x01aa4f1f7e08
+2019-01-19 11:33 ----        S4-XS4-Y :: table: 0x01aa4f1ddae8
+2019-01-19 11:33 ----        LS :: table: 0x01aa4f1f0e68
+2019-01-19 11:33 ----        xbox_DP-Down :: table: 0x01aa4f2148c8
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_MOUSE_BUTTON_MIDDLEmouse_AxisX :: table: 0x01aa4f249240
+2019-01-19 11:33 ----        ps_DP-Upps_DP-Rightps_DP-Downps_DP-Left :: table: 0x01aa4f22b1c0
+2019-01-19 11:33 ----        mouse_AxisX :: table: 0x01aa4f243f80
+2019-01-19 11:33 ----        LS-X :: table: 0x01aa4f1f2e98
+2019-01-19 11:33 ----        xbox_Start :: table: 0x01aa4f21d778
+2019-01-19 11:33 ----        xbox_A :: table: 0x01aa4f20d8e0
+2019-01-19 11:33 ----        xbox_B :: table: 0x01aa4f20e8a8
+2019-01-19 11:33 ----        mouse_AxisY :: table: 0x01aa4f242fb8
+2019-01-19 11:33 ----        LB :: table: 0x01aa4f1ecf68
+2019-01-19 11:33 ----        Triangle :: table: 0x01aa4f1fdc88
+2019-01-19 11:33 ----        Axis3 :: table: 0x01aa4f1c5d88
+2019-01-19 11:33 ----        Axis3Axis4 :: table: 0x01aa4f1c4dc8
+2019-01-19 11:33 ----        R2 :: table: 0x01aa4f201b88
+2019-01-19 11:33 ----        LS-XLS-Y :: table: 0x01aa4f1f1ed8
+2019-01-19 11:33 ----        xbox_X :: table: 0x01aa4f20f870
+2019-01-19 11:33 ----        S2-X :: table: 0x01aa4f1d4c18
+2019-01-19 11:33 ----        ps_DP-Rightps_DP-Left :: table: 0x01aa4f231170
+2019-01-19 11:33 ----        xbox_DP-Up :: table: 0x01aa4f2128d8
+2019-01-19 11:33 ----        xbox_RS :: table: 0x01aa4f222678
+2019-01-19 11:33 ----        1 :: table: 0x01aa4f1a6380
+2019-01-19 11:33 ----        S2-Y :: table: 0x01aa4f1d5bb8
+2019-01-19 11:33 ----        S2-Z :: table: 0x01aa4f1d6b98
+2019-01-19 11:33 ----        3 :: table: 0x01aa4f1a7e48
+2019-01-19 11:33 ----        xbox_RS-Xxbox_RS-Y :: table: 0x01aa4f223678
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_MOUSE_BUTTON_MIDDLEmouse_AxisXmouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_MOUSE_BUTTON_MIDDLEmouse_AxisY :: table: 0x01aa4f258d20
+2019-01-19 11:33 ----        Axis6 :: table: 0x01aa4f1c9d38
+2019-01-19 11:33 ----        Back :: table: 0x01aa4f1f8dc8
+2019-01-19 11:33 ----        5 :: table: 0x01aa4f1a9910
+2019-01-19 11:33 ----        L2 :: table: 0x01aa4f1ffc08
+2019-01-19 11:33 ----        ps_RS-X :: table: 0x01aa4f23df70
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_WHEEL_UP :: table: 0x01aa4f25cdd8
+2019-01-19 11:33 ----        11 :: table: 0x01aa4f1af5e0
+2019-01-19 11:33 ----        Start :: table: 0x01aa4f1f9d88
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_WHEEL_DOWN :: table: 0x01aa4f25be10
+2019-01-19 11:33 ----        7 :: table: 0x01aa4f1ab390
+2019-01-19 11:33 ----        Y :: table: 0x01aa4f1ebfa8
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_MIDDLE :: table: 0x01aa4f250400
+2019-01-19 11:33 ----        13 :: table: 0x01aa4f1b1680
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_AxisXmouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_AxisY :: table: 0x01aa4f2579c8
+2019-01-19 11:33 ----        Cross :: table: 0x01aa4f1fad48
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_MIDDLEmouse_AxisXmouse_MOUSE_BUTTON_MIDDLEmouse_AxisY :: table: 0x01aa4f2556b0
+2019-01-19 11:33 ----        ps_DP-Up :: table: 0x01aa4f22c188
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_RIGHT :: table: 0x01aa4f2534b8
+2019-01-19 11:33 ----        9 :: table: 0x01aa4f1ad540
+2019-01-19 11:33 ----        15 :: table: 0x01aa4f1b3720
+2019-01-19 11:33 ----        xbox_LS-Y :: table: 0x01aa4f2216b0
+2019-01-19 11:33 ----        xbox_RT :: table: 0x01aa4f21b7e8
+2019-01-19 11:33 ----        25 :: table: 0x01aa4f1bdac0
+2019-01-19 11:33 ----        X :: table: 0x01aa4f1eafe8
+2019-01-19 11:33 ----        Axis1 :: table: 0x01aa4f1c2a90
+2019-01-19 11:33 ----        17 :: table: 0x01aa4f1b5940
+2019-01-19 11:33 ----        RT :: table: 0x01aa4f1efea8
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_RIGHTmouse_AxisX :: table: 0x01aa4f2524f0
+2019-01-19 11:33 ----        27 :: table: 0x01aa4f1bfa80
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_RIGHTmouse_AxisY :: table: 0x01aa4f251498
+2019-01-19 11:33 ----        mouse_AxisXmouse_AxisY :: table: 0x01aa4f259d58
+2019-01-19 11:33 ----        DP-Press :: table: 0x01aa4f20b950
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_MIDDLEmouse_AxisY :: table: 0x01aa4f24e3e0
+2019-01-19 11:33 ----        L1 :: table: 0x01aa4f1fec48
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_AxisX :: table: 0x01aa4f24c380
+2019-01-19 11:33 ----        S1-X :: table: 0x01aa4f1cfce0
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_AxisY :: table: 0x01aa4f24b300
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_MOUSE_BUTTON_MIDDLE :: table: 0x01aa4f24a280
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHTmouse_MOUSE_BUTTON_MIDDLEmouse_AxisY :: table: 0x01aa4f248188
+2019-01-19 11:33 ----        xbox_DP-Upxbox_DP-Rightxbox_DP-Downxbox_DP-Left :: table: 0x01aa4f211910
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_AxisX :: table: 0x01aa4f246048
+2019-01-19 11:33 ----        OR :: table: 0x01aa4f1a5638
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_NONEmouse_AxisX :: table: 0x01aa4f241028
+2019-01-19 11:33 ----        S1-Y :: table: 0x01aa4f1d0c80
+2019-01-19 11:33 ----        LT :: table: 0x01aa4f1eeee8
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_AxisY :: table: 0x01aa4f245000
+2019-01-19 11:33 ----        S1-Z :: table: 0x01aa4f1d1c60
+2019-01-19 11:33 ----        Circle :: table: 0x01aa4f1fbd08
+2019-01-19 11:33 ----        19 :: table: 0x01aa4f1b79e0
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_NONE :: table: 0x01aa4f241ff0
+2019-01-19 11:33 ----        RS-XRS-Y :: table: 0x01aa4f1f5e88
+2019-01-19 11:33 ----        RB :: table: 0x01aa4f1edf28
+2019-01-19 11:33 ----        A :: table: 0x01aa4f1e9068
+2019-01-19 11:33 ----        ps_RS-Y :: table: 0x01aa4f23ef60
+2019-01-19 11:33 ----        xbox_DP-Right :: table: 0x01aa4f2138d0
+2019-01-19 11:33 ----        ps_R3 :: table: 0x01aa4f23bf88
+2019-01-19 11:33 ----        ps_DP-Upps_DP-Down :: table: 0x01aa4f230170
+2019-01-19 11:33 ----        DP-Left :: table: 0x01aa4f1e6058
+2019-01-19 11:33 ----        xbox_LS-X :: table: 0x01aa4f2206e8
+2019-01-19 11:33 ----        Axis4 :: table: 0x01aa4f1c6d48
+2019-01-19 11:33 ----        ps_L3 :: table: 0x01aa4f237fe8
+2019-01-19 11:33 ----        ps_Touch :: table: 0x01aa4f237020
+2019-01-19 11:33 ----        ps_Options :: table: 0x01aa4f236058
+2019-01-19 11:33 ----        ps_R2 :: table: 0x01aa4f235090
+2019-01-19 11:33 ----        ps_L2 :: table: 0x01aa4f233100
+2019-01-19 11:33 ----        ps_Triangle :: table: 0x01aa4f22a0f8
+2019-01-19 11:33 ----        S1-XS1-Y :: table: 0x01aa4f1ced40
+2019-01-19 11:33 ----        ps_L1 :: table: 0x01aa4f232138
+2019-01-19 11:33 ----        xbox_Back :: table: 0x01aa4f21c7b0
+2019-01-19 11:33 ----        Axis5 :: table: 0x01aa4f1c8d78
+2019-01-19 11:33 ----        ps_LS-X :: table: 0x01aa4f239fd0
+2019-01-19 11:33 ----        ps_DP-Left :: table: 0x01aa4f22f170
+2019-01-19 11:33 ----        ps_DP-Right :: table: 0x01aa4f22d180
+2019-01-19 11:33 ----        SET :: table: 0x01aa4f20c918
+2019-01-19 11:33 ----        xbox_Y :: table: 0x01aa4f210838
+2019-01-19 11:33 ----        xbox_LS-Xxbox_LS-Y :: table: 0x01aa4f21f740
+2019-01-19 11:33 ----        Axis5Axis6 :: table: 0x01aa4f1c7db8
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_AxisXmouse_MOUSE_BUTTON_LEFTmouse_AxisY :: table: 0x01aa4f2545a0
+2019-01-19 11:33 ----        ps_Square :: table: 0x01aa4f229130
+2019-01-19 11:33 ----        ps_Cross :: table: 0x01aa4f2271a0
+2019-01-19 11:33 ----        xbox_RS-Y :: table: 0x01aa4f2261d8
+2019-01-19 11:33 ----        xbox_RS-X :: table: 0x01aa4f1e4bf8
+2019-01-19 11:33 ----        20 :: table: 0x01aa4f1b8a30
+2019-01-19 11:33 ----        xbox_RB :: table: 0x01aa4f21a820
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_LEFTmouse_MOUSE_BUTTON_RIGHT :: table: 0x01aa4f24d348
+2019-01-19 11:33 ----        xbox_LS :: table: 0x01aa4f21e740
+2019-01-19 11:33 ----        xbox_LB :: table: 0x01aa4f218890
+2019-01-19 11:33 ----        Axis7 :: table: 0x01aa4f1cbd68
+2019-01-19 11:33 ----        DP-Right :: table: 0x01aa4f1e3ae8
+2019-01-19 11:33 ----        Axis1Axis2 :: table: 0x01aa4f1c1ad0
+2019-01-19 11:33 ----        ps_R1 :: table: 0x01aa4f2340c8
+2019-01-19 11:33 ----        Axis2 :: table: 0x01aa4f1c3a50
+2019-01-19 11:33 ----        23 :: table: 0x01aa4f1bbb20
+2019-01-19 11:33 ----        Square :: table: 0x01aa4f1fccc8
+2019-01-19 11:33 ----        ACC :: table: 0x01aa4f2089d8
+2019-01-19 11:33 ----        S4 :: table: 0x01aa4f1dcab0
+2019-01-19 11:33 ----        S1 :: table: 0x01aa4f1cdd08
+2019-01-19 11:33 ----        R1 :: table: 0x01aa4f200bc8
+2019-01-19 11:33 ----        Axis7Axis8 :: table: 0x01aa4f1cada8
+2019-01-19 11:33 ----        Axis8 :: table: 0x01aa4f1ccd28
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_NONEmouse_AxisY :: table: 0x01aa4f23ffe0
+2019-01-19 11:33 ----        DP-RightDP-Left :: table: 0x01aa4f1e80a8
+2019-01-19 11:33 ----        21 :: table: 0x01aa4f1b9a80
+2019-01-19 11:33 ----        R3 :: table: 0x01aa4f203b08
+2019-01-19 11:33 ----        S2 :: table: 0x01aa4f1d2c40
+2019-01-19 11:33 ----        S2-XS2-Y :: table: 0x01aa4f1d3c78
+2019-01-19 11:33 ----        S3 :: table: 0x01aa4f1d7b78
+2019-01-19 11:33 ----        S4-X :: table: 0x01aa4f1dea88
+2019-01-19 11:33 ----        S4-Z :: table: 0x01aa4f1e0a08
+2019-01-19 11:33 ----        S4-Y :: table: 0x01aa4f1dfa28
+2019-01-19 11:33 ----        xbox_DP-Left :: table: 0x01aa4f2158c0
+2019-01-19 11:33 ----        LS-Y :: table: 0x01aa4f1f3e58
+2019-01-19 11:33 ----        RS :: table: 0x01aa4f1f4e18
+2019-01-19 11:33 ----        mouse_MOUSE_BUTTON_RIGHTmouse_AxisXmouse_MOUSE_BUTTON_RIGHTmouse_AxisY :: table: 0x01aa4f2567b8
+2019-01-19 11:33 ----        DP-Up :: table: 0x01aa4f1e2b28
+2019-01-19 11:33 ----        PLUS :: table: 0x01aa4f1a3768
+2019-01-19 11:33 ----        BRK :: table: 0x01aa4f207a10
+2019-01-19 11:33 ----    eventHelpElements :: table: 0x01aa4f3bca80
+2019-01-19 11:33 ----        2 :: table: 0x01aa53ec6570

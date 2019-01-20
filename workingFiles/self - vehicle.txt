@@ -1,0 +1,2272 @@
+2019-01-06 12:45 CAMERA:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2019-01-06 12:45 Error: Running LUA method 'update'.
+2019-01-06 12:45 dataS/scripts/debug/DebugUtil.lua(308) : bad argument #1 to 'pairs' (table expected, got number)
+2019-01-06 12:45 SELFFFFFFFFFFFFFFF:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2019-01-06 12:45 ->spec_aiVehicle :: table: 0x02485eb2c4f0
+2019-01-06 12:45 ->    aiSteeringSpeed :: 0.001
+2019-01-06 12:45 ->    aiTrafficCollisionTranslation :: table: 0x02485ebb07d8
+2019-01-06 12:45 ->    pricePerMS :: 0.00055555555555556
+2019-01-06 12:45 ->    taskList :: table: 0x02485ebb08a0
+2019-01-06 12:45 ->    driveStrategies :: table: 0x02485ebb08e8
+2019-01-06 12:45 ->    didNotMoveTimer :: 5000
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c5b8
+2019-01-06 12:45 ->    aiImplementDataDirtyFlag :: false
+2019-01-06 12:45 ->    aiTrafficCollisionRemoveDelay :: 0
+2019-01-06 12:45 ->    isActive :: false
+2019-01-06 12:45 ->    debugTexts :: table: 0x02485ebb34d0
+2019-01-06 12:45 ->    aiImplementList :: table: 0x02485eb83140
+2019-01-06 12:45 ->    didNotMoveTimeout :: 5000
+2019-01-06 12:45 ->    debugLines :: table: 0x02485ebb3580
+2019-01-06 12:45 ->loadConsumerConfiguration :: function: 0x024839ebcaa0
+2019-01-06 12:45 ->getFormattedOperatingTime :: function: 0x02483e74dfc8
+2019-01-06 12:45 ->setAnimationTime :: function: 0x02483e60d3b8
+2019-01-06 12:45 ->getMotorType :: function: 0x024840e88a90
+2019-01-06 12:45 ->updateWheelBase :: function: 0x024841f53488
+2019-01-06 12:45 ->sizeWidth :: 3.2000000476837
+2019-01-06 12:45 ->getInputPowerTakeOffsByJointDescIndexAndName :: function: 0x0248410ce940
+2019-01-06 12:45 ->getPrice :: function: 0x024841047000
+2019-01-06 12:45 ->getAIFruitProhibitions :: function: 0x02483e5a5018
+2019-01-06 12:45 ->getAnimationTime :: function: 0x02483ec9c660
+2019-01-06 12:45 ->getFillUnitByIndex :: function: 0x024841df20a8
+2019-01-06 12:45 ->setInteriorLightsVisibility :: function: 0x024841e6da00
+2019-01-06 12:45 ->getIsControlled :: function: 0x02483eca1bd8
+2019-01-06 12:45 ->updateDoubleJointPowerTakeOff :: function: 0x02484234dfc0
+2019-01-06 12:45 ->getFillUnitLastValidFillType :: function: 0x024841df6420
+2019-01-06 12:45 ->typeName :: tractor
+2019-01-06 12:45 ->aiContinue :: function: 0x024841df2ae0
+2019-01-06 12:45 ->actionEvents :: table: 0x02485eb2a5d0
+2019-01-06 12:45 ->addAIDebugLine :: function: 0x02483e506690
+2019-01-06 12:45 ->rootNode :: 103044
+2019-01-06 12:45 ->setIsEasyControlActive :: function: 0x0248420a0f50
+2019-01-06 12:45 ->setDashboardsDirty :: function: 0x024841a015d8
+2019-01-06 12:45 ->selectionObject :: table: 0x02485eb416e0
+2019-01-06 12:45 ->    isSelected :: false
+2019-01-06 12:45 ->    subSelections :: table: 0x02485eb417c8
+2019-01-06 12:45 ->    vehicle :: table: 0x02485eb2a350
+2019-01-06 12:45 ->    index :: 0
+2019-01-06 12:45 ->setComponentJointRotLimit :: function: 0x0248417704b8
+2019-01-06 12:45 ->addFillUnitFillLevel :: function: 0x024841ee3148
+2019-01-06 12:45 ->loadFillUnitUnloadingFromXML :: function: 0x024841ee2be0
+2019-01-06 12:45 ->spec_animatedVehicle :: table: 0x02485eb2b448
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b510
+2019-01-06 12:45 ->    numActiveAnimations :: 0
+2019-01-06 12:45 ->    activeAnimations :: table: 0x02485eb4f6d8
+2019-01-06 12:45 ->    animations :: table: 0x02485eb43c48
+2019-01-06 12:45 ->validateWearableNode :: function: 0x024841c492d8
+2019-01-06 12:45 ->getConsumerFillUnitIndex :: function: 0x0248432fffe8
+2019-01-06 12:45 ->vehicleNodes :: table: 0x02485eb2df10
+2019-01-06 12:45 ->    103044 :: table: 0x02485eb2e520
+2019-01-06 12:45 ->    103279 :: table: 0x02485eb2eff0
+2019-01-06 12:45 ->getPlayerModelIndex :: function: 0x02483ecda920
+2019-01-06 12:45 ->getIsActive :: function: 0x02483e63be40
+2019-01-06 12:45 ->updateAILights :: function: 0x024841b140e0
+2019-01-06 12:45 ->spec_drivable :: table: 0x02485eb2c3a8
+2019-01-06 12:45 ->    axisSideSend :: 0
+2019-01-06 12:45 ->    axisSide :: 0
+2019-01-06 12:45 ->    axisForward :: 0
+2019-01-06 12:45 ->    axisSideLast :: 0
+2019-01-06 12:45 ->    reverserDirection :: 1
+2019-01-06 12:45 ->    samples :: table: 0x02485ebb3180
+2019-01-06 12:45 ->    steeringWheel :: table: 0x02485ebb0608
+2019-01-06 12:45 ->    lastInputValues :: table: 0x02485ebb0578
+2019-01-06 12:45 ->    axisForwardSend :: 0
+2019-01-06 12:45 ->    showToolSelectionHud :: true
+2019-01-06 12:45 ->    dirtyFlag :: 1024
+2019-01-06 12:45 ->    doHandbrakeSend :: false
+2019-01-06 12:45 ->    speedRotScale :: 80
+2019-01-06 12:45 ->    doHandbrake :: false
+2019-01-06 12:45 ->    speedRotScaleOffset :: 0.7
+2019-01-06 12:45 ->    cruiseControl :: table: 0x02485ebb05c0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c470
+2019-01-06 12:45 ->ownerFarmId :: 1
+2019-01-06 12:45 ->unmountDynamic :: function: 0x02484319bbe0
+2019-01-06 12:45 ->spec_aiImplement :: table: 0x02485eb2c638
+2019-01-06 12:45 ->    aiMarkersInverted :: false
+2019-01-06 12:45 ->    prohibitedFruitTypes :: table: 0x02485ebb4f08
+2019-01-06 12:45 ->    requiredFruitTypes :: table: 0x02485ebb4ec0
+2019-01-06 12:45 ->    blockTurnBackward :: false
+2019-01-06 12:45 ->    useAttributesOfAttachedImplement :: false
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c700
+2019-01-06 12:45 ->    lowerIfAnyIsLowerd :: false
+2019-01-06 12:45 ->    isLineStarted :: false
+2019-01-06 12:45 ->    hasNoFullCoverageAreaOffset :: 0
+2019-01-06 12:45 ->    terrainDetailProhibitedValueRanges :: table: 0x02485ebb4e78
+2019-01-06 12:45 ->    allowTurnBackward :: true
+2019-01-06 12:45 ->    turningRadiusLimitation :: table: 0x02485ebb4b50
+2019-01-06 12:45 ->    collisionTrigger :: 103117
+2019-01-06 12:45 ->    hasNoFullCoverageArea :: false
+2019-01-06 12:45 ->    lookAheadSize :: 2
+2019-01-06 12:45 ->    needsLowering :: true
+2019-01-06 12:45 ->    terrainDetailRequiredValueRanges :: table: 0x02485ebb4e30
+2019-01-06 12:45 ->getAllowTireTracks :: function: 0x024840f4cc10
+2019-01-06 12:45 ->addDirtAmount :: function: 0x02483ec61220
+2019-01-06 12:45 ->updateAttachedPowerTakeOffs :: function: 0x02484198fcf8
+2019-01-06 12:45 ->getDashboardValue :: function: 0x024841a01608
+2019-01-06 12:45 ->raiseStateChange :: function: 0x02483e769f40
+2019-01-06 12:45 ->getAIHasNoFullCoverageArea :: function: 0x0248422c7018
+2019-01-06 12:45 ->getAICollisionTriggers :: function: 0x02483e7b6c88
+2019-01-06 12:45 ->loadCrawlerFromConfigFile :: function: 0x024841f6cfd0
+2019-01-06 12:45 ->setLoadingState :: function: 0x024841d03708
+2019-01-06 12:45 ->getAINeedsLowering :: function: 0x02483e8e99f8
+2019-01-06 12:45 ->addAITerrainDetailRequiredRange :: function: 0x02483e944558
+2019-01-06 12:45 ->updateMotorProperties :: function: 0x02483e71b640
+2019-01-06 12:45 ->getSteeringDirection :: function: 0x024841099ce8
+2019-01-06 12:45 ->allowsInput :: true
+2019-01-06 12:45 ->updateSelectableObjects :: function: 0x0248422a3428
+2019-01-06 12:45 ->getAlarmTriggerIsActive :: function: 0x024841e796f0
+2019-01-06 12:45 ->getMotorLoadPercentage :: function: 0x02484109e428
+2019-01-06 12:45 ->loadRotationBasedLimits :: function: 0x024842062a30
+2019-01-06 12:45 ->getDeactivateOnLeave :: function: 0x02483e5b9ff8
+2019-01-06 12:45 ->onDynamicMountJointBreak :: function: 0x02484315b600
+2019-01-06 12:45 ->leaveVehicle :: function: 0x02483e66c390
+2019-01-06 12:45 ->getAINeedsTrafficCollisionBox :: function: 0x02483eb321d8
+2019-01-06 12:45 ->unmount :: function: 0x0248431832b8
+2019-01-06 12:45 ->specializationNames :: table: 0x0248412b7af8
+2019-01-06 12:45 ->    1 :: baseMaterial
+2019-01-06 12:45 ->    2 :: tipOccluder
+2019-01-06 12:45 ->    3 :: foliageBending
+2019-01-06 12:45 ->    4 :: washable
+2019-01-06 12:45 ->    5 :: wearable
+2019-01-06 12:45 ->    6 :: dynamicallyLoadedParts
+2019-01-06 12:45 ->    7 :: animatedVehicle
+2019-01-06 12:45 ->    8 :: dashboard
+2019-01-06 12:45 ->    9 :: cylindered
+2019-01-06 12:45 ->    10 :: mountable
+2019-01-06 12:45 ->    11 :: ikChains
+2019-01-06 12:45 ->    12 :: wheels
+2019-01-06 12:45 ->    13 :: crawlers
+2019-01-06 12:45 ->    14 :: slopeCompensation
+2019-01-06 12:45 ->    15 :: speedRotatingParts
+2019-01-06 12:45 ->    16 :: enterable
+2019-01-06 12:45 ->    17 :: fillUnit
+2019-01-06 12:45 ->    18 :: motorized
+2019-01-06 12:45 ->    19 :: drivable
+2019-01-06 12:45 ->    20 :: aiVehicle
+2019-01-06 12:45 ->    21 :: aiImplement
+2019-01-06 12:45 ->    22 :: articulatedAxis
+2019-01-06 12:45 ->    23 :: lights
+2019-01-06 12:45 ->    24 :: attacherJoints
+2019-01-06 12:45 ->    25 :: powerTakeOffs
+2019-01-06 12:45 ->    26 :: suspensions
+2019-01-06 12:45 ->    27 :: connectionHoses
+2019-01-06 12:45 ->    28 :: honk
+2019-01-06 12:45 ->    29 :: wipers
+2019-01-06 12:45 ->    30 :: frontloaderAttacher
+2019-01-06 12:45 ->    31 :: bunkerSiloCompacter
+2019-01-06 12:45 ->    32 :: FrontLoaderCam
+2019-01-06 12:45 ->setWheelTireFrictionDirty :: function: 0x024841c56300
+2019-01-06 12:45 ->getFillUnitIndexFromNode :: function: 0x024841e7c680
+2019-01-06 12:45 ->getFillUnitRootNode :: function: 0x024841dfe010
+2019-01-06 12:45 ->getAreSurfaceSoundsActive :: function: 0x0248415ef840
+2019-01-06 12:45 ->playDetachSound :: function: 0x02484316fd38
+2019-01-06 12:45 ->loadDashboardsFromXML :: function: 0x024841a641c0
+2019-01-06 12:45 ->getAIDidNotMoveTimeout :: function: 0x024842179f98
+2019-01-06 12:45 ->getCanBeReset :: function: 0x024841d11680
+2019-01-06 12:45 ->initializeAnimationPart :: function: 0x02483e537cf0
+2019-01-06 12:45 ->getLightsTypesMask :: function: 0x024841802790
+2019-01-06 12:45 ->getFillUnitCapacity :: function: 0x024841df2168
+2019-01-06 12:45 ->registerSelfLoweringActionEvent :: function: 0x024843181440
+2019-01-06 12:45 ->loadCamerasFromXML :: function: 0x02483e7967b8
+2019-01-06 12:45 ->loadDynamicWheelDataFromXML :: function: 0x024842540b08
+2019-01-06 12:45 ->stopAIVehicle :: function: 0x024841b70ce8
+2019-01-06 12:45 ->clearAIFruitProhibitions :: function: 0x02483e9b75c0
+2019-01-06 12:45 ->setBaseMaterial :: function: 0x024840df6630
+2019-01-06 12:45 ->updateFoliageBendingAttributes :: function: 0x02484268c750
+2019-01-06 12:45 ->getRealAnimationTime :: function: 0x024840cd2438
+2019-01-06 12:45 ->playHonk :: function: 0x0248432230f8
+2019-01-06 12:45 ->restoreVehicleCharacter :: function: 0x02483e8b3788
+2019-01-06 12:45 ->getCompensationAngleScale :: function: 0x024841d4b800
+2019-01-06 12:45 ->spec_washable :: table: 0x02485eb2b070
+2019-01-06 12:45 ->    dirtDuration :: 1.8518518518519e-07
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b138
+2019-01-06 12:45 ->    washableNodes :: table: 0x02485eb435b0
+2019-01-06 12:45 ->    dirtyFlag :: 2
+2019-01-06 12:45 ->    workMultiplier :: 3
+2019-01-06 12:45 ->    fieldMultiplier :: 2
+2019-01-06 12:45 ->    washDuration :: 60000
+2019-01-06 12:45 ->    washableNodesByIndex :: table: 0x02485eb435f8
+2019-01-06 12:45 ->    blockedWashTypes :: table: 0x02485eb43640
+2019-01-06 12:45 ->setAnimationStopTime :: function: 0x024841f7d430
+2019-01-06 12:45 ->spec_wheels :: table: 0x02485eb2bab0
+2019-01-06 12:45 ->    steeringCenterNode :: 104407
+2019-01-06 12:45 ->    rimColor :: table: 0x02485eb5fb70
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2bb78
+2019-01-06 12:45 ->    wheelChocks :: table: 0x02485eb63ee0
+2019-01-06 12:45 ->    forceIsActiveTime :: 3000
+2019-01-06 12:45 ->    hubs :: table: 0x02485eb5fdb8
+2019-01-06 12:45 ->    wheels :: table: 0x02485eb63e98
+2019-01-06 12:45 ->    wheelSmoothAccumulation :: 0
+2019-01-06 12:45 ->    surfaceIdToSound :: table: 0x02485eb62400
+2019-01-06 12:45 ->    surfaceNameToSound :: table: 0x02485eb62448
+2019-01-06 12:45 ->    forceIsActiveTimer :: 0
+2019-01-06 12:45 ->    dirtyFlag :: 32
+2019-01-06 12:45 ->    hubsColors :: table: 0x02485eb5fc90
+2019-01-06 12:45 ->    networkTimeInterpolator :: table: 0x02485eb7ed18
+2019-01-06 12:45 ->    surfaceSounds :: table: 0x02485eb5fc28
+2019-01-06 12:45 ->    wheelCreationTimer :: 0
+2019-01-06 12:45 ->    dynamicallyLoadedWheels :: table: 0x02485eb7ecd0
+2019-01-06 12:45 ->    brakePedal :: 12
+2019-01-06 12:45 ->addAllSubWashableNodes :: function: 0x02483ebec678
+2019-01-06 12:45 ->minRotTime :: -0.95
+2019-01-06 12:45 ->slopeDetectionCallback :: function: 0x024842015c88
+2019-01-06 12:45 ->getWearTotalAmount :: function: 0x024841b89c80
+2019-01-06 12:45 ->setOperatingTime :: function: 0x02483e6ac798
+2019-01-06 12:45 ->getDecelerationAxis :: function: 0x02483e8fe358
+2019-01-06 12:45 ->spec_honk :: table: 0x02485eb2cf30
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2cff8
+2019-01-06 12:45 ->    inputPressed :: false
+2019-01-06 12:45 ->    sample :: table: 0x02485ebd9b60
+2019-01-06 12:45 ->    isPlaying :: false
+2019-01-06 12:45 ->setNextLightsState :: function: 0x02483e651008
+2019-01-06 12:45 ->hardAttachImplement :: function: 0x0248431a5b90
+2019-01-06 12:45 ->loadSharedLight :: function: 0x024841b140b0
+2019-01-06 12:45 ->getAIIsTurning :: function: 0x024841b92290
+2019-01-06 12:45 ->updateDelayedTool :: function: 0x0248420c7e98
+2019-01-06 12:45 ->getIsMovingToolActive :: function: 0x02483ea49e88
+2019-01-06 12:45 ->setRealAnimationTime :: function: 0x02483eb03bf0
+2019-01-06 12:45 ->loadAttachmentsFromXMLFile :: function: 0x0248431e4ab8
+2019-01-06 12:45 ->getIsPowerTakeOffActive :: function: 0x02483eba74d8
+2019-01-06 12:45 ->getAdditionalSchemaText :: function: 0x02483e603be0
+2019-01-06 12:45 ->getWearMultiplier :: function: 0x0248422acea0
+2019-01-06 12:45 ->updateMeasurementNodes :: function: 0x024841f3bb90
+2019-01-06 12:45 ->updateExtraDependentParts :: function: 0x024841da5310
+2019-01-06 12:45 ->setMirrorVisible :: function: 0x02483e824d48
+2019-01-06 12:45 ->getRequiresTipOcclusionArea :: function: 0x024841a55868
+2019-01-06 12:45 ->getIsAnimationPlaying :: function: 0x024840e1dcb0
+2019-01-06 12:45 ->setRandomVehicleCharacter :: function: 0x02483e8b3688
+2019-01-06 12:45 ->updateToolConnectionHose :: function: 0x024842ed2a48
+2019-01-06 12:45 ->isServer :: true
+2019-01-06 12:45 ->removeActionEvents :: function: 0x02483ec3cd88
+2019-01-06 12:45 ->requestActionEventUpdate :: function: 0x024840f98078
+2019-01-06 12:45 ->setWheelPositionDirty :: function: 0x0248420be888
+2019-01-06 12:45 ->resetAnimationValues :: function: 0x0248420e3f80
+2019-01-06 12:45 ->setMovingToolDirty :: function: 0x024842062a60
+2019-01-06 12:45 ->getDirtMultiplier :: function: 0x02483e61c110
+2019-01-06 12:45 ->spec_powerTakeOffs :: table: 0x02485eb2cb58
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2cc20
+2019-01-06 12:45 ->    inputPowerTakeOffs :: table: 0x02485ebcc468
+2019-01-06 12:45 ->    delayedPowerTakeOffsMountings :: table: 0x02485ebcc560
+2019-01-06 12:45 ->    localPowerTakeOffs :: table: 0x02485ebcc518
+2019-01-06 12:45 ->    outputPowerTakeOffs :: table: 0x02485ebcc420
+2019-01-06 12:45 ->    lastIsPowerTakeOffActive :: false
+2019-01-06 12:45 ->getAIMinTurningRadius :: function: 0x024841a9cbc8
+2019-01-06 12:45 ->loadCopyLocalDirectionParts :: function: 0x024842062930
+2019-01-06 12:45 ->getImplementByJointDescIndex :: function: 0x02484316ec00
+2019-01-06 12:45 ->getCanByMounted :: function: 0x02483e8045c0
+2019-01-06 12:45 ->spec_articulatedAxis :: table: 0x02485eb2c780
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c848
+2019-01-06 12:45 ->    interpolatedRotatedTime :: 0
+2019-01-06 12:45 ->getImplementIndexByJointDescIndex :: function: 0x02484316ece8
+2019-01-06 12:45 ->handleLowerImplementEvent :: function: 0x0248431e48b0
+2019-01-06 12:45 ->postInitializeAnimationPart :: function: 0x024843d78ee8
+2019-01-06 12:45 ->getAcDecelerationAxis :: function: 0x02484109ff10
+2019-01-06 12:45 ->setSuspensionNodeCharacter :: function: 0x02483e6d9d48
+2019-01-06 12:45 ->validatePowerTakeOffAttachment :: function: 0x0248413013e8
+2019-01-06 12:45 ->specializationsByName :: table: 0x02483e7974c8
+2019-01-06 12:45 ->    FrontLoaderCam :: table: 0x0248419d05b0
+2019-01-06 12:45 ->    connectionHoses :: table: 0x024842f70b20
+2019-01-06 12:45 ->    powerTakeOffs :: table: 0x024841b6f058
+2019-01-06 12:45 ->    slopeCompensation :: table: 0x024840fa9ee8
+2019-01-06 12:45 ->    speedRotatingParts :: table: 0x0248422751f8
+2019-01-06 12:45 ->    wearable :: table: 0x0248417e9c48
+2019-01-06 12:45 ->    frontloaderAttacher :: table: 0x0248429a7ce8
+2019-01-06 12:45 ->    wipers :: table: 0x0248430c7bf0
+2019-01-06 12:45 ->    dynamicallyLoadedParts :: table: 0x0248410557d8
+2019-01-06 12:45 ->    washable :: table: 0x024840d94f20
+2019-01-06 12:45 ->    suspensions :: table: 0x02483e71f318
+2019-01-06 12:45 ->    crawlers :: table: 0x024841b2da78
+2019-01-06 12:45 ->    attacherJoints :: table: 0x024841d729f8
+2019-01-06 12:45 ->    dashboard :: table: 0x024841ac0a08
+2019-01-06 12:45 ->    articulatedAxis :: table: 0x0248434f5808
+2019-01-06 12:45 ->    ikChains :: table: 0x024843396160
+2019-01-06 12:45 ->    aiImplement :: table: 0x024843524f28
+2019-01-06 12:45 ->    foliageBending :: table: 0x02484265a6e8
+2019-01-06 12:45 ->    mountable :: table: 0x0248426811d0
+2019-01-06 12:45 ->    aiVehicle :: table: 0x0248436113e8
+2019-01-06 12:45 ->    wheels :: table: 0x0248414a99d0
+2019-01-06 12:45 ->    motorized :: table: 0x02483e89b398
+2019-01-06 12:45 ->    animatedVehicle :: table: 0x0248434d5348
+2019-01-06 12:45 ->    drivable :: table: 0x02483ea05380
+2019-01-06 12:45 ->    fillUnit :: table: 0x024841d15dd8
+2019-01-06 12:45 ->    cylindered :: table: 0x02484212fb80
+2019-01-06 12:45 ->    enterable :: table: 0x02483ea3cbe0
+2019-01-06 12:45 ->    baseMaterial :: table: 0x02483e4fea28
+2019-01-06 12:45 ->    lights :: table: 0x02484347e598
+2019-01-06 12:45 ->    honk :: table: 0x0248431ef5f8
+2019-01-06 12:45 ->    tipOccluder :: table: 0x024841154748
+2019-01-06 12:45 ->    bunkerSiloCompacter :: table: 0x024842531990
+2019-01-06 12:45 ->getLastSpeed :: function: 0x02483e841ae8
+2019-01-06 12:45 ->updateVehiclePhysics :: function: 0x02484108c440
+2019-01-06 12:45 ->loadDependentParts :: function: 0x02484208b3f8
+2019-01-06 12:45 ->stopMotor :: function: 0x02483e4e1260
+2019-01-06 12:45 ->loadDependentWheels :: function: 0x02484208b918
+2019-01-06 12:45 ->getIsConnectionTargetUsed :: function: 0x024842f14438
+2019-01-06 12:45 ->getIsSkipNodeAvailable :: function: 0x024842f06478
+2019-01-06 12:45 ->setWorldPosition :: function: 0x02483e5a0640
+2019-01-06 12:45 ->setJointMoveDown :: function: 0x024842183be0
+2019-01-06 12:45 ->loadMovingToolFromXML :: function: 0x024841818530
+2019-01-06 12:45 ->setFillPlaneForcedFillType :: function: 0x024841f3bc50
+2019-01-06 12:45 ->deactivateAttachmentsLights :: function: 0x024842f214b0
+2019-01-06 12:45 ->getWorkDirtMultiplier :: function: 0x02483e61c140
+2019-01-06 12:45 ->aiImplementStartLine :: function: 0x02483ecb26e8
+2019-01-06 12:45 ->allowLoadMovingToolStates :: function: 0x024842066e70
+2019-01-06 12:45 ->updateAttachedConnectionHoses :: function: 0x024842f452d8
+2019-01-06 12:45 ->getImplementByObject :: function: 0x02484316a508
+2019-01-06 12:45 ->updateAlarmTriggers :: function: 0x024841e796c0
+2019-01-06 12:45 ->updateDependentAnimations :: function: 0x0248420a1010
+2019-01-06 12:45 ->getAIVehicleReverserNode :: function: 0x02483e7360f0
+2019-01-06 12:45 ->loadVisibilityDashboardFromXML :: function: 0x024841a458f0
+2019-01-06 12:45 ->getOutputPowerTakeOffs :: function: 0x0248410ce910
+2019-01-06 12:45 ->playAnimation :: function: 0x02483e9bb6f8
+2019-01-06 12:45 ->configurations :: table: 0x02485eb29ce8
+2019-01-06 12:45 ->    wheel :: 1
+2019-01-06 12:45 ->    design :: 1
+2019-01-06 12:45 ->    motor :: 3
+2019-01-06 12:45 ->    fillUnit :: 1
+2019-01-06 12:45 ->    frontloader :: 1
+2019-01-06 12:45 ->loadOutputPowerTakeOff :: function: 0x024841343360
+2019-01-06 12:45 ->updateWheelTireFriction :: function: 0x0248420026d8
+2019-01-06 12:45 ->spec_crawlers :: table: 0x02485eb2bbf8
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2bcc0
+2019-01-06 12:45 ->    crawlers :: table: 0x02485eb768d0
+2019-01-06 12:45 ->registeredActionEvents :: table: 0x02485eb41810
+2019-01-06 12:45 ->getOwner :: function: 0x024841cb0148
+2019-01-06 12:45 ->getAISteeringSpeed :: function: 0x02483a45be38
+2019-01-06 12:45 ->loadInputPowerTakeOff :: function: 0x024841343390
+2019-01-06 12:45 ->getDailyUpkeep :: function: 0x024842074190
+2019-01-06 12:45 ->spec_fillUnit :: table: 0x02485eb2c118
+2019-01-06 12:45 ->    fillTypeChangeThreshold :: 0.05
+2019-01-06 12:45 ->    dirtyFlag :: 256
+2019-01-06 12:45 ->    allowFoldingWhileFilled :: true
+2019-01-06 12:45 ->    animationNodes :: table: 0x02485eb891d8
+2019-01-06 12:45 ->    fillEffects :: table: 0x02485eb89190
+2019-01-06 12:45 ->    hasExactFillRootNodes :: false
+2019-01-06 12:45 ->    removeVehicleIfEmpty :: false
+2019-01-06 12:45 ->    activeFillAnimations :: table: 0x02485eb89268
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c1e0
+2019-01-06 12:45 ->    exactFillRootNodeToExtraDistance :: table: 0x02485eb85ac0
+2019-01-06 12:45 ->    fillUnits :: table: 0x02485eb859b0
+2019-01-06 12:45 ->    activeFillEffects :: table: 0x02485eb89220
+2019-01-06 12:45 ->    fillTrigger :: table: 0x02485eb859f8
+2019-01-06 12:45 ->    samples :: table: 0x02485eb89148
+2019-01-06 12:45 ->    exactFillRootNodeToFillUnit :: table: 0x02485eb85948
+2019-01-06 12:45 ->    activeAlarmTriggers :: table: 0x02485eb85b08
+2019-01-06 12:45 ->getCruiseControlState :: function: 0x02483e8f6180
+2019-01-06 12:45 ->getIsActiveForInput :: function: 0x024841248d08
+2019-01-06 12:45 ->loadDifferentials :: function: 0x024842cafce8
+2019-01-06 12:45 ->getMotorNotAllowedWarning :: function: 0x02483a262a30
+2019-01-06 12:45 ->loadWheelsSteeringDataFromXML :: function: 0x024842578b90
+2019-01-06 12:45 ->getCompensationGroundPosition :: function: 0x024842015c58
+2019-01-06 12:45 ->getActiveCamera :: function: 0x02483e551650
+2019-01-06 12:45 ->repairVehicle :: function: 0x024841b91e88
+2019-01-06 12:45 ->addAIDebugText :: function: 0x02483e8ac260
+2019-01-06 12:45 ->getIsDrivingBackward :: function: 0x02484109a628
+2019-01-06 12:45 ->addWearableNodes :: function: 0x024841c492a8
+2019-01-06 12:45 ->getDashboardSteeringAxis :: function: 0x02484109ff40
+2019-01-06 12:45 ->playAttachSound :: function: 0x02484316ff40
+2019-01-06 12:45 ->getFillUnitFirstSupportedFillType :: function: 0x024841dfa870
+2019-01-06 12:45 ->getFillUnitFillType :: function: 0x024841df63f0
+2019-01-06 12:45 ->stopAnimation :: function: 0x0248421bd330
+2019-01-06 12:45 ->addFillUnitTrigger :: function: 0x024841f41b88
+2019-01-06 12:45 ->getIsAIImplementInLine :: function: 0x02483ebfe070
+2019-01-06 12:45 ->loadHubs :: function: 0x024841553fe8
+2019-01-06 12:45 ->updateConnectionHose :: function: 0x024842f37fc0
+2019-01-06 12:45 ->loadAnimationPart :: function: 0x024841a41e78
+2019-01-06 12:45 ->lengthOffset :: 0.30000001192093
+2019-01-06 12:45 ->selectVehicle :: function: 0x0248419d3b08
+2019-01-06 12:45 ->clearAIDebugLines :: function: 0x024841166018
+2019-01-06 12:45 ->getPlayerColorIndex :: function: 0x02483ecda950
+2019-01-06 12:45 ->getLimitedVehicleYPosition :: function: 0x024841cfd038
+2019-01-06 12:45 ->finalizeWheel :: function: 0x02483e81bc20
+2019-01-06 12:45 ->updateCharacterTargetNodeModifier :: function: 0x02483e88abd8
+2019-01-06 12:45 ->setSelectedObject :: function: 0x02484193c5f0
+2019-01-06 12:45 ->getFillUnitFreeCapacity :: function: 0x024841df2198
+2019-01-06 12:45 ->getUseHighProfile :: function: 0x02483ea5cad0
+2019-01-06 12:45 ->drawUIInfo :: function: 0x024841e0dae8
+2019-01-06 12:45 ->synchronizePosition :: true
+2019-01-06 12:45 ->loadWiperFromXML :: function: 0x0248434a6088
+2019-01-06 12:45 ->getIsSuspensionNodeActive :: function: 0x02483eba2a30
+2019-01-06 12:45 ->getClonedSkipHoseNode :: function: 0x024842f13e88
+2019-01-06 12:45 ->setFillUnitFillType :: function: 0x024841e5e530
+2019-01-06 12:45 ->lastSpeedAcceleration :: 0
+2019-01-06 12:45 ->getSpeedRotatingPartDirection :: function: 0x024840e766d8
+2019-01-06 12:45 ->setNodeWearAmount :: function: 0x0248417fe070
+2019-01-06 12:45 ->loadDependentAnimations :: function: 0x024842062900
+2019-01-06 12:45 ->getWheelsWithTipOcclisionAreaGroupId :: function: 0x0248417a4ba0
+2019-01-06 12:45 ->getAITerrainDetailProhibitedRange :: function: 0x02483eb643f0
+2019-01-06 12:45 ->getConnectionTarget :: function: 0x024842f13eb8
+2019-01-06 12:45 ->removeWearableNode :: function: 0x024841c87da0
+2019-01-06 12:45 ->getAnimationExists :: function: 0x024841ea66e0
+2019-01-06 12:45 ->getAttacherJointIndexFromImplementIndex :: function: 0x0248431d8e90
+2019-01-06 12:45 ->loadSpeedRotatingPartFromXML :: function: 0x02484162d5d8
+2019-01-06 12:45 ->spec_suspensions :: table: 0x02485eb2cca0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2cd68
+2019-01-06 12:45 ->    suspensionAvailable :: true
+2019-01-06 12:45 ->    suspensionNodes :: table: 0x02485ebcc4b0
+2019-01-06 12:45 ->highPrecisionPositionSynchronization :: false
+2019-01-06 12:45 ->loadNumberDashboardFromXML :: function: 0x024841a5e180
+2019-01-06 12:45 ->getNodeWearAmount :: function: 0x024841b89c50
+2019-01-06 12:45 ->removeFillUnitTrigger :: function: 0x024841f479e0
+2019-01-06 12:45 ->getIsFillUnitActive :: function: 0x024842074f80
+2019-01-06 12:45 ->loadVisualLights :: function: 0x0248431b6b38
+2019-01-06 12:45 ->currentSelection :: table: 0x02485eb41588
+2019-01-06 12:45 ->    subIndex :: 1
+2019-01-06 12:45 ->    index :: 1
+2019-01-06 12:45 ->updateCylinderedInitial :: function: 0x024842066e40
+2019-01-06 12:45 ->getIsVersatileYRotActive :: function: 0x0248414e4fa0
+2019-01-06 12:45 ->detachPowerTakeOff :: function: 0x02483e601d28
+2019-01-06 12:45 ->lastSignedSpeedReal :: 0
+2019-01-06 12:45 ->mapHotspot :: table: 0x024862c1aed8
+2019-01-06 12:45 ->    active :: true
+2019-01-06 12:45 ->    alwaysShow :: true
+2019-01-06 12:45 ->    iconScale :: 0.7
+2019-01-06 12:45 ->    persistent :: false
+2019-01-06 12:45 ->    overlayBg :: table: 0x024862c1fe90
+2019-01-06 12:45 ->    objectId :: 103044
+2019-01-06 12:45 ->    ownerFarmId :: 1
+2019-01-06 12:45 ->    textOffsetX :: 0
+2019-01-06 12:45 ->    textAlignment :: 1
+2019-01-06 12:45 ->    textOffsetY :: 0.00092592592592593
+2019-01-06 12:45 ->    renderLast :: false
+2019-01-06 12:45 ->    height :: 0.0083333333333333
+2019-01-06 12:45 ->    x :: 0
+2019-01-06 12:45 ->    blinking :: false
+2019-01-06 12:45 ->    y :: 0
+2019-01-06 12:45 ->    bgImageColor :: table: 0x024839eca340
+2019-01-06 12:45 ->    hasDetails :: true
+2019-01-06 12:45 ->    category :: 10
+2019-01-06 12:45 ->    bgImageFilename :: dataS2/menu/hud/mapHotspots_512.png
+2019-01-06 12:45 ->    verticalAlignment :: 2
+2019-01-06 12:45 ->    zoom :: 1
+2019-01-06 12:45 ->    width :: 0.0046874999650754
+2019-01-06 12:45 ->    imageUVs :: table: 0x024862c1c9b0
+2019-01-06 12:45 ->    name :: Steerable
+2019-01-06 12:45 ->    xMapPos :: -35.89289855957
+2019-01-06 12:45 ->    visible :: true
+2019-01-06 12:45 ->    enabled :: true
+2019-01-06 12:45 ->    baseColor :: table: 0x024862c1ae68
+2019-01-06 12:45 ->    textBold :: false
+2019-01-06 12:45 ->    textSize :: 0.011111111111111
+2019-01-06 12:45 ->    overlays :: table: 0x024862c1e7c0
+2019-01-06 12:45 ->    bgImageUVs :: table: 0x024862c1e428
+2019-01-06 12:45 ->    textColor :: table: 0x024862c1af20
+2019-01-06 12:45 ->    defaultTextSize :: 0.011111111111111
+2019-01-06 12:45 ->    fullViewName :: Steerable
+2019-01-06 12:45 ->    zMapPos :: 192.07060241699
+2019-01-06 12:45 ->startMotor :: function: 0x02483e4e1230
+2019-01-06 12:45 ->getMountObject :: function: 0x0248431f8d18
+2019-01-06 12:45 ->raiseActive :: function: 0x02483e786070
+2019-01-06 12:45 ->addToGlobalWashableNode :: function: 0x02483ec2fa68
+2019-01-06 12:45 ->getVehicleDamage :: function: 0x024841e9dfe8
+2019-01-06 12:45 ->aiTurnProgress :: function: 0x02483e637860
+2019-01-06 12:45 ->loadSounds :: function: 0x024839ebca70
+2019-01-06 12:45 ->getCanBePickedUp :: function: 0x02483e7062f8
+2019-01-06 12:45 ->getAttacherJointIndexFromObject :: function: 0x0248431db430
+2019-01-06 12:45 ->getChildVehicles :: function: 0x024841dcf4a0
+2019-01-06 12:45 ->setTurnLightState :: function: 0x02483e4f0b60
+2019-01-06 12:45 ->updateSteeringWheel :: function: 0x024839d49568
+2019-01-06 12:45 ->connectHosesToAttacherVehicle :: function: 0x024842ed2d38
+2019-01-06 12:45 ->loadAlarmTrigger :: function: 0x024841f37878
+2019-01-06 12:45 ->loadNonPhysicalWheelFromXML :: function: 0x02483e4649a8
+2019-01-06 12:45 ->getBunkerSiloCompacter :: function: 0x024843583858
+2019-01-06 12:45 ->updateFillUnitFillPlane :: function: 0x024841f3bc80
+2019-01-06 12:45 ->getRepairPrice :: function: 0x02484149f240
+2019-01-06 12:45 ->loadLocalPowerTakeOff :: function: 0x0248419f0560
+2019-01-06 12:45 ->spec_mountable :: table: 0x02485eb2b820
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b8e8
+2019-01-06 12:45 ->    dynamicMountTriggerForceAcceleration :: 4
+2019-01-06 12:45 ->    dynamicMountForceLimitScale :: 1
+2019-01-06 12:45 ->calculateAttacherJointMoveUpperLowerAlpha :: function: 0x0248431b2400
+2019-01-06 12:45 ->loadAnimation :: function: 0x024841b43f90
+2019-01-06 12:45 ->validateWashableNode :: function: 0x024841ccc050
+2019-01-06 12:45 ->selectableObjects :: table: 0x024862c1aa10
+2019-01-06 12:45 ->activateAttachments :: function: 0x02484314c4a8
+2019-01-06 12:45 ->getImplementFromAttacherJointIndex :: function: 0x0248431e2458
+2019-01-06 12:45 ->updateWheelChocksPosition :: function: 0x0248414a5410
+2019-01-06 12:45 ->deleteVisualWheel :: function: 0x02483e4649d8
+2019-01-06 12:45 ->loadAttacherJointFromXML :: function: 0x024842118918
+2019-01-06 12:45 ->setComponentJointTransLimit :: function: 0x02484140ccf0
+2019-01-06 12:45 ->spec_lights :: table: 0x02485eb2c8c8
+2019-01-06 12:45 ->    shaderRightTurnLights :: table: 0x02485ebb4d78
+2019-01-06 12:45 ->    shaderLeftTurnLights :: table: 0x02485ebb4d30
+2019-01-06 12:45 ->    turnLightsLeft :: table: 0x02485ebb52a0
+2019-01-06 12:45 ->    turnLightRepetitionCount :: 0
+2019-01-06 12:45 ->    reverseLightsVisibility :: false
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c990
+2019-01-06 12:45 ->    currentLightState :: 0
+2019-01-06 12:45 ->    lightStates :: table: 0x02485ebb5b88
+2019-01-06 12:45 ->    numLightTypes :: 3
+2019-01-06 12:45 ->    samples :: table: 0x02485ebbb538
+2019-01-06 12:45 ->    shaderBrakeLights :: table: 0x02485ebb4c80
+2019-01-06 12:45 ->    lightsTypesMask :: 0
+2019-01-06 12:45 ->    realLights :: table: 0x02485ebb5320
+2019-01-06 12:45 ->    sharedLights :: table: 0x02485ebb59b8
+2019-01-06 12:45 ->    dirtyFlag :: 2048
+2019-01-06 12:45 ->    beaconLightsActive :: false
+2019-01-06 12:45 ->    turnLightState :: 0
+2019-01-06 12:45 ->    brakeLights :: table: 0x02485ebb5970
+2019-01-06 12:45 ->    actionEventsActiveChange :: table: 0x02485ebbb4a8
+2019-01-06 12:45 ->    hasTurnLights :: false
+2019-01-06 12:45 ->    beaconLights :: table: 0x02485ebbb4f0
+2019-01-06 12:45 ->    defaultLights :: table: 0x02485ebb5928
+2019-01-06 12:45 ->    aiLightsTypesMask :: 7
+2019-01-06 12:45 ->    turnLightsRight :: table: 0x02485ebb5b40
+2019-01-06 12:45 ->    shaderDefaultLights :: table: 0x02485ebb4c38
+2019-01-06 12:45 ->    reverseLights :: table: 0x02485ebb5258
+2019-01-06 12:45 ->    brakeLightsVisibility :: false
+2019-01-06 12:45 ->    shaderReverseLights :: table: 0x02485ebb4cc8
+2019-01-06 12:45 ->isDeleted :: false
+2019-01-06 12:45 ->addToGlobalWearableNode :: function: 0x024841c433b0
+2019-01-06 12:45 ->onVehicleWakeUpCallback :: function: 0x024840d798a0
+2019-01-06 12:45 ->addAIFruitRequirement :: function: 0x0248418ee990
+2019-01-06 12:45 ->getFillUnitFillLevel :: function: 0x024841df2658
+2019-01-06 12:45 ->getAITurnRadiusLimitation :: function: 0x02483a24f410
+2019-01-06 12:45 ->getCanToggleSelectable :: function: 0x0248421630d8
+2019-01-06 12:45 ->updatePowerTakeOffLength :: function: 0x024840ea0c58
+2019-01-06 12:45 ->lastMovedDistance :: 0
+2019-01-06 12:45 ->setBrakeLightsVisibility :: function: 0x024841040790
+2019-01-06 12:45 ->addSubselection :: function: 0x024841a0fa50
+2019-01-06 12:45 ->getIsAIActive :: function: 0x024842053570
+2019-01-06 12:45 ->getMotor :: function: 0x02483e835358
+2019-01-06 12:45 ->setAIMarkersInverted :: function: 0x024841e55c50
+2019-01-06 12:45 ->registerSelectableObjects :: function: 0x02483e7814e8
+2019-01-06 12:45 ->detachImplement :: function: 0x0248431a5198
+2019-01-06 12:45 ->updateEasyControl :: function: 0x0248420c7ec8
+2019-01-06 12:45 ->setAbsolutePosition :: function: 0x024841f8e118
+2019-01-06 12:45 ->getDisableVehicleCharacterOnLeave :: function: 0x024842207fc0
+2019-01-06 12:45 ->setBroken :: function: 0x024840dd65b8
+2019-01-06 12:45 ->getIsLowered :: function: 0x0248422a6a20
+2019-01-06 12:45 ->getIsActiveForWipers :: function: 0x02483e780da8
+2019-01-06 12:45 ->getIsReadyForAutomatedTrainTravel :: function: 0x02483e5787c8
+2019-01-06 12:45 ->addNodeObjectMapping :: function: 0x02483ea06718
+2019-01-06 12:45 ->loadConnectorFromXML :: function: 0x024842540b38
+2019-01-06 12:45 ->addWearAmount :: function: 0x0248417fe040
+2019-01-06 12:45 ->loadSchemaOverlay :: function: 0x024841388708
+2019-01-06 12:45 ->aiBlock :: function: 0x02483e728638
+2019-01-06 12:45 ->getCruiseControlMaxSpeed :: function: 0x02483e782e68
+2019-01-06 12:45 ->isClient :: true
+2019-01-06 12:45 ->loadFillPlane :: function: 0x024841f3bbc0
+2019-01-06 12:45 ->getTurnLightState :: function: 0x024841040760
+2019-01-06 12:45 ->loadWheelDataFromExternalXML :: function: 0x0248425660c8
+2019-01-06 12:45 ->loadComponentFromXML :: function: 0x024840e97b98
+2019-01-06 12:45 ->getUpdatePriority :: function: 0x02483e7d5e90
+2019-01-06 12:45 ->updateFillUnitAutoAimTarget :: function: 0x024841f41b58
+2019-01-06 12:45 ->addHoseTargetNodes :: function: 0x024842f3d3d8
+2019-01-06 12:45 ->getIsActiveForSound :: function: 0x02484230ec78
+2019-01-06 12:45 ->getFillUnits :: function: 0x024841d4b6b0
+2019-01-06 12:45 ->removeToolCameras :: function: 0x02483e5ff188
+2019-01-06 12:45 ->getFirstValidFillUnitToFill :: function: 0x024841e78e20
+2019-01-06 12:45 ->clearAIFruitRequirements :: function: 0x02483ebbdb68
+2019-01-06 12:45 ->updateDirtAmount :: function: 0x02483ec95618
+2019-01-06 12:45 ->getWheelFromWheelIndex :: function: 0x0248414e4fd0
+2019-01-06 12:45 ->getAIInvertMarkersOnTurn :: function: 0x024841f51420
+2019-01-06 12:45 ->registerSecureAITask :: function: 0x02484236c7b8
+2019-01-06 12:45 ->loadBendingNodeFromXML :: function: 0x02484268a8d8
+2019-01-06 12:45 ->getCurrentSurfaceSound :: function: 0x0248415ef810
+2019-01-06 12:45 ->requiredDriveMode :: 1
+2019-01-06 12:45 ->getControllerName :: function: 0x02483eca1c08
+2019-01-06 12:45 ->updateFillUnitTriggers :: function: 0x024841f47a10
+2019-01-06 12:45 ->getParentComponent :: function: 0x02483e5b3bb0
+2019-01-06 12:45 ->getDrawFirstFillText :: function: 0x024841d4b680
+2019-01-06 12:45 ->loadBaseMaterialParameterFromXML :: function: 0x024842e60c60
+2019-01-06 12:45 ->setCruiseControlMaxSpeed :: function: 0x024839d49538
+2019-01-06 12:45 ->flc :: table: 0x02482561c6e0
+2019-01-06 12:45 ->frontLoaderCamOffsetY :: 0
+2019-01-06 12:45 ->disconnectHose :: function: 0x024842f090d0
+2019-01-06 12:45 ->anyMovingPartsDirty :: true
+2019-01-06 12:45 ->lastInputValues :: table: 0x024842be4e60
+2019-01-06 12:45 ->    leftRight :: 0
+2019-01-06 12:45 ->    upDown :: 0
+2019-01-06 12:45 ->loadDependentTranslatingParts :: function: 0x024842062840
+2019-01-06 12:45 ->loadMeasurementNode :: function: 0x024841f378a8
+2019-01-06 12:45 ->getCanToggleLight :: function: 0x02483ea5caa0
+2019-01-06 12:45 ->wheelSteeringDuration :: 0.95
+2019-01-06 12:45 ->loadDashboardFromXML :: function: 0x024841a5e0c0
+2019-01-06 12:45 ->spec_dynamicallyLoadedParts :: table: 0x02485eb2b300
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b3c8
+2019-01-06 12:45 ->    parts :: table: 0x02485eb43a08
+2019-01-06 12:45 ->getAnimationDuration :: function: 0x024839ffee68
+2019-01-06 12:45 ->maxRotation :: 0.66322511575785
+2019-01-06 12:45 ->setFillUnitFillTypeToDisplay :: function: 0x024841e5e560
+2019-01-06 12:45 ->spec_slopeCompensation :: table: 0x02485eb2bd40
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2be08
+2019-01-06 12:45 ->    nodes :: table: 0x02485eb4ef18
+2019-01-06 12:45 ->    lastRaycastDistance :: 0
+2019-01-06 12:45 ->updateWearAmount :: function: 0x024841b36c50
+2019-01-06 12:45 ->isBroken :: false
+2019-01-06 12:45 ->rotatedTimeInterpolator :: table: 0x02485eb62250
+2019-01-06 12:45 ->    lastValue :: 0
+2019-01-06 12:45 ->    targetValue :: 0
+2019-01-06 12:45 ->    value :: 0
+2019-01-06 12:45 ->isVehicleSaved :: true
+2019-01-06 12:45 ->maxRotTime :: 0.95
+2019-01-06 12:45 ->speedLimit :: inf
+2019-01-06 12:45 ->attachPowerTakeOff :: function: 0x02483e601cf8
+2019-01-06 12:45 ->checkSpeedLimit :: true
+2019-01-06 12:45 ->vehicleDirtyFlag :: 1
+2019-01-06 12:45 ->updateAIImplementData :: function: 0x02483ea670f0
+2019-01-06 12:45 ->callFunctionOnAllImplements :: function: 0x024843168280
+2019-01-06 12:45 ->setFillSoundIsPlaying :: function: 0x024842074ac0
+2019-01-06 12:45 ->selectionObjects :: table: 0x02485eb41540
+2019-01-06 12:45 ->firstTimeRun :: false
+2019-01-06 12:45 ->isSelectable :: true
+2019-01-06 12:45 ->getSellPrice :: function: 0x02483ea08d60
+2019-01-06 12:45 ->getAIMarkers :: function: 0x024841ab9128
+2019-01-06 12:45 ->loadHoseSkipNode :: function: 0x024842f3d118
+2019-01-06 12:45 ->lastMoveTime :: -10000
+2019-01-06 12:45 ->lastSignedSpeed :: 0
+2019-01-06 12:45 ->getIsConnectionHoseUsed :: function: 0x024842f14468
+2019-01-06 12:45 ->lastSpeedReal :: 0
+2019-01-06 12:45 ->setIsTabbable :: function: 0x02483e9ddb68
+2019-01-06 12:45 ->lastSpeed :: 0
+2019-01-06 12:45 ->getAIVehicleDirectionNode :: function: 0x024842091dc0
+2019-01-06 12:45 ->applyBaseMaterialConfiguration :: function: 0x024842686e40
+2019-01-06 12:45 ->operatingTime :: 14001263.671875
+2019-01-06 12:45 ->getOutputPowerTakeOffsByJointDescIndex :: function: 0x024840ea0c88
+2019-01-06 12:45 ->setFillUnitLastValidFillType :: function: 0x024841f37388
+2019-01-06 12:45 ->forceIsActive :: false
+2019-01-06 12:45 ->loadPowerTakeOffFromConfigFile :: function: 0x024842194cc0
+2019-01-06 12:45 ->autoRotateBackSpeed :: 2.2000000476837
+2019-01-06 12:45 ->rotatedTime :: 0
+2019-01-06 12:45 ->loadCharacterTargetNodeModifier :: function: 0x02483e88aba8
+2019-01-06 12:45 ->destroyFruitArea :: function: 0x024842045968
+2019-01-06 12:45 ->getFillUnitSupportedToolTypes :: function: 0x024841e52cd8
+2019-01-06 12:45 ->updateAttacherJointRotationNodes :: function: 0x0248431b0238
+2019-01-06 12:45 ->networkTimeInterpolator :: table: 0x02485eb414f8
+2019-01-06 12:45 ->    interpolationDuration :: 80
+2019-01-06 12:45 ->    isDirty :: false
+2019-01-06 12:45 ->    interpolationAlpha :: 1.2
+2019-01-06 12:45 ->    maxInterpolationAlpha :: 1.2
+2019-01-06 12:45 ->setFillUnitFillLevelToDisplay :: function: 0x024841e61868
+2019-01-06 12:45 ->thresholdTailwaterDepth :: 2.5
+2019-01-06 12:45 ->propertyState :: 1
+2019-01-06 12:45 ->removeAllSubWashableNodes :: function: 0x02483e784ce8
+2019-01-06 12:45 ->updateActionEvents :: function: 0x024841a64cf8
+2019-01-06 12:45 ->xmlFile :: 102665
+2019-01-06 12:45 ->loadCompensationNodeFromXML :: function: 0x024841d4b7d0
+2019-01-06 12:45 ->showTailwaterDepthWarning :: false
+2019-01-06 12:45 ->sizeLength :: 5.5
+2019-01-06 12:45 ->setFillUnitIsFilling :: function: 0x024842074a90
+2019-01-06 12:45 ->widthOffset :: 0
+2019-01-06 12:45 ->loadHubFromXML :: function: 0x024841569f18
+2019-01-06 12:45 ->supportsRadio :: true
+2019-01-06 12:45 ->emptyAllFillUnits :: function: 0x024841ee2bb0
+2019-01-06 12:45 ->componentJoints :: table: 0x02485eb3f008
+2019-01-06 12:45 ->    1 :: table: 0x02485eb3f050
+2019-01-06 12:45 ->loadAdditionalCharacterFromXML :: function: 0x02483e844ba8
+2019-01-06 12:45 ->schemaOverlay :: table: 0x02485eb3efc0
+2019-01-06 12:45 ->    invisibleBorderLeft :: 0.05
+2019-01-06 12:45 ->    schemaNameDefault :: DEFAULT_VEHICLE
+2019-01-06 12:45 ->    schemaNameOn :: DEFAULT_VEHICLE_ON
+2019-01-06 12:45 ->    offsetX :: 0
+2019-01-06 12:45 ->    invisibleBorderRight :: 0.05
+2019-01-06 12:45 ->    attacherJoints :: table: 0x02485ebc0950
+2019-01-06 12:45 ->    schemaNameSelected :: DEFAULT_VEHICLE_SELECTED
+2019-01-06 12:45 ->    offsetY :: 0
+2019-01-06 12:45 ->    schemaNameSelectedOn :: DEFAULT_VEHICLE_SELECTED_ON
+2019-01-06 12:45 ->steeringAxleNode :: 103044
+2019-01-06 12:45 ->loadMotor :: function: 0x024842cafd18
+2019-01-06 12:45 ->numComponents :: 2
+2019-01-06 12:45 ->components :: table: 0x02485eb2dec8
+2019-01-06 12:45 ->    1 :: table: 0x02485eb2dfc0
+2019-01-06 12:45 ->    2 :: table: 0x02485eb2ea30
+2019-01-06 12:45 ->getIsEnterable :: function: 0x024840ccd278
+2019-01-06 12:45 ->isMassDirty :: true
+2019-01-06 12:45 ->serverMass :: 0
+2019-01-06 12:45 ->getIsEntered :: function: 0x024840ccd2a8
+2019-01-06 12:45 ->canBeReset :: true
+2019-01-06 12:45 ->loadBendingNodeModifierFromXML :: function: 0x02484268a968
+2019-01-06 12:45 ->getIsSelected :: function: 0x0248418e56f8
+2019-01-06 12:45 ->updateMotorTemperature :: function: 0x02484195ad50
+2019-01-06 12:45 ->typeDesc :: Traktor
+2019-01-06 12:45 ->price :: 130500
+2019-01-06 12:45 ->spec_wearable :: table: 0x02485eb2b1b8
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b280
+2019-01-06 12:45 ->    totalAmount :: 0.0090119997039437
+2019-01-06 12:45 ->    wearableNodesByIndex :: table: 0x02485eb43800
+2019-01-06 12:45 ->    dirtyFlag :: 4
+2019-01-06 12:45 ->    fieldMultiplier :: 2
+2019-01-06 12:45 ->    wearDuration :: 3.4722222222222e-08
+2019-01-06 12:45 ->    wearableNodes :: table: 0x02485eb437b8
+2019-01-06 12:45 ->    workMultiplier :: 5
+2019-01-06 12:45 ->getAIVehicleSteeringNode :: function: 0x02483eaadd30
+2019-01-06 12:45 ->loadRealLightSetup :: function: 0x024842f98280
+2019-01-06 12:45 ->setDelayedData :: function: 0x0248420c6528
+2019-01-06 12:45 ->updateWheelChockPosition :: function: 0x0248414a5440
+2019-01-06 12:45 ->spec_ikChains :: table: 0x02485eb2b968
+2019-01-06 12:45 ->    reverseLightsVisibility :: false
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c990
+2019-01-06 12:45 ->    currentLightState :: 0
+2019-01-06 12:45 ->    lightStates :: table: 0x02485ebb5b88
+2019-01-06 12:45 ->    numLightTypes :: 3
+2019-01-06 12:45 ->    samples :: table: 0x02485ebbb538
+2019-01-06 12:45 ->    shaderBrakeLights :: table: 0x02485ebb4c80
+2019-01-06 12:45 ->    lightsTypesMask :: 0
+2019-01-06 12:45 ->    realLights :: table: 0x02485ebb5320
+2019-01-06 12:45 ->    sharedLights :: table: 0x02485ebb59b8
+2019-01-06 12:45 ->    dirtyFlag :: 2048
+2019-01-06 12:45 ->    beaconLightsActive :: false
+2019-01-06 12:45 ->    turnLightState :: 0
+2019-01-06 12:45 ->    brakeLights :: table: 0x02485ebb5970
+2019-01-06 12:45 ->    actionEventsActiveChange :: table: 0x02485ebbb4a8
+2019-01-06 12:45 ->    hasTurnLights :: false
+2019-01-06 12:45 ->    beaconLights :: table: 0x02485ebbb4f0
+2019-01-06 12:45 ->    defaultLights :: table: 0x02485ebb5928
+2019-01-06 12:45 ->    aiLightsTypesMask :: 7
+2019-01-06 12:45 ->    turnLightsRight :: table: 0x02485ebb5b40
+2019-01-06 12:45 ->    shaderDefaultLights :: table: 0x02485ebb4c38
+2019-01-06 12:45 ->    reverseLights :: table: 0x02485ebb5258
+2019-01-06 12:45 ->    brakeLightsVisibility :: false
+2019-01-06 12:45 ->    shaderReverseLights :: table: 0x02485ebb4cc8
+2019-01-06 12:45 ->isDeleted :: false
+2019-01-06 12:45 ->addToGlobalWearableNode :: function: 0x024841c433b0
+2019-01-06 12:45 ->onVehicleWakeUpCallback :: function: 0x024840d798a0
+2019-01-06 12:45 ->addAIFruitRequirement :: function: 0x0248418ee990
+2019-01-06 12:45 ->getFillUnitFillLevel :: function: 0x024841df2658
+2019-01-06 12:45 ->getAITurnRadiusLimitation :: function: 0x02483a24f410
+2019-01-06 12:45 ->getCanToggleSelectable :: function: 0x0248421630d8
+2019-01-06 12:45 ->updatePowerTakeOffLength :: function: 0x024840ea0c58
+2019-01-06 12:45 ->lastMovedDistance :: 0
+2019-01-06 12:45 ->setBrakeLightsVisibility :: function: 0x024841040790
+2019-01-06 12:45 ->addSubselection :: function: 0x024841a0fa50
+2019-01-06 12:45 ->getIsAIActive :: function: 0x024842053570
+2019-01-06 12:45 ->getMotor :: function: 0x02483e835358
+2019-01-06 12:45 ->setAIMarkersInverted :: function: 0x024841e55c50
+2019-01-06 12:45 ->registerSelectableObjects :: function: 0x02483e7814e8
+2019-01-06 12:45 ->detachImplement :: function: 0x0248431a5198
+2019-01-06 12:45 ->updateEasyControl :: function: 0x0248420c7ec8
+2019-01-06 12:45 ->setAbsolutePosition :: function: 0x024841f8e118
+2019-01-06 12:45 ->getDisableVehicleCharacterOnLeave :: function: 0x024842207fc0
+2019-01-06 12:45 ->setBroken :: function: 0x024840dd65b8
+2019-01-06 12:45 ->getIsLowered :: function: 0x0248422a6a20
+2019-01-06 12:45 ->getIsActiveForWipers :: function: 0x02483e780da8
+2019-01-06 12:45 ->getIsReadyForAutomatedTrainTravel :: function: 0x02483e5787c8
+2019-01-06 12:45 ->addNodeObjectMapping :: function: 0x02483ea06718
+2019-01-06 12:45 ->loadConnectorFromXML :: function: 0x024842540b38
+2019-01-06 12:45 ->addWearAmount :: function: 0x0248417fe040
+2019-01-06 12:45 ->loadSchemaOverlay :: function: 0x024841388708
+2019-01-06 12:45 ->aiBlock :: function: 0x02483e728638
+2019-01-06 12:45 ->getCruiseControlMaxSpeed :: function: 0x02483e782e68
+2019-01-06 12:45 ->isClient :: true
+2019-01-06 12:45 ->loadFillPlane :: function: 0x024841f3bbc0
+2019-01-06 12:45 ->getTurnLightState :: function: 0x024841040760
+2019-01-06 12:45 ->loadWheelDataFromExternalXML :: function: 0x0248425660c8
+2019-01-06 12:45 ->loadComponentFromXML :: function: 0x024840e97b98
+2019-01-06 12:45 ->getUpdatePriority :: function: 0x02483e7d5e90
+2019-01-06 12:45 ->updateFillUnitAutoAimTarget :: function: 0x024841f41b58
+2019-01-06 12:45 ->addHoseTargetNodes :: function: 0x024842f3d3d8
+2019-01-06 12:45 ->getIsActiveForSound :: function: 0x02484230ec78
+2019-01-06 12:45 ->getFillUnits :: function: 0x024841d4b6b0
+2019-01-06 12:45 ->removeToolCameras :: function: 0x02483e5ff188
+2019-01-06 12:45 ->getFirstValidFillUnitToFill :: function: 0x024841e78e20
+2019-01-06 12:45 ->clearAIFruitRequirements :: function: 0x02483ebbdb68
+2019-01-06 12:45 ->updateDirtAmount :: function: 0x02483ec95618
+2019-01-06 12:45 ->getWheelFromWheelIndex :: function: 0x0248414e4fd0
+2019-01-06 12:45 ->getAIInvertMarkersOnTurn :: function: 0x024841f51420
+2019-01-06 12:45 ->registerSecureAITask :: function: 0x02484236c7b8
+2019-01-06 12:45 ->loadBendingNodeFromXML :: function: 0x02484268a8d8
+2019-01-06 12:45 ->getCurrentSurfaceSound :: function: 0x0248415ef810
+2019-01-06 12:45 ->requiredDriveMode :: 1
+2019-01-06 12:45 ->getControllerName :: function: 0x02483eca1c08
+2019-01-06 12:45 ->updateFillUnitTriggers :: function: 0x024841f47a10
+2019-01-06 12:45 ->getParentComponent :: function: 0x02483e5b3bb0
+2019-01-06 12:45 ->getDrawFirstFillText :: function: 0x024841d4b680
+2019-01-06 12:45 ->loadBaseMaterialParameterFromXML :: function: 0x024842e60c60
+2019-01-06 12:45 ->setCruiseControlMaxSpeed :: function: 0x024839d49538
+2019-01-06 12:45 ->flc :: table: 0x02482561c6e0
+2019-01-06 12:45 ->frontLoaderCamOffsetY :: 0
+2019-01-06 12:45 ->disconnectHose :: function: 0x024842f090d0
+2019-01-06 12:45 ->anyMovingPartsDirty :: true
+2019-01-06 12:45 ->lastInputValues :: table: 0x024825610870
+2019-01-06 12:45 ->    leftRight :: 0
+2019-01-06 12:45 ->    upDown :: 0
+2019-01-06 12:45 ->loadDependentTranslatingParts :: function: 0x024842062840
+2019-01-06 12:45 ->loadMeasurementNode :: function: 0x024841f378a8
+2019-01-06 12:45 ->getCanToggleLight :: function: 0x02483ea5caa0
+2019-01-06 12:45 ->wheelSteeringDuration :: 0.95
+2019-01-06 12:45 ->loadDashboardFromXML :: function: 0x024841a5e0c0
+2019-01-06 12:45 ->spec_dynamicallyLoadedParts :: table: 0x02485eb2b300
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b3c8
+2019-01-06 12:45 ->    parts :: table: 0x02485eb43a08
+2019-01-06 12:45 ->getAnimationDuration :: function: 0x024839ffee68
+2019-01-06 12:45 ->maxRotation :: 0.66322511575785
+2019-01-06 12:45 ->setFillUnitFillTypeToDisplay :: function: 0x024841e5e560
+2019-01-06 12:45 ->spec_slopeCompensation :: table: 0x02485eb2bd40
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2be08
+2019-01-06 12:45 ->    nodes :: table: 0x02485eb4ef18
+2019-01-06 12:45 ->    lastRaycastDistance :: 0
+2019-01-06 12:45 ->updateWearAmount :: function: 0x024841b36c50
+2019-01-06 12:45 ->isBroken :: false
+2019-01-06 12:45 ->rotatedTimeInterpolator :: table: 0x02485eb62250
+2019-01-06 12:45 ->    lastValue :: 0
+2019-01-06 12:45 ->    targetValue :: 0
+2019-01-06 12:45 ->    value :: 0
+2019-01-06 12:45 ->isVehicleSaved :: true
+2019-01-06 12:45 ->maxRotTime :: 0.95
+2019-01-06 12:45 ->speedLimit :: inf
+2019-01-06 12:45 ->attachPowerTakeOff :: function: 0x02483e601cf8
+2019-01-06 12:45 ->checkSpeedLimit :: true
+2019-01-06 12:45 ->vehicleDirtyFlag :: 1
+2019-01-06 12:45 ->updateAIImplementData :: function: 0x02483ea670f0
+2019-01-06 12:45 ->callFunctionOnAllImplements :: function: 0x024843168280
+2019-01-06 12:45 ->setFillSoundIsPlaying :: function: 0x024842074ac0
+2019-01-06 12:45 ->selectionObjects :: table: 0x02485eb41540
+2019-01-06 12:45 ->firstTimeRun :: false
+2019-01-06 12:45 ->isSelectable :: true
+2019-01-06 12:45 ->getSellPrice :: function: 0x02483ea08d60
+2019-01-06 12:45 ->getAIMarkers :: function: 0x024841ab9128
+2019-01-06 12:45 ->loadHoseSkipNode :: function: 0x024842f3d118
+2019-01-06 12:45 ->lastMoveTime :: -10000
+2019-01-06 12:45 ->lastSignedSpeed :: 0
+2019-01-06 12:45 ->getIsConnectionHoseUsed :: function: 0x024842f14468
+2019-01-06 12:45 ->lastSpeedReal :: 0
+2019-01-06 12:45 ->setIsTabbable :: function: 0x02483e9ddb68
+2019-01-06 12:45 ->lastSpeed :: 0
+2019-01-06 12:45 ->getAIVehicleDirectionNode :: function: 0x024842091dc0
+2019-01-06 12:45 ->applyBaseMaterialConfiguration :: function: 0x024842686e40
+2019-01-06 12:45 ->operatingTime :: 14001263.671875
+2019-01-06 12:45 ->getOutputPowerTakeOffsByJointDescIndex :: function: 0x024840ea0c88
+2019-01-06 12:45 ->setFillUnitLastValidFillType :: function: 0x024841f37388
+2019-01-06 12:45 ->forceIsActive :: false
+2019-01-06 12:45 ->loadPowerTakeOffFromConfigFile :: function: 0x024842194cc0
+2019-01-06 12:45 ->autoRotateBackSpeed :: 2.2000000476837
+2019-01-06 12:45 ->rotatedTime :: 0
+2019-01-06 12:45 ->loadCharacterTargetNodeModifier :: function: 0x02483e88aba8
+2019-01-06 12:45 ->destroyFruitArea :: function: 0x024842045968
+2019-01-06 12:45 ->getFillUnitSupportedToolTypes :: function: 0x024841e52cd8
+2019-01-06 12:45 ->updateAttacherJointRotationNodes :: function: 0x0248431b0238
+2019-01-06 12:45 ->networkTimeInterpolator :: table: 0x02485eb414f8
+2019-01-06 12:45 ->    interpolationDuration :: 80
+2019-01-06 12:45 ->    isDirty :: false
+2019-01-06 12:45 ->    interpolationAlpha :: 1.2
+2019-01-06 12:45 ->    maxInterpolationAlpha :: 1.2
+2019-01-06 12:45 ->setFillUnitFillLevelToDisplay :: function: 0x024841e61868
+2019-01-06 12:45 ->thresholdTailwaterDepth :: 2.5
+2019-01-06 12:45 ->propertyState :: 1
+2019-01-06 12:45 ->removeAllSubWashableNodes :: function: 0x02483e784ce8
+2019-01-06 12:45 ->updateActionEvents :: function: 0x024841a64cf8
+2019-01-06 12:45 ->xmlFile :: 102665
+2019-01-06 12:45 ->loadCompensationNodeFromXML :: function: 0x024841d4b7d0
+2019-01-06 12:45 ->showTailwaterDepthWarning :: false
+2019-01-06 12:45 ->sizeLength :: 5.5
+2019-01-06 12:45 ->setFillUnitIsFilling :: function: 0x024842074a90
+2019-01-06 12:45 ->widthOffset :: 0
+2019-01-06 12:45 ->loadHubFromXML :: function: 0x024841569f18
+2019-01-06 12:45 ->supportsRadio :: true
+2019-01-06 12:45 ->emptyAllFillUnits :: function: 0x024841ee2bb0
+2019-01-06 12:45 ->componentJoints :: table: 0x02485eb3f008
+2019-01-06 12:45 ->    1 :: table: 0x02485eb3f050
+2019-01-06 12:45 ->loadAdditionalCharacterFromXML :: function: 0x02483e844ba8
+2019-01-06 12:45 ->schemaOverlay :: table: 0x02485eb3efc0
+2019-01-06 12:45 ->    invisibleBorderLeft :: 0.05
+2019-01-06 12:45 ->    schemaNameDefault :: DEFAULT_VEHICLE
+2019-01-06 12:45 ->    schemaNameOn :: DEFAULT_VEHICLE_ON
+2019-01-06 12:45 ->    offsetX :: 0
+2019-01-06 12:45 ->    invisibleBorderRight :: 0.05
+2019-01-06 12:45 ->    attacherJoints :: table: 0x02485ebc0950
+2019-01-06 12:45 ->    schemaNameSelected :: DEFAULT_VEHICLE_SELECTED
+2019-01-06 12:45 ->    offsetY :: 0
+2019-01-06 12:45 ->    schemaNameSelectedOn :: DEFAULT_VEHICLE_SELECTED_ON
+2019-01-06 12:45 ->steeringAxleNode :: 103044
+2019-01-06 12:45 ->loadMotor :: function: 0x024842cafd18
+2019-01-06 12:45 ->numComponents :: 2
+2019-01-06 12:45 ->components :: table: 0x02485eb2dec8
+2019-01-06 12:45 ->    1 :: table: 0x02485eb2dfc0
+2019-01-06 12:45 ->    2 :: table: 0x02485eb2ea30
+2019-01-06 12:45 ->getIsEnterable :: function: 0x024840ccd278
+2019-01-06 12:45 ->isMassDirty :: true
+2019-01-06 12:45 ->serverMass :: 0
+2019-01-06 12:45 ->getIsEntered :: function: 0x024840ccd2a8
+2019-01-06 12:45 ->canBeReset :: true
+2019-01-06 12:45 ->loadBendingNodeModifierFromXML :: function: 0x02484268a968
+2019-01-06 12:45 ->getIsSelected :: function: 0x0248418e56f8
+2019-01-06 12:45 ->updateMotorTemperature :: function: 0x02484195ad50
+2019-01-06 12:45 ->typeDesc :: Traktor
+2019-01-06 12:45 ->price :: 130500
+2019-01-06 12:45 ->spec_wearable :: table: 0x02485eb2b1b8
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b280
+2019-01-06 12:45 ->    totalAmount :: 0.0090119997039437
+2019-01-06 12:45 ->    wearableNodesByIndex :: table: 0x02485eb43800
+2019-01-06 12:45 ->    dirtyFlag :: 4
+2019-01-06 12:45 ->    fieldMultiplier :: 2
+2019-01-06 12:45 ->    wearDuration :: 3.4722222222222e-08
+2019-01-06 12:45 ->    wearableNodes :: table: 0x02485eb437b8
+2019-01-06 12:45 ->    workMultiplier :: 5
+2019-01-06 12:45 ->getAIVehicleSteeringNode :: function: 0x02483eaadd30
+2019-01-06 12:45 ->loadRealLightSetup :: function: 0x024842f98280
+2019-01-06 12:45 ->getTireTrackColor :: function: 0x024840e56c28
+2019-01-06 12:45 ->isRegistered :: true
+2019-01-06 12:45 ->age :: 4
+2019-01-06 12:45 ->loadBasicPowerTakeOff :: function: 0x02484234dff0
+2019-01-06 12:45 ->updateDependentToolLimits :: function: 0x0248420a1040
+2019-01-06 12:45 ->getIsVehicleControlledByPlayer :: function: 0x024841a39d08
+2019-01-06 12:45 ->setAIMapHotspotBlinking :: function: 0x024841b941e0
+2019-01-06 12:45 ->spec_bunkerSiloCompacter :: table: 0x02485eb2d308
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d3d0
+2019-01-06 12:45 ->    scale :: 1
+2019-01-06 12:45 ->dayChanged :: function: 0x02484141f0e8
+2019-01-06 12:45 ->getIsTabbable :: function: 0x02483e9ddb38
+2019-01-06 12:45 ->updateMass :: function: 0x02483e8dad90
+2019-01-06 12:45 ->activate :: function: 0x024840ea2948
+2019-01-06 12:45 ->spec_frontloaderAttacher :: table: 0x02485eb2d1c0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d288
+2019-01-06 12:45 ->spec_wipers :: table: 0x02485eb2d078
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d140
+2019-01-06 12:45 ->    lastRainScale :: 0
+2019-01-06 12:45 ->    wipers :: table: 0x02485ebda220
+2019-01-06 12:45 ->    hasWipers :: true
+2019-01-06 12:45 ->vehicleType :: table: 0x02483e7f98d8
+2019-01-06 12:45 ->    filename :: dataS/scripts/vehicles/Vehicle.lua
+2019-01-06 12:45 ->    specializationNames :: table: 0x0248412b7af8
+2019-01-06 12:45 ->    specializationsByName :: table: 0x02483e7974c8
+2019-01-06 12:45 ->    className :: Vehicle
+2019-01-06 12:45 ->    specializations :: table: 0x02483e4ed388
+2019-01-06 12:45 ->    events :: table: 0x0248422e43e8
+2019-01-06 12:45 ->    eventListeners :: table: 0x024841008610
+2019-01-06 12:45 ->    functions :: table: 0x024841b04ba0
+2019-01-06 12:45 ->    name :: tractor
+2019-01-06 12:45 ->    customEnvironment :: 
+2019-01-06 12:45 ->connectHose :: function: 0x024842f090a0
+2019-01-06 12:45 ->spec_attacherJoints :: table: 0x02485eb2ca10
+2019-01-06 12:45 ->    showAttachNotAllowedText :: 0
+2019-01-06 12:45 ->    attachableInfo :: table: 0x02485ebca978
+2019-01-06 12:45 ->    attachedImplements :: table: 0x02485ebca868
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2cad8
+2019-01-06 12:45 ->    attacherJoints :: table: 0x02485ebbe2f0
+2019-01-06 12:45 ->    isHydraulicSamplePlaying :: false
+2019-01-06 12:45 ->    samples :: table: 0x02485ebca9f8
+2019-01-06 12:45 ->    dirtyFlag :: 4096
+2019-01-06 12:45 ->    attacherJointCombos :: table: 0x02485ebbe2a8
+2019-01-06 12:45 ->getFillUnitExtraDistanceFromNode :: function: 0x024841e790b0
+2019-01-06 12:45 ->updateAIDriveStrategies :: function: 0x024841f869f8
+2019-01-06 12:45 ->activateBendingNodes :: function: 0x02484268a998
+2019-01-06 12:45 ->setDelayedData :: function: 0x0248420c6528
+2019-01-06 12:45 ->updateWheelChockPosition :: function: 0x0248414a5440
+2019-01-06 12:45 ->spec_ikChains :: table: 0x02485eb2b968
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2ba30
+2019-01-06 12:45 ->    chains :: table: 0x02485eb5ed88
+2019-01-06 12:45 ->spec_cylindered :: table: 0x02485eb2b6d8
+2019-01-06 12:45 ->    movingPartNeedsSound :: false
+2019-01-06 12:45 ->    cylinderedDirtyFlag :: 8
+2019-01-06 12:45 ->    isActiveDirtyTimeOffset :: 0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b7a0
+2019-01-06 12:45 ->    isHydraulicSamplePlaying :: false
+2019-01-06 12:45 ->    currentControlGroupIndex :: 1
+2019-01-06 12:45 ->    activeDirtyMovingParts :: table: 0x02485eb51c90
+2019-01-06 12:45 ->    movingParts :: table: 0x02485eb55748
+2019-01-06 12:45 ->    controlGroupNames :: table: 0x02485eb56418
+2019-01-06 12:45 ->    movingToolNeedsSound :: false
+2019-01-06 12:45 ->    isLoading :: false
+2019-01-06 12:45 ->    movingTools :: table: 0x02485eb557d8
+2019-01-06 12:45 ->    isActiveDirtyTime :: 1000
+2019-01-06 12:45 ->    nodesToMovingParts :: table: 0x02485eb51d20
+2019-01-06 12:45 ->    controlGroupMapping :: table: 0x02485eb563d0
+2019-01-06 12:45 ->    nodesToMovingTools :: table: 0x02485eb55790
+2019-01-06 12:45 ->    cylinderedInputDirtyFlag :: 16
+2019-01-06 12:45 ->    samples :: table: 0x02485eb51798
+2019-01-06 12:45 ->    controlGroups :: table: 0x02485eb56200
+2019-01-06 12:45 ->getIsDrivingForward :: function: 0x024841099d18
+2019-01-06 12:45 ->spec_dashboard :: table: 0x02485eb2b590
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b658
+2019-01-06 12:45 ->    criticalDashboards :: table: 0x02485eb4f7d0
+2019-01-06 12:45 ->    groups :: table: 0x02485eb4f880
+2019-01-06 12:45 ->    isDirty :: true
+2019-01-06 12:45 ->    dashboards :: table: 0x02485eb4f788
+2019-01-06 12:45 ->maxTurningRadiusWheel :: 1
+2019-01-06 12:45 ->boughtConfigurations :: table: 0x02485eb2a588
+2019-01-06 12:45 ->    motor :: table: 0x02485eb2aa48
+2019-01-06 12:45 ->    design :: table: 0x02485eb2a968
+2019-01-06 12:45 ->    wheel :: table: 0x02485eb2aa90
+2019-01-06 12:45 ->    fillUnit :: table: 0x02485eb2ab40
+2019-01-06 12:45 ->    frontloader :: table: 0x02485eb2ab88
+2019-01-06 12:45 ->spec_tipOccluder :: table: 0x02485eb2ade0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2aea8
+2019-01-06 12:45 ->    createdTipOcclusionAreaGroupIds :: table: 0x02485eb42dd0
+2019-01-06 12:45 ->    tipOcclusionAreas :: table: 0x02485eb42d40
+2019-01-06 12:45 ->spec_baseMaterial :: table: 0x02485eb2ac98
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2ad60
+2019-01-06 12:45 ->    nameToMaterial :: table: 0x02485eb41950
+2019-01-06 12:45 ->    baseMaterials :: table: 0x02485eb41908
+2019-01-06 12:45 ->getNumOfActiveAnimations :: function: 0x024841802a68
+2019-01-06 12:45 ->updateSpeedRotatingPart :: function: 0x024840e76708
+2019-01-06 12:45 ->getFillUnitSupportsToolTypeAndFillType :: function: 0x024841e07540
+2019-01-06 12:45 ->getFillUnitFillLevelPercentage :: function: 0x024841df2688
+2019-01-06 12:45 ->getObjectFromImplementIndex :: function: 0x0248431b9718
+2019-01-06 12:45 ->thresholdTailwaterDepthWarning :: 1
+2019-01-06 12:45 ->doCheckSpeedLimit :: function: 0x024840f27a70
+2019-01-06 12:45 ->getIsWheelFoliageDestructionAllowed :: function: 0x02483e5ea4e8
+2019-01-06 12:45 ->unselectVehicle :: function: 0x02483e8bce80
+2019-01-06 12:45 ->removeFromPhysics :: function: 0x02483e65a468
+2019-01-06 12:45 ->mountableTriggerCallback :: function: 0x024843177f68
+2019-01-06 12:45 ->getFillUnitSupportsFillType :: function: 0x024841e047b0
+2019-01-06 12:45 ->getSuspensionNodeFromIndex :: function: 0x02483eba2a00
+2019-01-06 12:45 ->setNodeDirtAmount :: function: 0x02483ec61250
+2019-01-06 12:45 ->spec_motorized :: table: 0x02485eb2c260
+2019-01-06 12:45 ->    motorTemperature :: table: 0x02485ebace28
+2019-01-06 12:45 ->    maxDecelerationDuringBrake :: 0
+2019-01-06 12:45 ->    motorStartTime :: 0
+2019-01-06 12:45 ->    differentials :: table: 0x02485eb892b0
+2019-01-06 12:45 ->    speedDisplayScale :: 1
+2019-01-06 12:45 ->    consumers :: table: 0x02485eba5c30
+2019-01-06 12:45 ->    isMotorStarted :: false
+2019-01-06 12:45 ->    samples :: table: 0x02485eb926f0
+2019-01-06 12:45 ->    fuelCapacity :: 500
+2019-01-06 12:45 ->    stopMotorOnLeave :: true
+2019-01-06 12:45 ->    motorizedNode :: 103044
+2019-01-06 12:45 ->    lastDefUsage :: 0
+2019-01-06 12:45 ->    smoothedLoadPercentage :: 0
+2019-01-06 12:45 ->    motorType :: vehicle
+2019-01-06 12:45 ->    exhaustEffectMaxSteeringSpeed :: 0.001
+2019-01-06 12:45 ->    lastAirUsage :: 0
+2019-01-06 12:45 ->    brakeCompressor :: table: 0x02485eba5be8
+2019-01-06 12:45 ->    motorSamples :: table: 0x02485eb99d10
+2019-01-06 12:45 ->    showTurnOnMotorWarning :: false
+2019-01-06 12:45 ->    reverseDriveThreshold :: 4
+2019-01-06 12:45 ->    lastRoundPerMinute :: 0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c328
+2019-01-06 12:45 ->    lastFuelUsageDisplay :: 0
+2019-01-06 12:45 ->    compressionSoundTime :: 0
+2019-01-06 12:45 ->    consumersByFillType :: table: 0x02485ebacde0
+2019-01-06 12:45 ->    consumersByFillTypeName :: table: 0x02485ebaccb0
+2019-01-06 12:45 ->    motorFan :: table: 0x02485ebacfd8
+2019-01-06 12:45 ->    motorStartDuration :: 3000
+2019-01-06 12:45 ->    animationNodes :: table: 0x02485ebb0530
+2019-01-06 12:45 ->    lastVehicleDamage :: 0
+2019-01-06 12:45 ->    fuelUsageBuffer :: table: 0x02485ebad0c0
+2019-01-06 12:45 ->    lastFuelUsageDisplayTime :: 0
+2019-01-06 12:45 ->    exhaustEffects :: table: 0x02485ebadb40
+2019-01-06 12:45 ->    lastFuelUsage :: 0
+2019-01-06 12:45 ->    motor :: table: 0x02485eb923f0
+2019-01-06 12:45 ->    motorStopTimerDuration :: 30000
+2019-01-06 12:45 ->    actualLoadPercentage :: 0
+2019-01-06 12:45 ->    motorStartAnimation :: vehicle
+2019-01-06 12:45 ->    dirtyFlag :: 512
+2019-01-06 12:45 ->    motorStopTimer :: 30000
+2019-01-06 12:45 ->    isBrakeSamplePlaying :: false
+2019-01-06 12:45 ->    consumerConfigurationIndex :: 1
+2019-01-06 12:45 ->    consumersEmptyWarning :: Fahrzeug betanken!
+2019-01-06 12:45 ->    turnOnText :: Motor starten
+2019-01-06 12:45 ->    turnOffText :: Motor stoppen
+2019-01-06 12:45 ->setReverseLightsVisibility :: function: 0x024841e6d9d0
+2019-01-06 12:45 ->loadRotationDashboardFromXML :: function: 0x024841a458c0
+2019-01-06 12:45 ->setLightsTypesMask :: function: 0x02483e651038
+2019-01-06 12:45 ->updateWheelFriction :: function: 0x024841f53458
+2019-01-06 12:45 ->loadRealLights :: function: 0x024842f982b0
+2019-01-06 12:45 ->loadMovingPartFromXML :: function: 0x024842088050
+2019-01-06 12:45 ->getAttacherJoints :: function: 0x0248431e2628
+2019-01-06 12:45 ->loadComponentJointFromXML :: function: 0x02484132fd38
+2019-01-06 12:45 ->addAITerrainDetailProhibitedRange :: function: 0x024840e435d0
+2019-01-06 12:45 ->collisionPairs :: table: 0x02485eb40e98
+2019-01-06 12:45 ->loadWheelData :: function: 0x024842578b60
+2019-01-06 12:45 ->deactivateAttachments :: function: 0x02484314c2d8
+2019-01-06 12:45 ->setAIFruitProhibitions :: function: 0x02483ea223d0
+2019-01-06 12:45 ->getAILookAheadSize :: function: 0x02484211a3e8
+2019-01-06 12:45 ->getAIImplementCollisionTriggers :: function: 0x0248424164c8
+2019-01-06 12:45 ->getAISizeMarkers :: function: 0x024842031ad8
+2019-01-06 12:45 ->updateWheelTireTracks :: function: 0x024840e56c58
+2019-01-06 12:45 ->getCanImplementBeUsedForAI :: function: 0x02483eaf3e60
+2019-01-06 12:45 ->detachTypedPowerTakeOff :: function: 0x0248413013b8
+2019-01-06 12:45 ->getMotorRpmPercentage :: function: 0x024840e88ac0
+2019-01-06 12:45 ->getIsAdditionalCharacterActive :: function: 0x02483e844bd8
+2019-01-06 12:45 ->getCanToggleAttach :: function: 0x02484227a500
+2019-01-06 12:45 ->raiseAIEvent :: function: 0x02483a037f28
+2019-01-06 12:45 ->setMassDirty :: function: 0x02483ea2c918
+2019-01-06 12:45 ->deactivate :: function: 0x024840e9b468
+2019-01-06 12:45 ->setAIFruitRequirements :: function: 0x02483e7bbca8
+2019-01-06 12:45 ->aiEndTurn :: function: 0x02483e764738
+2019-01-06 12:45 ->aiStartTurn :: function: 0x02483e988318
+2019-01-06 12:45 ->getAttacherJointByJointDescIndex :: function: 0x0248431e2540
+2019-01-06 12:45 ->movingDirection :: 0
+2019-01-06 12:45 ->updateAttacherJointRotation :: function: 0x0248431b13d0
+2019-01-06 12:45 ->getCanAIImplementContinueWork :: function: 0x02483ebfdea0
+2019-01-06 12:45 ->setComponentJointFrame :: function: 0x02483e4ce488
+2019-01-06 12:45 ->spec_enterable :: table: 0x02485eb2bfd0
+2019-01-06 12:45 ->    enterReferenceNode :: 103044
+2019-01-06 12:45 ->    canUseEnter :: true
+2019-01-06 12:45 ->    forceSelectionOnEnter :: false
+2019-01-06 12:45 ->    defaultCharacterNode :: 103158
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c098
+2019-01-06 12:45 ->    characterTargetNodeModifiers :: table: 0x02485eb827e0
+2019-01-06 12:45 ->    isControlled :: false
+2019-01-06 12:45 ->    numCameras :: 2
+2019-01-06 12:45 ->    additionalCharacterActive :: false
+2019-01-06 12:45 ->    mirrors :: table: 0x02485eb84dd8
+2019-01-06 12:45 ->    dirtyFlag :: 128
+2019-01-06 12:45 ->    camIndex :: 1
+2019-01-06 12:45 ->    controllerFarmId :: 0
+2019-01-06 12:45 ->    isTabbable :: true
+2019-01-06 12:45 ->    isEntered :: false
+2019-01-06 12:45 ->    nicknameRendering :: table: 0x02485eb81608
+2019-01-06 12:45 ->    disableCharacterOnLeave :: true
+2019-01-06 12:45 ->    interactionRadius :: 6
+2019-01-06 12:45 ->    cameras :: table: 0x02485eb816b8
+2019-01-06 12:45 ->    defaultCharacterTargets :: table: 0x02485eb7c570
+2019-01-06 12:45 ->    additionalCharacterTargets :: table: 0x02485eb815c0
+2019-01-06 12:45 ->    exitPoint :: 103057
+2019-01-06 12:45 ->    vehicleCharacter :: table: 0x02485eb7c430
+2019-01-06 12:45 ->setAIMapHotspotVisibility :: function: 0x024841ea6a80
+2019-01-06 12:45 ->getFoliageBendingNodeByIndex :: function: 0x02484268ae88
+2019-01-06 12:45 ->getTipOcclusionAreas :: function: 0x0248417a4b70
+2019-01-06 12:45 ->getAIFruitRequirements :: function: 0x02483a04d6e8
+2019-01-06 12:45 ->setBaseMaterialColor :: function: 0x0248423c6320
+2019-01-06 12:45 ->enterVehicle :: function: 0x02483e66c360
+2019-01-06 12:45 ->getCanAIVehicleContinueWork :: function: 0x02483a04c1c8
+2019-01-06 12:45 ->getFillUnitForcedMaterialFillType :: function: 0x024841e67770
+2019-01-06 12:45 ->updatePowerTakeOff :: function: 0x02484198fcc8
+2019-01-06 12:45 ->getIsInUse :: function: 0x024840c9ac10
+2019-01-06 12:45 ->getFillLevelInformation :: function: 0x02483e74c070
+2019-01-06 12:45 ->loadDependentAttacherJoints :: function: 0x02484208b8e8
+2019-01-06 12:45 ->getReverserDirection :: function: 0x024841099be8
+2019-01-06 12:45 ->applyBaseMaterial :: function: 0x024840ffaa70
+2019-01-06 12:45 ->getWorkWearMultiplier :: function: 0x024841c7ad30
+2019-01-06 12:45 ->saveAttachmentsToXMLFile :: function: 0x0248432202f8
+2019-01-06 12:45 ->getFillUnitExactFillRootNode :: function: 0x024841dfa8a0
+2019-01-06 12:45 ->loadExhaustEffects :: function: 0x02483e6682f0
+2019-01-06 12:45 ->getAxisForward :: function: 0x02483e782e98
+2019-01-06 12:45 ->getCruiseControlSpeed :: function: 0x02483e8f61b0
+2019-01-06 12:45 ->getIsMotorStarted :: function: 0x02483e985128
+2019-01-06 12:45 ->setCruiseControlState :: function: 0x02483e8fa4f8
+2019-01-06 12:45 ->updateWheelContact :: function: 0x024841c56330
+2019-01-06 12:45 ->getInteractionHelp :: function: 0x02483e9f07f8
+2019-01-06 12:45 ->mountDynamic :: function: 0x024841ee3658
+2019-01-06 12:45 ->updateConsumers :: function: 0x02484195ad20
+2019-01-06 12:45 ->getAttachedAIImplements :: function: 0x0248421bd418
+2019-01-06 12:45 ->loadEmitterDashboardFromXML :: function: 0x024841a5e0f0
+2019-01-06 12:45 ->i3dMappings :: table: 0x02485eb2f578
+2019-01-06 12:45 ->    frontAxisRightHydraulic :: 0>0|8|2
+2019-01-06 12:45 ->    turnLightRightFront :: 0>0|3|3|1|0
+2019-01-06 12:45 ->    backRightHydraulic :: 0>0|8|10
+2019-01-06 12:45 ->    attacherJointBackRot2 :: 0>0|4|0|0|0
+2019-01-06 12:45 ->    frontAxisStabi :: 0>0|8|5
+2019-01-06 12:45 ->    cameraRaycastNode1 :: 0>0|1|2
+2019-01-06 12:45 ->    trailerAttacherJointFront :: 0>0|4|1|2
+2019-01-06 12:45 ->    playerRightHandTarget :: 0>0|7|0|1|0|0|0
+2019-01-06 12:45 ->    frontloaderJoystick :: 0>0|7|0|4
+2019-01-06 12:45 ->    axisFrontChainsRight :: 0>0|8|3
+2019-01-06 12:45 ->    bottomLinkLeft :: 0>0|8|11
+2019-01-06 12:45 ->    cabinLightupDecal :: 0>0|7|0|6|0
+2019-01-06 12:45 ->    hydraulic02_in :: 0>0|10|1|0
+2019-01-06 12:45 ->    hydraulic03_in :: 0>0|10|2|0
+2019-01-06 12:45 ->    bottomLink :: 0>0|4|0|1|0
+2019-01-06 12:45 ->    baseWeight :: 0>0|9|0
+2019-01-06 12:45 ->    axisFrontChainsRightRef :: 0>0|8|3|0
+2019-01-06 12:45 ->    hydraulic01_out :: 0>0|10|0|1
+2019-01-06 12:45 ->    frontLightLow :: 0>0|3|1|1
+2019-01-06 12:45 ->    hydraulic03 :: 0>0|10|2
+2019-01-06 12:45 ->    backLeftHydraulic :: 0>0|8|9
+2019-01-06 12:45 ->    frontAxisRightHydraulicPunch :: 0>0|8|2|0
+2019-01-06 12:45 ->    axisFrontChainsLeftRef :: 0>0|8|4|0
+2019-01-06 12:45 ->    seat :: 0>0|7|0|3
+2019-01-06 12:45 ->    hydraulic01_in_cover :: 0>0|10|0|0|0
+2019-01-06 12:45 ->    frontAxisLeftHydraulic :: 0>0|8|1
+2019-01-06 12:45 ->    wiperFront :: 0>0|7|0|8|0|0
+2019-01-06 12:45 ->    weightExtension01 :: 0>0|9|0|0
+2019-01-06 12:45 ->    turnlightLeftStatic :: 0>0|7|0|0|5
+2019-01-06 12:45 ->    ptoPartFrontRight :: 1>0|1|0|4|0
+2019-01-06 12:45 ->    hydraulic02 :: 0>0|10|1
+2019-01-06 12:45 ->    brakePedal :: 0>0|7|0|7|1
+2019-01-06 12:45 ->    gasPedal :: 0>0|7|0|7|0
+2019-01-06 12:45 ->    hydraulic01_in :: 0>0|10|0|0
+2019-01-06 12:45 ->    axisFront :: 1>0
+2019-01-06 12:45 ->    playerRightFootTarget :: 0>0|7|0|5|0
+2019-01-06 12:45 ->    playerRightFootTargetBrake :: 0>0|7|0|7|1|0
+2019-01-06 12:45 ->    playerRightFootTargetGasRef :: 0>0|7|0|7|0|0
+2019-01-06 12:45 ->    mainArm :: 0>0|8|8
+2019-01-06 12:45 ->    steeringWheel :: 0>0|7|0|1|0|0
+2019-01-06 12:45 ->    frontAxisLeftHydraulicPunch :: 0>0|8|1|0
+2019-01-06 12:45 ->    attacherJointBackArmBottom :: 0>0|4|0|1
+2019-01-06 12:45 ->    axisFrontLeft :: 1>0|0|0
+2019-01-06 12:45 ->    airDoubleOrange_cover :: 0>0|10|3|0|0
+2019-01-06 12:45 ->    exhaustParticle :: 0>0|6|0
+2019-01-06 12:45 ->    backLeftHydraulicPunch :: 0>0|8|9|0
+2019-01-06 12:45 ->    backLeftHydraulicRef :: 0>0|8|8|1
+2019-01-06 12:45 ->    mirrorsDecals4 :: 0>0|7|0|2|4
+2019-01-06 12:45 ->    steeringBarFrontLeftRef :: 1>0|2|0
+2019-01-06 12:45 ->    bottomLinkLeftRef :: 0>0|4|0|1|0|2
+2019-01-06 12:45 ->    narrowMounting :: 0>0|9|1
+2019-01-06 12:45 ->    turnLightRightBack :: 0>0|3|3|1
+2019-01-06 12:45 ->    mirrorsDecals3 :: 0>0|7|0|2|3
+2019-01-06 12:45 ->    mirrorsDecals2 :: 0>0|7|0|2|2
+2019-01-06 12:45 ->    referencePointBackBottom :: 0>0|4|0|1|0|0
+2019-01-06 12:45 ->    rpmNeedle :: 0>0|7|0|1|1|2|0|0
+2019-01-06 12:45 ->    hydraulic02_in_cover :: 0>0|10|1|0|0
+2019-01-06 12:45 ->    aiCollisionTrigger :: 0>0|5|0
+2019-01-06 12:45 ->    wiperBack :: 0>0|7|0|8|1|0
+2019-01-06 12:45 ->    indoorCamera1 :: 0>0|1|1
+2019-01-06 12:45 ->    playerLeftFootTarget :: 0>0|7|0|5|1
+2019-01-06 12:45 ->    trailerLowNodePart :: 0>0|4|1|1|3
+2019-01-06 12:45 ->    directionMarker :: 0>0|7|0|1|1|0|0
+2019-01-06 12:45 ->    outdoorCameraTarget :: 0>0|1|0
+2019-01-06 12:45 ->    worklightBackStatic :: 0>0|7|0|0|1
+2019-01-06 12:45 ->    outdoorCamera1 :: 0>0|1|0|0
+2019-01-06 12:45 ->    wheelBackRight :: 0>0|0|1
+2019-01-06 12:45 ->    frontlightStatic :: 0>0|7|0|0|2
+2019-01-06 12:45 ->    weightExtension02 :: 0>0|9|0|0|0
+2019-01-06 12:45 ->    frontloaderAttacherFrame :: 0>0|4|3|0
+2019-01-06 12:45 ->    airDoubleYellow_cover :: 0>0|10|3|1|0
+2019-01-06 12:45 ->    weightExtension03 :: 0>0|9|0|0|0|0
+2019-01-06 12:45 ->    hydraulic03_out_cover :: 0>0|10|2|1|0
+2019-01-06 12:45 ->    bottomLinkRight :: 0>0|8|12
+2019-01-06 12:45 ->    fenderFrontLeftScale :: 1>0|0|0|2
+2019-01-06 12:45 ->    m6145_vis :: 0>0
+2019-01-06 12:45 ->    workLightFrontLow :: 0>0|3|2|0
+2019-01-06 12:45 ->    axisFrontChainsLeft :: 0>0|8|4
+2019-01-06 12:45 ->    frontLightSideMarker :: 0>0|3|1|0
+2019-01-06 12:45 ->    frontAxisRightHydraulicRef :: 1>0|4
+2019-01-06 12:45 ->    frontAxisLeftHydraulicRef :: 1>0|3
+2019-01-06 12:45 ->    backlightsStatic :: 0>0|7|0|0|3
+2019-01-06 12:45 ->    steeringBarFrontRightRef :: 1>0|2|1
+2019-01-06 12:45 ->    steeringBar :: 1>0|2
+2019-01-06 12:45 ->    turnLightLeftFront :: 0>0|3|3|0
+2019-01-06 12:45 ->    m6145_main_component1 :: 0>
+2019-01-06 12:45 ->    fenderFrontRightScale :: 1>0|1|0|2
+2019-01-06 12:45 ->    axisFrontPtoPartRef :: 0>0|8|6|0
+2019-01-06 12:45 ->    wheelFrontRight :: 1>0|1|0|0|0
+2019-01-06 12:45 ->    axisFrontRight :: 1>0|1|0
+2019-01-06 12:45 ->    ptoPartFrontLeft :: 1>0|0|0|4|0
+2019-01-06 12:45 ->    mirrorsDecals1 :: 0>0|7|0|2|1
+2019-01-06 12:45 ->    fenderFrontLeft :: 1>0|0|0|2|0|0
+2019-01-06 12:45 ->    steeringBarFrontLeft :: 1>0|0|0|1
+2019-01-06 12:45 ->    frontLightHigh :: 0>0|3|1|3
+2019-01-06 12:45 ->    wheelFrontLeft :: 1>0|0|0|0|0
+2019-01-06 12:45 ->    attacherJointBackRot :: 0>0|4|0|0
+2019-01-06 12:45 ->    workLightBackHigh1 :: 0>0|3|2|2
+2019-01-06 12:45 ->    axisFrontPtoPart :: 0>0|8|6
+2019-01-06 12:45 ->    backElectric :: 0>0|10|4
+2019-01-06 12:45 ->    hydraulic01_out_cover :: 0>0|10|0|1|0
+2019-01-06 12:45 ->    wheelBackLeft :: 0>0|0|0
+2019-01-06 12:45 ->    airDoubleControl :: 0>0|10|3|1
+2019-01-06 12:45 ->    airDoubleStorage :: 0>0|10|3|0
+2019-01-06 12:45 ->    playerSkin :: 0>0|7|0|3|0
+2019-01-06 12:45 ->    trailerSteeringRightRef :: 0>0|4|1|1|2
+2019-01-06 12:45 ->    tachometer :: 0>0|7|0|1|1|1
+2019-01-06 12:45 ->    hydraulic03_out :: 0>0|10|2|1
+2019-01-06 12:45 ->    hydraulic03_in_cover :: 0>0|10|2|0|0
+2019-01-06 12:45 ->    config_6135 :: 0>0|9|3
+2019-01-06 12:45 ->    hydraulic02_out_cover :: 0>0|10|1|1|0
+2019-01-06 12:45 ->    hydraulic02_out :: 0>0|10|1|1
+2019-01-06 12:45 ->    attacherJointBackArmTop :: 0>0|4|0|2
+2019-01-06 12:45 ->    backRightHydraulicRef :: 0>0|8|8|2
+2019-01-06 12:45 ->    speedNeedle :: 0>0|7|0|1|1|2|1|0
+2019-01-06 12:45 ->    workLightBackHigh2 :: 0>0|3|2|2|0
+2019-01-06 12:45 ->    highBeamHigh1 :: 0>0|3|1|4|0
+2019-01-06 12:45 ->    attacherJointBack :: 0>0|4|0|0|0|0
+2019-01-06 12:45 ->    backLightsHigh1 :: 0>0|3|4|0
+2019-01-06 12:45 ->    workLightFrontHigh1 :: 0>0|3|2|3
+2019-01-06 12:45 ->    shadowFocusBox :: 0>0|1|5
+2019-01-06 12:45 ->    mainArmRefFrame :: 0>0|8|7
+2019-01-06 12:45 ->    mirrorsDecals :: 0>0|7|0|2|0
+2019-01-06 12:45 ->    fenderFrontRight :: 1>0|1|0|2|0|0
+2019-01-06 12:45 ->    config_6145 :: 0>0|9|2
+2019-01-06 12:45 ->    trailerAttacherJointBack :: 0>0|4|1|0|0
+2019-01-06 12:45 ->    worklightFrontStatic :: 0>0|7|0|0|0
+2019-01-06 12:45 ->    trailerSteeringLeftRef :: 0>0|4|1|1|1
+2019-01-06 12:45 ->    ptoBack :: 0>0|4|2|0
+2019-01-06 12:45 ->    mainArmRef :: 0>0|4|0|1|0|1
+2019-01-06 12:45 ->    frontAxisStabiRef :: 1>0|5
+2019-01-06 12:45 ->    trailerLowNode :: 0>0|4|1|1
+2019-01-06 12:45 ->    workLightBackLow :: 0>0|3|2|1
+2019-01-06 12:45 ->    frontLightHigh1 :: 0>0|3|1|3|0
+2019-01-06 12:45 ->    exitPoint :: 0>0|2
+2019-01-06 12:45 ->    joystickLightupDecal :: 0>0|7|0|4|1
+2019-01-06 12:45 ->    airNeedle :: 0>0|7|0|1|1|2|2|0
+2019-01-06 12:45 ->    trailerAttacherJointBackLow :: 0>0|4|1|1|0
+2019-01-06 12:45 ->    frontAxisJoint :: 0>0|8|0
+2019-01-06 12:45 ->    config_6155 :: 0>0|9|4
+2019-01-06 12:45 ->    frontlightStatic1 :: 0>0|3|0|0
+2019-01-06 12:45 ->    cameraRaycastNode2 :: 0>0|1|3
+2019-01-06 12:45 ->    bottomLinkRightRef :: 0>0|4|0|1|0|3
+2019-01-06 12:45 ->    backRightHydraulicPunch :: 0>0|8|10|0
+2019-01-06 12:45 ->    needles :: 0>0|7|0|1|1|2
+2019-01-06 12:45 ->    cablightStatic :: 0>0|7|0|0|6
+2019-01-06 12:45 ->    turnLightLeftBack :: 0>0|3|3|0|0
+2019-01-06 12:45 ->    turnlightRightStatic :: 0>0|7|0|0|4
+2019-01-06 12:45 ->    playerRightHandTargetFrontloader :: 0>0|7|0|4|0
+2019-01-06 12:45 ->    mainArmPart :: 0>0|8|8|0
+2019-01-06 12:45 ->    trailerAttacherNode :: 0>0|4|1|0
+2019-01-06 12:45 ->    highBeamLow :: 0>0|3|1|2
+2019-01-06 12:45 ->    m6145_frontaxis_component2 :: 1>
+2019-01-06 12:45 ->    steeringBarFrontRight :: 1>0|1|0|1
+2019-01-06 12:45 ->    cabin :: 0>0|7|0
+2019-01-06 12:45 ->    playerRightFootTargetGas :: 0>0|7|0|5|2
+2019-01-06 12:45 ->    playerLeftHandTarget :: 0>0|7|0|1|0|0|1
+2019-01-06 12:45 ->    frontloaderAttacherJoint :: 0>0|4|3|0|0
+2019-01-06 12:45 ->    highBeamHigh :: 0>0|3|1|4
+2019-01-06 12:45 ->    cameraRaycastNode3 :: 0>0|1|4
+2019-01-06 12:45 ->loadAnimationDashboardFromXML :: function: 0x024841a5e1b0
+2019-01-06 12:45 ->updateDashboards :: function: 0x024841aa7af0
+2019-01-06 12:45 ->addToPhysics :: function: 0x0248419ec6b8
+2019-01-06 12:45 ->getName :: function: 0x02484158d7d8
+2019-01-06 12:45 ->addToolCameras :: function: 0x02483e770308
+2019-01-06 12:45 ->getAllowCharacterVisibilityUpdate :: function: 0x02483e50b650
+2019-01-06 12:45 ->updateWheelDirtAmount :: function: 0x024841351738
+2019-01-06 12:45 ->parkPowerTakeOff :: function: 0x0248414f5640
+2019-01-06 12:45 ->getAILowerIfAnyIsLowered :: function: 0x02483e65f228
+2019-01-06 12:45 ->hardDetachImplement :: function: 0x0248431a5280
+2019-01-06 12:45 ->getFillUnitExists :: function: 0x024841df20d8
+2019-01-06 12:45 ->getAIToolReverserDirectionNode :: function: 0x02483ec5ac90
+2019-01-06 12:45 ->registerAITask :: function: 0x02483eb5c710
+2019-01-06 12:45 ->deactivateLights :: function: 0x024841f7a9c8
+2019-01-06 12:45 ->getActiveFarm :: function: 0x024840ece510
+2019-01-06 12:45 ->getStopMotorOnLeave :: function: 0x024841ff1460
+2019-01-06 12:45 ->updateSingleJointPowerTakeOff :: function: 0x024841df9e20
+2019-01-06 12:45 ->getFillUnitFromNode :: function: 0x024841e790e0
+2019-01-06 12:45 ->getPropertyState :: function: 0x024841fc70f8
+2019-01-06 12:45 ->updateAnimationPart :: function: 0x024843dad098
+2019-01-06 12:45 ->getSupportsMountDynamic :: function: 0x02484315b5d0
+2019-01-06 12:45 ->getDashboardGroupByName :: function: 0x024841a64190
+2019-01-06 12:45 ->getCenterPointAngleRegulation :: function: 0x024842f3d0e8
+2019-01-06 12:45 ->getWheels :: function: 0x024842045938
+2019-01-06 12:45 ->setAlarmTriggerState :: function: 0x024841e7c650
+2019-01-06 12:45 ->setFillUnitForcedMaterialFillType :: function: 0x024841e67740
+2019-01-06 12:45 ->setFillUnitCapacity :: function: 0x024841e61898
+2019-01-06 12:45 ->getAITerrainDetailRequiredRange :: function: 0x02483ec34918
+2019-01-06 12:45 ->updateWheelDestruction :: function: 0x0248415afc78
+2019-01-06 12:45 ->getCenterPointAngle :: function: 0x024842f37ff0
+2019-01-06 12:45 ->setSelectedVehicle :: function: 0x024840da6e58
+2019-01-06 12:45 ->loadExtraDependentParts :: function: 0x02483e76f7c0
+2019-01-06 12:45 ->spec_connectionHoses :: table: 0x02485eb2cde8
+2019-01-06 12:45 ->    localHoseNodes :: table: 0x02485ebcfc40
+2019-01-06 12:45 ->    targetNodesByType :: table: 0x02485ebcfbf8
+2019-01-06 12:45 ->    targetNodes :: table: 0x02485ebcfbb0
+2019-01-06 12:45 ->    hoseSkipNodeByType :: table: 0x02485ebcfb00
+2019-01-06 12:45 ->    hoseNodes :: table: 0x02485ebd9898
+2019-01-06 12:45 ->    targetNodeToToolConnection :: table: 0x02485ebd9850
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2ceb0
+2019-01-06 12:45 ->    targetNodesAvailable :: true
+2019-01-06 12:45 ->    hoseNodesByInputAttacher :: table: 0x02485ebd98e0
+2019-01-06 12:45 ->    updateableHoses :: table: 0x02485ebcfc88
+2019-01-06 12:45 ->    hoseSkipNodes :: table: 0x02485ebcfab8
+2019-01-06 12:45 ->    toolConnectorHoses :: table: 0x02485ebd9808
+2019-01-06 12:45 ->getBrakeForce :: function: 0x024841ab3d28
+2019-01-06 12:45 ->loadingState :: 1
+2019-01-06 12:45 ->getWashDuration :: function: 0x02483ecc2b60
+2019-01-06 12:45 ->getTailwaterDepth :: function: 0x024841525090
+2019-01-06 12:45 ->baseDirectory :: 
+2019-01-06 12:45 ->getDirectionSnapAngle :: function: 0x02483ec9c408
+2019-01-06 12:45 ->getVehicleCharacter :: function: 0x02483e551680
+2019-01-06 12:45 ->removeWashableNode :: function: 0x02483e784d18
+2019-01-06 12:45 ->getAIBlockTurnBackward :: function: 0x02483a033818
+2019-01-06 12:45 ->getSelectedVehicle :: function: 0x0248418e6930
+2019-01-06 12:45 ->getCanMotorRun :: function: 0x02483e985158
+2019-01-06 12:45 ->deleteListeners :: table: 0x02485eb2a398
+2019-01-06 12:45 ->getBeaconLightsVisibility :: function: 0x02483e4f0b30
+2019-01-06 12:45 ->eventListeners :: table: 0x024841008610
+2019-01-06 12:45 ->    onFinishedWheelLoading :: table: 0x024843213d80
+2019-01-06 12:45 ->    onReadPositionUpdateStream :: table: 0x024842c056a0
+2019-01-06 12:45 ->    onAIImplementBlock :: table: 0x024843bb9240
+2019-01-06 12:45 ->    onDeactivate :: table: 0x02484157bde8
+2019-01-06 12:45 ->    onUpdateEnd :: table: 0x0248439c7c78
+2019-01-06 12:45 ->    onPostAttachImplement :: table: 0x0248413fb250
+2019-01-06 12:45 ->    onReadStream :: table: 0x02483ec24000
+2019-01-06 12:45 ->    onWriteUpdateStream :: table: 0x024841094738
+2019-01-06 12:45 ->    onPostDetachImplement :: table: 0x024842220b08
+2019-01-06 12:45 ->    onPreDelete :: table: 0x0248433156f0
+2019-01-06 12:45 ->    onBrakeLightsVisibilityChanged :: table: 0x024841a02fb0
+2019-01-06 12:45 ->    onAIImplementStartTurn :: table: 0x024843a7a2c8
+2019-01-06 12:45 ->    onAIStartTurn :: table: 0x024840f060b0
+2019-01-06 12:45 ->    onPreUpdate :: table: 0x024840ffa948
+2019-01-06 12:45 ->    onAIEndTurn :: table: 0x0248429d1d00
+2019-01-06 12:45 ->    onMovingToolChanged :: table: 0x024842d00320
+2019-01-06 12:45 ->    onAIBlock :: table: 0x0248421ab7c0
+2019-01-06 12:45 ->    onUpdateInterpolation :: table: 0x02483e6a3070
+2019-01-06 12:45 ->    onAIImplementTurnProgress :: table: 0x024842dcba58
+2019-01-06 12:45 ->    onVehicleCharacterChanged :: table: 0x0248419572f0
+2019-01-06 12:45 ->    onAddedFillUnitTrigger :: table: 0x024843d45c30
+2019-01-06 12:45 ->    onRemovedFillUnitTrigger :: table: 0x024842ee4160
+2019-01-06 12:45 ->    onAIImplementEnd :: table: 0x024842188950
+2019-01-06 12:45 ->    onAITurnProgress :: table: 0x024842835420
+2019-01-06 12:45 ->    onDraw :: table: 0x0248417cf6a0
+2019-01-06 12:45 ->    onAIEnd :: table: 0x02483eb54f28
+2019-01-06 12:45 ->    onActivate :: table: 0x024840e272e0
+2019-01-06 12:45 ->    onChangedFillType :: table: 0x024843c2be80
+2019-01-06 12:45 ->    onLeaveVehicle :: table: 0x0248437c7658
+2019-01-06 12:45 ->    onStartAnimation :: table: 0x024843574158
+2019-01-06 12:45 ->    onPostUpdate :: table: 0x024841f53608
+2019-01-06 12:45 ->    onFinishAnimation :: table: 0x02484274c9c8
+2019-01-06 12:45 ->    onSelect :: table: 0x024842416a60
+2019-01-06 12:45 ->    onDelete :: table: 0x024843507e20
+2019-01-06 12:45 ->    onAIImplementStart :: table: 0x0248413b48a8
+2019-01-06 12:45 ->    onStateChange :: table: 0x0248418f64a0
+2019-01-06 12:45 ->    onStartMotor :: table: 0x024842454098
+2019-01-06 12:45 ->    onDeactivateLights :: table: 0x0248424f9b38
+2019-01-06 12:45 ->    onAIImplementStartLine :: table: 0x024842917860
+2019-01-06 12:45 ->    onPreDetachImplement :: table: 0x024841dd0ea8
+2019-01-06 12:45 ->    onPreAttachImplement :: table: 0x0248419f29d8
+2019-01-06 12:45 ->    onUpdate :: table: 0x02483ea63bb8
+2019-01-06 12:45 ->    onBeaconLightsVisibilityChanged :: table: 0x02484285e5e8
+2019-01-06 12:45 ->    onSave :: table: 0x024843d5a288
+2019-01-06 12:45 ->    onReverseLightsVisibilityChanged :: table: 0x0248435dc9b8
+2019-01-06 12:45 ->    onCameraChanged :: table: 0x024843ad4490
+2019-01-06 12:45 ->    onTurnLightStateChanged :: table: 0x024842110da0
+2019-01-06 12:45 ->    onPreLoad :: table: 0x0248410c5290
+2019-01-06 12:45 ->    onRegisterActionEvents :: table: 0x02484142a1b8
+2019-01-06 12:45 ->    onAIContinue :: table: 0x02483e851da8
+2019-01-06 12:45 ->    onAIImplementContinue :: table: 0x0248421342c0
+2019-01-06 12:45 ->    onLightsTypesMaskChanged :: table: 0x0248410fe7a0
+2019-01-06 12:45 ->    onPostUpdateTick :: table: 0x024842385588
+2019-01-06 12:45 ->    onUpdateDebug :: table: 0x02484103cc20
+2019-01-06 12:45 ->    onReadUpdateStream :: table: 0x024843159838
+2019-01-06 12:45 ->    onUpdateTick :: table: 0x024843bd84a8
+2019-01-06 12:45 ->    onAIImplementEndTurn :: table: 0x024843b05980
+2019-01-06 12:45 ->    onStopAnimation :: table: 0x024842cdb740
+2019-01-06 12:45 ->    onAIImplementActive :: table: 0x024843c37868
+2019-01-06 12:45 ->    onAIImplementEndLine :: table: 0x024843a60220
+2019-01-06 12:45 ->    onWriteStream :: table: 0x02484184be20
+2019-01-06 12:45 ->    onPostLoad :: table: 0x0248430ce2d0
+2019-01-06 12:45 ->    onFillUnitIsFillingStateChanged :: table: 0x024842992590
+2019-01-06 12:45 ->    onFillUnitFillLevelChanged :: table: 0x024842311b20
+2019-01-06 12:45 ->    onWritePositionUpdateStream :: table: 0x0248424d4258
+2019-01-06 12:45 ->    onEnterVehicle :: table: 0x024843780750
+2019-01-06 12:45 ->    onBrake :: table: 0x02484319eb60
+2019-01-06 12:45 ->    onSetBroken :: table: 0x02484176f2e0
+2019-01-06 12:45 ->    onUnselect :: table: 0x024841dd6cb8
+2019-01-06 12:45 ->    onAIActive :: table: 0x024842357bd0
+2019-01-06 12:45 ->    onPlayAnimation :: table: 0x02484143b130
+2019-01-06 12:45 ->    onAlarmTriggerChanged :: table: 0x024843d0a038
+2019-01-06 12:45 ->    onAIStart :: table: 0x0248436d56b8
+2019-01-06 12:45 ->    onStopMotor :: table: 0x0248429cb078
+2019-01-06 12:45 ->    onLoad :: table: 0x024842872ca0
+2019-01-06 12:45 ->    onLoadFinished :: table: 0x0248431c0d60
+2019-01-06 12:45 ->configFileName :: data/vehicles/johnDeere/series6M/series6M.xml
+2019-01-06 12:45 ->getSelectedImplement :: function: 0x02484318acb0
+2019-01-06 12:45 ->spec_foliageBending :: table: 0x02485eb2af28
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2aff0
+2019-01-06 12:45 ->    bendingNodes :: table: 0x02485eb42e80
+2019-01-06 12:45 ->specializations :: table: 0x02483e4ed388
+2019-01-06 12:45 ->    1 :: table: 0x02483e4fea28
+2019-01-06 12:45 ->    2 :: table: 0x024841154748
+2019-01-06 12:45 ->    3 :: table: 0x02484265a6e8
+2019-01-06 12:45 ->    4 :: table: 0x024840d94f20
+2019-01-06 12:45 ->    5 :: table: 0x0248417e9c48
+2019-01-06 12:45 ->    6 :: table: 0x0248410557d8
+2019-01-06 12:45 ->    7 :: table: 0x0248434d5348
+2019-01-06 12:45 ->    8 :: table: 0x024841ac0a08
+2019-01-06 12:45 ->    9 :: table: 0x02484212fb80
+2019-01-06 12:45 ->    10 :: table: 0x0248426811d0
+2019-01-06 12:45 ->    11 :: table: 0x024843396160
+2019-01-06 12:45 ->    12 :: table: 0x0248414a99d0
+2019-01-06 12:45 ->    13 :: table: 0x024841b2da78
+2019-01-06 12:45 ->    14 :: table: 0x024840fa9ee8
+2019-01-06 12:45 ->    15 :: table: 0x0248422751f8
+2019-01-06 12:45 ->    16 :: table: 0x02483ea3cbe0
+2019-01-06 12:45 ->    17 :: table: 0x024841d15dd8
+2019-01-06 12:45 ->    18 :: table: 0x02483e89b398
+2019-01-06 12:45 ->    19 :: table: 0x02483ea05380
+2019-01-06 12:45 ->    20 :: table: 0x0248436113e8
+2019-01-06 12:45 ->    21 :: table: 0x024843524f28
+2019-01-06 12:45 ->    22 :: table: 0x0248434f5808
+2019-01-06 12:45 ->    23 :: table: 0x02484347e598
+2019-01-06 12:45 ->    24 :: table: 0x024841d729f8
+2019-01-06 12:45 ->    25 :: table: 0x024841b6f058
+2019-01-06 12:45 ->    26 :: table: 0x02483e71f318
+2019-01-06 12:45 ->    27 :: table: 0x024842f70b20
+2019-01-06 12:45 ->    28 :: table: 0x0248431ef5f8
+2019-01-06 12:45 ->    29 :: table: 0x0248430c7bf0
+2019-01-06 12:45 ->    30 :: table: 0x0248429a7ce8
+2019-01-06 12:45 ->    31 :: table: 0x024842531990
+2019-01-06 12:45 ->    32 :: table: 0x0248419d05b0
+2019-01-06 12:45 ->registerActionEvents :: function: 0x02483ebc61e0
+2019-01-06 12:45 ->setRelativePosition :: function: 0x02483e6c6758
+2019-01-06 12:45 ->addToLocalWearableNode :: function: 0x024841c433e0
+2019-01-06 12:45 ->detachImplementByObject :: function: 0x024843194df0
+2019-01-06 12:45 ->getUserPlayerStyle :: function: 0x02483e8d8828
+2019-01-06 12:45 ->deactivateBendingNodes :: function: 0x02484268ae58
+2019-01-06 12:45 ->updateWheelDensityMapHeight :: function: 0x0248415afc48
+2019-01-06 12:45 ->getAttacherJointDescFromObject :: function: 0x0248431da1f8
+2019-01-06 12:45 ->unloadFillUnits :: function: 0x024841ee3118
+2019-01-06 12:45 ->handleLowerImplementByAttacherJointIndex :: function: 0x0248431e3678
+2019-01-06 12:45 ->getFillUnitSupportsToolType :: function: 0x024841e047e0
+2019-01-06 12:45 ->i3dFilename :: $data/vehicles/johnDeere/series6M/series6M.i3d
+2019-01-06 12:45 ->getAirConsumerUsage :: function: 0x024841f5fd88
+2019-01-06 12:45 ->loadBaseMaterialFromXML :: function: 0x02483e553f18
+2019-01-06 12:45 ->movingCam :: false
+2019-01-06 12:45 ->addHoseToDelayedMountings :: function: 0x024842ed2a78
+2019-01-06 12:45 ->updateAttacherJointGraphics :: function: 0x0248431b2608
+2019-01-06 12:45 ->getIsActiveForLights :: function: 0x02483e81fe58
+2019-01-06 12:45 ->nextDirtyFlag :: 8192
+2019-01-06 12:45 ->getAdditionalComponentMass :: function: 0x02483ea9cc38
+2019-01-06 12:45 ->getInputPowerTakeOffs :: function: 0x024842088cc8
+2019-01-06 12:45 ->getAIAllowTurnBackward :: function: 0x02482aa53640
+2019-01-06 12:45 ->getTotalMass :: function: 0x024841a99030
+2019-01-06 12:45 ->getImplementIndexByObject :: function: 0x02484316eb18
+2019-01-06 12:45 ->getAttachedImplements :: function: 0x0248431e2710
+2019-01-06 12:45 ->resetAnimationPartValues :: function: 0x02483e6e1940
+2019-01-06 12:45 ->updateLoopIndex :: 591
+2019-01-06 12:45 ->clearAITerrainDetailRequiredRange :: function: 0x024841d2a3d0
+2019-01-06 12:45 ->getIsHardAttachAllowed :: function: 0x02484219fbc8
+2019-01-06 12:45 ->mount :: function: 0x024843177f98
+2019-01-06 12:45 ->getNodeDirtAmount :: function: 0x02483ebec648
+2019-01-06 12:45 ->getAccelerationAxis :: function: 0x02483e8fe328
+2019-01-06 12:45 ->loadWheelParticleSystem :: function: 0x024842566098
+2019-01-06 12:45 ->getDashboardColor :: function: 0x0248419f6350
+2019-01-06 12:45 ->spec_speedRotatingParts :: table: 0x02485eb2be88
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2bf50
+2019-01-06 12:45 ->    dirtyFlag :: 64
+2019-01-06 12:45 ->    speedRotatingParts :: table: 0x02485eb765f8
+2019-01-06 12:45 ->clearAITerrainDetailProhibitedRange :: function: 0x02483e9c1af8
+2019-01-06 12:45 ->getSelectedObject :: function: 0x0248419bf950
+2019-01-06 12:45 ->placeLocalPowerTakeOff :: function: 0x0248419f0590
+2019-01-06 12:45 ->loadDependentComponentJoints :: function: 0x02484208b428
+2019-01-06 12:45 ->addAllSubWearableNodes :: function: 0x024841c2cf40
+2019-01-06 12:45 ->getDeactivateLightsOnLeave :: function: 0x0248410838f0
+2019-01-06 12:45 ->createComponentJoint :: function: 0x024840ec3db8
+2019-01-06 12:45 ->startAttacherJointCombo :: function: 0x024843181528
+2019-01-06 12:45 ->loadDynamicallyPartsFromXML :: function: 0x024841011c18
+2019-01-06 12:45 ->attachImplement :: function: 0x0248431b0150
+2019-01-06 12:45 ->updateWheelSink :: function: 0x02483e5ea518
+2019-01-06 12:45 ->aiImplementEndLine :: function: 0x02483e604eb8
+2019-01-06 12:45 ->getFillUnitAllowsFillType :: function: 0x024841e52d08
+2019-01-06 12:45 ->createAttachmentJoint :: function: 0x0248431aff80
+2019-01-06 12:45 ->detachingIsPossible :: function: 0x02484316edd0
+2019-01-06 12:45 ->getMotorStartTime :: function: 0x02483e835388
+2019-01-06 12:45 ->retryHoseSkipNodeConnections :: function: 0x024842edac08
+2019-01-06 12:45 ->setSelectedImplementByObject :: function: 0x024843192a48
+2019-01-06 12:45 ->getIsOperating :: function: 0x02483ebda1c8
+2019-01-06 12:45 ->getIsOnField :: function: 0x024841c84d30
+2019-01-06 12:45 ->getFillUnitAutoAimTargetNode :: function: 0x024841dfe040
+2019-01-06 12:45 ->getCruiseControlAxis :: function: 0x02484109e458
+2019-01-06 12:45 ->connectHoseToSkipNode :: function: 0x024842ed2d08
+2019-01-06 12:45 ->getConnectionHosesByInputAttacherJoint :: function: 0x024842f064a8
+2019-01-06 12:45 ->loadCrawlerFromXML :: function: 0x024841f6cfa0
+2019-01-06 12:45 ->setBeaconLightsVisibility :: function: 0x0248418027c0
+2019-01-06 12:45 ->loadToolConnectorHoseNode :: function: 0x024842f3d3a8
+2019-01-06 12:45 ->getIsVehicleNode :: function: 0x024841cd4d28
+2019-01-06 12:45 ->addAIFruitProhibitions :: function: 0x02483e789f70
+2019-01-06 12:45 ->attachTypedPowerTakeOff :: function: 0x0248422d5208
+2019-01-06 12:45 ->getFullName :: function: 0x024841b8edb0
+2019-01-06 12:45 ->loadDoubleJointPowerTakeOff :: function: 0x024841df9e50
+2019-01-06 12:45 ->getFillTypeChangeThreshold :: function: 0x024841e78df0
+2019-01-06 12:45 ->isAddedToPhysics :: true
+2019-01-06 12:45 ->interact :: function: 0x024840f11c50
+2019-01-06 12:45 ->addToLocalWashableNode :: function: 0x02483ec2fa98
+2019-01-06 12:45 ->deleteVehicleCharacter :: function: 0x02483e8b37b8
+2019-01-06 12:45 ->getCanBeSelected :: function: 0x02483e459178
+2019-01-06 12:45 ->setAIFruitExtraRequirements :: function: 0x02483e8724e0
+2019-01-06 12:45 ->isAddedToMission :: true
+2019-01-06 12:45 ->getAIFruitExtraRequirements :: function: 0x02483e65e560
+2019-01-06 12:45 ->setActiveCameraIndex :: function: 0x02483e7702d8
+2019-01-06 12:45 ->setWorldPositionQuaternion :: function: 0x02484140e880
+2019-01-06 12:45 ->getDriveGroundParticleSystemsScale :: function: 0x024842002708
+2019-01-06 12:45 ->removeNodeObjectMapping :: function: 0x02483e6e1f80
+2019-01-06 12:45 ->dirtyMask :: 294
+2019-01-06 12:45 ->getMovingPartByNode :: function: 0x024842066f30
+2019-01-06 12:45 ->loadHoseTargetNode :: function: 0x024842f3e020
+2019-01-06 12:45 dataS/scripts/debug/DebugUtil.lua(308) : bad argument #1 to 'pairs' (table expected, got number)
+2019-01-06 12:45 ->isMassDirty :: true
+2019-01-06 12:45 ->serverMass :: 0
+2019-01-06 12:45 ->getIsEntered :: function: 0x024840ccd2a8
+2019-01-06 12:45 ->canBeReset :: true
+2019-01-06 12:45 ->loadBendingNodeModifierFromXML :: function: 0x02484268a968
+2019-01-06 12:45 ->getIsSelected :: function: 0x0248418e56f8
+2019-01-06 12:45 ->updateMotorTemperature :: function: 0x02484195ad50
+2019-01-06 12:45 ->typeDesc :: Traktor
+2019-01-06 12:45 ->price :: 130500
+2019-01-06 12:45 ->spec_wearable :: table: 0x02485eb2b1b8
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b280
+2019-01-06 12:45 ->    totalAmount :: 0.0090119997039437
+2019-01-06 12:45 ->    wearableNodesByIndex :: table: 0x02485eb43800
+2019-01-06 12:45 ->    dirtyFlag :: 4
+2019-01-06 12:45 ->    fieldMultiplier :: 2
+2019-01-06 12:45 ->    wearDuration :: 3.4722222222222e-08
+2019-01-06 12:45 ->    wearableNodes :: table: 0x02485eb437b8
+2019-01-06 12:45 ->    workMultiplier :: 5
+2019-01-06 12:45 ->getAIVehicleSteeringNode :: function: 0x02483eaadd30
+2019-01-06 12:45 ->loadRealLightSetup :: function: 0x024842f98280
+2019-01-06 12:45 ->getTireTrackColor :: function: 0x024840e56c28
+2019-01-06 12:45 ->isRegistered :: true
+2019-01-06 12:45 ->age :: 4
+2019-01-06 12:45 ->loadBasicPowerTakeOff :: function: 0x02484234dff0
+2019-01-06 12:45 ->updateDependentToolLimits :: function: 0x0248420a1040
+2019-01-06 12:45 ->getIsVehicleControlledByPlayer :: function: 0x024841a39d08
+2019-01-06 12:45 ->setAIMapHotspotBlinking :: function: 0x024841b941e0
+2019-01-06 12:45 ->spec_bunkerSiloCompacter :: table: 0x02485eb2d308
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d3d0
+2019-01-06 12:45 ->    scale :: 1
+2019-01-06 12:45 ->dayChanged :: function: 0x02484141f0e8
+2019-01-06 12:45 ->getIsTabbable :: function: 0x02483e9ddb38
+2019-01-06 12:45 ->updateMass :: function: 0x02483e8dad90
+2019-01-06 12:45 ->activate :: function: 0x024840ea2948
+2019-01-06 12:45 ->spec_frontloaderAttacher :: table: 0x02485eb2d1c0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d288
+2019-01-06 12:45 ->spec_wipers :: table: 0x02485eb2d078
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d140
+2019-01-06 12:45 ->    lastRainScale :: 0
+2019-01-06 12:45 ->    wipers :: table: 0x02485ebda220
+2019-01-06 12:45 ->    hasWipers :: true
+2019-01-06 12:45 ->vehicleType :: table: 0x02483e7f98d8
+2019-01-06 12:45 ->    filename :: dataS/scripts/vehicles/Vehicle.lua
+2019-01-06 12:45 ->    specializationNames :: table: 0x0248412b7af8
+2019-01-06 12:45 ->    specializationsByName :: table: 0x02483e7974c8
+2019-01-06 12:45 ->    className :: Vehicle
+2019-01-06 12:45 ->    specializations :: table: 0x02483e4ed388
+2019-01-06 12:45 ->    events :: table: 0x0248422e43e8
+2019-01-06 12:45 ->    eventListeners :: table: 0x024841008610
+2019-01-06 12:45 ->    functions :: table: 0x024841b04ba0
+2019-01-06 12:45 ->    name :: tractor
+2019-01-06 12:45 ->    customEnvironment :: 
+2019-01-06 12:45 ->connectHose :: function: 0x024842f090a0
+2019-01-06 12:45 ->spec_attacherJoints :: table: 0x02485eb2ca10
+2019-01-06 12:45 ->    showAttachNotAllowedText :: 0
+2019-01-06 12:45 ->    attachableInfo :: table: 0x02485ebca978
+2019-01-06 12:45 ->    attachedImplements :: table: 0x02485ebca868
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2cad8
+2019-01-06 12:45 ->    attacherJoints :: table: 0x02485ebbe2f0
+2019-01-06 12:45 ->    isHydraulicSamplePlaying :: false
+2019-01-06 12:45 ->    samples :: table: 0x02485ebca9f8
+2019-01-06 12:45 ->    dirtyFlag :: 4096
+2019-01-06 12:45 ->    attacherJointCombos :: table: 0x02485ebbe2a8
+2019-01-06 12:45 ->getFillUnitExtraDistanceFromNode :: function: 0x024841e790b0
+2019-01-06 12:45 ->updateAIDriveStrategies :: function: 0x024841f869f8
+2019-01-06 12:45 ->activateBendingNodes :: function: 0x02484268a998
+2019-01-06 12:45 ->setDelayedData :: function: 0x0248420c6528
+2019-01-06 12:45 ->updateWheelChockPosition :: function: 0x0248414a5440
+2019-01-06 12:45 ->spec_ikChains :: table: 0x02485eb2b968
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2ba30
+2019-01-06 12:45 ->    chains :: table: 0x02485eb5ed88
+2019-01-06 12:45 ->spec_cylindered :: table: 0x02485eb2b6d8
+2019-01-06 12:45 ->    movingPartNeedsSound :: false
+2019-01-06 12:45 ->    cylinderedDirtyFlag :: 8
+2019-01-06 12:45 ->    isActiveDirtyTimeOffset :: 0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b7a0
+2019-01-06 12:45 ->    isHydraulicSamplePlaying :: false
+2019-01-06 12:45 ->    currentControlGroupIndex :: 1
+2019-01-06 12:45 ->    activeDirtyMovingParts :: table: 0x02485eb51c90
+2019-01-06 12:45 ->    movingParts :: table: 0x02485eb55748
+2019-01-06 12:45 ->    controlGroupNames :: table: 0x02485eb56418
+2019-01-06 12:45 ->    movingToolNeedsSound :: false
+2019-01-06 12:45 ->    isLoading :: false
+2019-01-06 12:45 ->    movingTools :: table: 0x02485eb557d8
+2019-01-06 12:45 ->    isActiveDirtyTime :: 1000
+2019-01-06 12:45 ->    nodesToMovingParts :: table: 0x02485eb51d20
+2019-01-06 12:45 ->    controlGroupMapping :: table: 0x02485eb563d0
+2019-01-06 12:45 ->    nodesToMovingTools :: table: 0x02485eb55790
+2019-01-06 12:45 ->    cylinderedInputDirtyFlag :: 16
+2019-01-06 12:45 ->    samples :: table: 0x02485eb51798
+2019-01-06 12:45 ->    controlGroups :: table: 0x02485eb56200
+2019-01-06 12:45 ->getIsDrivingForward :: function: 0x024841099d18
+2019-01-06 12:45 ->spec_dashboard :: table: 0x02485eb2b590
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2b658
+2019-01-06 12:45 ->    criticalDashboards :: table: 0x02485eb4f7d0
+2019-01-06 12:45 ->    groups :: table: 0x02485eb4f880
+2019-01-06 12:45 ->    isDirty :: true
+2019-01-06 12:45 ->    dashboards :: table: 0x02485eb4f788
+2019-01-06 12:45 ->maxTurningRadiusWheel :: 1
+2019-01-06 12:45 ->boughtConfigurations :: table: 0x02485eb2a588
+2019-01-06 12:45 ->    motor :: table: 0x02485eb2aa48
+2019-01-06 12:45 ->    design :: table: 0x02485eb2a968
+2019-01-06 12:45 ->    wheel :: table: 0x02485eb2aa90
+2019-01-06 12:45 ->    fillUnit :: table: 0x02485eb2ab40
+2019-01-06 12:45 ->    frontloader :: table: 0x02485eb2ab88
+2019-01-06 12:45 ->spec_tipOccluder :: table: 0x02485eb2ade0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2aea8
+2019-01-06 12:45 ->    createdTipOcclusionAreaGroupIds :: table: 0x02485eb42dd0
+2019-01-06 12:45 ->    tipOcclusionAreas :: table: 0x02485eb42d40
+2019-01-06 12:45 ->spec_baseMaterial :: table: 0x02485eb2ac98
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2ad60
+2019-01-06 12:45 ->    nameToMaterial :: table: 0x02485eb41950
+2019-01-06 12:45 ->    baseMaterials :: table: 0x02485eb41908
+2019-01-06 12:45 ->getNumOfActiveAnimations :: function: 0x024841802a68
+2019-01-06 12:45 ->updateSpeedRotatingPart :: function: 0x024840e76708
+2019-01-06 12:45 ->getFillUnitSupportsToolTypeAndFillType :: function: 0x024841e07540
+2019-01-06 12:45 ->getFillUnitFillLevelPercentage :: function: 0x024841df2688
+2019-01-06 12:45 ->getObjectFromImplementIndex :: function: 0x0248431b9718
+2019-01-06 12:45 ->thresholdTailwaterDepthWarning :: 1
+2019-01-06 12:45 ->doCheckSpeedLimit :: function: 0x024840f27a70
+2019-01-06 12:45 ->getIsWheelFoliageDestructionAllowed :: function: 0x02483e5ea4e8
+2019-01-06 12:45 ->unselectVehicle :: function: 0x02483e8bce80
+2019-01-06 12:45 ->removeFromPhysics :: function: 0x02483e65a468
+2019-01-06 12:45 ->mountableTriggerCallback :: function: 0x024843177f68
+2019-01-06 12:45 ->getFillUnitSupportsFillType :: function: 0x024841e047b0
+2019-01-06 12:45 ->getSuspensionNodeFromIndex :: function: 0x02483eba2a00
+2019-01-06 12:45 ->setNodeDirtAmount :: function: 0x02483ec61250
+2019-01-06 12:45 ->spec_motorized :: table: 0x02485eb2c260
+2019-01-06 12:45 ->    motorTemperature :: table: 0x02485ebace28
+2019-01-06 12:45 ->    maxDecelerationDuringBrake :: 0
+2019-01-06 12:45 ->    motorStartTime :: 0
+2019-01-06 12:45 ->    differentials :: table: 0x02485eb892b0
+2019-01-06 12:45 ->    speedDisplayScale :: 1
+2019-01-06 12:45 ->    consumers :: table: 0x02485eba5c30
+2019-01-06 12:45 ->    isMotorStarted :: false
+2019-01-06 12:45 ->    samples :: table: 0x02485eb926f0
+2019-01-06 12:45 ->    fuelCapacity :: 500
+2019-01-06 12:45 ->    stopMotorOnLeave :: true
+2019-01-06 12:45 ->    motorizedNode :: 103044
+2019-01-06 12:45 ->    lastDefUsage :: 0
+2019-01-06 12:45 ->    smoothedLoadPercentage :: 0
+2019-01-06 12:45 ->    motorType :: vehicle
+2019-01-06 12:45 ->    exhaustEffectMaxSteeringSpeed :: 0.001
+2019-01-06 12:45 ->    lastAirUsage :: 0
+2019-01-06 12:45 ->    brakeCompressor :: table: 0x02485eba5be8
+2019-01-06 12:45 ->    motorSamples :: table: 0x02485eb99d10
+2019-01-06 12:45 ->    showTurnOnMotorWarning :: false
+2019-01-06 12:45 ->    reverseDriveThreshold :: 4
+2019-01-06 12:45 ->    lastRoundPerMinute :: 0
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c328
+2019-01-06 12:45 ->    lastFuelUsageDisplay :: 0
+2019-01-06 12:45 ->    compressionSoundTime :: 0
+2019-01-06 12:45 ->    consumersByFillType :: table: 0x02485ebacde0
+2019-01-06 12:45 ->    consumersByFillTypeName :: table: 0x02485ebaccb0
+2019-01-06 12:45 ->    motorFan :: table: 0x02485ebacfd8
+2019-01-06 12:45 ->    motorStartDuration :: 3000
+2019-01-06 12:45 ->    animationNodes :: table: 0x02485ebb0530
+2019-01-06 12:45 ->    lastVehicleDamage :: 0
+2019-01-06 12:45 ->    fuelUsageBuffer :: table: 0x02485ebad0c0
+2019-01-06 12:45 ->    lastFuelUsageDisplayTime :: 0
+2019-01-06 12:45 ->    exhaustEffects :: table: 0x02485ebadb40
+2019-01-06 12:45 ->    lastFuelUsage :: 0
+2019-01-06 12:45 ->    motor :: table: 0x02485eb923f0
+2019-01-06 12:45 ->    motorStopTimerDuration :: 30000
+2019-01-06 12:45 ->    actualLoadPercentage :: 0
+2019-01-06 12:45 ->    motorStartAnimation :: vehicle
+2019-01-06 12:45 ->    dirtyFlag :: 512
+2019-01-06 12:45 ->    motorStopTimer :: 30000
+2019-01-06 12:45 ->    isBrakeSamplePlaying :: false
+2019-01-06 12:45 ->    consumerConfigurationIndex :: 1
+2019-01-06 12:45 ->    consumersEmptyWarning :: Fahrzeug betanken!
+2019-01-06 12:45 ->    turnOnText :: Motor starten
+2019-01-06 12:45 ->    turnOffText :: Motor stoppen
+2019-01-06 12:45 ->setReverseLightsVisibility :: function: 0x024841e6d9d0
+2019-01-06 12:45 ->loadRotationDashboardFromXML :: function: 0x024841a458c0
+2019-01-06 12:45 ->setLightsTypesMask :: function: 0x02483e651038
+2019-01-06 12:45 ->updateWheelFriction :: function: 0x024841f53458
+2019-01-06 12:45 ->loadRealLights :: function: 0x024842f982b0
+2019-01-06 12:45 ->loadMovingPartFromXML :: function: 0x024842088050
+2019-01-06 12:45 ->getAttacherJoints :: function: 0x0248431e2628
+2019-01-06 12:45 ->loadComponentJointFromXML :: function: 0x02484132fd38
+2019-01-06 12:45 ->addAITerrainDetailProhibitedRange :: function: 0x024840e435d0
+2019-01-06 12:45 ->collisionPairs :: table: 0x02485eb40e98
+2019-01-06 12:45 ->loadWheelData :: function: 0x024842578b60
+2019-01-06 12:45 ->deactivateAttachments :: function: 0x02484314c2d8
+2019-01-06 12:45 ->setAIFruitProhibitions :: function: 0x02483ea223d0
+2019-01-06 12:45 ->getAILookAheadSize :: function: 0x02484211a3e8
+2019-01-06 12:45 ->getAIImplementCollisionTriggers :: function: 0x0248424164c8
+2019-01-06 12:45 ->getAISizeMarkers :: function: 0x024842031ad8
+2019-01-06 12:45 ->updateWheelTireTracks :: function: 0x024840e56c58
+2019-01-06 12:45 ->getCanImplementBeUsedForAI :: function: 0x02483eaf3e60
+2019-01-06 12:45 ->detachTypedPowerTakeOff :: function: 0x0248413013b8
+2019-01-06 12:45 ->getMotorRpmPercentage :: function: 0x024840e88ac0
+2019-01-06 12:45 ->getIsAdditionalCharacterActive :: function: 0x02483e844bd8
+2019-01-06 12:45 ->getCanToggleAttach :: function: 0x02484227a500
+2019-01-06 12:45 ->raiseAIEvent :: function: 0x02483a037f28
+2019-01-06 12:45 ->setMassDirty :: function: 0x02483ea2c918
+2019-01-06 12:45 ->deactivate :: function: 0x024840e9b468
+2019-01-06 12:45 ->setAIFruitRequirements :: function: 0x02483e7bbca8
+2019-01-06 12:45 ->aiEndTurn :: function: 0x02483e764738
+2019-01-06 12:45 ->aiStartTurn :: function: 0x02483e988318
+2019-01-06 12:45 ->getAttacherJointByJointDescIndex :: function: 0x0248431e2540
+2019-01-06 12:45 ->movingDirection :: 0
+2019-01-06 12:45 ->updateAttacherJointRotation :: function: 0x0248431b13d0
+2019-01-06 12:45 ->getCanAIImplementContinueWork :: function: 0x02483ebfdea0
+2019-01-06 12:45 ->setComponentJointFrame :: function: 0x02483e4ce488
+2019-01-06 12:45 ->spec_enterable :: table: 0x02485eb2bfd0
+2019-01-06 12:45 ->    enterReferenceNode :: 103044
+2019-01-06 12:45 ->    canUseEnter :: true
+2019-01-06 12:45 ->    forceSelectionOnEnter :: false
+2019-01-06 12:45 ->    defaultCharacterNode :: 103158
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2c098
+2019-01-06 12:45 ->    characterTargetNodeModifiers :: table: 0x02485eb827e0
+2019-01-06 12:45 ->    isControlled :: false
+2019-01-06 12:45 ->    numCameras :: 2
+2019-01-06 12:45 ->    additionalCharacterActive :: false
+2019-01-06 12:45 ->    mirrors :: table: 0x02485eb84dd8
+2019-01-06 12:45 ->    dirtyFlag :: 128
+2019-01-06 12:45 ->    camIndex :: 1
+2019-01-06 12:45 ->    controllerFarmId :: 0
+2019-01-06 12:45 ->    isTabbable :: true
+2019-01-06 12:45 ->    isEntered :: false
+2019-01-06 12:45 ->    nicknameRendering :: table: 0x02485eb81608
+2019-01-06 12:45 ->    disableCharacterOnLeave :: true
+2019-01-06 12:45 ->    interactionRadius :: 6
+2019-01-06 12:45 ->    cameras :: table: 0x02485eb816b8
+2019-01-06 12:45 ->    defaultCharacterTargets :: table: 0x02485eb7c570
+2019-01-06 12:45 ->    additionalCharacterTargets :: table: 0x02485eb815c0
+2019-01-06 12:45 ->    exitPoint :: 103057
+2019-01-06 12:45 ->    vehicleCharacter :: table: 0x02485eb7c430
+2019-01-06 12:45 ->setAIMapHotspotVisibility :: function: 0x024841ea6a80
+2019-01-06 12:45 ->getFoliageBendingNodeByIndex :: function: 0x02484268ae88
+2019-01-06 12:45 ->getTipOcclusionAreas :: function: 0x0248417a4b70
+2019-01-06 12:45 ->getAIFruitRequirements :: function: 0x02483a04d6e8
+2019-01-06 12:45 ->setBaseMaterialColor :: function: 0x0248423c6320
+2019-01-06 12:45 ->enterVehicle :: function: 0x02483e66c360
+2019-01-06 12:45 ->getCanAIVehicleContinueWork :: function: 0x02483a04c1c8
+2019-01-06 12:45 ->getFillUnitForcedMaterialFillType :: function: 0x024841e67770
+2019-01-06 12:45 ->updatePowerTakeOff :: function: 0x02484198fcc8
+2019-01-06 12:45 ->getIsInUse :: function: 0x024840c9ac10
+2019-01-06 12:45 ->getFillLevelInformation :: function: 0x02483e74c070
+2019-01-06 12:45 ->loadDependentAttacherJoints :: function: 0x02484208b8e8
+2019-01-06 12:45 ->getReverserDirection :: function: 0x024841099be8
+2019-01-06 12:45 ->applyBaseMaterial :: function: 0x024840ffaa70
+2019-01-06 12:45 ->getWorkWearMultiplier :: function: 0x024841c7ad30
+2019-01-06 12:45 ->saveAttachmentsToXMLFile :: function: 0x0248432202f8
+2019-01-06 12:45 ->getFillUnitExactFillRootNode :: function: 0x024841dfa8a0
+2019-01-06 12:45 ->loadExhaustEffects :: function: 0x02483e6682f0
+2019-01-06 12:45 ->getAxisForward :: function: 0x02483e782e98
+2019-01-06 12:45 ->getCruiseControlSpeed :: function: 0x02483e8f61b0
+2019-01-06 12:45 ->getIsMotorStarted :: function: 0x02483e985128
+2019-01-06 12:45 ->setCruiseControlState :: function: 0x02483e8fa4f8
+2019-01-06 12:45 ->updateWheelContact :: function: 0x024841c56330
+2019-01-06 12:45 ->getInteractionHelp :: function: 0x02483e9f07f8
+2019-01-06 12:45 ->mountDynamic :: function: 0x024841ee3658
+2019-01-06 12:45 ->updateConsumers :: function: 0x02484195ad20
+2019-01-06 12:45 ->getAttachedAIImplements :: function: 0x0248421bd418
+2019-01-06 12:45 ->loadEmitterDashboardFromXML :: function: 0x024841a5e0f0
+2019-01-06 12:45 ->i3dMappings :: table: 0x02485eb2f578
+2019-01-06 12:45 ->    frontAxisRightHydraulic :: 0>0|8|2
+2019-01-06 12:45 ->    turnLightRightFront :: 0>0|3|3|1|0
+2019-01-06 12:45 ->    backRightHydraulic :: 0>0|8|10
+2019-01-06 12:45 ->    attacherJointBackRot2 :: 0>0|4|0|0|0
+2019-01-06 12:45 ->    frontAxisStabi :: 0>0|8|5
+2019-01-06 12:45 ->    cameraRaycastNode1 :: 0>0|1|2
+2019-01-06 12:45 ->    trailerAttacherJointFront :: 0>0|4|1|2
+2019-01-06 12:45 ->    playerRightHandTarget :: 0>0|7|0|1|0|0|0
+2019-01-06 12:45 ->    frontloaderJoystick :: 0>0|7|0|4
+2019-01-06 12:45 ->    axisFrontChainsRight :: 0>0|8|3
+2019-01-06 12:45 ->    bottomLinkLeft :: 0>0|8|11
+2019-01-06 12:45 ->    cabinLightupDecal :: 0>0|7|0|6|0
+2019-01-06 12:45 ->    hydraulic02_in :: 0>0|10|1|0
+2019-01-06 12:45 ->    hydraulic03_in :: 0>0|10|2|0
+2019-01-06 12:45 ->    bottomLink :: 0>0|4|0|1|0
+2019-01-06 12:45 ->    baseWeight :: 0>0|9|0
+2019-01-06 12:45 ->    axisFrontChainsRightRef :: 0>0|8|3|0
+2019-01-06 12:45 ->    hydraulic01_out :: 0>0|10|0|1
+2019-01-06 12:45 ->    frontLightLow :: 0>0|3|1|1
+2019-01-06 12:45 ->    hydraulic03 :: 0>0|10|2
+2019-01-06 12:45 ->    backLeftHydraulic :: 0>0|8|9
+2019-01-06 12:45 ->    frontAxisRightHydraulicPunch :: 0>0|8|2|0
+2019-01-06 12:45 ->    axisFrontChainsLeftRef :: 0>0|8|4|0
+2019-01-06 12:45 ->    seat :: 0>0|7|0|3
+2019-01-06 12:45 ->    hydraulic01_in_cover :: 0>0|10|0|0|0
+2019-01-06 12:45 ->    frontAxisLeftHydraulic :: 0>0|8|1
+2019-01-06 12:45 ->    wiperFront :: 0>0|7|0|8|0|0
+2019-01-06 12:45 ->    weightExtension01 :: 0>0|9|0|0
+2019-01-06 12:45 ->    turnlightLeftStatic :: 0>0|7|0|0|5
+2019-01-06 12:45 ->    ptoPartFrontRight :: 1>0|1|0|4|0
+2019-01-06 12:45 ->    hydraulic02 :: 0>0|10|1
+2019-01-06 12:45 ->    brakePedal :: 0>0|7|0|7|1
+2019-01-06 12:45 ->    gasPedal :: 0>0|7|0|7|0
+2019-01-06 12:45 ->    hydraulic01_in :: 0>0|10|0|0
+2019-01-06 12:45 ->    axisFront :: 1>0
+2019-01-06 12:45 ->    playerRightFootTarget :: 0>0|7|0|5|0
+2019-01-06 12:45 ->    playerRightFootTargetBrake :: 0>0|7|0|7|1|0
+2019-01-06 12:45 ->    playerRightFootTargetGasRef :: 0>0|7|0|7|0|0
+2019-01-06 12:45 ->    mainArm :: 0>0|8|8
+2019-01-06 12:45 ->    steeringWheel :: 0>0|7|0|1|0|0
+2019-01-06 12:45 ->    frontAxisLeftHydraulicPunch :: 0>0|8|1|0
+2019-01-06 12:45 ->    attacherJointBackArmBottom :: 0>0|4|0|1
+2019-01-06 12:45 ->    axisFrontLeft :: 1>0|0|0
+2019-01-06 12:45 ->    airDoubleOrange_cover :: 0>0|10|3|0|0
+2019-01-06 12:45 ->    exhaustParticle :: 0>0|6|0
+2019-01-06 12:45 ->    backLeftHydraulicPunch :: 0>0|8|9|0
+2019-01-06 12:45 ->    backLeftHydraulicRef :: 0>0|8|8|1
+2019-01-06 12:45 ->    mirrorsDecals4 :: 0>0|7|0|2|4
+2019-01-06 12:45 ->    steeringBarFrontLeftRef :: 1>0|2|0
+2019-01-06 12:45 ->    bottomLinkLeftRef :: 0>0|4|0|1|0|2
+2019-01-06 12:45 ->    narrowMounting :: 0>0|9|1
+2019-01-06 12:45 ->    turnLightRightBack :: 0>0|3|3|1
+2019-01-06 12:45 ->    mirrorsDecals3 :: 0>0|7|0|2|3
+2019-01-06 12:45 ->    mirrorsDecals2 :: 0>0|7|0|2|2
+2019-01-06 12:45 ->    referencePointBackBottom :: 0>0|4|0|1|0|0
+2019-01-06 12:45 ->    rpmNeedle :: 0>0|7|0|1|1|2|0|0
+2019-01-06 12:45 ->    hydraulic02_in_cover :: 0>0|10|1|0|0
+2019-01-06 12:45 ->    aiCollisionTrigger :: 0>0|5|0
+2019-01-06 12:45 ->    wiperBack :: 0>0|7|0|8|1|0
+2019-01-06 12:45 ->    indoorCamera1 :: 0>0|1|1
+2019-01-06 12:45 ->    playerLeftFootTarget :: 0>0|7|0|5|1
+2019-01-06 12:45 ->    trailerLowNodePart :: 0>0|4|1|1|3
+2019-01-06 12:45 ->    directionMarker :: 0>0|7|0|1|1|0|0
+2019-01-06 12:45 ->    outdoorCameraTarget :: 0>0|1|0
+2019-01-06 12:45 ->    worklightBackStatic :: 0>0|7|0|0|1
+2019-01-06 12:45 ->    outdoorCamera1 :: 0>0|1|0|0
+2019-01-06 12:45 ->    wheelBackRight :: 0>0|0|1
+2019-01-06 12:45 ->    frontlightStatic :: 0>0|7|0|0|2
+2019-01-06 12:45 ->    weightExtension02 :: 0>0|9|0|0|0
+2019-01-06 12:45 ->    frontloaderAttacherFrame :: 0>0|4|3|0
+2019-01-06 12:45 ->    airDoubleYellow_cover :: 0>0|10|3|1|0
+2019-01-06 12:45 ->    weightExtension03 :: 0>0|9|0|0|0|0
+2019-01-06 12:45 ->    hydraulic03_out_cover :: 0>0|10|2|1|0
+2019-01-06 12:45 ->    bottomLinkRight :: 0>0|8|12
+2019-01-06 12:45 ->    fenderFrontLeftScale :: 1>0|0|0|2
+2019-01-06 12:45 ->    m6145_vis :: 0>0
+2019-01-06 12:45 ->    workLightFrontLow :: 0>0|3|2|0
+2019-01-06 12:45 ->    axisFrontChainsLeft :: 0>0|8|4
+2019-01-06 12:45 ->    frontLightSideMarker :: 0>0|3|1|0
+2019-01-06 12:45 ->    frontAxisRightHydraulicRef :: 1>0|4
+2019-01-06 12:45 ->    frontAxisLeftHydraulicRef :: 1>0|3
+2019-01-06 12:45 ->    backlightsStatic :: 0>0|7|0|0|3
+2019-01-06 12:45 ->    steeringBarFrontRightRef :: 1>0|2|1
+2019-01-06 12:45 ->    steeringBar :: 1>0|2
+2019-01-06 12:45 ->    turnLightLeftFront :: 0>0|3|3|0
+2019-01-06 12:45 ->    m6145_main_component1 :: 0>
+2019-01-06 12:45 ->    fenderFrontRightScale :: 1>0|1|0|2
+2019-01-06 12:45 ->    axisFrontPtoPartRef :: 0>0|8|6|0
+2019-01-06 12:45 ->    wheelFrontRight :: 1>0|1|0|0|0
+2019-01-06 12:45 ->    axisFrontRight :: 1>0|1|0
+2019-01-06 12:45 ->    ptoPartFrontLeft :: 1>0|0|0|4|0
+2019-01-06 12:45 ->    mirrorsDecals1 :: 0>0|7|0|2|1
+2019-01-06 12:45 ->    fenderFrontLeft :: 1>0|0|0|2|0|0
+2019-01-06 12:45 ->    steeringBarFrontLeft :: 1>0|0|0|1
+2019-01-06 12:45 ->    frontLightHigh :: 0>0|3|1|3
+2019-01-06 12:45 ->    wheelFrontLeft :: 1>0|0|0|0|0
+2019-01-06 12:45 ->    attacherJointBackRot :: 0>0|4|0|0
+2019-01-06 12:45 ->    workLightBackHigh1 :: 0>0|3|2|2
+2019-01-06 12:45 ->    axisFrontPtoPart :: 0>0|8|6
+2019-01-06 12:45 ->    backElectric :: 0>0|10|4
+2019-01-06 12:45 ->    hydraulic01_out_cover :: 0>0|10|0|1|0
+2019-01-06 12:45 ->    wheelBackLeft :: 0>0|0|0
+2019-01-06 12:45 ->    airDoubleControl :: 0>0|10|3|1
+2019-01-06 12:45 ->    airDoubleStorage :: 0>0|10|3|0
+2019-01-06 12:45 ->    playerSkin :: 0>0|7|0|3|0
+2019-01-06 12:45 ->    trailerSteeringRightRef :: 0>0|4|1|1|2
+2019-01-06 12:45 ->    tachometer :: 0>0|7|0|1|1|1
+2019-01-06 12:45 ->    hydraulic03_out :: 0>0|10|2|1
+2019-01-06 12:45 ->    hydraulic03_in_cover :: 0>0|10|2|0|0
+2019-01-06 12:45 ->    config_6135 :: 0>0|9|3
+2019-01-06 12:45 ->    hydraulic02_out_cover :: 0>0|10|1|1|0
+2019-01-06 12:45 ->    hydraulic02_out :: 0>0|10|1|1
+2019-01-06 12:45 ->    attacherJointBackArmTop :: 0>0|4|0|2
+2019-01-06 12:45 ->    backRightHydraulicRef :: 0>0|8|8|2
+2019-01-06 12:45 ->    speedNeedle :: 0>0|7|0|1|1|2|1|0
+2019-01-06 12:45 ->    workLightBackHigh2 :: 0>0|3|2|2|0
+2019-01-06 12:45 ->    highBeamHigh1 :: 0>0|3|1|4|0
+2019-01-06 12:45 ->    attacherJointBack :: 0>0|4|0|0|0|0
+2019-01-06 12:45 ->    backLightsHigh1 :: 0>0|3|4|0
+2019-01-06 12:45 ->    workLightFrontHigh1 :: 0>0|3|2|3
+2019-01-06 12:45 ->    shadowFocusBox :: 0>0|1|5
+2019-01-06 12:45 ->    mainArmRefFrame :: 0>0|8|7
+2019-01-06 12:45 ->    mirrorsDecals :: 0>0|7|0|2|0
+2019-01-06 12:45 ->    fenderFrontRight :: 1>0|1|0|2|0|0
+2019-01-06 12:45 ->    config_6145 :: 0>0|9|2
+2019-01-06 12:45 ->    trailerAttacherJointBack :: 0>0|4|1|0|0
+2019-01-06 12:45 ->    worklightFrontStatic :: 0>0|7|0|0|0
+2019-01-06 12:45 ->    trailerSteeringLeftRef :: 0>0|4|1|1|1
+2019-01-06 12:45 ->    ptoBack :: 0>0|4|2|0
+2019-01-06 12:45 ->    mainArmRef :: 0>0|4|0|1|0|1
+2019-01-06 12:45 ->    frontAxisStabiRef :: 1>0|5
+2019-01-06 12:45 ->    trailerLowNode :: 0>0|4|1|1
+2019-01-06 12:45 ->    workLightBackLow :: 0>0|3|2|1
+2019-01-06 12:45 ->    frontLightHigh1 :: 0>0|3|1|3|0
+2019-01-06 12:45 ->    exitPoint :: 0>0|2
+2019-01-06 12:45 ->    joystickLightupDecal :: 0>0|7|0|4|1
+2019-01-06 12:45 ->    airNeedle :: 0>0|7|0|1|1|2|2|0
+2019-01-06 12:45 ->    trailerAttacherJointBackLow :: 0>0|4|1|1|0
+2019-01-06 12:45 ->    frontAxisJoint :: 0>0|8|0
+2019-01-06 12:45 ->    config_6155 :: 0>0|9|4
+2019-01-06 12:45 ->    frontlightStatic1 :: 0>0|3|0|0
+2019-01-06 12:45 ->    cameraRaycastNode2 :: 0>0|1|3
+2019-01-06 12:45 ->    bottomLinkRightRef :: 0>0|4|0|1|0|3
+2019-01-06 12:45 ->    backRightHydraulicPunch :: 0>0|8|10|0
+2019-01-06 12:45 ->    needles :: 0>0|7|0|1|1|2
+2019-01-06 12:45 ->    cablightStatic :: 0>0|7|0|0|6
+2019-01-06 12:45 ->    turnLightLeftBack :: 0>0|3|3|0|0
+2019-01-06 12:45 ->    turnlightRightStatic :: 0>0|7|0|0|4
+2019-01-06 12:45 ->    playerRightHandTargetFrontloader :: 0>0|7|0|4|0
+2019-01-06 12:45 ->    mainArmPart :: 0>0|8|8|0
+2019-01-06 12:45 ->    trailerAttacherNode :: 0>0|4|1|0
+2019-01-06 12:45 ->    highBeamLow :: 0>0|3|1|2
+2019-01-06 12:45 ->    m6145_frontaxis_component2 :: 1>
+2019-01-06 12:45 ->    steeringBarFrontRight :: 1>0|1|0|1
+2019-01-06 12:45 ->    cabin :: 0>0|7|0
+2019-01-06 12:45 ->    playerRightFootTargetGas :: 0>0|7|0|5|2
+2019-01-06 12:45 ->    playerLeftHandTarget :: 0>0|7|0|1|0|0|1
+2019-01-06 12:45 ->    frontloaderAttacherJoint :: 0>0|4|3|0|0
+2019-01-06 12:45 ->    highBeamHigh :: 0>0|3|1|4
+2019-01-06 12:45 ->    cameraRaycastNode3 :: 0>0|1|4
+2019-01-06 12:45 ->loadAnimationDashboardFromXML :: function: 0x024841a5e1b0
+2019-01-06 12:45 ->updateDashboards :: function: 0x024841aa7af0
+2019-01-06 12:45 ->addToPhysics :: function: 0x0248419ec6b8
+2019-01-06 12:45 ->getName :: function: 0x02484158d7d8
+2019-01-06 12:45 ->addToolCameras :: function: 0x02483e770308
+2019-01-06 12:45 ->getAllowCharacterVisibilityUpdate :: function: 0x02483e50b650
+2019-01-06 12:45 ->updateWheelDirtAmount :: function: 0x024841351738
+2019-01-06 12:45 ->parkPowerTakeOff :: function: 0x0248414f5640
+2019-01-06 12:45 ->getAILowerIfAnyIsLowered :: function: 0x02483e65f228
+2019-01-06 12:45 ->hardDetachImplement :: function: 0x0248431a5280
+2019-01-06 12:45 ->getFillUnitExists :: function: 0x024841df20d8
+2019-01-06 12:45 ->getAIToolReverserDirectionNode :: function: 0x02483ec5ac90
+2019-01-06 12:45 ->registerAITask :: function: 0x02483eb5c710
+2019-01-06 12:45 ->deactivateLights :: function: 0x024841f7a9c8
+2019-01-06 12:45 ->getActiveFarm :: function: 0x024840ece510
+2019-01-06 12:45 ->getStopMotorOnLeave :: function: 0x024841ff1460
+2019-01-06 12:45 ->updateSingleJointPowerTakeOff :: function: 0x024841df9e20
+2019-01-06 12:45 ->getFillUnitFromNode :: function: 0x024841e790e0
+2019-01-06 12:45 ->getPropertyState :: function: 0x024841fc70f8
+2019-01-06 12:45 ->updateAnimationPart :: function: 0x024843dad098
+2019-01-06 12:45 ->getSupportsMountDynamic :: function: 0x02484315b5d0
+2019-01-06 12:45 ->getDashboardGroupByName :: function: 0x024841a64190
+2019-01-06 12:45 ->getCenterPointAngleRegulation :: function: 0x024842f3d0e8
+2019-01-06 12:45 ->getWheels :: function: 0x024842045938
+2019-01-06 12:45 ->setAlarmTriggerState :: function: 0x024841e7c650
+2019-01-06 12:45 ->setFillUnitForcedMaterialFillType :: function: 0x024841e67740
+2019-01-06 12:45 ->setFillUnitCapacity :: function: 0x024841e61898
+2019-01-06 12:45 ->getAITerrainDetailRequiredRange :: function: 0x02483ec34918
+2019-01-06 12:45 ->updateWheelDestruction :: function: 0x0248415afc78
+2019-01-06 12:45 ->getCenterPointAngle :: function: 0x024842f37ff0
+2019-01-06 12:45 ->setSelectedVehicle :: function: 0x024840da6e58
+2019-01-06 12:45 ->loadExtraDependentParts :: function: 0x02483e76f7c0
+2019-01-06 12:45 ->spec_connectionHoses :: table: 0x02485eb2cde8
+2019-01-06 12:45 ->    localHoseNodes :: table: 0x02485ebcfc40
+2019-01-06 12:45 ->    targetNodesByType :: table: 0x02485ebcfbf8
+2019-01-06 12:45 ->    targetNodes :: table: 0x02485ebcfbb0
+2019-01-06 12:45 ->    hoseSkipNodeByType :: table: 0x02485ebcfb00
+2019-01-06 12:45 ->    hoseNodes :: table: 0x02485ebd9898
+2019-01-06 12:45 ->    targetNodeToToolConnection :: table: 0x02485ebd9850
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2ceb0
+2019-01-06 12:45 ->    targetNodesAvailable :: true
+2019-01-06 12:45 ->    hoseNodesByInputAttacher :: table: 0x02485ebd98e0
+2019-01-06 12:45 ->    updateableHoses :: table: 0x02485ebcfc88
+2019-01-06 12:45 ->    hoseSkipNodes :: table: 0x02485ebcfab8
+2019-01-06 12:45 ->    toolConnectorHoses :: table: 0x02485ebd9808
+2019-01-06 12:45 ->getBrakeForce :: function: 0x024841ab3d28
+2019-01-06 12:45 ->loadingState :: 1
+2019-01-06 12:45 ->getWashDuration :: function: 0x02483ecc2b60
+2019-01-06 12:45 ->getTailwaterDepth :: function: 0x024841525090
+2019-01-06 12:45 ->baseDirectory :: 
+2019-01-06 12:45 ->getDirectionSnapAngle :: function: 0x02483ec9c408
+2019-01-06 12:45 ->getVehicleCharacter :: function: 0x02483e551680
+2019-01-06 12:45 ->removeWashableNode :: function: 0x02483e784d18
+2019-01-06 12:45 ->getAIBlockTurnBackward :: function: 0x02483a033818
+2019-01-06 12:45 ->getSelectedVehicle :: function: 0x0248418e6930
+2019-01-06 12:45 ->getCanMotorRun :: function: 0x02483e985158
+2019-01-06 12:45 ->deleteListeners :: table: 0x02485eb2a398
+2019-01-06 12:45 ->getBeaconLightsVisibility :: function: 0x02483e4f0b30
+2019-01-06 12:45 ->eventListeners :: table: 0x024841008610
+2019-01-06 12:45 ->    onFinishedWheelLoading :: table: 0x024843213d80
+2019-01-06 12:45 ->    onReadPositionUpdateStream :: table: 0x024842c056a0
+2019-01-06 12:45 ->    onAIImplementBlock :: table: 0x024843bb9240
+2019-01-06 12:45 ->    onDeactivate :: table: 0x02484157bde8
+2019-01-06 12:45 ->    onUpdateEnd :: table: 0x0248439c7c78
+2019-01-06 12:45 ->    onPostAttachImplement :: table: 0x0248413fb250
+2019-01-06 12:45 ->    onReadStream :: table: 0x02483ec24000
+2019-01-06 12:45 ->    onWriteUpdateStream :: table: 0x024841094738
+2019-01-06 12:45 ->    onPostDetachImplement :: table: 0x024842220b08
+2019-01-06 12:45 ->    onPreDelete :: table: 0x0248433156f0
+2019-01-06 12:45 ->    onBrakeLightsVisibilityChanged :: table: 0x024841a02fb0
+2019-01-06 12:45 ->    onAIImplementStartTurn :: table: 0x024843a7a2c8
+2019-01-06 12:45 ->    onAIStartTurn :: table: 0x024840f060b0
+2019-01-06 12:45 ->    onPreUpdate :: table: 0x024840ffa948
+2019-01-06 12:45 ->    onAIEndTurn :: table: 0x0248429d1d00
+2019-01-06 12:45 ->    onMovingToolChanged :: table: 0x024842d00320
+2019-01-06 12:45 ->    onAIBlock :: table: 0x0248421ab7c0
+2019-01-06 12:45 ->    onUpdateInterpolation :: table: 0x02483e6a3070
+2019-01-06 12:45 ->    onAIImplementTurnProgress :: table: 0x024842dcba58
+2019-01-06 12:45 ->    onVehicleCharacterChanged :: table: 0x0248419572f0
+2019-01-06 12:45 ->    onAddedFillUnitTrigger :: table: 0x024843d45c30
+2019-01-06 12:45 ->    onRemovedFillUnitTrigger :: table: 0x024842ee4160
+2019-01-06 12:45 ->    onAIImplementEnd :: table: 0x024842188950
+2019-01-06 12:45 ->    onAITurnProgress :: table: 0x024842835420
+2019-01-06 12:45 ->    onDraw :: table: 0x0248417cf6a0
+2019-01-06 12:45 ->    onAIEnd :: table: 0x02483eb54f28
+2019-01-06 12:45 ->    onActivate :: table: 0x024840e272e0
+2019-01-06 12:45 ->    onChangedFillType :: table: 0x024843c2be80
+2019-01-06 12:45 ->    onLeaveVehicle :: table: 0x0248437c7658
+2019-01-06 12:45 ->    onStartAnimation :: table: 0x024843574158
+2019-01-06 12:45 ->    onPostUpdate :: table: 0x024841f53608
+2019-01-06 12:45 ->    onFinishAnimation :: table: 0x02484274c9c8
+2019-01-06 12:45 ->    onSelect :: table: 0x024842416a60
+2019-01-06 12:45 ->    onDelete :: table: 0x024843507e20
+2019-01-06 12:45 ->    onAIImplementStart :: table: 0x0248413b48a8
+2019-01-06 12:45 ->    onStateChange :: table: 0x0248418f64a0
+2019-01-06 12:45 ->    onStartMotor :: table: 0x024842454098
+2019-01-06 12:45 ->    onDeactivateLights :: table: 0x0248424f9b38
+2019-01-06 12:45 ->    onAIImplementStartLine :: table: 0x024842917860
+2019-01-06 12:45 ->    onPreDetachImplement :: table: 0x024841dd0ea8
+2019-01-06 12:45 ->    onPreAttachImplement :: table: 0x0248419f29d8
+2019-01-06 12:45 ->    onUpdate :: table: 0x02483ea63bb8
+2019-01-06 12:45 ->    onBeaconLightsVisibilityChanged :: table: 0x02484285e5e8
+2019-01-06 12:45 ->    onSave :: table: 0x024843d5a288
+2019-01-06 12:45 ->    onReverseLightsVisibilityChanged :: table: 0x0248435dc9b8
+2019-01-06 12:45 ->    onCameraChanged :: table: 0x024843ad4490
+2019-01-06 12:45 ->    onTurnLightStateChanged :: table: 0x024842110da0
+2019-01-06 12:45 ->    onPreLoad :: table: 0x0248410c5290
+2019-01-06 12:45 ->    onRegisterActionEvents :: table: 0x02484142a1b8
+2019-01-06 12:45 ->    onAIContinue :: table: 0x02483e851da8
+2019-01-06 12:45 ->    onAIImplementContinue :: table: 0x0248421342c0
+2019-01-06 12:45 ->    onLightsTypesMaskChanged :: table: 0x0248410fe7a0
+2019-01-06 12:45 ->    onPostUpdateTick :: table: 0x024842385588
+2019-01-06 12:45 ->    onUpdateDebug :: table: 0x02484103cc20
+2019-01-06 12:45 ->    onReadUpdateStream :: table: 0x024843159838
+2019-01-06 12:45 ->    onUpdateTick :: table: 0x024843bd84a8
+2019-01-06 12:45 ->    onAIImplementEndTurn :: table: 0x024843b05980
+2019-01-06 12:45 ->    onStopAnimation :: table: 0x024842cdb740
+2019-01-06 12:45 ->    onAIImplementActive :: table: 0x024843c37868
+2019-01-06 12:45 ->    onAIImplementEndLine :: table: 0x024843a60220
+2019-01-06 12:45 ->    onWriteStream :: table: 0x02484184be20
+2019-01-06 12:45 ->    onPostLoad :: table: 0x0248430ce2d0
+2019-01-06 12:45 ->    onFillUnitIsFillingStateChanged :: table: 0x024842992590
+2019-01-06 12:45 ->    onFillUnitFillLevelChanged :: table: 0x024842311b20
+2019-01-06 12:45 ->    onWritePositionUpdateStream :: table: 0x0248424d4258
+2019-01-06 12:45 ->    onEnterVehicle :: table: 0x024843780750
+2019-01-06 12:45 ->    onBrake :: table: 0x02484319eb60
+2019-01-06 12:45 ->    onSetBroken :: table: 0x02484176f2e0
+2019-01-06 12:45 ->    onUnselect :: table: 0x024841dd6cb8
+2019-01-06 12:45 ->    onAIActive :: table: 0x024842357bd0
+2019-01-06 12:45 ->    onPlayAnimation :: table: 0x02484143b130
+2019-01-06 12:45 ->    onAlarmTriggerChanged :: table: 0x024843d0a038
+2019-01-06 12:45 ->    onAIStart :: table: 0x0248436d56b8
+2019-01-06 12:45 ->    onStopMotor :: table: 0x0248429cb078
+2019-01-06 12:45 ->    onLoad :: table: 0x024842872ca0
+2019-01-06 12:45 ->    onLoadFinished :: table: 0x0248431c0d60
+2019-01-06 12:45 ->configFileName :: data/vehicles/johnDeere/series6M/series6M.xml
+2019-01-06 12:45 ->getSelectedImplement :: function: 0x02484318acb0
+2019-01-06 12:45 ->spec_foliageBending :: table: 0x02485eb2af28
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2aff0
+2019-01-06 12:45 ->    bendingNodes :: table: 0x02485eb42e80
+2019-01-06 12:45 ->specializations :: table: 0x02483e4ed388
+2019-01-06 12:45 ->    1 :: table: 0x02483e4fea28
+2019-01-06 12:45 ->    2 :: table: 0x024841154748
+2019-01-06 12:45 ->    3 :: table: 0x02484265a6e8
+2019-01-06 12:45 ->    4 :: table: 0x024840d94f20
+2019-01-06 12:45 ->    5 :: table: 0x0248417e9c48
+2019-01-06 12:45 ->    6 :: table: 0x0248410557d8
+2019-01-06 12:45 ->    7 :: table: 0x0248434d5348
+2019-01-06 12:45 ->    8 :: table: 0x024841ac0a08
+2019-01-06 12:45 ->    9 :: table: 0x02484212fb80
+2019-01-06 12:45 ->    10 :: table: 0x0248426811d0
+2019-01-06 12:45 ->    11 :: table: 0x024843396160
+2019-01-06 12:45 ->    12 :: table: 0x0248414a99d0
+2019-01-06 12:45 ->    13 :: table: 0x024841b2da78
+2019-01-06 12:45 ->    14 :: table: 0x024840fa9ee8
+2019-01-06 12:45 ->    15 :: table: 0x0248422751f8
+2019-01-06 12:45 ->    16 :: table: 0x02483ea3cbe0
+2019-01-06 12:45 ->    17 :: table: 0x024841d15dd8
+2019-01-06 12:45 ->    18 :: table: 0x02483e89b398
+2019-01-06 12:45 ->    19 :: table: 0x02483ea05380
+2019-01-06 12:45 ->    20 :: table: 0x0248436113e8
+2019-01-06 12:45 ->    21 :: table: 0x024843524f28
+2019-01-06 12:45 ->    22 :: table: 0x0248434f5808
+2019-01-06 12:45 ->    23 :: table: 0x02484347e598
+2019-01-06 12:45 ->    24 :: table: 0x024841d729f8
+2019-01-06 12:45 ->    25 :: table: 0x024841b6f058
+2019-01-06 12:45 ->    26 :: table: 0x02483e71f318
+2019-01-06 12:45 ->    27 :: table: 0x024842f70b20
+2019-01-06 12:45 ->    28 :: table: 0x0248431ef5f8
+2019-01-06 12:45 ->    29 :: table: 0x0248430c7bf0
+2019-01-06 12:45 ->    30 :: table: 0x0248429a7ce8
+2019-01-06 12:45 ->    31 :: table: 0x024842531990
+2019-01-06 12:45 ->    32 :: table: 0x0248419d05b0
+2019-01-06 12:45 ->registerActionEvents :: function: 0x02483ebc61e0
+2019-01-06 12:45 ->setRelativePosition :: function: 0x02483e6c6758
+2019-01-06 12:45 ->addToLocalWearableNode :: function: 0x024841c433e0
+2019-01-06 12:45 ->detachImplementByObject :: function: 0x024843194df0
+2019-01-06 12:45 ->getUserPlayerStyle :: function: 0x02483e8d8828
+2019-01-06 12:45 ->deactivateBendingNodes :: function: 0x02484268ae58
+2019-01-06 12:45 ->updateWheelDensityMapHeight :: function: 0x0248415afc48
+2019-01-06 12:45 ->getAttacherJointDescFromObject :: function: 0x0248431da1f8
+2019-01-06 12:45 ->unloadFillUnits :: function: 0x024841ee3118
+2019-01-06 12:45 ->handleLowerImplementByAttacherJointIndex :: function: 0x0248431e3678
+2019-01-06 12:45 ->getFillUnitSupportsToolType :: function: 0x024841e047e0
+2019-01-06 12:45 ->i3dFilename :: $data/vehicles/johnDeere/series6M/series6M.i3d
+2019-01-06 12:45 ->getAirConsumerUsage :: function: 0x024841f5fd88
+2019-01-06 12:45 ->loadBaseMaterialFromXML :: function: 0x02483e553f18
+2019-01-06 12:45 ->movingCam :: false
+2019-01-06 12:45 ->addHoseToDelayedMountings :: function: 0x024842ed2a78
+2019-01-06 12:45 ->updateAttacherJointGraphics :: function: 0x0248431b2608
+2019-01-06 12:45 ->getIsActiveForLights :: function: 0x02483e81fe58
+2019-01-06 12:45 ->nextDirtyFlag :: 8192
+2019-01-06 12:45 ->getAdditionalComponentMass :: function: 0x02483ea9cc38
+2019-01-06 12:45 ->getInputPowerTakeOffs :: function: 0x024842088cc8
+2019-01-06 12:45 ->getAIAllowTurnBackward :: function: 0x02482aa53640
+2019-01-06 12:45 ->getTotalMass :: function: 0x024841a99030
+2019-01-06 12:45 ->getImplementIndexByObject :: function: 0x02484316eb18
+2019-01-06 12:45 ->getAttachedImplements :: function: 0x0248431e2710
+2019-01-06 12:45 ->resetAnimationPartValues :: function: 0x02483e6e1940
+2019-01-06 12:45 ->updateLoopIndex :: 594
+2019-01-06 12:45 ->clearAITerrainDetailRequiredRange :: function: 0x024841d2a3d0
+2019-01-06 12:45 ->getIsHardAttachAllowed :: function: 0x02484219fbc8
+2019-01-06 12:45 ->mount :: function: 0x024843177f98
+2019-01-06 12:45 ->getNodeDirtAmount :: function: 0x02483ebec648
+2019-01-06 12:45 ->getAccelerationAxis :: function: 0x02483e8fe328
+2019-01-06 12:45 ->loadWheelParticleSystem :: function: 0x024842566098
+2019-01-06 12:45 ->getDashboardColor :: function: 0x0248419f6350
+2019-01-06 12:45 ->spec_speedRotatingParts :: table: 0x02485eb2be88
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2bf50
+2019-01-06 12:45 ->    dirtyFlag :: 64
+2019-01-06 12:45 ->    speedRotatingParts :: table: 0x02485eb765f8
+2019-01-06 12:45 ->clearAITerrainDetailProhibitedRange :: function: 0x02483e9c1af8
+2019-01-06 12:45 ->getSelectedObject :: function: 0x0248419bf950
+2019-01-06 12:45 ->placeLocalPowerTakeOff :: function: 0x0248419f0590
+2019-01-06 12:45 ->loadDependentComponentJoints :: function: 0x02484208b428
+2019-01-06 12:45 ->addAllSubWearableNodes :: function: 0x024841c2cf40
+2019-01-06 12:45 ->getDeactivateLightsOnLeave :: function: 0x0248410838f0
+2019-01-06 12:45 ->createComponentJoint :: function: 0x024840ec3db8
+2019-01-06 12:45 ->startAttacherJointCombo :: function: 0x024843181528
+2019-01-06 12:45 ->loadDynamicallyPartsFromXML :: function: 0x024841011c18
+2019-01-06 12:45 ->attachImplement :: function: 0x0248431b0150
+2019-01-06 12:45 ->updateWheelSink :: function: 0x02483e5ea518
+2019-01-06 12:45 ->aiImplementEndLine :: function: 0x02483e604eb8
+2019-01-06 12:45 ->getFillUnitAllowsFillType :: function: 0x024841e52d08
+2019-01-06 12:45 ->createAttachmentJoint :: function: 0x0248431aff80
+2019-01-06 12:45 ->detachingIsPossible :: function: 0x02484316edd0
+2019-01-06 12:45 ->getMotorStartTime :: function: 0x02483e835388
+2019-01-06 12:45 ->retryHoseSkipNodeConnections :: function: 0x024842edac08
+2019-01-06 12:45 ->setSelectedImplementByObject :: function: 0x024843192a48
+2019-01-06 12:45 ->getIsOperating :: function: 0x02483ebda1c8
+2019-01-06 12:45 ->getIsOnField :: function: 0x024841c84d30
+2019-01-06 12:45 ->getFillUnitAutoAimTargetNode :: function: 0x024841dfe040
+2019-01-06 12:45 ->getCruiseControlAxis :: function: 0x02484109e458
+2019-01-06 12:45 ->connectHoseToSkipNode :: function: 0x024842ed2d08
+2019-01-06 12:45 ->getConnectionHosesByInputAttacherJoint :: function: 0x024842f064a8
+2019-01-06 12:45 ->loadCrawlerFromXML :: function: 0x024841f6cfa0
+2019-01-06 12:45 ->setBeaconLightsVisibility :: function: 0x0248418027c0
+2019-01-06 12:45 ->loadToolConnectorHoseNode :: function: 0x024842f3d3a8
+2019-01-06 12:45 ->getIsVehicleNode :: function: 0x024841cd4d28
+2019-01-06 12:45 ->addAIFruitProhibitions :: function: 0x02483e789f70
+2019-01-06 12:45 ->attachTypedPowerTakeOff :: function: 0x0248422d5208
+2019-01-06 12:45 ->getFullName :: function: 0x024841b8edb0
+2019-01-06 12:45 ->loadDoubleJointPowerTakeOff :: function: 0x024841df9e50
+2019-01-06 12:45 ->getFillTypeChangeThreshold :: function: 0x024841e78df0
+2019-01-06 12:45 ->isAddedToPhysics :: true
+2019-01-06 12:45 ->interact :: function: 0x024840f11c50
+2019-01-06 12:45 ->addToLocalWashableNode :: function: 0x02483ec2fa98
+2019-01-06 12:45 ->deleteVehicleCharacter :: function: 0x02483e8b37b8
+2019-01-06 12:45 ->getCanBeSelected :: function: 0x02483e459178
+2019-01-06 12:45 ->setAIFruitExtraRequirements :: function: 0x02483e8724e0
+2019-01-06 12:45 ->isAddedToMission :: true
+2019-01-06 12:45 ->getAIFruitExtraRequirements :: function: 0x02483e65e560
+2019-01-06 12:45 ->setActiveCameraIndex :: function: 0x02483e7702d8
+2019-01-06 12:45 ->setWorldPositionQuaternion :: function: 0x02484140e880
+2019-01-06 12:45 ->getDriveGroundParticleSystemsScale :: function: 0x024842002708
+2019-01-06 12:45 ->removeNodeObjectMapping :: function: 0x02483e6e1f80
+2019-01-06 12:45 ->dirtyMask :: 294
+2019-01-06 12:45 ->getMovingPartByNode :: function: 0x024842066f30
+2019-01-06 12:45 ->loadHoseTargetNode :: function: 0x024842f3e020
+2019-01-06 12:45 ->getDynamicMountObject :: function: 0x0248431f8d48
+2019-01-06 12:45 ->getExitNode :: function: 0x02483e5ff1b8
+2019-01-06 12:45 ->updateVehicleSpeed :: function: 0x024841976a00
+2019-01-06 12:45 ->getCurrentHelper :: function: 0x0248422c7388
+2019-01-06 12:45 ->getIsSpeedRotatingPartActive :: function: 0x024841f0ebb0
+2019-01-06 12:45 ->getMovingToolByNode :: function: 0x024842066f00
+2019-01-06 12:45 ->clearAIDebugTexts :: function: 0x02483e65add8
+2019-01-06 12:45 ->getFillUnitSupportedFillTypes :: function: 0x024841e07570
+2019-01-06 12:45 ->getRootVehicle :: function: 0x024841b502b0
+2019-01-06 12:45 ->id :: 11
+2019-01-06 12:45 ->initializeAnimationParts :: function: 0x024841aff410
+2019-01-06 12:45 ->loadGears :: function: 0x02483e6682c0
+2019-01-06 12:45 ->getCurrentPlayerStyle :: function: 0x02483e8d8858
+2019-01-06 12:45 ->startAIVehicle :: function: 0x024841e71ef0
+2019-01-06 12:45 ->getCanStartAIVehicle :: function: 0x024841c86438
+2019-01-06 12:45 ->loadWheelPhysicsData :: function: 0x02483ea3fae8
+2019-01-06 12:45 ->getDrivingDirection :: function: 0x02484109a658
+2019-01-06 12:45 ->setReverserDirection :: function: 0x024841099bb8
+2019-01-06 12:45 ->getDistanceToNode :: function: 0x024841f7d740
+2019-01-06 12:45 ->addVehicleToAIImplementList :: function: 0x024841a84430
+2019-01-06 12:45 ->loadDashboardGroupFromXML :: function: 0x024840ea6460
+2019-01-06 12:45 ->postAttachImplement :: function: 0x0248431b0068
+2019-01-06 12:45 ->addWashableNodes :: function: 0x02483a194a10
+2019-01-06 12:45 ->getAllowsWashingByType :: function: 0x02483e589528
+2019-01-06 12:45 ->loadHoseNode :: function: 0x024842f3e050
+2019-01-06 12:45 ->spec_FrontLoaderCam :: table: 0x02485eb2d488
+2019-01-06 12:45 ->    actionEvents :: table: 0x02485eb2d550
+2019-01-06 12:45 ->actionEventUpdateRequested :: false
+2019-01-06 12:45 ->loadFillUnitFromXML :: function: 0x024841f373b8
+2019-01-06 12:45 ->speedDependentRotateBack :: true
+2019-01-06 12:45 ->loadDependentMovingTools :: function: 0x02484208b368
+2019-01-06 12:45 ->finalizeConnector :: function: 0x024841569ee8
+2019-01-06 12:45 ->getIsDashboardGroupActive :: function: 0x024841b0bc88
+2019-01-06 12:45 ->brake :: function: 0x024841cb56f8
+2019-01-06 12:45 ->loadSingleJointPowerTakeOff :: function: 0x024842194cf0
+2019-01-06 12:45 ->setAnimationSpeed :: function: 0x024841e0d8d0
+2019-01-06 12:45 ->supportsPickUp :: true
+2019-01-06 12:45 ->setVehicleCharacter :: function: 0x02483e8b3658
+2019-01-06 12:45 ->maxTurningRadius :: 4.478353333154

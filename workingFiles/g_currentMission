@@ -1,0 +1,942 @@
+2019-01-13 14:23 ----loadVehiclesById :: table: 0x01fa822c17e0
+2019-01-13 14:23 ----    4 :: table: 0x01fa92d317f8
+2019-01-13 14:23 ----    8 :: table: 0x01fa9b7fbf50
+2019-01-13 14:23 ----    1 :: table: 0x01fa822c1f40
+2019-01-13 14:23 ----    5 :: table: 0x01fa92d496d0
+2019-01-13 14:23 ----    9 :: table: 0x01fabcc8edd8
+2019-01-13 14:23 ----    6 :: table: 0x01fa92d5cdc8
+2019-01-13 14:23 ----    11 :: table: 0x01fafbf520c8
+2019-01-13 14:23 ----    12 :: table: 0x01fafbf7c9a8
+2019-01-13 14:23 ----    3 :: table: 0x01fa92d1ee80
+2019-01-13 14:23 ----    7 :: table: 0x01fa92d706f8
+2019-01-13 14:23 ----    2 :: table: 0x01fa92d03080
+2019-01-13 14:23 ----    10 :: table: 0x01fafbf390d8
+2019-01-13 14:23 ----terrainDetailTypeFirstChannel :: 0
+2019-01-13 14:23 ----grassId :: 0
+2019-01-13 14:23 ----slotUsage :: 0
+2019-01-13 14:23 ----activatableObjects :: table: 0x01fadc7592d0
+2019-01-13 14:23 ----loadingMapBaseDirectory :: 
+2019-01-13 14:23 ----ownedItems :: table: 0x01fadc833458
+2019-01-13 14:23 ----    table: 0x01fadd1afca0 :: table: 0x01fabcc88c58
+2019-01-13 14:23 ----    table: 0x01fade3514c0 :: table: 0x01fafbf4bff8
+2019-01-13 14:23 ----    table: 0x01faddb99010 :: table: 0x01fb24355198
+2019-01-13 14:23 ----    table: 0x01fadf0a8cf8 :: table: 0x01fb24361a88
+2019-01-13 14:23 ----    table: 0x01fade522400 :: table: 0x01fb243d60b8
+2019-01-13 14:23 ----    table: 0x01faddb7f628 :: table: 0x01fafc005f98
+2019-01-13 14:23 ----    table: 0x01fadefffd50 :: table: 0x01fafc016930
+2019-01-13 14:23 ----    table: 0x01fadd43c338 :: table: 0x01fb24305830
+2019-01-13 14:23 ----    table: 0x01fadcd4af48 :: table: 0x01fa9b7f62b0
+2019-01-13 14:23 ----    table: 0x01fad6de6a88 :: table: 0x01fafbfb0130
+2019-01-13 14:23 ----    table: 0x01faddcb05f0 :: table: 0x01fb243c4660
+2019-01-13 14:23 ----    table: 0x01fade2f63a8 :: table: 0x01fb243ae6e0
+2019-01-13 14:23 ----    table: 0x01fad6a88358 :: table: 0x01fb2433a328
+2019-01-13 14:23 ----    table: 0x01fade8454d8 :: table: 0x01fb2434d7b0
+2019-01-13 14:23 ----    table: 0x01fadbeef7b8 :: table: 0x01fb24381cd0
+2019-01-13 14:23 ----    table: 0x01fad6d35aa0 :: table: 0x01fa92d6fb80
+2019-01-13 14:23 ----    table: 0x01faded8f100 :: table: 0x01fb24345b08
+2019-01-13 14:23 ----    table: 0x01fadd627cb0 :: table: 0x01fb24313878
+2019-01-13 14:23 ----    table: 0x01fade2a81c8 :: table: 0x01fb24374e40
+2019-01-13 14:23 ----    table: 0x01fadef26e00 :: table: 0x01fb24377ee0
+2019-01-13 14:23 ----    table: 0x01faee99c390 :: table: 0x01fafc029480
+2019-01-13 14:23 ----    table: 0x01fadedbb0a0 :: table: 0x01fb2431fdc0
+2019-01-13 14:23 ----    table: 0x01fade6c7348 :: table: 0x01fb242f6b60
+2019-01-13 14:23 ----    table: 0x01faddc0d5c0 :: table: 0x01fafc0168c8
+2019-01-13 14:23 ----mountThreshold :: 6
+2019-01-13 14:23 ----inGameMenu :: table: 0x01fad6ce0408
+2019-01-13 14:23 ----    pageAnimals :: table: 0x01fadec42f10
+2019-01-13 14:23 ----    timeSinceLastMoneyUpdate :: 0
+2019-01-13 14:23 ----    isInitialized :: false
+2019-01-13 14:23 ----    pageSelector :: table: 0x01fade925010
+2019-01-13 14:23 ----    isBackAllowed :: true
+2019-01-13 14:23 ----    savingMinEndTime :: 0
+2019-01-13 14:23 ----    frameOverlays :: table: 0x01fad6ce0658
+2019-01-13 14:23 ----    focusActive :: false
+2019-01-13 14:23 ----    pagingButtonLeft :: table: 0x01fade925d60
+2019-01-13 14:23 ----    newLayer :: false
+2019-01-13 14:23 ----    playerFarmId :: 1
+2019-01-13 14:23 ----    currentPageId :: 1
+2019-01-13 14:23 ----    outputSize :: table: 0x01fad6ce07d0
+2019-01-13 14:23 ----    pageHelpLine :: table: 0x01fade226258
+2019-01-13 14:23 ----    layoutIgnore :: false
+2019-01-13 14:23 ----    screenAlign :: 0
+2019-01-13 14:23 ----    buttonsPanel :: table: 0x01fadef2e128
+2019-01-13 14:23 ----    positionOrigin :: 0
+2019-01-13 14:23 ----    fillTypeManager :: table: 0x01fad637c590
+2019-01-13 14:23 ----    debugEnabled :: false
+2019-01-13 14:23 ----    size :: table: 0x01fad6ce0770
+2019-01-13 14:23 ----    pageTutorial :: table: 0x01fade93c068
+2019-01-13 14:23 ----    pagingButtonRight :: table: 0x01fade929e20
+2019-01-13 14:23 ----    frameClosePageNextCallback :: function: 0x01fad6ce1ba0
+2019-01-13 14:23 ----    absPosition :: table: 0x01fad6ce0710
+2019-01-13 14:23 ----    restorePageIndex :: 1
+2019-01-13 14:23 ----    name :: InGameMenu
+2019-01-13 14:23 ----    fixedHeight :: false
+2019-01-13 14:23 ----    frameClosePagePreviousCallback :: function: 0x01fad6ce1c18
+2019-01-13 14:23 ----    frameBottomColor :: table: 0x01fad6ce1960
+2019-01-13 14:23 ----    needMoneyUpdate :: true
+2019-01-13 14:23 ----    pageStatistics :: table: 0x01fadef3bb30
+2019-01-13 14:23 ----    pageEnablingPredicates :: table: 0x01fad6ce17d0
+2019-01-13 14:23 ----    pageMultiplayerFarms :: table: 0x01fadef6b400
+2019-01-13 14:23 ----    quitAfterSave :: false
+2019-01-13 14:23 ----    frameTopColor :: table: 0x01fad6ce1540
+2019-01-13 14:23 ----    handleFocus :: true
+2019-01-13 14:23 ----    margin :: table: 0x01fad6ce0518
+2019-01-13 14:23 ----    pagingElement :: table: 0x01fade939f20
+2019-01-13 14:23 ----    updateChildrenOverlayState :: true
+2019-01-13 14:23 ----    pageRoots :: table: 0x01fad6ce1788
+2019-01-13 14:23 ----    currentDeviceHasNoSpace :: false
+2019-01-13 14:23 ----    buttonActionCallbacks :: table: 0x01fad6ce1860
+2019-01-13 14:23 ----    overlayState :: 1
+2019-01-13 14:23 ----    fixedWidth :: false
+2019-01-13 14:23 ----    handleCursorVisibility :: true
+2019-01-13 14:23 ----    defaultButtonActionCallbacks :: table: 0x01fadc30f338
+2019-01-13 14:23 ----    hasIncluded :: function: 0x01fad60218d0
+2019-01-13 14:23 ----    isSoundSuppressed :: false
+2019-01-13 14:23 ----    fruitTypeManager :: table: 0x01fad6385248
+2019-01-13 14:23 ----    hasFrame :: false
+2019-01-13 14:23 ----    soundDisabled :: false
+2019-01-13 14:23 ----    inputManager :: table: 0x01fad682c370
+2019-01-13 14:23 ----    defaultMenuButtonInfoByActions :: table: 0x01fad6ce18f0
+2019-01-13 14:23 ----    currentBalanceValue :: 615501.75
+2019-01-13 14:23 ----    backButtonInfo :: table: 0x01fad658c528
+2019-01-13 14:23 ----    disabled :: false
+2019-01-13 14:23 ----    client :: table: 0x01fadc47cd40
+2019-01-13 14:23 ----    pagingTabTemplate :: table: 0x01fade930418
+2019-01-13 14:23 ----    currentUserId :: 1
+2019-01-13 14:23 ----    imageSize :: table: 0x01fad6ce0588
+2019-01-13 14:23 ----    pageSettingsControls :: table: 0x01fadc7af988
+2019-01-13 14:23 ----    time :: 0
+2019-01-13 14:23 ----    quitButtonInfo :: table: 0x01fadc01d6d8
+2019-01-13 14:23 ----    pageFinances :: table: 0x01fadebef9f0
+2019-01-13 14:23 ----    elements :: table: 0x01fad6ce04d0
+2019-01-13 14:23 ----    isConsoleVersion :: false
+2019-01-13 14:23 ----    hud :: table: 0x01fadeca3ec0
+2019-01-13 14:23 ----    pageTabs :: table: 0x01fad6ce16f8
+2019-01-13 14:23 ----    frameLeftColor :: table: 0x01fad6ce14d0
+2019-01-13 14:23 ----    visible :: true
+2019-01-13 14:23 ----    playSampleCallback :: function: 0x01fad6a66450
+2019-01-13 14:23 ----    fadeOutTime :: 0
+2019-01-13 14:23 ----    menuButton :: table: 0x01fadcc8e6c0
+2019-01-13 14:23 ----    paused :: false
+2019-01-13 14:23 ----    continueEnabled :: true
+2019-01-13 14:23 ----    isSaving :: false
+2019-01-13 14:23 ----    gameState :: 8
+2019-01-13 14:23 ----    profile :: 
+2019-01-13 14:23 ----    isOpen :: false
+2019-01-13 14:23 ----    messageCenter :: table: 0x01fad63e1ca0
+2019-01-13 14:23 ----    fadeInTime :: 0
+2019-01-13 14:23 ----    thinLineProtection :: true
+2019-01-13 14:23 ----    pageSettingsGeneral :: table: 0x01faddaefe10
+2019-01-13 14:23 ----    changeScreenCallback :: function: 0x01fad6a66318
+2019-01-13 14:23 ----    baseIngameMap :: table: 0x01fadcc57460
+2019-01-13 14:23 ----    controlIDs :: table: 0x01fad6ce1668
+2019-01-13 14:23 ----    playerAlreadySaved :: false
+2019-01-13 14:23 ----    pageFrames :: table: 0x01fad6ce16b0
+2019-01-13 14:23 ----    table: 0x01fad60214e8 :: table: 0x01fad6ce0450
+2019-01-13 14:23 ----    doSaveGameState :: 0
+2019-01-13 14:23 ----    tutorialMenuButtonInfo :: table: 0x01fadc30ccb8
+2019-01-13 14:23 ----    pageSettingsGame :: table: 0x01fadf074a00
+2019-01-13 14:23 ----    saveButtonInfo :: table: 0x01fad9dc13d8
+2019-01-13 14:23 ----    clickBackCallback :: function: 0x01fadca672d0
+2019-01-13 14:23 ----    frameThickness :: table: 0x01fad6ce05e8
+2019-01-13 14:23 ----    alpha :: 1
+2019-01-13 14:23 ----    nextClickSoundMuted :: false
+2019-01-13 14:23 ----    pageMapOverview :: table: 0x01fade9542a0
+2019-01-13 14:23 ----    disabledPages :: table: 0x01fad6ce1818
+2019-01-13 14:23 ----    pageContracts :: table: 0x01fadedee390
+2019-01-13 14:23 ----    position :: table: 0x01fad6ce06b0
+2019-01-13 14:23 ----    isServer :: true
+2019-01-13 14:23 ----    missionDynamicInfo :: table: 0x01fade6f3ad0
+2019-01-13 14:23 ----    performBackgroundBlur :: true
+2019-01-13 14:23 ----    focusChangeData :: table: 0x01fad6ce1620
+2019-01-13 14:23 ----    pagePrices :: table: 0x01fadeb3a250
+2019-01-13 14:23 ----    missionInfo :: table: 0x01fade796548
+2019-01-13 14:23 ----    pageMultiplayerUsers :: table: 0x01fadef9df78
+2019-01-13 14:23 ----    savegameController :: table: 0x01fad6cc1d80
+2019-01-13 14:23 ----    isMasterUser :: true
+2019-01-13 14:23 ----    defaultMenuButtonInfo :: table: 0x01fadc349a10
+2019-01-13 14:23 ----    fadeDirection :: 0
+2019-01-13 14:23 ----    pageTypeControllers :: table: 0x01fad6ce1740
+2019-01-13 14:23 ----    frameRightColor :: table: 0x01fad6ce15b0
+2019-01-13 14:23 ----    currentPageName :: 
+2019-01-13 14:23 ----    lastMouseCursorState :: false
+2019-01-13 14:23 ----    header :: table: 0x01fade9229a0
+2019-01-13 14:23 ----    pageGarageOverview :: table: 0x01fadeba9450
+2019-01-13 14:23 ----    l10n :: table: 0x01fad6353190
+2019-01-13 14:23 ----    inputDisableTime :: 0
+2019-01-13 14:23 ----    hasCustomInputContext :: false
+2019-01-13 14:23 ----    isTutorialMission :: false
+2019-01-13 14:23 ----    toggleCustomInputContextCallback :: function: 0x01fad6a663e0
+2019-01-13 14:23 ----    playerFarm :: table: 0x01faeeaffa98
+2019-01-13 14:23 ----    pagingTabList :: table: 0x01fade92dfa8
+2019-01-13 14:23 ----    customButtonEvents :: table: 0x01fad6ce1b58
+2019-01-13 14:23 ----    server :: table: 0x01fade2591c0
+2019-01-13 14:23 ----    playHoverSoundOnFocus :: false
+2019-01-13 14:23 ----vehicleXZPosCompressionParams :: table: 0x01fad6931d40
+2019-01-13 14:23 ----    numBits :: 19
+2019-01-13 14:23 ----    scale :: 0.005
+2019-01-13 14:23 ----    worldSize :: 2548
+2019-01-13 14:23 ----    worldOffset :: 1274
+2019-01-13 14:23 ----messages :: table: 0x01fade162cf8
+2019-01-13 14:23 ----usedLoadPlaces :: table: 0x01fadcecb818
+2019-01-13 14:23 ----isLoaded :: true
+2019-01-13 14:23 ----vehicleXZPosHighPrecisionCompressionParams :: table: 0x01fad6c9cfc0
+2019-01-13 14:23 ----    numBits :: 25
+2019-01-13 14:23 ----    scale :: 0.0001
+2019-01-13 14:23 ----    worldSize :: 2548
+2019-01-13 14:23 ----    worldOffset :: 1274
+2019-01-13 14:23 ----grassValue :: 5
+2019-01-13 14:23 ----storeIsActive :: false
+2019-01-13 14:23 ----trailerTipTriggers :: table: 0x01faeeac7318
+2019-01-13 14:23 ----plowCounterFirstChannel :: 10
+2019-01-13 14:23 ----waitForCorruptDlcs :: false
+2019-01-13 14:23 ----meshEnabled :: true
+2019-01-13 14:23 ----objectsToCallOnMissionStarted :: table: 0x01fa92c03d50
+2019-01-13 14:23 ----attachables :: table: 0x01fadbe3fc50
+2019-01-13 14:23 ----    1 :: table: 0x01fa92d03080
+2019-01-13 14:23 ----    2 :: table: 0x01fa92d1ee80
+2019-01-13 14:23 ----    3 :: table: 0x01fa92d317f8
+2019-01-13 14:23 ----    4 :: table: 0x01fa92d496d0
+2019-01-13 14:23 ----    5 :: table: 0x01fa92d5cdc8
+2019-01-13 14:23 ----    6 :: table: 0x01fa9b7fbf50
+2019-01-13 14:23 ----    7 :: table: 0x01fafbf390d8
+2019-01-13 14:23 ----    8 :: table: 0x01fafbf520c8
+2019-01-13 14:23 ----    9 :: table: 0x01fafbf7c9a8
+2019-01-13 14:23 ----restrictedZones :: table: 0x01fadc39d580
+2019-01-13 14:23 ----mapSplitShapesRevision :: 1
+2019-01-13 14:23 ----mapDensityMapRevision :: 1
+2019-01-13 14:23 ----harvestLimeScaleRatio :: 0.15
+2019-01-13 14:23 ----mapWidth :: 2048
+2019-01-13 14:23 ----inputDisplayManager :: table: 0x01fad697bd88
+2019-01-13 14:23 ----    orOverlay :: table: 0x01fad6995350
+2019-01-13 14:23 ----    actionList :: table: 0x01fad697bee0
+2019-01-13 14:23 ----    axisIconOverlays :: table: 0x01fad69924d8
+2019-01-13 14:23 ----    controllerSymbols :: table: 0x01fad6992308
+2019-01-13 14:23 ----    eventHelpElements :: table: 0x01fad6b18c20
+2019-01-13 14:23 ----    plusOverlay :: table: 0x01fad6993110
+2019-01-13 14:23 ----    inputManager :: table: 0x01fad682c370
+2019-01-13 14:23 ----    keyboardKeyOverlay :: table: 0x01fad6a4cde0
+2019-01-13 14:23 ----    eventComboButtons :: table: 0x01fadd5496e0
+2019-01-13 14:23 ----    isConsoleVersion :: false
+2019-01-13 14:23 ----    buttonIconSize :: 45
+2019-01-13 14:23 ----    uiScale :: 1
+2019-01-13 14:23 ----    modManager :: table: 0x01fad63900f8
+2019-01-13 14:23 ----    actionBindings :: table: 0x01fad6991d48
+2019-01-13 14:23 ----savegameController :: table: 0x01fad6cc1d80
+2019-01-13 14:23 ----    onDeleteCallback :: function: 0x01fad600c438
+2019-01-13 14:23 ----    waitingForSaveGameInfo :: false
+2019-01-13 14:23 ----    onDeleteCallbackTarget :: table: 0x01fad600c560
+2019-01-13 14:23 ----    savingErrorCode :: 0
+2019-01-13 14:23 ----    onSaveCompleteCallbackTarget :: table: 0x01fad600c560
+2019-01-13 14:23 ----    onSaveCompleteCallback :: function: 0x01fad600c438
+2019-01-13 14:23 ----    isSavingGame :: false
+2019-01-13 14:23 ----    onUpdateCompleteCallback :: function: 0x01fad64df468
+2019-01-13 14:23 ----    savegames :: table: 0x01fad6cc1dc8
+2019-01-13 14:23 ----    onUpdateCompleteTarget :: table: 0x01fad6cc2100
+2019-01-13 14:23 ----bushesId :: 0
+2019-01-13 14:23 ----objectsToCallOnMapFinished :: table: 0x01faeea34488
+2019-01-13 14:23 ----harvestSprayScaleRatio :: 0.5
+2019-01-13 14:23 ----environment :: table: 0x01faee670820
+2019-01-13 14:23 ----    nightEnd :: 7
+2019-01-13 14:23 ----    fogScale :: 0
+2019-01-13 14:23 ----    weatherChangeListeners :: table: 0x01faee5505c0
+2019-01-13 14:23 ----    realHourTimer :: 629121.38318634
+2019-01-13 14:23 ----    lastLightUpdate :: 61654404.373131
+2019-01-13 14:23 ----    nightEndMinutes :: 420
+2019-01-13 14:23 ----    nightStartMinutes :: 1170
+2019-01-13 14:23 ----    dayNightCycle :: true
+2019-01-13 14:23 ----    skyNode :: 17320
+2019-01-13 14:23 ----    currentHour :: 17
+2019-01-13 14:23 ----    sunHeightAngle :: -0.87266462599716
+2019-01-13 14:23 ----    xmlFilename :: data/maps/mapDE_environment.xml
+2019-01-13 14:23 ----    timeUpdateTime :: 16.616813659668
+2019-01-13 14:23 ----    nightStart :: 19.5
+2019-01-13 14:23 ----    lighting :: table: 0x01faee625508
+2019-01-13 14:23 ----    lightScale :: 1
+2019-01-13 14:23 ----    dayTime :: 61654404.373131
+2019-01-13 14:23 ----    dayLength :: 86400000
+2019-01-13 14:23 ----    rainSkyScale :: 0
+2019-01-13 14:23 ----    timeUpdateInterval :: 60000
+2019-01-13 14:23 ----    currentDay :: 1
+2019-01-13 14:23 ----    skyDayTimeEnd :: 68400000
+2019-01-13 14:23 ----    sunHeightLimitEnd :: 0.13302224874496
+2019-01-13 14:23 ----    baseLighting :: table: 0x01faee625508
+2019-01-13 14:23 ----    skyDayTimeStart :: 21600000
+2019-01-13 14:23 ----    water :: 21903
+2019-01-13 14:23 ----    sunHeightLimit :: 0.38302218914032
+2019-01-13 14:23 ----    visualRainScale :: 0
+2019-01-13 14:23 ----    sunHeightLimitStart :: 0.42836660146713
+2019-01-13 14:23 ----    sunLightId :: 19647
+2019-01-13 14:23 ----    weather :: table: 0x01faee6413a8
+2019-01-13 14:23 ----    firstTimeRun :: false
+2019-01-13 14:23 ----    realHourLength :: 3600000
+2019-01-13 14:23 ----    currentMinute :: 7
+2019-01-13 14:23 ----    groundWetness :: 0
+2019-01-13 14:23 ----    isSunOn :: true
+2019-01-13 14:23 ----    realHourChangeListeners :: table: 0x01faee550578
+2019-01-13 14:23 ----    hourChangeListeners :: table: 0x01faee550420
+2019-01-13 14:23 ----    sunRotCurve :: table: 0x01faee550608
+2019-01-13 14:23 ----    lightUpdateInterval :: 10000
+2019-01-13 14:23 ----    minuteChangeListeners :: table: 0x01faee550468
+2019-01-13 14:23 ----    dayChangeListeners :: table: 0x01faee550370
+2019-01-13 14:23 ----shopMenu :: table: 0x01fad6ce19d0
+2019-01-13 14:23 ----    currentBalanceValue :: 615501.75
+2019-01-13 14:23 ----    timeSinceLastMoneyUpdate :: 0
+2019-01-13 14:23 ----    server :: table: 0x01fade2591c0
+2019-01-13 14:23 ----    disabled :: false
+2019-01-13 14:23 ----    client :: table: 0x01fadc47cd40
+2019-01-13 14:23 ----    switchOwnedLeasedButtonInfo :: table: 0x01fadc251bb0
+2019-01-13 14:23 ----    pageShopVehicles :: table: 0x01faddfb1648
+2019-01-13 14:23 ----    pagingTabTemplate :: table: 0x01fad6c8b590
+2019-01-13 14:23 ----    currentUserId :: 1
+2019-01-13 14:23 ----    imageSize :: table: 0x01fad6ce2f58
+2019-01-13 14:23 ----    pageShopTools :: table: 0x01fad6ba4660
+2019-01-13 14:23 ----    menuButton :: table: 0x01fadea759f8
+2019-01-13 14:23 ----    time :: 0
+2019-01-13 14:23 ----    isBackAllowed :: true
+2019-01-13 14:23 ----    header :: table: 0x01fad6d592d8
+2019-01-13 14:23 ----    pagingTabList :: table: 0x01fadbebf5f8
+2019-01-13 14:23 ----    pageSelector :: table: 0x01fadee99528
+2019-01-13 14:23 ----    pagingButtonRight :: table: 0x01faddace630
+2019-01-13 14:23 ----    frameOverlays :: table: 0x01fad6ce3538
+2019-01-13 14:23 ----    pagingButtonLeft :: table: 0x01faded83af8
+2019-01-13 14:23 ----    focusActive :: false
+2019-01-13 14:23 ----    elements :: table: 0x01fad6ce1ad0
+2019-01-13 14:23 ----    newLayer :: false
+2019-01-13 14:23 ----    garageMenuButtonInfo :: table: 0x01fadd6bf660
+2019-01-13 14:23 ----    playerFarmId :: 1
+2019-01-13 14:23 ----    isConsoleVersion :: false
+2019-01-13 14:23 ----    currentPageId :: 1
+2019-01-13 14:23 ----    pageShopGarageOwned :: table: 0x01faddc04cc0
+2019-01-13 14:23 ----    shopConfigScreen :: table: 0x01fad6cd8060
+2019-01-13 14:23 ----    outputSize :: table: 0x01fad6ce2ef8
+2019-01-13 14:23 ----    pageShopItemDetails :: table: 0x01fadc155218
+2019-01-13 14:23 ----    isInitialized :: false
+2019-01-13 14:23 ----    fadeInTime :: 0
+2019-01-13 14:23 ----    pageShopPlaceables :: table: 0x01fade611390
+2019-01-13 14:23 ----    screenAlign :: 0
+2019-01-13 14:23 ----    pageShopObjects :: table: 0x01fadc43e118
+2019-01-13 14:23 ----    buttonsPanel :: table: 0x01fadcbd12f8
+2019-01-13 14:23 ----    pageShopBrands :: table: 0x01fadd8997f0
+2019-01-13 14:23 ----    needMoneyUpdate :: true
+2019-01-13 14:23 ----    pageTabs :: table: 0x01fad6ce31f0
+2019-01-13 14:23 ----    repairButtonInfo :: table: 0x01fadd6bf5b0
+2019-01-13 14:23 ----    backButtonInfo :: table: 0x01fadc7ff8f8
+2019-01-13 14:23 ----    frameLeftColor :: table: 0x01fad6ce3038
+2019-01-13 14:23 ----    positionOrigin :: 0
+2019-01-13 14:23 ----    sellButtonInfo :: table: 0x01fadc251c60
+2019-01-13 14:23 ----    fillTypeManager :: table: 0x01fad637c590
+2019-01-13 14:23 ----    debugEnabled :: false
+2019-01-13 14:23 ----    shopDetailsButtonInfo :: table: 0x01fadd50ca10
+2019-01-13 14:23 ----    buyButtonInfo :: table: 0x01fadd50c960
+2019-01-13 14:23 ----    size :: table: 0x01fad6ce2e28
+2019-01-13 14:23 ----    pageTypeControllers :: table: 0x01fad6ce3238
+2019-01-13 14:23 ----    visible :: true
+2019-01-13 14:23 ----    defaultMenuButtonInfo :: table: 0x01fadc7ff9a8
+2019-01-13 14:23 ----    stacks :: table: 0x01fad6ce3838
+2019-01-13 14:23 ----    profile :: 
+2019-01-13 14:23 ----    frameClosePageNextCallback :: function: 0x01fad6ce1b18
+2019-01-13 14:23 ----    playSampleCallback :: function: 0x01fad6a66450
+2019-01-13 14:23 ----    fadeOutTime :: 0
+2019-01-13 14:23 ----    restorePageIndex :: 2
+2019-01-13 14:23 ----    name :: ShopMenu
+2019-01-13 14:23 ----    isServer :: true
+2019-01-13 14:23 ----    shopController :: table: 0x01fad6cc6660
+2019-01-13 14:23 ----    controlIDs :: table: 0x01fad6ce3160
+2019-01-13 14:23 ----    fixedHeight :: false
+2019-01-13 14:23 ----    frameClosePagePreviousCallback :: function: 0x01fad6ce3788
+2019-01-13 14:23 ----    paused :: false
+2019-01-13 14:23 ----    frameBottomColor :: table: 0x01fad6ce34c8
+2019-01-13 14:23 ----    overlayState :: 1
+2019-01-13 14:23 ----    changeScreenCallback :: function: 0x01fad6a66318
+2019-01-13 14:23 ----    shopMenuButtonInfo :: table: 0x01fadd50c898
+2019-01-13 14:23 ----    l10n :: table: 0x01fad6353190
+2019-01-13 14:23 ----    currentPageName :: 
+2019-01-13 14:23 ----    useStack :: true
+2019-01-13 14:23 ----    isOpen :: false
+2019-01-13 14:23 ----    gameState :: 9
+2019-01-13 14:23 ----    pageEnablingPredicates :: table: 0x01fad6ce32c8
+2019-01-13 14:23 ----    messageCenter :: table: 0x01fad63e1ca0
+2019-01-13 14:23 ----    hud :: table: 0x01fadeca3ec0
+2019-01-13 14:23 ----    thinLineProtection :: true
+2019-01-13 14:23 ----    position :: table: 0x01fad6ce2d68
+2019-01-13 14:23 ----    handleFocus :: true
+2019-01-13 14:23 ----    pageShopGarageLeased :: table: 0x01fadbecd188
+2019-01-13 14:23 ----    placementScreen :: table: 0x01fad6cdf100
+2019-01-13 14:23 ----    storeManager :: table: 0x01fad63c2b28
+2019-01-13 14:23 ----    margin :: table: 0x01fad6ce2e88
+2019-01-13 14:23 ----    hasIncluded :: function: 0x01fad60218d0
+2019-01-13 14:23 ----    table: 0x01fad60214e8 :: table: 0x01fad6ce1a18
+2019-01-13 14:23 ----    clickBackCallback :: function: 0x01fad6da2218
+2019-01-13 14:23 ----    pagingElement :: table: 0x01fade0317b8
+2019-01-13 14:23 ----    frameTopColor :: table: 0x01fad6ce30a8
+2019-01-13 14:23 ----    updateChildrenOverlayState :: true
+2019-01-13 14:23 ----    frameThickness :: table: 0x01fad6ce2fc8
+2019-01-13 14:23 ----    frameRightColor :: table: 0x01fad6ce3458
+2019-01-13 14:23 ----    nextClickSoundMuted :: false
+2019-01-13 14:23 ----    disabledPages :: table: 0x01fad6ce3310
+2019-01-13 14:23 ----    pageRoots :: table: 0x01fad6ce3280
+2019-01-13 14:23 ----    lastGaragePage :: table: 0x01faddc04cc0
+2019-01-13 14:23 ----    buttonActionCallbacks :: table: 0x01fad6ce3358
+2019-01-13 14:23 ----    absPosition :: table: 0x01fad6ce2dc8
+2019-01-13 14:23 ----    performBackgroundBlur :: true
+2019-01-13 14:23 ----    pageFrames :: table: 0x01fad6ce31a8
+2019-01-13 14:23 ----    hasCustomInputContext :: false
+2019-01-13 14:23 ----    alpha :: 1
+2019-01-13 14:23 ----    fixedWidth :: false
+2019-01-13 14:23 ----    handleCursorVisibility :: true
+2019-01-13 14:23 ----    isMasterUser :: false
+2019-01-13 14:23 ----    defaultButtonActionCallbacks :: table: 0x01fadc7ffa10
+2019-01-13 14:23 ----    fadeDirection :: 0
+2019-01-13 14:23 ----    isSoundSuppressed :: false
+2019-01-13 14:23 ----    fruitTypeManager :: table: 0x01fad6385248
+2019-01-13 14:23 ----    hasFrame :: false
+2019-01-13 14:23 ----    lastMouseCursorState :: false
+2019-01-13 14:23 ----    soundDisabled :: false
+2019-01-13 14:23 ----    isMissionTourActive :: false
+2019-01-13 14:23 ----    focusChangeData :: table: 0x01fad6ce3118
+2019-01-13 14:23 ----    inputDisableTime :: 0
+2019-01-13 14:23 ----    inputManager :: table: 0x01fad682c370
+2019-01-13 14:23 ----    layoutIgnore :: false
+2019-01-13 14:23 ----    toggleCustomInputContextCallback :: function: 0x01fad6a663e0
+2019-01-13 14:23 ----    playerFarm :: table: 0x01faeeaffa98
+2019-01-13 14:23 ----    defaultMenuButtonInfoByActions :: table: 0x01fad6ce33e8
+2019-01-13 14:23 ----    customButtonEvents :: table: 0x01fad6ce3708
+2019-01-13 14:23 ----    pageShopLandscaping :: table: 0x01faddb9e168
+2019-01-13 14:23 ----    playHoverSoundOnFocus :: false
+2019-01-13 14:23 ----animalController :: table: 0x01fad6ce6900
+2019-01-13 14:23 ----    targetUpdateCallback :: function: 0x01fad6ce7ab0
+2019-01-13 14:23 ----    sourceAnimals :: table: 0x01fad6ce6dc0
+2019-01-13 14:23 ----    invalidAnimalTypeCallback :: function: 0x01fad6ce8048
+2019-01-13 14:23 ----    noValidHusbandryCallback :: function: 0x01fad6ce7b60
+2019-01-13 14:23 ----    selectedAnimalIndex :: 0
+2019-01-13 14:23 ----    sourceUpdateCallback :: function: 0x01fad6ce7a38
+2019-01-13 14:23 ----    inUseCallback :: function: 0x01fad6ce8b88
+2019-01-13 14:23 ----    trailerFullCallback :: function: 0x01fad6ce7f98
+2019-01-13 14:23 ----    l10n :: table: 0x01fad6353190
+2019-01-13 14:23 ----    targetAnimals :: table: 0x01fad6ce6e70
+2019-01-13 14:23 ----    canNotAddToTrailerCallback :: function: 0x01fad6ce8ad8
+2019-01-13 14:23 ----    notEnoughMoneyCallback :: function: 0x01fad6ce8a28
+2019-01-13 14:23 ----    husbandryIsFullCallback :: function: 0x01fad6ce7c10
+2019-01-13 14:23 ----    transferData :: table: 0x01fad6ce6d10
+2019-01-13 14:23 ----    animalNotSupportedByTrailerCallback :: function: 0x01fad6ce6ef0
+2019-01-13 14:23 ----isPlayerFrozen :: false
+2019-01-13 14:23 ----pedestrianSystem :: table: 0x01faeeafb8a8
+2019-01-13 14:23 ----    pedestrianSystemId :: 72785
+2019-01-13 14:23 ----cuttingSounds :: table: 0x01fade953158
+2019-01-13 14:23 ----    tree :: table: 0x01fade9531a0
+2019-01-13 14:23 ----pauseListeners :: table: 0x01fadcc5d180
+2019-01-13 14:23 ----    table: 0x01fa92cad340 :: function: 0x01fad6606588
+2019-01-13 14:23 ----sprayMaxValue :: 7
+2019-01-13 14:23 ----gameStatsTime :: 60000
+2019-01-13 14:23 ----gameStatsInterval :: 60000
+2019-01-13 14:23 ----sprayLevelMaxValue :: 2
+2019-01-13 14:23 ----mesh :: table: 0x01faee9e1ae8
+2019-01-13 14:23 ----    1 :: table: 0x01faee670790
+2019-01-13 14:23 ----terrainDetailAngleFirstChannel :: 6
+2019-01-13 14:23 ----splitShapesPercentageFraction :: 0.2
+2019-01-13 14:23 ----isSynchronizingWithPlayers :: false
+2019-01-13 14:23 ----preSimulateTime :: 4000
+2019-01-13 14:23 ----tipTriggers :: table: 0x01fadcfa89a0
+2019-01-13 14:23 ----updateables :: table: 0x01fadcf75d10
+2019-01-13 14:23 ----    table: 0x01fadd2500d0 :: table: 0x01fadd2500d0
+2019-01-13 14:23 ----    table: 0x01fad6736c68 :: table: 0x01fad6736c68
+2019-01-13 14:23 ----    table: 0x01fad6017268 :: table: 0x01fad6017268
+2019-01-13 14:23 ----    table: 0x01fad60b9418 :: table: 0x01fad60b9418
+2019-01-13 14:23 ----    table: 0x01fadbe1df50 :: table: 0x01fadbe1df50
+2019-01-13 14:23 ----    table: 0x01faeeafb8a8 :: table: 0x01faeeafb8a8
+2019-01-13 14:23 ----    table: 0x01faeeafeef8 :: table: 0x01faeeafeef8
+2019-01-13 14:23 ----    table: 0x01fafbffc980 :: table: 0x01fafbffc980
+2019-01-13 14:23 ----    table: 0x01faee8bce80 :: table: 0x01faee8bce80
+2019-01-13 14:23 ----    table: 0x01fade9532d0 :: table: 0x01fade9532d0
+2019-01-13 14:23 ----    table: 0x01fa822bf838 :: table: 0x01fa822bf838
+2019-01-13 14:23 ----onCreateLoadedObjectsToSaveByIndex :: table: 0x01fad6d7cb30
+2019-01-13 14:23 ----fruitsList :: table: 0x01fade5f7bf8
+2019-01-13 14:23 ----    1 :: table: 0x01fade29fa08
+2019-01-13 14:23 ----    2 :: table: 0x01fadca17d10
+2019-01-13 14:23 ----    3 :: table: 0x01fadbde2a60
+2019-01-13 14:23 ----    4 :: table: 0x01fade36e1c8
+2019-01-13 14:23 ----    5 :: table: 0x01faddac9ef8
+2019-01-13 14:23 ----    6 :: table: 0x01fadd1d1b80
+2019-01-13 14:23 ----    7 :: table: 0x01fadde73ce8
+2019-01-13 14:23 ----    8 :: table: 0x01fadd763808
+2019-01-13 14:23 ----    9 :: table: 0x01fade088860
+2019-01-13 14:23 ----    10 :: table: 0x01fade770580
+2019-01-13 14:23 ----    11 :: table: 0x01fade5030c0
+2019-01-13 14:23 ----    12 :: table: 0x01fad6babe10
+2019-01-13 14:23 ----    13 :: table: 0x01fad694a940
+2019-01-13 14:23 ----    14 :: table: 0x01fadd0fae70
+2019-01-13 14:23 ----    15 :: table: 0x01faddc83e48
+2019-01-13 14:23 ----terrainDetailHeightMapSize :: 4096
+2019-01-13 14:23 ----connectionsToPlayer :: table: 0x01fad696b398
+2019-01-13 14:23 ----    table: 0x01faee77ddb8 :: table: 0x01fa92cad340
+2019-01-13 14:23 ----missionTime :: 0
+2019-01-13 14:23 ----isAppSuspended :: false
+2019-01-13 14:23 ----playersSynchronizing :: table: 0x01fad6e3ec08
+2019-01-13 14:23 ----vehicles :: table: 0x01fadbf8cde8
+2019-01-13 14:23 ----    1 :: table: 0x01fa822c1f40
+2019-01-13 14:23 ----    2 :: table: 0x01fa92d03080
+2019-01-13 14:23 ----    3 :: table: 0x01fa92d1ee80
+2019-01-13 14:23 ----    4 :: table: 0x01fa92d317f8
+2019-01-13 14:23 ----    5 :: table: 0x01fa92d496d0
+2019-01-13 14:23 ----    6 :: table: 0x01fa92d5cdc8
+2019-01-13 14:23 ----    7 :: table: 0x01fa92d706f8
+2019-01-13 14:23 ----    8 :: table: 0x01fa9b7fbf50
+2019-01-13 14:23 ----    9 :: table: 0x01fabcc8edd8
+2019-01-13 14:23 ----    10 :: table: 0x01fafbf390d8
+2019-01-13 14:23 ----    11 :: table: 0x01fafbf520c8
+2019-01-13 14:23 ----    12 :: table: 0x01fafbf7c9a8
+2019-01-13 14:23 ----wasNetworkError :: false
+2019-01-13 14:23 ----trafficSystem :: table: 0x01fadd5a5b70
+2019-01-13 14:23 ----    trafficSystemDirtyFlag :: 1
+2019-01-13 14:23 ----    id :: 1
+2019-01-13 14:23 ----    isServer :: true
+2019-01-13 14:23 ----    isRegistered :: true
+2019-01-13 14:23 ----    dirtyMask :: 0
+2019-01-13 14:23 ----    trafficSystemId :: 72783
+2019-01-13 14:23 ----    nextDirtyFlag :: 2
+2019-01-13 14:23 ----    ownerFarmId :: 0
+2019-01-13 14:23 ----    isManuallyReplicated :: true
+2019-01-13 14:23 ----    deleteListeners :: table: 0x01fadd64e0b0
+2019-01-13 14:23 ----    isEnabled :: true
+2019-01-13 14:23 ----    isClient :: true
+2019-01-13 14:23 ----sowingWidthValue :: 4
+2019-01-13 14:23 ----playerStartY :: 66.933898925781
+2019-01-13 14:23 ----terrainDetailHeightTypeNumChannels :: 5
+2019-01-13 14:23 ----firstTimeRun :: false
+2019-01-13 14:23 ----foliageBendingSystem :: table: 0x01fadd046028
+2019-01-13 14:23 ----    systemId :: 14794
+2019-01-13 14:23 ----vertexBufferMemoryUsage :: 84935280
+2019-01-13 14:23 ----vehicleYPosCompressionParams :: table: 0x01fade442c18
+2019-01-13 14:23 ----    numBits :: 19
+2019-01-13 14:23 ----    scale :: 0.005
+2019-01-13 14:23 ----    worldSize :: 1500
+2019-01-13 14:23 ----    worldOffset :: 0
+2019-01-13 14:23 ----densityMapSyncerCellSize :: 32
+2019-01-13 14:23 ----onCreateLoadedObjectsToSave :: table: 0x01fadd5db378
+2019-01-13 14:23 ----blockedIps :: table: 0x01fadd315c70
+2019-01-13 14:23 ----cullingWorldMaxY :: 500
+2019-01-13 14:23 ----restPercentageFraction :: 0.1
+2019-01-13 14:23 ----actionEventIds :: table: 0x01fade26ca60
+2019-01-13 14:23 ----    1 :: PAUSE|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    2 :: TOGGLE_HELP_TEXT|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    3 :: SWITCH_VEHICLE|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    4 :: SWITCH_VEHICLE_BACK|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    5 :: MENU|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    6 :: TOGGLE_STORE|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    7 :: RADIO_TOGGLE|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    8 :: RADIO_PREVIOUS_CHANNEL|table: 0x01fade0a96a8|1
+2019-01-13 14:23 ----    9 :: RADIO_NEXT_CHANNEL|table: 0x01fade0a96a8|1
+2019-01-13 14:23 ----    10 :: RADIO_NEXT_ITEM|table: 0x01fade0a96a8|1
+2019-01-13 14:23 ----    11 :: RADIO_PREVIOUS_ITEM|table: 0x01fade0a96a8|1
+2019-01-13 14:23 ----    12 :: INCREASE_TIMESCALE|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----    13 :: DECREASE_TIMESCALE|table: 0x01fadcad0548|1
+2019-01-13 14:23 ----isTipTriggerInRange :: false
+2019-01-13 14:23 ----vehicleChangeListeners :: table: 0x01fad68be4d8
+2019-01-13 14:23 ----terrainDetailHeightId :: 20164
+2019-01-13 14:23 ----doSaveGameState :: 0
+2019-01-13 14:23 ----lastNonPauseGameState :: 5
+2019-01-13 14:23 ----physicsPaused :: false
+2019-01-13 14:23 ----connectionWasClosed :: false
+2019-01-13 14:23 ----endDelayTime :: 5000
+2019-01-13 14:23 ----sprayFirstChannel :: 3
+2019-01-13 14:23 ----objectsToClassName :: table: 0x01fadd3843e8
+2019-01-13 14:23 ----    table: 0x01fb242f05a0 :: BuyingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb24315000 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb242f82f8 :: BuyingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb2437a278 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fafc00ab70 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb243cd030 :: SiloPlaceable
+2019-01-13 14:23 ----    table: 0x01fb2438ae48 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb2433f5c8 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb24376e90 :: WoodSellStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb243bdb30 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fa92cb2e20 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb24309e90 :: BuyingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb2432cbe8 :: SiloPlaceable
+2019-01-13 14:23 ----    table: 0x01fafbffb860 :: Workshop
+2019-01-13 14:23 ----    table: 0x01fb242f85b8 :: BgaPlaceable
+2019-01-13 14:23 ----    table: 0x01fb24356f88 :: SellingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb2434f528 :: BuyingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fafc021fa0 :: TrainPlaceable
+2019-01-13 14:23 ----    table: 0x01fb243066b0 :: BuyingStationPlaceable
+2019-01-13 14:23 ----    table: 0x01fb2436f398 :: BuyingStationPlaceable
+2019-01-13 14:23 ----vehiclesToSpawn :: table: 0x01fadd098f30
+2019-01-13 14:23 ----players :: table: 0x01fadbf85a60
+2019-01-13 14:23 ----    112571 :: table: 0x01fa92cad340
+2019-01-13 14:23 ----isLoadingMap :: false
+2019-01-13 14:23 ----terrainDetailHeightTypeFirstChannel :: 0
+2019-01-13 14:23 ----cullingWorldXZOffset :: 100
+2019-01-13 14:23 ----limeCounterNumChannels :: 2
+2019-01-13 14:23 ----mapImageFilename :: data/maps/mapDE/pda_map_H.png
+2019-01-13 14:23 ----playersToAccept :: table: 0x01fadc31fd30
+2019-01-13 14:23 ----mapPerformanceTestUtil :: table: 0x01fade9532d0
+2019-01-13 14:23 ----    isRunning :: false
+2019-01-13 14:23 ----    isPrepared :: false
+2019-01-13 14:23 ----connectionWasAccepted :: true
+2019-01-13 14:23 ----playerStartIsAbsolute :: true
+2019-01-13 14:23 ----isRunning :: true
+2019-01-13 14:23 ----gameStarted :: true
+2019-01-13 14:23 ----fieldCropsUpdatersCellSize :: 16
+2019-01-13 14:23 ----cameraPaths :: table: 0x01fadc8b1f68
+2019-01-13 14:23 ----nodeToObject :: table: 0x01fadeef7428
+2019-01-13 14:23 ----    108378 :: table: 0x01fafbf7c9a8
+2019-01-13 14:23 ----    109303 :: table: 0x01fb24310b20
+2019-01-13 14:23 ----    109113 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    107870 :: table: 0x01fafbf520c8
+2019-01-13 14:23 ----    109373 :: table: 0x01fb24315000
+2019-01-13 14:23 ----    109848 :: table: 0x01fb243ce010
+2019-01-13 14:23 ----    109088 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109154 :: table: 0x01fb242f1600
+2019-01-13 14:23 ----    109381 :: table: 0x01fb24315000
+2019-01-13 14:23 ----    101797 :: table: 0x01fa92d03080
+2019-01-13 14:23 ----    102181 :: table: 0x01fa92d496d0
+2019-01-13 14:23 ----    109699 :: table: 0x01fb2438b760
+2019-01-13 14:23 ----    109604 :: table: 0x01fb243576b0
+2019-01-13 14:23 ----    109100 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109703 :: table: 0x01fb2438ae48
+2019-01-13 14:23 ----    109294 :: table: 0x01fb2430a7f8
+2019-01-13 14:23 ----    109769 :: table: 0x01fb243bdb30
+2019-01-13 14:23 ----    109867 :: table: 0x01fb243cd030
+2019-01-13 14:23 ----    109298 :: table: 0x01fb2430d4c0
+2019-01-13 14:23 ----    102034 :: table: 0x01fa92d317f8
+2019-01-13 14:23 ----    108216 :: table: 0x01fafbf7c9a8
+2019-01-13 14:23 ----    109605 :: table: 0x01fb24356f88
+2019-01-13 14:23 ----    109302 :: table: 0x01fb24310080
+2019-01-13 14:23 ----    109864 :: table: 0x01fb243cd030
+2019-01-13 14:23 ----    109112 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109862 :: table: 0x01fb243cd030
+2019-01-13 14:23 ----    109306 :: table: 0x01fb24312a38
+2019-01-13 14:23 ----    109372 :: table: 0x01fb24315980
+2019-01-13 14:23 ----    108955 :: table: 0x01fa92cb2e20
+2019-01-13 14:23 ----    109844 :: table: 0x01fb243cd030
+2019-01-13 14:23 ----    109471 :: table: 0x01fb24336390
+2019-01-13 14:23 ----    109376 :: table: 0x01fb24315750
+2019-01-13 14:23 ----    108389 :: table: 0x01fafbf7c9a8
+2019-01-13 14:23 ----    109840 :: table: 0x01fb243cd030
+2019-01-13 14:23 ----    109855 :: table: 0x01fb243d3128
+2019-01-13 14:23 ----    109380 :: table: 0x01fb24315000
+2019-01-13 14:23 ----    109124 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109727 :: table: 0x01fb2433f5c8
+2019-01-13 14:23 ----    109843 :: table: 0x01fb243ce3e8
+2019-01-13 14:23 ----    109839 :: table: 0x01fb243cd9a8
+2019-01-13 14:23 ----    109726 :: table: 0x01fb2433f5c8
+2019-01-13 14:23 ----    109000 :: table: 0x01fafc00ab70
+2019-01-13 14:23 ----    102973 :: table: 0x01fa92d706f8
+2019-01-13 14:23 ----    109227 :: table: 0x01fb242f85b8
+2019-01-13 14:23 ----    109099 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109729 :: table: 0x01fb2433f5c8
+2019-01-13 14:23 ----    109768 :: table: 0x01fb243bdb30
+2019-01-13 14:23 ----    102201 :: table: 0x01fa92d496d0
+2019-01-13 14:23 ----    103330 :: table: 0x01fa92d706f8
+2019-01-13 14:23 ----    109297 :: table: 0x01fb2430ca68
+2019-01-13 14:23 ----    109611 :: table: 0x01fb24356f88
+2019-01-13 14:23 ----    109677 :: table: 0x01fb2437aa28
+2019-01-13 14:23 ----    109700 :: table: 0x01fb2438ae48
+2019-01-13 14:23 ----    109301 :: table: 0x01fb2430f628
+2019-01-13 14:23 ----    109678 :: table: 0x01fb2437a278
+2019-01-13 14:23 ----    109111 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    102318 :: table: 0x01fa92d5cdc8
+2019-01-13 14:23 ----    109305 :: table: 0x01fb24311fd8
+2019-01-13 14:23 ----    109662 :: table: 0x01fb24376e90
+2019-01-13 14:23 ----    108954 :: table: 0x01fafbffecf0
+2019-01-13 14:23 ----    109633 :: table: 0x01fb2436f960
+2019-01-13 14:23 ----    109615 :: table: 0x01fb24356f88
+2019-01-13 14:23 ----    109086 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109247 :: table: 0x01fb242f85b8
+2019-01-13 14:23 ----    109613 :: table: 0x01fb24356f88
+2019-01-13 14:23 ----    101888 :: table: 0x01fa92d1ee80
+2019-01-13 14:23 ----    109379 :: table: 0x01fb24315000
+2019-01-13 14:23 ----    101508 :: table: 0x01fa822c1f40
+2019-01-13 14:23 ----    109156 :: table: 0x01fb242f05a0
+2019-01-13 14:23 ----    109478 :: table: 0x01fb2432cbe8
+2019-01-13 14:23 ----    109383 :: table: 0x01fb24315000
+2019-01-13 14:23 ----    109612 :: table: 0x01fb24356f88
+2019-01-13 14:23 ----    108999 :: table: 0x01fafc00ab70
+2019-01-13 14:23 ----    109482 :: table: 0x01fb2432cbe8
+2019-01-13 14:23 ----    109098 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109701 :: table: 0x01fb2438ae48
+2019-01-13 14:23 ----    109609 :: table: 0x01fb24356f88
+2019-01-13 14:23 ----    101869 :: table: 0x01fa92d1ee80
+2019-01-13 14:23 ----    108941 :: table: 0x01fafbffb860
+2019-01-13 14:23 ----    109866 :: table: 0x01fb243cd030
+2019-01-13 14:23 ----    109296 :: table: 0x01fb2430c010
+2019-01-13 14:23 ----    109608 :: table: 0x01fb24358020
+2019-01-13 14:23 ----    109123 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109532 :: table: 0x01fb243066b0
+2019-01-13 14:23 ----    109300 :: table: 0x01fadea49660
+2019-01-13 14:23 ----    106403 :: table: 0x01fabcc8edd8
+2019-01-13 14:23 ----    109530 :: table: 0x01fb24348670
+2019-01-13 14:23 ----    109509 :: table: 0x01fb24340200
+2019-01-13 14:23 ----    109304 :: table: 0x01fb24311578
+2019-01-13 14:23 ----    109483 :: table: 0x01fb2432cbe8
+2019-01-13 14:23 ----    109242 :: table: 0x01fb242f9e00
+2019-01-13 14:23 ----    109480 :: table: 0x01fb2432cbe8
+2019-01-13 14:23 ----    109460 :: table: 0x01fb2432cbe8
+2019-01-13 14:23 ----    104809 :: table: 0x01fa9b7fbf50
+2019-01-13 14:23 ----    109456 :: table: 0x01fb2432cbe8
+2019-01-13 14:23 ----    109464 :: table: 0x01fb24333458
+2019-01-13 14:23 ----    109459 :: table: 0x01fb2432e4b8
+2019-01-13 14:23 ----    109455 :: table: 0x01fb242f0950
+2019-01-13 14:23 ----    109377 :: table: 0x01fb24315000
+2019-01-13 14:23 ----    109725 :: table: 0x01fb243a49a8
+2019-01-13 14:23 ----    109087 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    109663 :: table: 0x01fb24376e90
+2019-01-13 14:23 ----    109226 :: table: 0x01fb242f85b8
+2019-01-13 14:23 ----    108998 :: table: 0x01fafc00bc50
+2019-01-13 14:23 ----    107858 :: table: 0x01fafbf520c8
+2019-01-13 14:23 ----    109225 :: table: 0x01fb242fba48
+2019-01-13 14:23 ----    104918 :: table: 0x01fa9b7fbf50
+2019-01-13 14:23 ----    109002 :: table: 0x01fafc00ab70
+2019-01-13 14:23 ----    109766 :: table: 0x01fb243be3a0
+2019-01-13 14:23 ----    108940 :: table: 0x01fafbffb860
+2019-01-13 14:23 ----    109551 :: table: 0x01fb2434fdb8
+2019-01-13 14:23 ----    109295 :: table: 0x01fb2430a658
+2019-01-13 14:23 ----    109125 :: table: 0x01fafc021fa0
+2019-01-13 14:23 ----    101777 :: table: 0x01fa92d03080
+2019-01-13 14:23 ----    109253 :: table: 0x01fb242f85b8
+2019-01-13 14:23 ----    109299 :: table: 0x01fb2430df68
+2019-01-13 14:23 ----    107734 :: table: 0x01fafbf390d8
+2019-01-13 14:23 ----limeCounterFirstChannel :: 11
+2019-01-13 14:23 ----chatMessages :: table: 0x01fadd63b268
+2019-01-13 14:23 ----sendMoneyUserIndex :: 1
+2019-01-13 14:23 ----loadingConnection :: table: 0x01faee577b58
+2019-01-13 14:23 ----    isConnected :: true
+2019-01-13 14:23 ----    highestAckedSeq :: 0
+2019-01-13 14:23 ----    isServer :: true
+2019-01-13 14:23 ----    objectsInfo :: table: 0x01faee638710
+2019-01-13 14:23 ----    hasPacketsToAck :: false
+2019-01-13 14:23 ----    streamId :: 0
+2019-01-13 14:23 ----    ackPingPacketSent :: false
+2019-01-13 14:23 ----    pendingDeleteObjects :: table: 0x01faee638758
+2019-01-13 14:23 ----    lastSeqReceived :: 0
+2019-01-13 14:23 ----    pendingDeleteObjectPacketIds :: table: 0x01faee6387a0
+2019-01-13 14:23 ----    ackMask :: 0
+2019-01-13 14:23 ----    compressionRatio :: 1
+2019-01-13 14:23 ----    lastSeqSent :: 0
+2019-01-13 14:23 ----    sendStatsTime :: 0
+2019-01-13 14:23 ----    localConnection :: table: 0x01faee77ddb8
+2019-01-13 14:23 ----    isReadyForObjects :: true
+2019-01-13 14:23 ----    isReadyForEvents :: true
+2019-01-13 14:23 ----weedUpdater :: 97887
+2019-01-13 14:23 ----loadSpawnPlaces :: table: 0x01fadd9fdf68
+2019-01-13 14:23 ----landscapingController :: table: 0x01fad6ce4988
+2019-01-13 14:23 ----    exitCallback :: function: 0x01fad6ce4bf8
+2019-01-13 14:23 ----    halfTerrainUnit :: 1
+2019-01-13 14:23 ----    client :: table: 0x01fadc47cd40
+2019-01-13 14:23 ----    currentUserId :: 1
+2019-01-13 14:23 ----    currentRadius :: 3
+2019-01-13 14:23 ----    mousePressedTime :: 0
+2019-01-13 14:23 ----    i3dManager :: table: 0x01fad6140038
+2019-01-13 14:23 ----    hud :: table: 0x01fadeca3ec0
+2019-01-13 14:23 ----    paintUnlock :: false
+2019-01-13 14:23 ----    currentIndicatorLightNode :: 101735
+2019-01-13 14:23 ----    lastHitPosition :: table: 0x01fad6ce4ac8
+2019-01-13 14:23 ----    paintTerrainLayer :: 70
+2019-01-13 14:23 ----    currentOutsideSmoothingDistance :: 2
+2019-01-13 14:23 ----    cubeNode :: 101728
+2019-01-13 14:23 ----    changeStrengthCooldown :: 100
+2019-01-13 14:23 ----    isTerrainDeformationPending :: false
+2019-01-13 14:23 ----    lastMouseX :: 0
+2019-01-13 14:23 ----    isPaused :: false
+2019-01-13 14:23 ----    lastMouseY :: 0
+2019-01-13 14:23 ----    sculptingOperation :: 3
+2019-01-13 14:23 ----    showMessageCallback :: function: 0x01fad6ce5810
+2019-01-13 14:23 ----    groundTypeManager :: table: 0x01fad63a3080
+2019-01-13 14:23 ----    startInputCooldown :: 500
+2019-01-13 14:23 ----    sphereNode :: 101732
+2019-01-13 14:23 ----    messageCenter :: table: 0x01fad63e1ca0
+2019-01-13 14:23 ----    sphereLightNode :: 101735
+2019-01-13 14:23 ----    sculptMouseY :: 0
+2019-01-13 14:23 ----    mouseThresholdX :: 0.0026041666666667
+2019-01-13 14:23 ----    canModify :: true
+2019-01-13 14:23 ----    ingameMap :: table: 0x01fadcc57460
+2019-01-13 14:23 ----    sphereShapeNode :: 101734
+2019-01-13 14:23 ----    terrainRootNode :: 19649
+2019-01-13 14:23 ----    currentIndicatorShapeNode :: 101734
+2019-01-13 14:23 ----    mouseLeftDown :: false
+2019-01-13 14:23 ----    flattenHeight :: 0
+2019-01-13 14:23 ----    terrainUnit :: 2
+2019-01-13 14:23 ----    brushShape :: 2
+2019-01-13 14:23 ----    combinedTerrainLayers :: table: 0x01fa92caa210
+2019-01-13 14:23 ----    currentInputMode :: 2
+2019-01-13 14:23 ----    mouseRightDown :: false
+2019-01-13 14:23 ----    l10n :: table: 0x01fad6353190
+2019-01-13 14:23 ----    camera :: table: 0x01fad6cdc8e0
+2019-01-13 14:23 ----    sculptingCooldown :: 100
+2019-01-13 14:23 ----    cubeLightNode :: 101731
+2019-01-13 14:23 ----    isValidationPending :: false
+2019-01-13 14:23 ----    paintGroundTypeIndex :: 1
+2019-01-13 14:23 ----    lastCameraPosition :: table: 0x01fad6ce4a60
+2019-01-13 14:23 ----    strengthSteps :: 1
+2019-01-13 14:23 ----    sculptMouseX :: 0
+2019-01-13 14:23 ----    settingsDataSource :: table: 0x01fad6ce5910
+2019-01-13 14:23 ----    radiusSteps :: 3
+2019-01-13 14:23 ----    isMasterUser :: false
+2019-01-13 14:23 ----    positionRaycastUnlock :: false
+2019-01-13 14:23 ----    glowMaterial :: 99851
+2019-01-13 14:23 ----    inputHelpMode :: 1
+2019-01-13 14:23 ----    cubeShapeNode :: 101730
+2019-01-13 14:23 ----    mode :: SCULPTING
+2019-01-13 14:23 ----    mouseMiddleDown :: false
+2019-01-13 14:23 ----    inputManager :: table: 0x01fad682c370
+2019-01-13 14:23 ----    lastCameraRotation :: 0
+2019-01-13 14:23 ----    currentStrength :: 0.1
+2019-01-13 14:23 ----    playerFarm :: table: 0x01faeeaffa98
+2019-01-13 14:23 ----    farmlandManager :: table: 0x01fad66e6580
+2019-01-13 14:23 ----    indicatorNode :: 101379
+2019-01-13 14:23 ----    groundTypes :: table: 0x01fa92caa138
+2019-01-13 14:23 ----    mouseThresholdY :: 0.0046296296296296
+2019-01-13 14:23 ----cultivatorValue :: 1
+2019-01-13 14:23 ----isTutorialMission :: false
+2019-01-13 14:23 ----playerStartZ :: 267.75399780273
+2019-01-13 14:23 ----cameraPathIsPlaying :: false
+2019-01-13 14:23 ----terrainDetailMapSize :: 4096
+2019-01-13 14:23 ----fieldCropsUpdaters :: table: 0x01fadc6b94a8
+2019-01-13 14:23 ----    fruit_density :: table: 0x01fade431930
+2019-01-13 14:23 ----economyManager :: table: 0x01fa92cacb50
+2019-01-13 14:23 ----    numberOfConcurrentDemands :: 3
+2019-01-13 14:23 ----    minuteTimer :: 5
+2019-01-13 14:23 ----    greatDemands :: table: 0x01fa92cacc00
+2019-01-13 14:23 ----    showMoneyChangeNextMinute :: false
+2019-01-13 14:23 ----    minuteUpdateInterval :: 5
+2019-01-13 14:23 ----missionDynamicInfo :: table: 0x01fade6f3ad0
+2019-01-13 14:23 ----    isMultiplayer :: false
+2019-01-13 14:23 ----    autoSave :: false
+2019-01-13 14:23 ----    mods :: table: 0x01fad6d75cc8
+2019-01-13 14:23 ----nonUpdateables :: table: 0x01fad6de2bd0
+2019-01-13 14:23 ----    table: 0x01fade63a208 :: table: 0x01fade63a208
+2019-01-13 14:23 ----    table: 0x01fadc6ffa48 :: table: 0x01fadc6ffa48
+2019-01-13 14:23 ----    table: 0x01faddf16218 :: table: 0x01faddf16218
+2019-01-13 14:23 ----    table: 0x01fad63a3300 :: table: 0x01fad63a3300
+2019-01-13 14:23 ----    table: 0x01fade498200 :: table: 0x01fade498200
+2019-01-13 14:23 ----    table: 0x01fadc705a40 :: table: 0x01fadc705a40
+2019-01-13 14:23 ----    table: 0x01fadd44f278 :: table: 0x01fadd44f278
+2019-01-13 14:23 ----    table: 0x01fadd411278 :: table: 0x01fadd411278
+2019-01-13 14:23 ----    table: 0x01faddd6f268 :: table: 0x01faddd6f268
+2019-01-13 14:23 ----    table: 0x01fadce53248 :: table: 0x01fadce53248
+2019-01-13 14:23 ----    table: 0x01faddb63a60 :: table: 0x01faddb63a60
+2019-01-13 14:23 ----    table: 0x01fade0efa68 :: table: 0x01fade0efa68
+2019-01-13 14:23 ----    table: 0x01fadc915a58 :: table: 0x01fadc915a58
+2019-01-13 14:23 ----    table: 0x01fadc199aa8 :: table: 0x01fadc199aa8
+2019-01-13 14:23 ----    table: 0x01fad6ab8318 :: table: 0x01fad6ab8318
+2019-01-13 14:23 ----    table: 0x01faddd49a78 :: table: 0x01faddd49a78
+2019-01-13 14:23 ----    table: 0x01fadc2912a0 :: table: 0x01fadc2912a0
+2019-01-13 14:23 ----    table: 0x01fad67f7368 :: table: 0x01fad67f7368
+2019-01-13 14:23 ----    table: 0x01fadd86d248 :: table: 0x01fadd86d248
+2019-01-13 14:23 ----    table: 0x01fadc14f2b8 :: table: 0x01fadc14f2b8
+2019-01-13 14:23 ----    table: 0x01fadc91c2a8 :: table: 0x01fadc91c2a8
+2019-01-13 14:23 ----    table: 0x01fadddf8a70 :: table: 0x01fadddf8a70
+2019-01-13 14:23 ----    table: 0x01fadc277ab8 :: table: 0x01fadc277ab8
+2019-01-13 14:23 ----    table: 0x01fade28c278 :: table: 0x01fade28c278
+2019-01-13 14:23 ----    table: 0x01fadd4aa258 :: table: 0x01fadd4aa258
+2019-01-13 14:23 ----    table: 0x01fadcd0baa8 :: table: 0x01fadcd0baa8
+2019-01-13 14:23 ----    table: 0x01fadce482a8 :: table: 0x01fadce482a8
+2019-01-13 14:23 ----    table: 0x01fadd68ea58 :: table: 0x01fadd68ea58
+2019-01-13 14:23 ----    table: 0x01faddba3a40 :: table: 0x01faddba3a40
+2019-01-13 14:23 ----    table: 0x01fadd8b9a58 :: table: 0x01fadd8b9a58
+2019-01-13 14:23 ----    table: 0x01fadd24baa8 :: table: 0x01fadd24baa8
+2019-01-13 14:23 ----    table: 0x01fad6c5db78 :: table: 0x01fad6c5db78
+2019-01-13 14:23 ----    table: 0x01faee862470 :: table: 0x01faee862470
+2019-01-13 14:23 ----    table: 0x01fadd9c9250 :: table: 0x01fadd9c9250
+2019-01-13 14:23 ----    table: 0x01faeea0ec70 :: table: 0x01faeea0ec70
+2019-01-13 14:23 ----    table: 0x01fadeb74a70 :: table: 0x01fadeb74a70
+2019-01-13 14:23 ----    table: 0x01fadd9242a8 :: table: 0x01fadd9242a8
+2019-01-13 14:23 ----    table: 0x01fadd23eab8 :: table: 0x01fadd23eab8
+2019-01-13 14:23 ----    table: 0x01fadc76c280 :: table: 0x01fadc76c280
+2019-01-13 14:23 ----    table: 0x01fade412258 :: table: 0x01fade412258
+2019-01-13 14:23 ----    table: 0x01fadf273a70 :: table: 0x01fadf273a70
+2019-01-13 14:23 ----    table: 0x01fade762a58 :: table: 0x01fade762a58
+2019-01-13 14:23 ----    table: 0x01fadcb9f280 :: table: 0x01fadcb9f280
+2019-01-13 14:23 ----    table: 0x01faddc6e2a0 :: table: 0x01faddc6e2a0
+2019-01-13 14:23 ----    table: 0x01fade6fd250 :: table: 0x01fade6fd250
+2019-01-13 14:23 ----    table: 0x01fadccd8a98 :: table: 0x01fadccd8a98
+2019-01-13 14:23 ----    table: 0x01fadd094280 :: table: 0x01fadd094280
+2019-01-13 14:23 ----    table: 0x01fade937250 :: table: 0x01fade937250
+2019-01-13 14:23 ----    table: 0x01fadd257280 :: table: 0x01fadd257280
+2019-01-13 14:23 ----    table: 0x01fadd26d280 :: table: 0x01fadd26d280
+2019-01-13 14:23 ----    table: 0x01fade42f2a0 :: table: 0x01fade42f2a0
+2019-01-13 14:23 ----    table: 0x01fadd952a88 :: table: 0x01fadd952a88
+2019-01-13 14:23 ----    table: 0x01fadcd46290 :: table: 0x01fadcd46290
+2019-01-13 14:23 ----    table: 0x01faded8f250 :: table: 0x01faded8f250
+2019-01-13 14:23 ----    table: 0x01fad6cb63a8 :: table: 0x01fad6cb63a8
+2019-01-13 14:23 ----    table: 0x01fad69a2ba0 :: table: 0x01fad69a2ba0
+2019-01-13 14:23 ----    table: 0x01fadce2c2e8 :: table: 0x01fadce2c2e8
+2019-01-13 14:23 ----    table: 0x01fad6b393a0 :: table: 0x01fad6b393a0
+2019-01-13 14:23 ----    table: 0x01fad6ba7ba0 :: table: 0x01fad6ba7ba0
+2019-01-13 14:23 ----    table: 0x01faee4ed4b0 :: table: 0x01faee4ed4b0
+2019-01-13 14:23 ----    table: 0x01fadd1fbae8 :: table: 0x01fadd1fbae8
+2019-01-13 14:23 ----    table: 0x01fadeaceab8 :: table: 0x01fadeaceab8
+2019-01-13 14:23 ----    table: 0x01fadd461ae8 :: table: 0x01fadd461ae8
+2019-01-13 14:23 ----    table: 0x01faee535c88 :: table: 0x01faee535c88
+2019-01-13 14:23 ----    table: 0x01faee99fcb0 :: table: 0x01faee99fcb0
+2019-01-13 14:23 ----    table: 0x01fadbe2bad8 :: table: 0x01fadbe2bad8
+2019-01-13 14:23 ----    table: 0x01fadeac8ab0 :: table: 0x01fadeac8ab0
+2019-01-13 14:23 ----    table: 0x01fad6345380 :: table: 0x01fad6345380
+2019-01-13 14:23 ----    table: 0x01fadc3c22c0 :: table: 0x01fadc3c22c0
+2019-01-13 14:23 ----    table: 0x01fadc1462d8 :: table: 0x01fadc1462d8
+2019-01-13 14:23 ----    table: 0x01fadde0ea90 :: table: 0x01fadde0ea90
+2019-01-13 14:23 ----    table: 0x01fade3f5a98 :: table: 0x01fade3f5a98
+2019-01-13 14:23 ----    table: 0x01fadc5b8ad8 :: table: 0x01fadc5b8ad8
+2019-01-13 14:23 ----    table: 0x01fadd3f6af0 :: table: 0x01fadd3f6af0
+2019-01-13 14:23 ----    table: 0x01fadde7e2e0 :: table: 0x01fadde7e2e0
+2019-01-13 14:23 ----    table: 0x01fadbfd7320 :: table: 0x01fadbfd7320
+2019-01-13 14:23 ----    table: 0x01fade3cb2e8 :: table: 0x01fade3cb2e8
+2019-01-13 14:23 ----    table: 0x01fadc020b20 :: table: 0x01fadc020b20
+2019-01-13 14:23 ----    table: 0x01fadcd0b2d8 :: table: 0x01fadcd0b2d8
+2019-01-13 14:23 ----    table: 0x01fadea30290 :: table: 0x01fadea30290
+2019-01-13 14:23 ----    table: 0x01fade6c72e8 :: table: 0x01fade6c72e8
+2019-01-13 14:23 ----    table: 0x01fadd7ce2c8 :: table: 0x01fadd7ce2c8
+2019-01-13 14:23 ----    table: 0x01fadf0e1298 :: table: 0x01fadf0e1298
+2019-01-13 14:23 ----    table: 0x01fadbfc1330 :: table: 0x01fadbfc1330
+2019-01-13 14:23 ----    table: 0x01fade0132f0 :: table: 0x01fade0132f0
+2019-01-13 14:23 ----    table: 0x01fade36daf0 :: table: 0x01fade36daf0
+2019-01-13 14:23 ----    table: 0x01faddb9d2c0 :: table: 0x01faddb9d2c0
+2019-01-13 14:23 ----    table: 0x01fadcc6eb20 :: table: 0x01fadcc6eb20
+2019-01-13 14:23 ----    table: 0x01fade12b2c8 :: table: 0x01fade12b2c8
+2019-01-13 14:23 ----    table: 0x01fadd98aad8 :: table: 0x01fadd98aad8
+2019-01-13 14:23 ----    table: 0x01fad6e223e0 :: table: 0x01fad6e223e0
+2019-01-13 14:23 ----    table: 0x01fade310ac8 :: table: 0x01fade310ac8
+2019-01-13 14:23 ----    table: 0x01fadf02aae0 :: table: 0x01fadf02aae0
+2019-01-13 14:23 ----    table: 0x01fade1d3ac0 :: table: 0x01fade1d3ac0
+2019-01-13 14:23 ----    table: 0x01fad6dc4bf8 :: table: 0x01fad6dc4bf8
+2019-01-13 14:23 ----    table: 0x01fadbecfb18 :: table: 0x01fadbecfb18
+2019-01-13 14:23 ----    table: 0x01fade6f12c8 :: table: 0x01fade6f12c8
+2019-01-13 14:23 ----    table: 0x01faddc58ad0 :: table: 0x01faddc58ad0
+2019-01-13 14:23 ----    table: 0x01fadd02d338 :: table: 0x01fadd02d338
+2019-01-13 14:23 ----    table: 0x01fadcc8cb30 :: table: 0x01fadcc8cb30
+2019-01-13 14:23 ----    table: 0x01fadd22f338 :: table: 0x01fadd22f338
+2019-01-13 14:23 ----    table: 0x01fadf04d2f0 :: table: 0x01fadf04d2f0
+2019-01-13 14:23 ----    table: 0x01fad6e4e3c8 :: table: 0x01fad6e4e3c8
+2019-01-13 14:23 ----    table: 0x01fadd30d330 :: table: 0x01fadd30d330
+2019-01-13 14:23 ----    table: 0x01fadc3fe310 :: table: 0x01fadc3fe310
+2019-01-13 14:23 ----    table: 0x01fadf11fac8 :: table: 0x01fadf11fac8
+2019-01-13 14:23 ----    table: 0x01fadc2a4368 :: table: 0x01fadc2a4368
+2019-01-13 14:23 ----    table: 0x01faddc3ab38 :: table: 0x01faddc3ab38
+2019-01-13 14:23 ----    table: 0x01fade164320 :: table: 0x01fade164320
+2019-01-13 14:23 ----    table: 0x01fad6a6a3d0 :: table: 0x01fad6a6a3d0
+2019-01-13 14:23 ----    table: 0x01fade302b20 :: table: 0x01fade302b20
+2019-01-13 14:23 ----    table: 0x01fad6c57bd0 :: table: 0x01fad6c57bd0
+2019-01-13 14:23 ----    table: 0x01faee4dcd20 :: table: 0x01faee4dcd20
+2019-01-13 14:23 ----    table: 0x01fad6d573d0 :: table: 0x01fad6d573d0
+2019-01-13 14:23 ----    table: 0x01fadd916b08 :: table: 0x01fadd916b08
+2019-01-13 14:23 ----    table: 0x01fadc6dcb60 :: table: 0x01fadc6dcb60
+2019-01-13 14:23 ----    table: 0x01fade2f6338 :: table: 0x01fade2f6338
+2019-01-13 14:23 ----    table: 0x01faee738d20 :: table: 0x01faee738d20
+2019-01-13 14:23 ----    table: 0x01fad6baf828 :: table: 0x01fad6baf828
+2019-01-13 14:23 ----    table: 0x01fadedd7b28 :: table: 0x01fadedd7b28
+2019-01-13 14:23 ----    table: 0x01fad6bd7020 :: table: 0x01fad6bd7020
+2019-01-13 14:23 ----    table: 0x01fadd0c4b68 :: table: 0x01fadd0c4b68
+2019-01-13 14:23 ----    table: 0x01fade115b08 :: table: 0x01fade115b08
+2019-01-13 14:23 ----    table: 0x01fadee6b320 :: table: 0x01fadee6b320
+2019-01-13 14:23 ----    table: 0x01faddbda318 :: table: 0x01faddbda318
+2019-01-13 14:23 ----    table: 0x01fadc847b70 :: table: 0x01fadc847b70
+2019-01-13 14:23 ----    table: 0x01fade4c6308 :: table: 0x01fade4c6308
+2019-01-13 14:23 ----    table: 0x01fade539308 :: table: 0x01fade539308
+2019-01-13 14:23 ----    table: 0x01fadc1ba340 :: table: 0x01fadc1ba340
+2019-01-13 14:23 ----    table: 0x01fade75db08 :: table: 0x01fade75db08
+2019-01-13 14:23 ----    table: 0x01fadd8e4368 :: table: 0x01fadd8e4368
+2019-01-13 14:23 ----    table: 0x01fadd9d5368 :: table: 0x01fadd9d5368
+2019-01-13 14:23 ----    table: 0x01fade5e7b68 :: table: 0x01fade5e7b68
+2019-01-13 14:23 ----    table: 0x01fadd607348 :: table: 0x01fadd607348
+2019-01-13 14:23 ----    table: 0x01fadc6e23a8 :: table: 0x01fadc6e23a8

@@ -98,13 +98,85 @@ function StoryMode:StoryMode_init()
 end;
 
 function StoryMode:update(dt)
-	StoryMode.waitTime - dt;
+	StoryMode.waitTime = StoryMode.waitTime- dt;
 	if StoryMode.waitTime > 0 then
 		return;
 	end;
 	
 	StoryMode.waitTime = StoryMode.waitTimeConstant;
-	--print("StoryMode - update(dt)");
+	print("StoryMode - update(dt)");
+	for _,ownedItem in pairs(g_currentMission.landscapingController.farmlandManager.stateChangeListener) do
+		if ownedItem.fields ~= nil then
+			--local field = ownedItem.fields[20].setFieldStatusPartitions[1];
+			for _,field in pairs(ownedItem.fields[20].getFieldStatusPartitions) do
+				
+				local retMax, totalMax = FSDensityMapUtil.getFruitArea(1, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, true, false);
+				local retMin, totalMin = FSDensityMapUtil.getFruitArea(1, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, true, true);
+				--local growthState = FieldUtil.getMaxGrowthState(1, ownedItem.fields[20]);
+				
+				local query = g_currentMission.fieldCropsQuery
+
+				local requiredFruitType = 1;
+				local useWindrowed = false;
+
+				if requiredFruitType ~= FruitType.UNKNOWN then
+					local ids = g_currentMission.fruits[requiredFruitType]
+					if ids ~= nil and ids.id ~= 0 then
+						if useWindrowed then
+							return 0, 1
+						end
+						local desc = g_fruitTypeManager:getFruitTypeByIndex(requiredFruitType)
+						--query:addRequiredCropType(ids.id, 2+1, 2+1, desc.startStateChannel, desc.numStateChannels, g_currentMission.terrainDetailTypeFirstChannel, g_currentMission.terrainDetailTypeNumChannels)
+						
+						local x,z, widthX,widthZ, heightX,heightZ = MathUtil.getXZWidthAndHeight(field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ)
+						
+						query:addRequiredCropType(ids.id, 3, 3, desc.startStateChannel, desc.numStateChannels, g_currentMission.terrainDetailTypeFirstChannel, g_currentMission.terrainDetailTypeNumChannels)
+						local areaFound, totalArea = query:getParallelogram(x,z, widthX,widthZ, heightX,heightZ, true)
+						print("Field: " .. _ .. " areaFound (3): " .. areaFound .. " totalArea: " .. totalArea .. " x0: " .. field.x0 .. " z0: " .. field.z0 .. " widthX: " .. field.widthX .. " widthZ: " .. field.widthZ .. " heightX: " .. field.heightX .. " heightZ: " .. field.heightZ);
+						
+					end
+				end
+
+				
+				
+				--local x,z, widthX,widthZ, heightX,heightZ = MathUtil.getXZWidthAndHeight(field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ)
+				--local areaFound, totalArea = query:getParallelogram(x,z, widthX,widthZ, heightX,heightZ, true)
+				--print("Field: " .. _ .. " areaFound: " .. areaFound .. " totalArea: " .. totalArea .. " x0: " .. field.x0 .. " z0: " .. field.z0 .. " widthX: " .. field.widthX .. " widthZ: " .. field.widthZ .. " heightX: " .. field.heightX .. " heightZ: " .. field.heightZ);
+				
+				--print("Conversion: " .. g_currentMission:getFruitPixelsToSqm());
+				--getDensityRegionWorld(g_currentMission.fruitsList[1].id, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, 1, 4);
+				--local id = g_currentMission.fruitsList[1].id
+				--local desc = g_fruitTypeManager.indexToFruitType[1];
+
+				--setDensityReturnValueShift(id, -1);
+				--setDensityCompareParams(id, "between", desc.minHarvestingGrowthState+1, desc.maxHarvestingGrowthState+1);
+				
+				--local fruit = g_currentMission.fruits[1];
+				--getDensityParallelogram
+				--getDensityParallelogram
+				--local sum  = getDensityParallelogram(g_currentMission.fruitsList[1].id, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, 1, 4);
+				--local sum  = getDensityRegionWorld(g_currentMission.fruitsList[1].id, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, 1, 4);
+				--print("Field: " .. _ .. " sum: " .. sum);
+
+				--setDensityMaskParams(1, "between", 1,8)						
+				--local sum = addDensityMaskedParallelogram(1, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ,0, 4, 1, 0, 4, 1)
+				--print("Field: " .. _ .. " sum: " .. sum);
+				--function FieldUtil.getFruitArea(startWorldX, startWorldZ, widthWorldX, widthWorldZ, heightWorldX, heightWorldZ, terrainDetailRequiredValueRanges, terrainDetailProhibitValueRanges, requiredFruitType, requiredMinGrowthState, requiredMaxGrowthState, prohibitedFruitType, prohibitedMinGrowthState, prohibitedMaxGrowthState, useWindrowed)
+				
+				--print("Field: " .. _ .. " GrwothState: " .. growthState);
+				--print("Field: " .. _ .. " RetMax: " .. retMax .. " totalMax: " .. totalMax);
+				--print("Field: " .. _ .. " RetMin: " .. retMin .. " totalMin: " .. totalMin);
+			end;
+
+			for _,player in pairs(g_currentMission.players) do
+				x = player.baseInformation.lastPositionX;
+				print("x: " .. x);
+				z = player.baseInformation.lastPositionZ;
+				print("z: " .. z);
+			end;
+
+		end;
+	end;
 
 	if StoryMode.currentStory < StoryMode.lastStory then
 		if StoryMode.currentStoryPresented == false then
@@ -116,22 +188,22 @@ function StoryMode:update(dt)
 				StoryMode.currentStoryPresented = true;
 
 				--DebugUtil.printTableRecursively(g_currentMission,"----",0,1)
-				--print("____-----------------Owned Items---------------------___-------------------______________!!!!!!!!!!!!!")
-				--print("____-----------------Owned Items---------------------___-------------------______________!!!!!!!!!!!!!")
-				--print("____-----------------Owned Items---------------------___-------------------______________!!!!!!!!!!!!!")
-				--DebugUtil.printTableRecursively(g_currentMission.ownedItems,"----",0,2)
+				--print("____-----------------g_currentMission.inGameMenu.pageStatistics---------------------___-------------------______________!!!!!!!!!!!!!")
+				--print("____-----------------g_currentMission.inGameMenu.pageStatistics---------------------___-------------------______________!!!!!!!!!!!!!")
+				--print("____-----------------g_currentMission.inGameMenu.pageStatistics---------------------___-------------------______________!!!!!!!!!!!!!")
+				DebugUtil.printTableRecursively(g_currentMission.fruitsList,"----",0,2)
 
 				
-				--print("____-----------------objectsToClassName---------------------___-------------------______________!!!!!!!!!!!!!")
-				--print("____-----------------objectsToClassName---------------------___-------------------______________!!!!!!!!!!!!!")
-				--print("____-----------------objectsToClassName---------------------___-------------------______________!!!!!!!!!!!!!")
-				--DebugUtil.printTableRecursively(g_currentMission.objectsToClassName,"----",0,2)
+				--print("____-----------------g_currentMission.inGameMenu.baseIngameMap---------------------___-------------------______________!!!!!!!!!!!!!")
+				--print("____-----------------g_currentMission.inGameMenu.baseIngameMap---------------------___-------------------______________!!!!!!!!!!!!!")
+				--print("____-----------------g_currentMission.inGameMenu.baseIngameMap---------------------___-------------------______________!!!!!!!!!!!!!")
+				--DebugUtil.printTableRecursively(g_currentMission.inGameMenu.baseIngameMap,"----",0,2)
+				
 
 				--print("____-----------------players---------------------___-------------------______________!!!!!!!!!!!!!")
 				--print("____-----------------players---------------------___-------------------______________!!!!!!!!!!!!!")
 				--print("____-----------------players---------------------___-------------------______________!!!!!!!!!!!!!")
 				--DebugUtil.printTableRecursively(g_currentMission.players,"----",0,2)
-
 				
 				--print("____-----------------farmlandManager---------------------___-------------------______________!!!!!!!!!!!!!")
 				--print("____-----------------farmlandManager---------------------___-------------------______________!!!!!!!!!!!!!")
