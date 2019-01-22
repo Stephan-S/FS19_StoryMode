@@ -47,9 +47,11 @@ function Trigger:checkFulfilled()
     elseif self.triggerType == "machineryOwned" then
         fulfilled = self:checkMachineryOwned()
     elseif self.triggerType == "statToCheck" then
-        fulfilled = self:checkStatisticReached()
+       -- fulfilled = self:checkStatisticReached()
     elseif self.triggerType == "playerInRange" then
         fulfilled = self:checkPlayerInRange()
+    elseif self.triggerType == "fieldCheck" then
+        self:checkFieldStatus();
     end;
 
     self.alreadyFulfilled = fulfilled;
@@ -81,7 +83,7 @@ end;
 
 function Trigger:checkStatisticReached()
     local statistic = self.statToCheck;
-    local statPair = self.statToCheck:split("-");
+    local statPair = statistic:split("-");
     if statPair ~= nil and statPair[1] ~= nil and statPair[2] ~= nil then
         --print("Found attr: " .. attrFields[1] .. " with value: " .. attrFields[2]);
         self.statsToCheck = {};
@@ -181,4 +183,48 @@ function Trigger:getPlayerPos()
     return x,z;
 end;
 
+function Trigger:checkFieldStatus()    
+    local fieldStatusString = self.fieldStatus;
+    local fieldStatusStringSplitted = self.fieldStatus:split("-");
+    if fieldStatusStringSplitted ~= nil and fieldStatusStringSplitted[1] ~= nil and fieldStatusStringSplitted[2] ~= nil then
+        self.fieldToCheck = toNumber(fieldStatusStringSplitted[1]);
+        self.fieldTargetStatus = fieldStatusStringSplitted[2]
+        self.fieldTargetFruit = 0;
+        if fieldStatusStringSplitted[3] ~= nil then
+            self.fieldTargetFruit = toNumber(fieldStatusStringSplitted[3]);
+        end;
+        if fieldStatusStringSplitted[4] ~= nil then
+            self.fieldTargetFruitGrowth = toNumber(fieldStatusStringSplitted[4]);
+        end;
 
+        Trigger:checkFieldForStatus(self.fieldToCheck, self.fieldTargetStatus, self.fieldTargetFruit, self.fieldTargetFruitGrowth);
+    end;
+end;
+
+function Trigger:checkFieldForStatus(fieldToCheck, fieldTargetStatus, fieldTargetFruit, fieldTargetFruitGrowth)
+    local field = g_fieldManager.fields[fieldToCheck];
+    if field ~= nil then
+        --ToDo: The offsets should be determined by the field angle i guess
+        FSDensityMapUtil.getFieldStatus(field.posX, field.posZ, field.posX+5, field.posZ-5, field.posX+0.1, field.posZ-0.1, self:onFieldDataUpdateFinished, Trigger);
+    else
+        print("StoryMode - Trigger: passed field " .. fieldToCheck .. " is nil");
+    end;
+end;
+
+function Trigger:onFieldDataUpdateFinished(fieldData)
+    if self.fieldToCheck ~= nil then
+        print("Trigger - got field data and fieldToCheck is not nil");
+        if fieldData.farmlandId == g_fieldManager.fields[self.fieldToCheck].farmlandId then
+            print("Trigger - got field data for correct field");
+            if self.fieldTargetStatus == "sown" then
+                if fieldData.fruitPixels[self.fieldTargetFruit] >= (0.9 * fieldData.fieldArea) then
+                    print("Trigger - got field data for correct field with enough sown fruit");
+                    if fieldData.fruit[self.fieldTargetFruit] >= self.fieldTargetFruitGrowth then
+                        print("Trigger - got field data for correct field with enough sown fruit in the correct growth state");
+                        self.alreadyFulfilled = true;
+                    end;
+                end;
+            end;
+        end;
+    end;
+end;

@@ -14,6 +14,7 @@ StoryMode.currentStoryPresented = false;
 StoryMode.lastStory = 3;
 StoryMode.waitTime = 2000;
 StoryMode.waitTimeConstant = 10000;
+StoryMode.storedFieldInfoVariables = false;
 
 function StoryMode:prerequisitesPresent(specializations)
     return true;
@@ -40,6 +41,10 @@ function StoryMode:loadMap(name)
 
     -- Only needed for global action event 
     FSBaseMission.registerActionEvents = Utils.appendedFunction(FSBaseMission.registerActionEvents, StoryMode.registerActionEventsMenu);
+
+	--FieldInfoDisplay.onFieldDataUpdateFinished = Utils.appendedFunction(FieldInfoDisplay.onFieldDataUpdateFinished, StoryMode.onFieldDataUpdateFinished);
+	--FSDensityMapUtil.getFieldStatusAsync = Utils.appendedFunction(FSDensityMapUtil.getFieldStatusAsync, StoryMode.onGetFieldStatusAsync);
+	--FSDensityMapUtil.getFieldStatusAsync = Utils.appendedFunction(FSDensityMapUtil.getFieldStatusAsync, StoryMode.onAsynCall);
 end;
 
 function StoryMode:deleteMap()	
@@ -97,6 +102,52 @@ end;
 function StoryMode:StoryMode_init()	
 end;
 
+function StoryMode:onFieldDataUpdateFinished(data)	
+	if data ~= nil then
+		--print("_____________DATAAAAAAAAAAAAAAAAAAAAAA_____________");
+		--DebugUtil.printTableRecursively(data, "----", 0, 1);
+	else
+		
+		--print("_____________DATAAAAAAAAAAAAAAAAAAAAAA____is NIIIL_________");
+	end;
+end;
+
+function StoryMode:onGetFieldStatusAsync(a,b,c,d,e,f,g)
+	if StoryMode.storedFieldInfoVariables == false then
+		StoryMode.fieldInfoReturnFunction = f;
+		StoryMode.fieldInfoPassedTable = g;
+		StoryMode.storedFieldInfoVariables = true;
+	end;
+end;
+
+function StoryMode:onAsynCall(a,b,c,d,e,f,g,h,i,j)	
+	if a ~= nil then
+		print("_____________a exists (number): " .. a);
+	end;
+	if b ~= nil then
+		print("_____________b exists_: " .. b);
+	end;
+	if c ~= nil then
+		print("_____________c exists_: " .. c);
+	end;
+	if d ~= nil then
+		print("_____________d exists_: " .. d);
+	end;
+	if e ~= nil then
+		print("_____________e exists_: " .. e);
+	end;
+	if f ~= nil then
+		print("_____________f exists_: ");
+	end;
+	if g ~= nil then
+		print("_____________g exists and is a table_____________");
+	end;
+	if h ~= nil then
+		print("_____________h exists_____________");
+		DebugUtil.printTableRecursively(h, "----", 0, 1);
+	end;
+end;
+
 function StoryMode:update(dt)
 	StoryMode.waitTime = StoryMode.waitTime- dt;
 	if StoryMode.waitTime > 0 then
@@ -107,9 +158,22 @@ function StoryMode:update(dt)
 	print("StoryMode - update(dt)");
 	for _,ownedItem in pairs(g_currentMission.landscapingController.farmlandManager.stateChangeListener) do
 		if ownedItem.fields ~= nil then
+			--print("posX: " .. ownedItem.fields[20].posX .. " posZ: " .. ownedItem.fields[20].posZ .. " posX+5: " .. (ownedItem.fields[20].posX+5) .. " posZ-5: " .. (ownedItem.fields[20].posZ-5) .. " posX+0.1: " .. (ownedItem.fields[20].posX+0.1));
+			--FSDensityMapUtil:getFieldStatusAsync(ownedItem.fields[20].posX, ownedItem.fields[20].posZ, ownedItem.fields[20].posX+5,ownedItem.fields[20].posZ-5, ownedItem.fields[20].posX+0.1,  StoryMode.onFieldDataUpdateFinished, self);
+			StoryMode.requestedFieldData = true
+			FSDensityMapUtil.getFieldStatus(ownedItem.fields[20].posX, ownedItem.fields[20].posZ, ownedItem.fields[20].posX+5,ownedItem.fields[20].posZ-5, ownedItem.fields[20].posX+0.1, ownedItem.fields[20].posZ-0.1, StoryMode.onFieldDataUpdateFinished, StoryMode);
+			--FSDensityMapUtil.getFieldStatusAsync(-43, 83, -37, 78, -42.9998, 83.00001,  StoryMode.onFieldDataUpdateFinished, StoryMode);
+			--local res = FSDensityMapUtil.getFieldStatus(218.71260062059, -65.571403612696, 223.71260062059, -70.571403394139, 218.71260040203); -- StoryMode.fieldInfoReturnFunction, StoryMode.fieldInfoPassedTable);
+			--local res = FSDensityMapUtil:getFieldStatus(218.71260062059, -65.571403612696, 223.71260062059, -70.571403394139, 218.71260040203, StoryMode);
+			--if res ~= nil then
+				--print("Got result: ");
+				--DebugUtil.printTableRecursively(res, "__________________", 0, 1);
+			--end;
+
 			--local field = ownedItem.fields[20].setFieldStatusPartitions[1];
 			for _,field in pairs(ownedItem.fields[20].getFieldStatusPartitions) do
 				
+
 				local retMax, totalMax = FSDensityMapUtil.getFruitArea(1, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, true, false);
 				local retMin, totalMin = FSDensityMapUtil.getFruitArea(1, field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ, true, true);
 				--local growthState = FieldUtil.getMaxGrowthState(1, ownedItem.fields[20]);
@@ -132,12 +196,10 @@ function StoryMode:update(dt)
 						
 						query:addRequiredCropType(ids.id, 3, 3, desc.startStateChannel, desc.numStateChannels, g_currentMission.terrainDetailTypeFirstChannel, g_currentMission.terrainDetailTypeNumChannels)
 						local areaFound, totalArea = query:getParallelogram(x,z, widthX,widthZ, heightX,heightZ, true)
-						print("Field: " .. _ .. " areaFound (3): " .. areaFound .. " totalArea: " .. totalArea .. " x0: " .. field.x0 .. " z0: " .. field.z0 .. " widthX: " .. field.widthX .. " widthZ: " .. field.widthZ .. " heightX: " .. field.heightX .. " heightZ: " .. field.heightZ);
+						--print("Field: " .. _ .. " areaFound (3): " .. areaFound .. " totalArea: " .. totalArea .. " x0: " .. field.x0 .. " z0: " .. field.z0 .. " widthX: " .. field.widthX .. " widthZ: " .. field.widthZ .. " heightX: " .. field.heightX .. " heightZ: " .. field.heightZ);
 						
 					end
-				end
-
-				
+				end				
 				
 				--local x,z, widthX,widthZ, heightX,heightZ = MathUtil.getXZWidthAndHeight(field.x0, field.z0, field.widthX, field.widthZ, field.heightX, field.heightZ)
 				--local areaFound, totalArea = query:getParallelogram(x,z, widthX,widthZ, heightX,heightZ, true)
@@ -191,7 +253,7 @@ function StoryMode:update(dt)
 				--print("____-----------------g_currentMission.inGameMenu.pageStatistics---------------------___-------------------______________!!!!!!!!!!!!!")
 				--print("____-----------------g_currentMission.inGameMenu.pageStatistics---------------------___-------------------______________!!!!!!!!!!!!!")
 				--print("____-----------------g_currentMission.inGameMenu.pageStatistics---------------------___-------------------______________!!!!!!!!!!!!!")
-				DebugUtil.printTableRecursively(g_currentMission.fruitsList,"----",0,2)
+				--DebugUtil.printTableRecursively(g_currentMission.fruitsList,"----",0,2)
 
 				
 				--print("____-----------------g_currentMission.inGameMenu.baseIngameMap---------------------___-------------------______________!!!!!!!!!!!!!")
