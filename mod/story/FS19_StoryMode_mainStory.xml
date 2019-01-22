@@ -56,8 +56,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>2</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:ploughed-100" />
-                <trigger_2 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:sown-100" />
+                <trigger_1 triggerType="fieldStatus"  triggerSticks="true" triggerAttributes="fieldStatus:20-sown-1-1" />
             </triggers_1>
             <bonus_1>
                 <money>20000</money>

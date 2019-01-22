@@ -8,6 +8,7 @@ function string:split(sep)
     return fields
  end
 
+
 function Trigger:new(triggerType, triggerSticks, triggerAttributes)
     o = {}
     setmetatable(o, self)
@@ -50,7 +51,7 @@ function Trigger:checkFulfilled()
        -- fulfilled = self:checkStatisticReached()
     elseif self.triggerType == "playerInRange" then
         fulfilled = self:checkPlayerInRange()
-    elseif self.triggerType == "fieldCheck" then
+    elseif self.triggerType == "fieldStatus" then
         self:checkFieldStatus();
     end;
 
@@ -212,6 +213,7 @@ function Trigger:checkFieldForStatus(fieldToCheck, fieldTargetStatus, fieldTarge
 end;
 
 function Trigger:onFieldDataUpdateFinished(fieldData)
+    --ToDo: Allow more field states, such aus plowed, cultivated and sprayed
     if self.fieldToCheck ~= nil then
         print("Trigger - got field data and fieldToCheck is not nil");
         if fieldData.farmlandId == g_fieldManager.fields[self.fieldToCheck].farmlandId then
