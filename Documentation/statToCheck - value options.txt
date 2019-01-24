@@ -1,0 +1,43 @@
+Example trigger:
+<trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:sownHectares-0.64" />
+
+The value is compared to the 'total' value in the statistics, not the 'session' value.
+
+weededHectares
+sownHectares
+sprayedHectares
+fertilizedTime
+seedUsage
+cultivatedTime
+revenue
+fieldJobMissionCount
+plowedTime
+workedHectares
+expenses
+fertilizedHectares
+breedSheepCount
+breedHorsesCount
+sprayedTime
+fuelUsage
+playTime
+storageCapacity
+weededTime
+windTurbineCount
+cutTreeCount
+woodTonsSold
+breedChickenCount
+plantedTreeCount
+baleCount
+threshedHectares
+plowedHectares
+sprayUsage
+breedCowsCount
+workedTime
+breedPigsCount
+cultivatedHectares 
+transportMissionCount 
+threshedTime
+traveledDistance
+sownTime
+fieldJobMissionByNPC
+workersHired

@@ -1,5 +1,5 @@
 ﻿<FS19_StoryModeStory>
-    <storyPartsCount>5</storyPartsCount>
+    <storyPartsCount>7</storyPartsCount>
     <storyParts>
         <story_1>
             <titleText>Introductions</titleText>
@@ -9,31 +9,23 @@
                 <triggerCount>0</triggerCount>
             </triggers_1>
             <bonus_1>
-                <money>500000</money>
+                <money>0</money>
             </bonus_1>
             <nextStoryPart_1>2</nextStoryPart_1>
         </story_1>
         <story_2>
             <titleText>Buy your first patch of land</titleText>
-            <storyText>Hello there buddy. I am glad you accepted my proposal. So let's get started, we have so much work ahead of us. Felsbrunn will become the greatest town. I am so glad I finally found someone willing to put in all the work. Let us start of by buying a patch of land to build you a farmhouse on. I would suggest field number 20, it has a lot of space for buildings and is not to expensive.</storyText>
-            <storyOptions>2</storyOptions>
+            <storyText>Hello there buddy. I am glad you accepted my proposal. So let's get started, we have so much work ahead of us. Felsbrunn will become the greatest town. I am so glad I finally found someone willing to put in all the work. Let us start of by buying a patch of land to build you a farmhouse on. I would suggest field number 20, it has a lot of space for buildings and is not to expensive. And if you take this part of land, I will even help you out with 200.00€. How does that sound?</storyText>
+            <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>2</triggerCount>
                 <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:29" />
                 <trigger_2 triggerType="propertyOwned"  triggerSticks="false" triggerAttributes="propertyName:FarmhousePlaceable" />
             </triggers_1>
-            <triggers_2>
-                <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="playerInRange" triggerSticks="false" triggerAttributes="playerPos:-60/200/10" />
-            </triggers_2>
             <bonus_1>
                 <money>200000</money>
             </bonus_1>
-            <bonus_2>
-                <money>10000000</money>
-            </bonus_2>
             <nextStoryPart_1>3</nextStoryPart_1>
-            <nextStoryPart_2>3</nextStoryPart_2>
         </story_2>
         <story_3>
             <titleText>How about some machinery</titleText>
@@ -41,7 +33,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>3</triggerCount>
-                <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:TRACTORS-4" />
+                <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:TRACTORS-2" />
                 <trigger_2 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:SEEDERS-1" />
                 <trigger_3 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:PLOWS-1" />
             </triggers_1>
@@ -52,14 +44,14 @@
         </story_3>
         <story_4>
             <titleText>Plough and sow</titleText>
-            <storyText>We will talk again when you are done ploughing and sowing the field. Just pick any grain you like, so you can later use a standard harvester. I have some other business to attend to, see you later</storyText>
+            <storyText>We will talk again when you are done ploughing and sowing the field. I would prefer if you could start with wheat. If you do that, I will come see you again and maybe even reward you with some money gain. For now, I have some other business to attend to, see you later</storyText>
             <storyOptions>1</storyOptions>
             <triggers_1>
-                <triggerCount>2</triggerCount>
+                <triggerCount>1</triggerCount>
                 <trigger_1 triggerType="fieldStatus"  triggerSticks="true" triggerAttributes="fieldStatus:20-sown-1-1" />
             </triggers_1>
             <bonus_1>
-                <money>20000</money>
+                <money>0</money>
             </bonus_1>
             <nextStoryPart_1>5</nextStoryPart_1>
         </story_4>
@@ -69,12 +61,39 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fertilized-100" />
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fertilizedHectares-0.64" />
             </triggers_1>
             <bonus_1>
                 <money>20000</money>
             </bonus_1>
-            <nextStoryPart_1>5</nextStoryPart_1>
+            <nextStoryPart_1>6</nextStoryPart_1>
         </story_5>
+        <story_6>
+            <titleText>See for yourself</titleText>
+            <storyText>Now come over here and have a look at your very own and very new farm. Isn't it beautiful?</storyText>
+            <storyOptions>1</storyOptions>
+            <triggers_1>
+                <triggerCount>1</triggerCount>
+                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-60/200/10" />
+            </triggers_1>
+            <bonus_1>
+                <money>0</money>
+            </bonus_1>
+            <nextStoryPart_1>7</nextStoryPart_1>
+        </story_6>
+        <story_7>
+            <titleText>Get to work</titleText>
+            <storyText>We will talk again when you have made some use of your land and have harvested at least 5 hectares</storyText>
+            <storyOptions>1</storyOptions>
+            <triggers_1>
+                <triggerCount>1</triggerCount>
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:sownHectares-5.0" />
+            </triggers_1>
+            <bonus_1>
+                <money>0</money>
+            </bonus_1>
+            <nextStoryPart_1>7</nextStoryPart_1>
+        </story_7>
+        
     </storyParts>
 </FS19_StoryModeStory>

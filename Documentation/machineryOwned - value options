@@ -1,0 +1,16 @@
+Example trigger:
+
+    <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:TRACTORS-2" />
+    
+    The number is the amount of machines the player should own of the given type.
+    For tractors, there are actually three categories but they are treated as one in here.
+
+PLOWS
+FERTILIZERSPREADERS
+TRACTORS
+SEEDERS
+HARVESTERS
+CUTTERS
+SPRAYERS
+POWERHARROWS
+WEEDERS

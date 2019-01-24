@@ -1,5 +1,8 @@
 Trigger = {};
-Trigger.vehicleCategories = {"PLOWS" , "FERTILIZERSPREADERS", "TRACTORS", "TRACTORSM", "SEEDERS", "HARVESTERS", "CUTTERS", "SPRAYERS", "POWERHARROWS", "WEEDERS"}
+--Trigger.vehicleCategories = {"PLOWS" , "FERTILIZERSPREADERS", "TRACTORS", "TRACTORSM", "SEEDERS", "HARVESTERS", "CUTTERS", "SPRAYERS", "POWERHARROWS", "WEEDERS"}
+--Trigger.triggerTypes = {fieldOwned, propertyOwned, machinerOwned, tatToCheck, playerInRange, fieldStatus}
+--Trigger.triggerTypeParams = {}
+--Trigger.triggerTypeParams["fieldOwned"] = {farmLandID} --The farmLandID is not the fieldNumber as seen on the map, but the property Index  
 
 function string:split(sep)
     local sep, fields = sep or ":", {}
@@ -48,11 +51,11 @@ function Trigger:checkFulfilled()
     elseif self.triggerType == "machineryOwned" then
         fulfilled = self:checkMachineryOwned()
     elseif self.triggerType == "statToCheck" then
-       -- fulfilled = self:checkStatisticReached()
+        fulfilled = self:checkStatisticReached()
     elseif self.triggerType == "playerInRange" then
         fulfilled = self:checkPlayerInRange()
     elseif self.triggerType == "fieldStatus" then
-        self:checkFieldStatus();
+        fulfilled = self:checkFieldStatus();
     end;
 
     self.alreadyFulfilled = fulfilled;
@@ -88,7 +91,7 @@ function Trigger:checkStatisticReached()
     if statPair ~= nil and statPair[1] ~= nil and statPair[2] ~= nil then
         --print("Found attr: " .. attrFields[1] .. " with value: " .. attrFields[2]);
         self.statsToCheck = {};
-        self.statsoCheck[statPair[1]] = statPair[2];
+        self.statsToCheck[statPair[1]] = statPair[2];
     end;
 
     if self.statsToCheck ~= nil then
@@ -101,12 +104,18 @@ end;
 function Trigger:checkStatReached(statistic, value)
     value = tonumber(value);
     currentValue = self:getStatisticValue(statistic);
+    --print("Stat value: " .. currentValue .. " required: " .. value);
 
     return currentValue >= value;
 end;
 
 function Trigger:getStatisticValue(statistic)
     --ToDo!
+    for _,farm in pairs(g_farmManager.farms) do
+        if farm.players[1] ~= nil then
+            return farm.stats.statistics[statistic].total;
+		end;
+	end;
 end;
 
 function Trigger:checkMachineryOwned()
@@ -187,46 +196,137 @@ end;
 function Trigger:checkFieldStatus()    
     local fieldStatusString = self.fieldStatus;
     local fieldStatusStringSplitted = self.fieldStatus:split("-");
+    --print("StoryMode - Trigger: checkFieldStatus called");
     if fieldStatusStringSplitted ~= nil and fieldStatusStringSplitted[1] ~= nil and fieldStatusStringSplitted[2] ~= nil then
-        self.fieldToCheck = toNumber(fieldStatusStringSplitted[1]);
+        self.fieldToCheck = tonumber(fieldStatusStringSplitted[1]);
         self.fieldTargetStatus = fieldStatusStringSplitted[2]
         self.fieldTargetFruit = 0;
         if fieldStatusStringSplitted[3] ~= nil then
-            self.fieldTargetFruit = toNumber(fieldStatusStringSplitted[3]);
+            self.fieldTargetFruit = tonumber(fieldStatusStringSplitted[3]);
         end;
         if fieldStatusStringSplitted[4] ~= nil then
-            self.fieldTargetFruitGrowth = toNumber(fieldStatusStringSplitted[4]);
+            self.fieldTargetFruitGrowth = tonumber(fieldStatusStringSplitted[4]);
         end;
 
-        Trigger:checkFieldForStatus(self.fieldToCheck, self.fieldTargetStatus, self.fieldTargetFruit, self.fieldTargetFruitGrowth);
+        return self:checkFieldForStatus();
+    else        
+        print("StoryMode - Trigger: checkFieldStatus wrong parameters in xml");
     end;
 end;
 
-function Trigger:checkFieldForStatus(fieldToCheck, fieldTargetStatus, fieldTargetFruit, fieldTargetFruitGrowth)
-    local field = g_fieldManager.fields[fieldToCheck];
+function Trigger:checkFieldForStatus()
+    local field = g_fieldManager.fields[self.fieldToCheck];
     if field ~= nil then
-        --ToDo: The offsets should be determined by the field angle i guess
-        FSDensityMapUtil.getFieldStatus(field.posX, field.posZ, field.posX+5, field.posZ-5, field.posX+0.1, field.posZ-0.1, self:onFieldDataUpdateFinished, Trigger);
-    else
-        print("StoryMode - Trigger: passed field " .. fieldToCheck .. " is nil");
-    end;
-end;
+        local childrenNum = getNumOfChildren(field.fieldDimensions)
+        
+        self.fieldPartitionCount = getNumOfChildren(field.fieldDimensions)
+        if self.fieldPartitions == nil then
+            self.fieldPartitions = {};
+            self.triggerCallbacks = {};
 
-function Trigger:onFieldDataUpdateFinished(fieldData)
-    --ToDo: Allow more field states, such aus plowed, cultivated and sprayed
-    if self.fieldToCheck ~= nil then
-        print("Trigger - got field data and fieldToCheck is not nil");
-        if fieldData.farmlandId == g_fieldManager.fields[self.fieldToCheck].farmlandId then
-            print("Trigger - got field data for correct field");
-            if self.fieldTargetStatus == "sown" then
-                if fieldData.fruitPixels[self.fieldTargetFruit] >= (0.9 * fieldData.fieldArea) then
-                    print("Trigger - got field data for correct field with enough sown fruit");
-                    if fieldData.fruit[self.fieldTargetFruit] >= self.fieldTargetFruitGrowth then
-                        print("Trigger - got field data for correct field with enough sown fruit in the correct growth state");
-                        self.alreadyFulfilled = true;
+            for currentPartition = 1, self.fieldPartitionCount, 1 do        
+                local childID = getChildAt(field.fieldDimensions, 0);
+                local corner1ID = getChildAt(childID, 0);
+                local corner2ID = getChildAt(childID, 1);
+                
+                x,y,z = getWorldTranslation(childID)
+                corner1x,corner1y,corner1z = getWorldTranslation(corner1ID)
+                corner2x,corner2y,corner2z = getWorldTranslation(corner2ID)
+
+                self.fieldPartitions[currentPartition] = {};
+                self.fieldPartitions[currentPartition][1] = {};
+                self.fieldPartitions[currentPartition][2] = {};
+
+                self.fieldPartitions[currentPartition][1].string = "blub";
+
+                --print("self.fieldPartitions[" .. currentPartition .. "][1].string: " .. self.fieldPartitions[currentPartition][1].string);
+
+                self.triggerCallbacks[currentPartition] = {};
+                self.triggerCallbacks[currentPartition][1] = TriggerCallback:new(self, currentPartition, 1);
+                self.triggerCallbacks[currentPartition][2] = TriggerCallback:new(self, currentPartition, 2);
+            end;
+        else
+            
+            local fieldArea = 0;
+            local fruits = {};
+            local fruitPixels = {};
+
+            for currentPartition = 1, self.fieldPartitionCount, 1 do
+                for part=1,2 do
+                    if self.fieldPartitions[currentPartition][part].fieldData ~= nil then
+                        local data = self.fieldPartitions[currentPartition][part].fieldData;
+                        fieldArea = fieldArea + data.fieldArea
+                        for _,growthState in pairs(data.fruits) do
+                            if fruits[_] == nil then
+                                fruits[_] = growthState;
+                            else
+                                fruits[_] = math.max(fruits[_], growthState);
+                            end;
+                        end;
+                        for _,fruitAmount in pairs(data.fruitPixels) do
+                            if fruitPixels[_] == nil then
+                                fruitPixels[_] = fruitAmount;
+                            else
+                                fruitPixels[_] = fruitPixels[_] + fruitAmount;
+                            end;
+                        end;
                     end;
                 end;
             end;
+
+            --print("FieldArea: " .. fieldArea .. " fruitPixels[" .. self.fieldTargetFruit .. "]: " .. fruitPixels[self.fieldTargetFruit]);
+
+            if self.fieldTargetStatus == "sown" then
+                if fruitPixels[self.fieldTargetFruit] >= (0.9 * fieldArea) then
+                    if fruits[self.fieldTargetFruit] >= self.fieldTargetFruitGrowth then
+                        self.alreadyFulfilled = true;
+                        --print("Trigger - fieldStatus - fulfilled");
+                        return true;
+                    end;
+                end;
+            end;
+
         end;
+
+        for currentPartition = 1, self.fieldPartitionCount, 1 do            
+            self.fieldPartitions[currentPartition][1].fieldData = nil;
+            self.fieldPartitions[currentPartition][2].fieldData = nil;
+            FSDensityMapUtil.getFieldStatusAsync(x, z, corner1x, corner1z, corner2x, corner2z, self.triggerCallbacks[currentPartition][1].onFieldDataUpdateFinished,  self.triggerCallbacks[currentPartition][1]);
+            FSDensityMapUtil.getFieldStatusAsync(x, z, corner2x, z, corner2x, corner2z, self.triggerCallbacks[currentPartition][2].onFieldDataUpdateFinished,  self.triggerCallbacks[currentPartition][2]);
+        end;
+
+        --print("Child: ")
+        --print("X: " .. x .. " Y: " .. y .. " Z: " .. z);
+        --print("Corner 1: ");
+        --print("X: " .. corner1x .. " Y: " .. corner1y .. " Z: " .. corner1z);
+        --print("Corner 2: ");
+        --print("X: " .. corner2x .. " Y: " .. corner2y .. " Z: " .. corner2z);
+        --Trigger:getPlayerPos();    
+        --local fieldWidth = corner2x - corner1x;
+        --local fieldHeight = corner2z - z;    
+        --print("Fieldwidth: " .. fieldWidth .. " height: " .. fieldHeight);
+        --FSDensityMapUtil.getFieldStatusAsync(field.posX, field.posZ, field.posX+15, field.posZ-0.1, field.posX+0.1, field.posZ-15, self.onFieldDataUpdateFinished, self);
+        --FSDensityMapUtil.getFieldStatusAsync(x, z, corner2x, z, corner2x, corner2z, self.onFieldDataUpdateFinished_2, self);
+    else
+        print("StoryMode - Trigger: passed field " .. self.fieldToCheck .. " is nil");
+    end;
+end;
+
+function Trigger:onFieldDataUpdateFinished(fieldData, partition, part)
+    --ToDo: Allow more field states, such aus plowed, cultivated and sprayed
+    --print("Received information about partition: " .. partition .. " part: " .. part);
+    --print("Trigger - got field data");
+    if fieldData ~= nil then
+        --print("fieldData is not nil");
+        --DebugUtil.printTableRecursively(fieldData, "----", 0, 1);
+    end;
+    if self.fieldPartitions ~= nil then
+        if self.fieldPartitions[partition][part] ~= nil then
+            self.fieldPartitions[partition][part].fieldData = fieldData;
+        else
+            print("StoryMode - Trigger - self.fieldPartitions[currentPartition][part] is nil");
+        end;
+    else        
+        print("StoryMode - Trigger - self.fieldPartitions is nil");
     end;
 end;

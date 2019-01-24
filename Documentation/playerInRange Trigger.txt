@@ -1,0 +1,5 @@
+Example:
+    <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-60/200/10" />
+
+    playerPos:X/Z/Radius
+    triggerSticks="true" so that the player may move out of the radius again.

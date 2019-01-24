@@ -4,10 +4,12 @@ StoryMode.config_changed = false;
 local myName = "FS19_StoryMode";
 
 StoryMode.directory = g_currentModDirectory;
-StoryMode.storyDirectory = g_currentModDirectory .. "story/";
+StoryMode.modStoryDirectory = g_currentModDirectory .. "story/";
+StoryMode.customStoryDirectory = getUserProfileAppPath().. "StoryModeStories/"; 
 
 source(Utils.getFilename("gui/smGui.lua", g_currentModDirectory))
 source(Utils.getFilename("Trigger.lua", g_currentModDirectory))
+source(Utils.getFilename("TriggerCallback.lua", g_currentModDirectory))
 
 StoryMode.currentStory = 1;
 StoryMode.currentStoryPresented = false;
@@ -133,8 +135,10 @@ function StoryMode:update(dt)
 	end;
 	
 	StoryMode.waitTime = StoryMode.waitTimeConstant;
-	print("StoryMode - update(dt)");
+	print("StoryMode - update(dt) " .. StoryMode.currentStory .. "/" .. StoryMode.lastStory);
 	
+	--DebugUtil.printTableRecursively(g_fruitTypeManager, "-----", 0, 1);
+	print("Map title: " ..  g_currentMission.missionInfo.map.title);
 
 	if StoryMode.currentStory < StoryMode.lastStory then
 		if StoryMode.currentStoryPresented == false then
@@ -176,6 +180,7 @@ function StoryMode:checkRequirements()
 end;
 
 function StoryMode:handleFulFilledStory(storyOption)
+	print("StoryMode - handling fulfilled Story");
 	if storyOption.bonus ~= nil then
 		if storyOption.bonus.money ~= nil then
 			local owner = g_currentMission.player.farmId
@@ -198,18 +203,25 @@ function StoryMode:writeConfig()
 		return
 	end
 
-	local file = StoryMode.confDirectory.. "/" .. myName..".xml"
-	local xml
-	local groupNameTag
-	local group
-	xml = createXMLFile("FS19_StoryMode_XML", file, "FS19_StoryModeSettings");		
-
-		if StoryMode ~= nil then  					
-			setXMLInt(xml,	"FS19_StoryModeSettings.currentStory(0)#value", StoryMode.currentStory);
-			setXMLBool(xml, "FS19_StoryModeSettings.currentStoryPresented(0)#value", StoryMode.currentStoryPresented);			
-		end;
 	
-	saveXMLFile(xml)	
+	if StoryMode.confDirectory == nil then		
+		StoryMode.confDirectory = g_currentMission.missionInfo.savegameDirectory;
+	end;
+
+	if StoryMode.confDirectory ~= nil then
+		local file = StoryMode.confDirectory.. "/" .. myName..".xml"
+		local xml
+		local groupNameTag
+		local group
+		xml = createXMLFile("FS19_StoryMode_XML", file, "FS19_StoryModeSettings");		
+
+			if StoryMode ~= nil then  					
+				setXMLInt(xml,	"FS19_StoryModeSettings.currentStory(0)#value", StoryMode.currentStory);
+				setXMLBool(xml, "FS19_StoryModeSettings.currentStoryPresented(0)#value", StoryMode.currentStoryPresented);			
+			end;
+		
+		saveXMLFile(xml)	
+	end;
 end
 
 function StoryMode:readConfig()	
@@ -219,19 +231,20 @@ function StoryMode:readConfig()
 	if g_dedicatedServerInfo ~= nil then
 		return
 	end
-
-	local file = StoryMode.confDirectory.. "/" .. myName..".xml"
-	local xml
-	if not fileExists(file) then
-		StoryMode:writeConfig()
-	else
-		-- load existing XML file
-		xml = loadXMLFile("FS19_StoryMode_XML", file, "FS19_StoryModeSettings");
-		
-		if StoryMode ~= nil then  
-			StoryMode.currentStory = getXMLInt(xml,  "FS19_StoryModeSettings.currentStory(0)#value");
-			StoryMode.currentStoryPresented = getXMLBool(xml,  "FS19_StoryModeSettings.currentStoryPresented(0)#value");
-		end
+	if StoryMode.confDirectory ~= nil then
+		local file = StoryMode.confDirectory.. "/" .. myName..".xml"
+		local xml
+		if not fileExists(file) then
+			StoryMode:writeConfig()
+		else
+			-- load existing XML file
+			xml = loadXMLFile("FS19_StoryMode_XML", file, "FS19_StoryModeSettings");
+			
+			if StoryMode ~= nil then  
+				StoryMode.currentStory = getXMLInt(xml,  "FS19_StoryModeSettings.currentStory(0)#value");
+				StoryMode.currentStoryPresented = getXMLBool(xml,  "FS19_StoryModeSettings.currentStoryPresented(0)#value");
+			end
+		end;
 	end;
 end
 
@@ -243,7 +256,21 @@ function StoryMode:readStoryXML()
 		return
 	end
 
-	local file = StoryMode.storyDirectory.. myName .. "_mainStory.xml"
+	createFolder(StoryMode.customStoryDirectory);
+
+	local mapName =  g_currentMission.missionInfo.map.title;
+
+	local customFile = StoryMode.customStoryDirectory .. mapName .. "_Story.xml";
+	print("Customfile: " .. customFile);
+	local modFile = StoryMode.modStoryDirectory.. myName .. "_" .. mapName .. "_mainStory.xml"
+	local file = modFile;
+
+	if fileExists(customFile) then
+		file = customFile;
+		print("Customfile exists");
+	end;
+
+	--local file = StoryMode.modStoryDirectory.. myName .. "_mainStory.xml"
 	local xml
 	if fileExists(file) then
 		-- load existing XML file
