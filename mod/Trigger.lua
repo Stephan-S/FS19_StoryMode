@@ -56,6 +56,8 @@ function Trigger:checkFulfilled()
         fulfilled = self:checkPlayerInRange()
     elseif self.triggerType == "fieldStatus" then
         fulfilled = self:checkFieldStatus();
+    elseif self.triggerType == "timePassed" then
+        fulfilled = self:checkTimePassed();
     end;
 
     self.alreadyFulfilled = fulfilled;
@@ -328,5 +330,15 @@ function Trigger:onFieldDataUpdateFinished(fieldData, partition, part)
         end;
     else        
         print("StoryMode - Trigger - self.fieldPartitions is nil");
+    end;
+end;
+
+function Trigger:checkTimePassed()
+    local time = self.timePassed;
+    if StoryMode.timeSinceLastTrigger >= time then
+        return true;
+    else
+        return false;
+        
     end;
 end;
