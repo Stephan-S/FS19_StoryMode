@@ -1,0 +1,5 @@
+Add hotspots to the map on playPos missions
+Also check current vehicle Position on playerPos missions
+Add option to define the current narrator (image) for every storypart
+Use the correct field numbers for the storypart
+Test the timePassed trigger

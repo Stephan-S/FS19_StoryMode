@@ -17,6 +17,7 @@ StoryMode.lastStory = 3;
 StoryMode.waitTime = 2000;
 StoryMode.waitTimeConstant = 10000;
 StoryMode.storedFieldInfoVariables = false;
+StoryMode.timeSinceLastTrigger = 0;
 
 function StoryMode:prerequisitesPresent(specializations)
     return true;
@@ -130,6 +131,7 @@ end;
 
 function StoryMode:update(dt)
 	StoryMode.waitTime = StoryMode.waitTime- dt;
+	StoryMode.timeSinceLastTrigger = StoryMode.timeSinceLastTrigger + (dt/1000.0); 
 	if StoryMode.waitTime > 0 then
 		return;
 	end;
@@ -189,6 +191,7 @@ function StoryMode:handleFulFilledStory(storyOption)
 	end;
 	StoryMode.currentStory = storyOption.nextStory;
 	StoryMode.currentStoryPresented = false;
+	StoryMode.timeSinceLastTrigger = 0;
 end;
 
 function StoryMode:draw()
