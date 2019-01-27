@@ -142,6 +142,8 @@ function StoryMode:update(dt)
 	--DebugUtil.printTableRecursively(g_fruitTypeManager, "-----", 0, 1);
 	print("Map title: " ..  g_currentMission.missionInfo.map.title);
 
+	
+
 	if StoryMode.currentStory < StoryMode.lastStory then
 		if StoryMode.currentStoryPresented == false then
 			StoryMode.gui.smSettingGui:setStoryTitleField(StoryMode.storyParts[StoryMode.currentStory].titleText);
@@ -167,11 +169,16 @@ end;
 function StoryMode:checkRequirements()
 	local fulfilledOptions = {};
 	for _,storyOption in pairs(StoryMode.storyParts[StoryMode.currentStory].options) do
-		--print("Checking storyOption: ");
+		print("Checking storyOption: ");
 		local fulfilled = true;
 		for _,trigger in pairs(storyOption.triggers) do
-			--print("Checking trigger: " .. trigger.triggerType);
+			print("Checking trigger: " .. trigger.triggerType);
 			local triggerCheck = trigger:checkFulfilled();
+			if triggerCheck then
+				print ("Trigger " .. trigger.triggerType .. " fulfilled")
+			else				
+				print ("Trigger " .. trigger.triggerType .. " not fulfilled")
+			end;
 			fulfilled = fulfilled and triggerCheck;
 		end;
 
@@ -192,6 +199,14 @@ function StoryMode:handleFulFilledStory(storyOption)
 	StoryMode.currentStory = storyOption.nextStory;
 	StoryMode.currentStoryPresented = false;
 	StoryMode.timeSinceLastTrigger = 0;
+	StoryMode:setImageOverlay(StoryMode.guiImageElement, StoryMode.storyParts[StoryMode.currentStory].image);
+	
+	if StoryMode.HotSpots ~= nil then
+		for _,hotspot in pairs(StoryMode.HotSpots) do
+			g_currentMission.removeMapHotspot(hotspot);
+		end;
+		StoryMode.HotSpots = nil;
+	end;
 end;
 
 function StoryMode:draw()
@@ -246,7 +261,12 @@ function StoryMode:readConfig()
 			if StoryMode ~= nil then  
 				StoryMode.currentStory = getXMLInt(xml,  "FS19_StoryModeSettings.currentStory(0)#value");
 				StoryMode.currentStoryPresented = getXMLBool(xml,  "FS19_StoryModeSettings.currentStoryPresented(0)#value");
+				
+				StoryMode:setImageOverlay(StoryMode.guiImageElement, StoryMode.storyParts[StoryMode.currentStory].image);
+				StoryMode.gui.smSettingGui:setStoryTitleField(StoryMode.storyParts[StoryMode.currentStory].titleText);
+				StoryMode.gui.smSettingGui:setStoryTextField(StoryMode.storyParts[StoryMode.currentStory].storyText);				
 			end
+
 		end;
 	end;
 end
@@ -287,6 +307,18 @@ function StoryMode:readStoryXML()
 				StoryMode.storyParts[i].titleText = getXMLString(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".titleText");
 				StoryMode.storyParts[i].storyText = getXMLString(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyText");
 
+				local includedInMod =  getXMLBool(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyImage(0)#includedInMod");
+				local includedInAppFolder =  getXMLBool(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyImage(0)#includedInAppFolder");
+				local imagePath = getXMLString(xml, "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyImage(0)#name_or_path");
+
+				if includedInMod then
+					StoryMode.storyParts[i].image = StoryMode.directory .. imagePath;
+				elseif includedInAppFolder then
+					StoryMode.storyParts[i].image = getUserProfileAppPath() .. imagePath;
+				else
+					StoryMode.storyParts[i].image = StoryMode.directory .. "img/Tom.dds";
+				end;
+
 				StoryMode.storyParts[i].options = {};
 				local storyOptions = getXMLInt(xml,  "FS19_StoryModeStory.storyParts.story_" .. i .. ".storyOptions");
 				
@@ -314,6 +346,20 @@ function StoryMode:readStoryXML()
 	end;
 end
 
+function StoryMode:addHotSpot(hotspot) 
+	if StoryMode.HotSpots == nil then
+		StoryMode.HotSpots = {};
+	end;
+
+	StoryMode.HotSpots[tablelength(StoryMode.HotSpots)+1] = hotspot;
+end
+
+function tablelength(T)
+	local count = 0
+	for _ in pairs(T) do count = count + 1 end
+	return count
+  end
+
 local elementOverlayExists = function(element)
 	return element.overlay ~= nil and element.overlay.overlay ~= nil and element.overlay.overlay ~= 0;
 end;
@@ -327,6 +373,8 @@ function StoryMode:setImageOverlay(element, filePath)
 
 	element.overlay.overlay = createImageOverlay(filePath);
 	element.overlay.filePath = filePath;	
+	
+	StoryMode.guiImageElement = element;
 end;
 
 function StoryMode.setModImages(element, xmlFile, key)

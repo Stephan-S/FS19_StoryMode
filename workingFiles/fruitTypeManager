@@ -1,0 +1,598 @@
+2019-01-20 17:31 ----fillTypeIndexToFruitTypeIndex :: table: 0x016aae1a5308
+2019-01-20 17:31 ----    2 :: 1
+2019-01-20 17:31 ----    3 :: 2
+2019-01-20 17:31 ----    4 :: 3
+2019-01-20 17:31 ----    5 :: 5
+2019-01-20 17:31 ----    6 :: 6
+2019-01-20 17:31 ----    7 :: 7
+2019-01-20 17:31 ----    8 :: 8
+2019-01-20 17:31 ----    9 :: 9
+2019-01-20 17:31 ----    10 :: 10
+2019-01-20 17:31 ----    11 :: 4
+2019-01-20 17:31 ----    12 :: 15
+2019-01-20 17:31 ----    25 :: 11
+2019-01-20 17:31 ----    26 :: 12
+2019-01-20 17:31 ----    27 :: 13
+2019-01-20 17:31 ----    28 :: 13
+2019-01-20 17:31 ----    29 :: 14
+2019-01-20 17:31 ----    30 :: 14
+2019-01-20 17:31 ----    31 :: 3
+2019-01-20 17:31 ----    52 :: 16
+2019-01-20 17:31 ----fruitTypeIndexToWindrowFillTypeIndex :: table: 0x016aae1a5448
+2019-01-20 17:31 ----    1 :: 31
+2019-01-20 17:31 ----    2 :: 31
+2019-01-20 17:31 ----    3 :: 31
+2019-01-20 17:31 ----    14 :: 30
+2019-01-20 17:31 ----    13 :: 28
+2019-01-20 17:31 ----numCategories :: 9
+2019-01-20 17:31 ----indexToFruitType :: table: 0x016aae1a5278
+2019-01-20 17:31 ----    1 :: table: 0x016ad1c84818
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 3
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.88999998569489
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        windrowLiterPerSqm :: 3.6800000667572
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c85f28
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed6b38
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.050000000745058
+2019-01-20 17:31 ----        name :: WHEAT
+2019-01-20 17:31 ----        windrowName :: STRAW
+2019-01-20 17:31 ----        hasWindrow :: true
+2019-01-20 17:31 ----        index :: 1
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c861b0
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c86268
+2019-01-20 17:31 ----        layerName :: wheat
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----    2 :: table: 0x016ad1c86490
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 3
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.95999997854233
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        windrowLiterPerSqm :: 3.6800000667572
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c87b30
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed7238
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.050000000745058
+2019-01-20 17:31 ----        name :: BARLEY
+2019-01-20 17:31 ----        windrowName :: STRAW
+2019-01-20 17:31 ----        hasWindrow :: true
+2019-01-20 17:31 ----        index :: 2
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c87db8
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c87e70
+2019-01-20 17:31 ----        layerName :: barley
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----    3 :: table: 0x016ad1c88100
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 3
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.56999999284744
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        windrowLiterPerSqm :: 3.6800000667572
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c89750
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed7a20
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.050000000745058
+2019-01-20 17:31 ----        name :: OAT
+2019-01-20 17:31 ----        windrowName :: STRAW
+2019-01-20 17:31 ----        hasWindrow :: true
+2019-01-20 17:31 ----        index :: 3
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c899a0
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c89a58
+2019-01-20 17:31 ----        layerName :: oat
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----    4 :: table: 0x016ad1c89ce8
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 3
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.49700000882149
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0edb130
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c8b328
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.050000000745058
+2019-01-20 17:31 ----        name :: COTTON
+2019-01-20 17:31 ----        index :: 4
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c8b5b0
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c8b668
+2019-01-20 17:31 ----        layerName :: cotton
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----    5 :: table: 0x016ad1c8b918
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 4
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.5799999833107
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed8140
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c8cf90
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.019999999552965
+2019-01-20 17:31 ----        name :: CANOLA
+2019-01-20 17:31 ----        index :: 5
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c8d218
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c8d2d0
+2019-01-20 17:31 ----        layerName :: canola
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----    6 :: table: 0x016ad1c8d6f0
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: true
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 4
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.51999998092651
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed8a38
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c8ed68
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: true
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.029999999329448
+2019-01-20 17:31 ----        name :: SUNFLOWER
+2019-01-20 17:31 ----        index :: 6
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c8eff0
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c8f0a8
+2019-01-20 17:31 ----        layerName :: sunflower
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----    7 :: table: 0x016ad1c8f2d0
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 4
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.44999998807907
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed9190
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c90948
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.029999999329448
+2019-01-20 17:31 ----        name :: SOYBEAN
+2019-01-20 17:31 ----        index :: 7
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c90bd0
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c90c88
+2019-01-20 17:31 ----        layerName :: soybean
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----    8 :: table: 0x016ad1c90eb0
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 3
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 0.9200000166893
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0ed98e8
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c92528
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: true
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.03999999910593
+2019-01-20 17:31 ----        name :: MAIZE
+2019-01-20 17:31 ----        index :: 8
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c927b0
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c92868
+2019-01-20 17:31 ----        layerName :: maize
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 6
+2019-01-20 17:31 ----    9 :: table: 0x016ad1c92b90
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 1.5707963267949
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 9
+2019-01-20 17:31 ----        minForageGrowthState :: 9
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 4.1300001144409
+2019-01-20 17:31 ----        minPreparingGrowthState :: 4
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0eda040
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c941d0
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: 9
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: true
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: 6
+2019-01-20 17:31 ----        preparingOutputName :: potato_haulm
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.37999999523163
+2019-01-20 17:31 ----        name :: POTATO
+2019-01-20 17:31 ----        index :: 9
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: true
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c94458
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c94510
+2019-01-20 17:31 ----        layerName :: potato
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 9
+2019-01-20 17:31 ----    10 :: table: 0x016ad1c948c0
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: true
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 9
+2019-01-20 17:31 ----        minForageGrowthState :: 9
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 8
+2019-01-20 17:31 ----        literPerSqm :: 5.7799997329712
+2019-01-20 17:31 ----        minPreparingGrowthState :: 4
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 7
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad0eda9d8
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c95f38
+2019-01-20 17:31 ----        plantsWeed :: true
+2019-01-20 17:31 ----        preparedGrowthState :: 9
+2019-01-20 17:31 ----        lowSoilDensityRequired :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: true
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: 6
+2019-01-20 17:31 ----        preparingOutputName :: sugarBeet_haulm
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.03999999910593
+2019-01-20 17:31 ----        name :: SUGARBEET
+2019-01-20 17:31 ----        index :: 10
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 24000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c961c0
+2019-01-20 17:31 ----        cutState :: 8
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c96278
+2019-01-20 17:31 ----        layerName :: sugarBeet
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 9
+2019-01-20 17:31 ----    11 :: table: 0x016ad1c964a0
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: false
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 2
+2019-01-20 17:31 ----        minForageGrowthState :: 2
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 2
+2019-01-20 17:31 ----        literPerSqm :: 0.99000000953674
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: false
+2019-01-20 17:31 ----        numGrowthStates :: 2
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad1c61d18
+2019-01-20 17:31 ----        plantsWeed :: false
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        lowSoilDensityRequired :: false
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        consumesLime :: false
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.0099999997764826
+2019-01-20 17:31 ----        name :: OILSEEDRADISH
+2019-01-20 17:31 ----        index :: 11
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 36000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c97b88
+2019-01-20 17:31 ----        cutState :: 3
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c97c40
+2019-01-20 17:31 ----        layerName :: oilseedRadish
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 2
+2019-01-20 17:31 ----    12 :: table: 0x016ad1c97e68
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: false
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 4294967295
+2019-01-20 17:31 ----        needsSeeding :: true
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        minForageGrowthState :: 4
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 5
+2019-01-20 17:31 ----        literPerSqm :: 2.8199999332428
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 0
+2019-01-20 17:31 ----        allowsPartialGrowthState :: false
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: true
+2019-01-20 17:31 ----        numGrowthStates :: 5
+2019-01-20 17:31 ----        destruction :: table: 0x016ad1c995b8
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad1c62478
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        plantsWeed :: false
+2019-01-20 17:31 ----        lowSoilDensityRequired :: false
+2019-01-20 17:31 ----        increasesSoilDensity :: true
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        consumesLime :: true
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        name :: POPLAR
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.15000000596046
+2019-01-20 17:31 ----        index :: 12
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 4
+2019-01-20 17:31 ----        groundTypeChanged :: 0
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        growthRequiresLime :: true
+2019-01-20 17:31 ----        growthStateTime :: 72000000
+2019-01-20 17:31 ----        defaultMapColor :: table: 0x016ad1c99840
+2019-01-20 17:31 ----        firstRegrowthState :: 1
+2019-01-20 17:31 ----        colorBlindMapColor :: table: 0x016ad1c998f8
+2019-01-20 17:31 ----        layerName :: poplar
+2019-01-20 17:31 ----        cutState :: 5
+2019-01-20 17:31 ----    13 :: table: 0x016ad1c99ba8
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: 1
+2019-01-20 17:31 ----        destroyedByRoller :: false
+2019-01-20 17:31 ----        useForFieldJob :: false
+2019-01-20 17:31 ----        alignsToSun :: false
+2019-01-20 17:31 ----        shownOnMap :: true
+2019-01-20 17:31 ----        groundTypeChangeMask :: 62
+2019-01-20 17:31 ----        needsSeeding :: false
+2019-01-20 17:31 ----        directionSnapAngle :: 0
+2019-01-20 17:31 ----        minHarvestingGrowthState :: 2
+2019-01-20 17:31 ----        minForageGrowthState :: 2
+2019-01-20 17:31 ----        witheringNumGrowthStates :: 4
+2019-01-20 17:31 ----        literPerSqm :: 4.3699998855591
+2019-01-20 17:31 ----        minPreparingGrowthState :: -1
+2019-01-20 17:31 ----        startSprayState :: 1
+2019-01-20 17:31 ----        allowsPartialGrowthState :: true
+2019-01-20 17:31 ----        allowsSeeding :: true
+2019-01-20 17:31 ----        numStateChannels :: 4
+2019-01-20 17:31 ----        regrows :: true
+2019-01-20 17:31 ----        numGrowthStates :: 4
+2019-01-20 17:31 ----        windrowLiterPerSqm :: 4.3699998855591
+2019-01-20 17:31 ----        seedUsagePerSqm :: 0.029999999329448
+2019-01-20 17:31 ----        lowSoilDensityRequired :: false
+2019-01-20 17:31 ----        startStateChannel :: 0
+2019-01-20 17:31 ----        fillType :: table: 0x016ad1c62bd8
+2019-01-20 17:31 ----        increasesSoilDensity :: false
+2019-01-20 17:31 ----        plantsWeed :: false
+2019-01-20 17:31 ----        preparedGrowthState :: -1
+2019-01-20 17:31 ----        maxPreparingGrowthState :: -1
+2019-01-20 17:31 ----        missionMultiplier :: 1
+2019-01-20 17:31 ----        consumesLime :: false
+2019-01-20 17:31 ----        resetsSpray :: true
+2019-01-20 17:31 ----        maxHarvestingGrowthState :: 3
+2019-01-20 17:31 ----        name :: GRASS
+2019-01-20 17:31 ----        windrowName :: GRASS_WINDROW
+2019-01-20 17:31 ----        hasWindrow :: true
+2019-01-20 17:31 ----        index :: 13
+2019-01-20 17:31 ----        groundTypeChanged :: 5
+2019-01-20 17:31 ----        useSeedingWidth :: false
+2019-01-20 17:31 ----        groundTypeChangeGrowthState :: -1
+2019-01-20 17:31 ----        destroyedByRoller :: true
+2019-01-20 17:31 ----        useForFieldJob :: false
+2019-01-20 17:31 ----        alignsToSun :: false

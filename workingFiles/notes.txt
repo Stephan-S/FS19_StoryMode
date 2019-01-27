@@ -1,2 +1,9 @@
-2019-01-21 11:07 ----    fieldCropsUpdaters :: table: 0x0256f1a783f8
-2019-01-21 11:07 ----        fruit_density :: table: 0x0256effd4490
+Variables to check and reead:
+
+g_currentMission.vehicles
+g_currentMission.players
+g_currentMission.inGameMenu.baseIngameMap
+g_currentMission.shopMenu.playerFarm
+
+				fieldCropsUpdaters :: table: 0x01fadc6b94a8
+				2019-01-13 14:23 ----    fruit_density :: table: 0x01fade431930

@@ -1,0 +1,252 @@
+2019-01-19 11:26 ____-----------------g_currentMission.shopMenu.playerFarm---------------------___-------------------______________!!!!!!!!!!!!!
+2019-01-19 11:26 ----id :: 5
+2019-01-19 11:26 ----contractingFor :: table: 0x025b9644d980
+2019-01-19 11:26 ----isServer :: true
+2019-01-19 11:26 ----isRegistered :: true
+2019-01-19 11:26 ----players :: table: 0x025ba681fcf8
+2019-01-19 11:26 ----    1 :: table: 0x025ba681fc00
+2019-01-19 11:26 ----        lastNickname :: Stephan
+2019-01-19 11:26 ----        permissions :: table: 0x025ba681fc48
+2019-01-19 11:26 ----        isFarmManager :: true
+2019-01-19 11:26 ----        userId :: 1
+2019-01-19 11:26 ----        uniqueUserId :: player
+2019-01-19 11:26 ----ownerFarmId :: 0
+2019-01-19 11:26 ----farmMoneyDirtyFlag :: 1
+2019-01-19 11:26 ----isClient :: true
+2019-01-19 11:26 ----color :: 1
+2019-01-19 11:26 ----lastMoneySent :: 1250000
+2019-01-19 11:26 ----stats :: table: 0x025b9644c410
+2019-01-19 11:26 ----    statistics :: table: 0x025b9644d028
+
+2019-01-19 11:29 ____-----------------g_currentMission.shopMenu.playerFarm.stats.statistics---------------------___-------------------______________!!!!!!!!!!!!!
+2019-01-19 11:29 ----weededHectares :: table: 0x028dd4ebce08
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----sownHectares :: table: 0x028dd4ebcf60
+2019-01-19 11:29 ----    total :: 0.72132498025894
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----sprayedHectares :: table: 0x028dd4ebd178
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----fertilizedTime :: table: 0x028de2686678
+2019-01-19 11:29 ----    total :: 2.8145360946655
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----seedUsage :: table: 0x028dd4ebd0e8
+2019-01-19 11:29 ----    total :: 360.66250610352
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----cultivatedTime :: table: 0x028de26865a0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----revenue :: table: 0x028de2686ae8
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----fieldJobMissionCount :: table: 0x028de2686c50
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----plowedTime :: table: 0x028de26865e8
+2019-01-19 11:29 ----    total :: 6.255952835083
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----workedHectares :: table: 0x028dd4ebd228
+2019-01-19 11:29 ----    total :: 2.5799000263214
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----expenses :: table: 0x028de2686b30
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----fertilizedHectares :: table: 0x028dd4ebcfa8
+2019-01-19 11:29 ----    total :: 1.1347750425339
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----breedSheepCount :: table: 0x028de2686a10
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----breedHorsesCount :: table: 0x028de2686aa0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----sprayedTime :: table: 0x028de2686460
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----fuelUsage :: table: 0x028dd4ebcd40
+2019-01-19 11:29 ----    total :: 25.814826965332
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----playTime :: table: 0x028de2686b78
+2019-01-19 11:29 ----    total :: 214.84874412521
+2019-01-19 11:29 ----    session :: 0.03334495528539
+2019-01-19 11:29 ----storageCapacity :: table: 0x028de2686c08
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----weededTime :: table: 0x028de26864a8
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----windTurbineCount :: table: 0x028de2686828
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----treeTypesCut :: 000000
+2019-01-19 11:29 ----cutTreeCount :: table: 0x028de2686750
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----woodTonsSold :: table: 0x028de2686798
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----breedChickenCount :: table: 0x028de2686a58
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----plantedTreeCount :: table: 0x028de2686708
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----baleCount :: table: 0x028de26864f0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----threshedHectares :: table: 0x028dd4ebcff0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----plowedHectares :: table: 0x028dd4ebcf18
+2019-01-19 11:29 ----    total :: 0.72380000352859
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----sprayUsage :: table: 0x028dd4ebd130
+2019-01-19 11:29 ----    total :: 486.35189819336
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----breedCowsCount :: table: 0x028de2686538
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----workedTime :: table: 0x028dd4ebce50
+2019-01-19 11:29 ----    total :: 13.360571861267
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----breedPigsCount :: table: 0x028de26869c8
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----cultivatedHectares :: table: 0x028dd4ebced0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----transportMissionCount :: table: 0x028de26866c0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----threshedTime :: table: 0x028de2686418
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----traveledDistance :: table: 0x028dd4ebd1e0
+2019-01-19 11:29 ----    total :: 9.4108657836914
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----sownTime :: table: 0x028de2686630
+2019-01-19 11:29 ----    total :: 7.1046199798584
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----fieldJobMissionByNPC :: table: 0x028de2686c98
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+2019-01-19 11:29 ----workersHired :: table: 0x028de2686bc0
+2019-01-19 11:29 ----    total :: 0
+2019-01-19 11:29 ----    session :: 0
+
+
+2019-01-19 11:26 ----        weededHectares :: table: 0x025b9644d138
+2019-01-19 11:26 ----        sownHectares :: table: 0x025b9644d290
+2019-01-19 11:26 ----        sprayedHectares :: table: 0x025b9644d4a8
+2019-01-19 11:26 ----        fertilizedTime :: table: 0x025ba681b9f8
+2019-01-19 11:26 ----        seedUsage :: table: 0x025b9644d418
+2019-01-19 11:26 ----        cultivatedTime :: table: 0x025ba681b920
+2019-01-19 11:26 ----        revenue :: table: 0x025ba681be68
+2019-01-19 11:26 ----        fieldJobMissionCount :: table: 0x025ba681bfd0
+2019-01-19 11:26 ----        plowedTime :: table: 0x025ba681b968
+2019-01-19 11:26 ----        workedHectares :: table: 0x025b9644d558
+2019-01-19 11:26 ----        expenses :: table: 0x025ba681beb0
+2019-01-19 11:26 ----        fertilizedHectares :: table: 0x025b9644d2d8
+2019-01-19 11:26 ----        breedSheepCount :: table: 0x025ba681bd90
+2019-01-19 11:26 ----        breedHorsesCount :: table: 0x025ba681be20
+2019-01-19 11:26 ----        sprayedTime :: table: 0x025ba681b7e0
+2019-01-19 11:26 ----        fuelUsage :: table: 0x025b9644d070
+2019-01-19 11:26 ----        playTime :: table: 0x025ba681bef8
+2019-01-19 11:26 ----        storageCapacity :: table: 0x025ba681bf88
+2019-01-19 11:26 ----        weededTime :: table: 0x025ba681b828
+2019-01-19 11:26 ----        windTurbineCount :: table: 0x025ba681bba8
+2019-01-19 11:26 ----        treeTypesCut :: 000000
+2019-01-19 11:26 ----        cutTreeCount :: table: 0x025ba681bad0
+2019-01-19 11:26 ----        woodTonsSold :: table: 0x025ba681bb18
+2019-01-19 11:27 ----        breedChickenCount :: table: 0x025ba681bdd8
+2019-01-19 11:27 ----        plantedTreeCount :: table: 0x025ba681ba88
+2019-01-19 11:27 ----        baleCount :: table: 0x025ba681b870
+2019-01-19 11:27 ----        threshedHectares :: table: 0x025b9644d320
+2019-01-19 11:27 ----        plowedHectares :: table: 0x025b9644d248
+2019-01-19 11:27 ----        sprayUsage :: table: 0x025b9644d460
+2019-01-19 11:27 ----        breedCowsCount :: table: 0x025ba681b8b8
+2019-01-19 11:27 ----        workedTime :: table: 0x025b9644d180
+2019-01-19 11:27 ----        breedPigsCount :: table: 0x025ba681bd48
+2019-01-19 11:27 ----        cultivatedHectares :: table: 0x025b9644d200
+2019-01-19 11:27 ----        transportMissionCount :: table: 0x025ba681ba40
+2019-01-19 11:27 ----        threshedTime :: table: 0x025ba681b798
+2019-01-19 11:27 ----        traveledDistance :: table: 0x025b9644d510
+2019-01-19 11:27 ----        sownTime :: table: 0x025ba681b9b0
+2019-01-19 11:27 ----        fieldJobMissionByNPC :: table: 0x025ba681c018
+2019-01-19 11:27 ----        workersHired :: table: 0x025ba681bf40
+2019-01-19 11:27 ----    financesHistoryVersionCounterLocal :: 0
+2019-01-19 11:27 ----    finances :: table: 0x025ba681e1b0
+2019-01-19 11:27 ----        soldBuildings :: 0
+2019-01-19 11:27 ----        harvestIncome :: 0
+2019-01-19 11:27 ----        newAnimalsCost :: 0
+2019-01-19 11:27 ----        purchaseSaplings :: 0
+2019-01-19 11:27 ----        soldVehicles :: 0
+2019-01-19 11:27 ----        soldWood :: 0
+2019-01-19 11:27 ----        purchaseFuel :: 0
+2019-01-19 11:27 ----        vehicleRunningCost :: 0
+2019-01-19 11:27 ----        soldBales :: 0
+2019-01-19 11:27 ----        purchaseWater :: 0
+2019-01-19 11:27 ----        propertyMaintenance :: 0
+2019-01-19 11:27 ----        loanInterest :: 0
+2019-01-19 11:27 ----        other :: 0
+2019-01-19 11:27 ----        soldAnimals :: 0
+2019-01-19 11:27 ----        constructionCost :: 0
+2019-01-19 11:27 ----        fieldSelling :: 0
+2019-01-19 11:27 ----        missionIncome :: 0
+2019-01-19 11:27 ----        newVehiclesCost :: -765100
+2019-01-19 11:27 ----        wagePayment :: 0
+2019-01-19 11:27 ----        soldWool :: 0
+2019-01-19 11:27 ----        purchaseFertilizer :: 0
+2019-01-19 11:27 ----        soldMilk :: 0
+2019-01-19 11:27 ----        incomeBga :: 0
+2019-01-19 11:27 ----        propertyIncome :: 0
+2019-01-19 11:27 ----        purchaseSeeds :: 0
+2019-01-19 11:27 ----        vehicleLeasingCost :: 0
+2019-01-19 11:27 ----        animalUpkeep :: 0
+2019-01-19 11:27 ----        fieldPurchase :: 0
+2019-01-19 11:27 ----    moneyEarnedHeroAccum :: 0
+2019-01-19 11:27 ----    heroStats :: table: 0x025ba681bce8
+2019-01-19 11:27 ----        completedMissions :: table: 0x025ba681c7a8
+2019-01-19 11:27 ----        threshedHectares :: table: 0x025ba681c7f0
+2019-01-19 11:27 ----        traveledDistance :: table: 0x025ba681c6f8
+2019-01-19 11:27 ----        moneyEarned :: table: 0x025ba681c6b0
+2019-01-19 11:27 ----        playTime :: table: 0x025ba681c668
+2019-01-19 11:27 ----    heroStatsLoaded :: false
+2019-01-19 11:27 ----    financesHistory :: table: 0x025ba681bc38
+2019-01-19 11:27 ----        1 :: table: 0x025ba681ee60
+2019-01-19 11:27 ----    financesHistoryVersionCounter :: 0
+2019-01-19 11:27 ----    financesVersionCounter :: 0
+2019-01-19 11:27 ----    nextHeroAccumUpdate :: 0
+2019-01-19 11:27 ----activeUsers :: table: 0x025b9644d938
+2019-01-19 11:27 ----    1 :: table: 0x025ba681fc00
+2019-01-19 11:27 ----        lastNickname :: Stephan
+2019-01-19 11:27 ----        permissions :: table: 0x025ba681fc48
+2019-01-19 11:27 ----        isFarmManager :: true
+2019-01-19 11:27 ----        userId :: 1
+2019-01-19 11:27 ----        uniqueUserId :: player
+2019-01-19 11:27 ----isSpectator :: false
+2019-01-19 11:27 ----loanAnnualInterestRate :: 200
+2019-01-19 11:27 ----money :: 2256951.75
+2019-01-19 11:27 ----loan :: 250000
+2019-01-19 11:27 ----dirtyMask :: 0
+2019-01-19 11:27 ----userIdToPlayer :: table: 0x025b9644d8f0
+2019-01-19 11:27 ----    1 :: table: 0x025ba681fc00
+2019-01-19 11:27 ----        lastNickname :: Stephan
+2019-01-19 11:27 ----        permissions :: table: 0x025ba681fc48
+2019-01-19 11:27 ----        isFarmManager :: true
+2019-01-19 11:27 ----        userId :: 1
+2019-01-19 11:27 ----        uniqueUserId :: player
+2019-01-19 11:27 ----nextDirtyFlag :: 2
+2019-01-19 11:27 ----uniqueUserIdToPlayer :: table: 0x025b9644d5a0
+2019-01-19 11:27 ----    player :: table: 0x025ba681fc00
+2019-01-19 11:27 ----        lastNickname :: Stephan
+2019-01-19 11:27 ----        permissions :: table: 0x025ba681fc48
+2019-01-19 11:27 ----        isFarmManager :: true
+2019-01-19 11:27 ----        userId :: 1
+2019-01-19 11:27 ----        uniqueUserId :: player
+2019-01-19 11:27 ----handTools :: table: 0x025b9644d9c8
+2019-01-19 11:27 ----loanMax :: 500000
+2019-01-19 11:27 ----deleteListeners :: table: 0x025b9644d0f0
+2019-01-19 11:27 ----name :: Meine Farm
+2019-01-19 11:27 ----farmId :: 1

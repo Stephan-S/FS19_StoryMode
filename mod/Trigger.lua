@@ -106,7 +106,7 @@ end;
 function Trigger:checkStatReached(statistic, value)
     value = tonumber(value);
     currentValue = self:getStatisticValue(statistic);
-    --print("Stat value: " .. currentValue .. " required: " .. value);
+    print("Stat value: " .. currentValue .. " required: " .. value);
 
     return currentValue >= value;
 end;
@@ -115,6 +115,7 @@ function Trigger:getStatisticValue(statistic)
     --ToDo!
     for _,farm in pairs(g_farmManager.farms) do
         if farm.players[1] ~= nil then
+            --DebugUtil.printTableRecursively(farm.stats.statistics, "----", 0,1);
             return farm.stats.statistics[statistic].total;
 		end;
 	end;
@@ -171,6 +172,30 @@ function Trigger:checkPlayerInRange()
         positionBounds["z"] = tonumber(playerPosField[2]);
         positionBounds["radius"] = tonumber(playerPosField[3]);
 
+        local objectId = nil;
+        for _,player in pairs(g_currentMission.players) do
+            objectId = player.rootNode;
+        end;
+
+        local node = createTransformGroup("MissionMarker");
+        setTranslation(node, positionBounds["x"],0 , positionBounds["z"]);
+					
+        if self.hotspotcreated == nil then 
+            local hotspot = MapHotspot:new("Mission", MapHotspot.CATEGORY_DEFAULT)
+            hotspot:setText("Text", true);
+            imageFilename = StoryMode.directory .. "img/" .. "mayorTom.dds";
+            imageUVs = MapHotspot.UV["CIRCLE"]
+            imageUVs = getNormalizedUVs(imageUVs)
+            hotspot:setBorderedImage(imageFilename, imageUVs, StringUtil.getVectorNFromString("1,1,1,1"));
+            hotspot:setLinkedNode(node)
+            hotspot:setPersistent(true) 
+            hotspot:setBlinking(true)
+            g_currentMission:addMapHotspot(hotspot);
+
+            StoryMode:addHotSpot(hotspot);
+            self.hotspotcreated = true;
+        end;
+
         local x,z = self:getPlayerPos();
 
         local dist = math.sqrt(math.pow(x-positionBounds["x"],2) + math.pow(z-positionBounds["z"],2) );
@@ -182,14 +207,19 @@ function Trigger:checkPlayerInRange()
 end;
 
 function Trigger:getPlayerPos()
-    --ToDo: test;
     local x = 0;
     local z = 0;
-    for _,player in pairs(g_currentMission.players) do
-        x = player.baseInformation.lastPositionX;
-        print("x: " .. x);
-        z = player.baseInformation.lastPositionZ;
-        print("z: " .. z);
+
+    local x,y,z = g_currentMission.player:getPositionData()
+	if x == 0 and z == 0 then
+        for _,vehicle in pairs(g_currentMission.vehicles) do
+            if vehicle.spec_enterable ~= nil then
+                if vehicle.spec_enterable.isControlled == true then
+                    local x,y,z = getWorldTranslation(vehicle.rootNode);
+                    --print("Vehicle pos: " .. x .. "/" .. z);
+                end;
+            end;
+        end;
     end;
 
     return x,z;
@@ -208,6 +238,12 @@ function Trigger:checkFieldStatus()
         end;
         if fieldStatusStringSplitted[4] ~= nil then
             self.fieldTargetFruitGrowth = tonumber(fieldStatusStringSplitted[4]);
+        end;
+        if fieldStatusStringSplitted[5] ~= nil then
+            self.fieldTargetFruitPercentage = tonumber(fieldStatusStringSplitted[5]);
+        end;
+        if fieldStatusStringSplitted[6] ~= nil then
+            self.fieldTargetFruitPercentageSmaller = fieldStatusStringSplitted[6] == "<";
         end;
 
         return self:checkFieldForStatus();
@@ -252,11 +288,19 @@ function Trigger:checkFieldForStatus()
             local fieldArea = 0;
             local fruits = {};
             local fruitPixels = {};
+            local weedFactor = 0;
+            local cultivatorFactor = 0;
+            local plowFactor = 0;
 
             for currentPartition = 1, self.fieldPartitionCount, 1 do
                 for part=1,2 do
                     if self.fieldPartitions[currentPartition][part].fieldData ~= nil then
                         local data = self.fieldPartitions[currentPartition][part].fieldData;
+
+                        weedFactor = (weedFactor * fieldArea + data.weedFactor * data.fieldArea) / (fieldArea + data.fieldArea)
+                        cultivatorFactor = (cultivatorFactor * fieldArea + data.cultivatorFactor * data.fieldArea) / (fieldArea + data.fieldArea)
+                        plowFactor = (plowFactor * fieldArea + data.plowFactor * data.fieldArea) / (fieldArea + data.fieldArea)
+
                         fieldArea = fieldArea + data.fieldArea
                         for _,growthState in pairs(data.fruits) do
                             if fruits[_] == nil then
@@ -279,15 +323,56 @@ function Trigger:checkFieldForStatus()
             --print("FieldArea: " .. fieldArea .. " fruitPixels[" .. self.fieldTargetFruit .. "]: " .. fruitPixels[self.fieldTargetFruit]);
 
             if self.fieldTargetStatus == "sown" then
-                if fruitPixels[self.fieldTargetFruit] >= (0.9 * fieldArea) then
-                    if fruits[self.fieldTargetFruit] >= self.fieldTargetFruitGrowth then
-                        self.alreadyFulfilled = true;
-                        --print("Trigger - fieldStatus - fulfilled");
-                        return true;
+                local target = 0.9 * fieldArea;
+                if self.fieldTargetFruitPercentage ~= nil then
+                    target = self.fieldTargetFruitPercentage * fieldArea;
+                    --print("Target set to: " .. target .. " percentage = " .. self.fieldTargetFruitPercentage);
+                end;
+                print("Target set to: " .. target);
+                
+                if fruitPixels[self.fieldTargetFruit] ~= nil then
+                    
+                    print("fruitPixels[self.fieldTargetFruit] ~= nil: " .. fruitPixels[self.fieldTargetFruit] );
+                    local areaAsDesired = false;
+                    if self.fieldTargetFruitPercentageSmaller and fruitPixels[self.fieldTargetFruit] <= target then
+                        areaAsDesired = true;
+                    end;
+                    if fruitPixels[self.fieldTargetFruit] >= target then
+                        areaAsDesired = true;
+                    end;
+                    if areaAsDesired == true then
+                        print("areaAsDesired == true");
+                        if fruits[self.fieldTargetFruit] >= self.fieldTargetFruitGrowth then
+                            self.alreadyFulfilled = true;
+                            print("Trigger - fieldStatus - fulfilled");
+                            return true;
+                        end;
                     end;
                 end;
             end;
 
+            if self.fieldTargetStatus == "weed" then
+                local target = 0.9;
+                if self.fieldTargetFruitPercentage ~= nil then
+                    target = self.fieldTargetFruitPercentage;
+                    --print("Target set to: " .. target .. " percentage = " .. self.fieldTargetFruitPercentage);
+                end;
+                print("Target set to: " .. target);
+
+                local areaAsDesired = false;
+                if self.fieldTargetFruitPercentageSmaller and weedFactor <= target then
+                    areaAsDesired = true;
+                end;
+                if weedFactor >= target and not self.fieldTargetFruitPercentageSmaller then
+                    areaAsDesired = true;
+                end;
+
+                if areaAsDesired then
+                    self.alreadyFulfilled = true;
+                    print("Trigger - fieldStatus - fulfilled");
+                    return true;
+                end;
+            end;
         end;
 
         for currentPartition = 1, self.fieldPartitionCount, 1 do            
@@ -334,11 +419,10 @@ function Trigger:onFieldDataUpdateFinished(fieldData, partition, part)
 end;
 
 function Trigger:checkTimePassed()
-    local time = self.timePassed;
+    local time = tonumber(self.timePassed);
     if StoryMode.timeSinceLastTrigger >= time then
         return true;
     else
-        return false;
-        
+        return false;        
     end;
 end;

@@ -4,6 +4,7 @@
         <story_1>
             <titleText>Introductions</titleText>
             <storyText>Hello there buddy. My name is Thomas Witherfield and I am the mayor of Felsbrunn! I heard you are interested in starting a farm here. Here is the deal: I offer you a starter loan and in exchange you are going to follow my plans. See, i have a vision in my mind of how we can make Felsbrunn so much more attractive to tourists and turn the fields around here into a beautiful scenery of growing plants of all variety and animals living in free range. Do you accept?</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>0</triggerCount>
@@ -16,10 +17,11 @@
         <story_2>
             <titleText>Buy your first patch of land</titleText>
             <storyText>Hello there buddy. I am glad you accepted my proposal. So let's get started, we have so much work ahead of us. Felsbrunn will become the greatest town. I am so glad I finally found someone willing to put in all the work. Let us start of by buying a patch of land to build you a farmhouse on. I would suggest field number 20, it has a lot of space for buildings and is not to expensive. And if you take this part of land, I will even help you out with 200.00€. How does that sound?</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>2</triggerCount>
-                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:29" />
+                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:31" />
                 <trigger_2 triggerType="propertyOwned"  triggerSticks="false" triggerAttributes="propertyName:FarmhousePlaceable" />
             </triggers_1>
             <bonus_1>
@@ -29,22 +31,34 @@
         </story_2>
         <story_3>
             <titleText>How about some machinery</titleText>
-            <storyText>Now that you own the field and have a place to rest for the night, I think you should have a look around at the shop and invest in your first machinery. For starters you should buy at least one tractor, a plough or a grubber, and a sowing machine. With this equipment you can start taking care of the new field. Once you are done with this, we can start looking for tools to fertilize and take care of your crop and land. Also we will deal with getting you ready for the harvest later on. For now just buy everything you need for sowing first.</storyText>
-            <storyOptions>1</storyOptions>
+            <storyText>Now that you own the field and have a place to rest for the night, I think you should have a look around at the shop and invest in your first machinery. For starters you should buy at least two tractors, a plough or a cultivator, and a sowing machine. With this equipment you can start taking care of the new field. Once you are done with this, we can start looking for tools to fertilize and take care of your crop and land. Also we will deal with getting you ready for the harvest later on. For now just buy everything you need for sowing first: At least 2 tractors, one seeder and either a plow or a cultivator.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
+            <storyOptions>2</storyOptions>
             <triggers_1>
                 <triggerCount>3</triggerCount>
                 <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:TRACTORS-2" />
                 <trigger_2 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:SEEDERS-1" />
                 <trigger_3 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:PLOWS-1" />
             </triggers_1>
+            <triggers_2>
+                <triggerCount>3</triggerCount>
+                <trigger_1 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:TRACTORS-2" />
+                <trigger_2 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:SEEDERS-1" />
+                <trigger_3 triggerType="machineryOwned"  triggerSticks="false" triggerAttributes="vehicleType:CULTIVATORS-1" />
+            </triggers_2>
             <bonus_1>
                 <money>0</money>
             </bonus_1>
+            <bonus_2>
+                <money>0</money>
+            </bonus_2>
             <nextStoryPart_1>4</nextStoryPart_1>
+            <nextStoryPart_2>4</nextStoryPart_2>
         </story_3>
         <story_4>
             <titleText>Plough and sow</titleText>
             <storyText>We will talk again when you are done ploughing and sowing the field. I would prefer if you could start with wheat. If you do that, I will come see you again and maybe even reward you with some money gain. For now, I have some other business to attend to, see you later</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
@@ -58,19 +72,30 @@
         <story_5>
             <titleText>Fertilize</titleText>
             <storyText>Now that you have sown the field. Go back to the shop and buy yourself something to fertilize the field and don't forget to get something against the growing weed. This could really diminish your harvest otherwise</storyText>
-            <storyOptions>1</storyOptions>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
+            <storyOptions>2</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fertilizedHectares-0.64" />
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:weededHectares-0.64" />
             </triggers_1>
+            <triggers_2>
+                <triggerCount>2</triggerCount>
+                <trigger_1 triggerType="fieldStatus"  triggerSticks="true" triggerAttributes="fieldStatus:20-weed-16-1-0.9" />
+                <trigger_2 triggerType="fieldStatus"  triggerSticks="false" triggerAttributes="fieldStatus:20-weed-16-1-0.1-<" />
+            </triggers_2>
             <bonus_1>
                 <money>20000</money>
             </bonus_1>
+            <bonus_2>
+                <money>20000</money>
+            </bonus_2>
             <nextStoryPart_1>6</nextStoryPart_1>
+            <nextStoryPart_2>6</nextStoryPart_2>
         </story_5>
         <story_6>
             <titleText>Wait for your harvest</titleText>
-            <storyText>Hey there, now you can sit back and wait for the wheat to grow. You might have to weed it out, so be aware of that! I would really appreaciate it if we could meet in person. I'm going to visit the castle today, please come see me up there.</storyText>
+            <storyText>Hey there, now you can sit back and wait for the wheat to grow. I would really appreaciate it if we could meet in person. I'm going to visit the castle today, please come see me up there. Oh and I put some money in your account so you can save up for the upcoming expansion of your farm.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>2</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
@@ -78,20 +103,21 @@
             </triggers_1>
             <triggers_2>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-60/300/40" />
+                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-219/458/10" />
             </triggers_2>
             <bonus_1>
                 <money>200000</money>
             </bonus_1>
-            <bonus_1>
-                <money>10000</money>
-            </bonus_1>
+            <bonus_2>
+                <money>100000</money>
+            </bonus_2>
             <nextStoryPart_1>8</nextStoryPart_1>
-            <nextStoryPart_1>7</nextStoryPart_1>
+            <nextStoryPart_2>7</nextStoryPart_2>
         </story_6>
         <story_7>
             <titleText>Personal meeting</titleText>
             <storyText>Nice to meet you buddy. I just love this place. The view from up here is just great. Now come over here and have a look at your very own and very new farm. Isn't it beautiful? Well, if we continue with our plan, you might be looking at a lot more property down the road. Remember, I want you to really turn this land around. I wanna see all kinds of farm animals living in these fields. It's just to dull here right now. There is so much more potential here. My Hotel could really benefit from a more diverse agriculture and the tourists that would come visit. I'm glad we are on the same page here. Unlike some of the other farmers here who really want to keep this land as natural as possible. That just wont work as a tourist magnet. Well enough chit chat. I am sure you wanna go back and attend your farm. See you around. And here, take these 100 grand. You will need it if we want to expand your farm!</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
@@ -104,11 +130,12 @@
         </story_7>
         <story_8>
             <titleText>Disappointed</titleText>
-            <storyText>I am a little disappointed you didn't come to see me at the castle yesterday. Well anyhow, now that you are done harvesting your first field, I am sure you are interested in your first expansion, am I right? I think the next best option is field number x. It is owned by Micheal and he is not a fan of our toursim project. So let's make sure we are take control of this part of the land! Since you have't made enough money with this one harvest to purchase a new field, I will help you out and loan you some money to purchase field x. Take the 200.000€.</storyText>
+            <storyText>I am a little disappointed you didn't come to see me at the castle yesterday. Well anyhow, now that you are done harvesting your first field, I am sure you are interested in your first expansion, am I right? I think the next best option is field number 19. It is owned by Micheal and he is not a fan of our toursim project. So let's make sure we are take control of this part of the land! Since you have't made enough money with this one harvest to purchase a new field, I will help you out and loan you some money to purchase field 19. Take the 200.000€.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:31" />
+                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:30" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -117,11 +144,12 @@
         </story_8>
         <story_9>
             <titleText>Good job</titleText>
-            <storyText>Now that you are done harvesting your first field, I am sure you are interested in your first expansion, am I right? I think the next best option is field number x. It is owned by Micheal and he is not a fan of our toursim project. So let's make sure we are take control of this part of the land! Since you have't made enough money with this one harvest to purchase a new field, I will help you out and loan you some money to purchase field x. Take the 200.000€.</storyText>
+            <storyText>Now that you are done harvesting your first field, I am sure you are interested in your first expansion, am I right? I think the next best option is field number 19. It is owned by Micheal and he is not a fan of our toursim project. So let's make sure we are taking control of this part of the land! Since you have't made enough money with this one harvest to purchase a new field, I will help you out and loan you some money to purchase field 19. Take the 200.000€.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:31" />
+                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:30" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -131,6 +159,7 @@
         <story_10>
             <titleText>Get busy</titleText>
             <storyText>Great purchase. Now make use of that land. Don't forget to use enough fertilizer to get a good yield out of it. Unlike Micheal, the previous owner, we don't care about the ground water, so get going. Call me when you have harvested at least 5 hectares! Then we can continue growing you farm!</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
@@ -143,11 +172,12 @@
         </story_10> 
         <story_11>
             <titleText>A small favor</titleText>
-            <storyText>Ok, good work on the field. Be sure to sell all your product at the highest price! \n Could you help me out with something? I don't own a trailer myself, but I could really use one. Could you lend me one today? Just get it over here. I send you the location to your phone</storyText>
+            <storyText>Ok, good work on the field. Be sure to sell all your product at the highest price! Could you help me out with something? I don't own a trailer myself, but I could really use one. Could you lend me one today? Just get it over here. I send you the location to your phone</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-60/300/40" />
+                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-616/719/3" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -157,24 +187,26 @@
         <story_12>
             <titleText>Thank you</titleText>
             <storyText>Are you there yet? Great! Just leave the trailer exactly there, I will call you when you I'm done, thanks</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
             </triggers_1>
             <bonus_1>
-                <money>0</money>
+                <money>200000</money>
             </bonus_1>
             <nextStoryPart_1>13</nextStoryPart_1>
         </story_12>   
         <story_13>
             <titleText>Unfortunate</titleText>
-            <storyText>Oh no, there has been a tragic accident. You left your trailer exactly in the path of Micheal's drive home from his second job as a nurse in the city. He came back home, probably very tired and did not see your trailer in the middle of the road! Well at least it was quick. I am sure his wife and the three kids will find solace in that. \n I really think we should help them out. They can't possibly take care of the rest of Micheals fields. So we should offer to buy them at a reasonable price, now that Micheal no longer needs them. Go ahead and purchase field y and z. Oh and come pick up your trailer again.</storyText>
+            <storyText>Oh no, there has been a tragic accident. You left your trailer exactly in the path of Micheal's drive home from his second job as a nurse in the city. He came back home, probably very tired and did not see your trailer in the middle of the road! Well at least it was quick. I am sure his wife and the three kids will find solace in that. I really think we should help them out. They can't possibly take care of the rest of Micheals fields. So we should offer to buy them at a reasonable price, now that Micheal no longer needs them. Go ahead and purchase field 17 and 18. I will again lend you some additional money for that. I guess 200.000€ should do it. I am sure you can come up with the rest. Oh and come pick up your trailer again.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>2</triggerCount>
-                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:30" />
-                <trigger_2 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:32" />
+                <trigger_1 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:29" />
+                <trigger_2 triggerType="fieldOwned"     triggerSticks="false" triggerAttributes="farmLandID:28" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -184,6 +216,7 @@
         <story_14>
             <titleText>Get busy again</titleText>
             <storyText>Ok, I am sure you have enough work to do for now. You might want to invest in somer more or larger equipment to work the four fields you own now. When you are comfortable with the work, we can talk about adding husbandry to your farm. Maybe some pigs to start with. But for now, just keep working and call me when you are done with at least 20 hectares, ok. See you later.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
@@ -197,10 +230,11 @@
         <story_15>
             <titleText>Time for your next expansion</titleText>
             <storyText>Ok, now that you are obviously handling your fields well, I think you should start investing into husbandry. We need animals, and especially cute, free range animals to draw in the tourists! I think the easiest start for now would be to start with pigs. They are easy to feed and take care of. But you need more field for that. Hmmm, let's see there are some intereting fields out there, but they are not for sale by their current owners for now. Let me think about our next move. I will call you again in a few hours, just keep working for now!</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -210,14 +244,15 @@
         <story_16>
             <titleText>Another favor</titleText>
             <storyText>Looks like I could really need your trailer again. I have some good use for it. I send you another location to your phone. Just park the trailer over there, ok? And don't think twice why I would need that trailer at exactly this location, ok? Just keep thinking about expanding your farm and purchasing new property! And hurry up, you only have 5 minutes to get there!</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>2</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:-60/300/40" />
+                <trigger_1 triggerType="playerInRange" triggerSticks="true" triggerAttributes="playerPos:822/-340/3" />
             </triggers_1>
             <triggers_2>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:300" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:30" />
             </triggers_2>
             <bonus_1>
                 <money>0</money>
@@ -231,10 +266,11 @@
         <story_17>
             <titleText>Perfect spot</titleText>
             <storyText>Alright, alright, just leave the trailer right there! Thank you. I will call you again when it has served it's purpose.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -243,11 +279,12 @@
         </story_17>  
         <story_18>
             <titleText>Arrested</titleText>
-            <storyText>Hello farmer, my name is Ann. I found your trailer, parked in the middle of the road .. again! Please come pick it up. There has almot been an accident again. This time it was David, the farmer of field x,y and z. Why was your trailer parked in the middle of the road? Haven't you learned from that last terrible accident? \n What? Mayor Tom asked you to put your trailer in these exact locations? And you really thought this was a good idea? What were you thinking? I will have to call the police! This was murder and an attempted murder! I really hope you did not know wat he was up to.</storyText>
+            <storyText>Hello farmer, my name is Ann. I found your trailer, parked in the middle of the road .. again! Please come pick it up. There has almot been an accident again. This time it was David, the farmer of field x,y and z. Why was your trailer parked in the middle of the road? Haven't you learned from that last terrible accident? What? Mayor Tom asked you to put your trailer in these exact locations? And you really thought this was a good idea? What were you thinking? I will have to call the police! This was murder and an attempted murder! I really hope you did not know wat he was up to.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -257,10 +294,11 @@
         <story_19>
             <titleText>Arrested</titleText>
             <storyText>Hello farmer, Ann here again. I passed your information to the police and they seemed satisfied that this was all Mayor Tom's plan. You are off the hook. I can't believe how they were so easily convinced but then again, this is just th countryside and not the big city so they do not have much experience with these situations and were probably happy to have the suspect delivered to them.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -270,10 +308,11 @@
         <story_20>
             <titleText>Arrested</titleText>
             <storyText>Hello farmer,my name is Ann. Thank you for telling me about Mayor Tom's plans. I called the police and they immediately searched his house and found the directions he send you and arrested him for the murder of Micheal and another murder attempt on David. He was supposed to be the next victim of your trailer parked in the middle of the road. I can't believe that Mayor Tom is such a bad character. Well now he is in prison and I am the mayor of Felsbrunn for the time being.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -283,10 +322,11 @@
         <story_21>
             <titleText>A fresh start</titleText>
             <storyText>Hello farmer, Ann here again. I found the plans Mayor Tom had for Felsbrunn in his office. Altough I can't consent his methods, I must admit that his vision of making Felsbrunn a tourist magnet is a great idea. I think we should continue with this project. But this time we should do it by cooperating with the rest of the farmers. And to show that you had nothing to do with the bad intentions of Mayor Tom, I would suggest you help out the other farmers. Do some of theier fieldwork and show us you really want to work with us on this one. Of course you will get paid when you do good work. We will talk again when I hear the feedback of the other farmers. I really hope you are the man we want you to be and not like the person Mayor Tom turned into.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fieldJobMissionByNPC-4.0" />
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fieldJobMissionCount-4.0" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
