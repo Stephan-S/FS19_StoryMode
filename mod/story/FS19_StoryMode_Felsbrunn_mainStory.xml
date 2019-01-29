@@ -191,7 +191,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:300" />
             </triggers_1>
             <bonus_1>
                 <money>200000</money>
@@ -215,17 +215,17 @@
         </story_13>
         <story_14>
             <titleText>Get busy again</titleText>
-            <storyText>Ok, I am sure you have enough work to do for now. You might want to invest in somer more or larger equipment to work the four fields you own now. When you are comfortable with the work, we can talk about adding husbandry to your farm. Maybe some pigs to start with. But for now, just keep working and call me when you are done with at least 20 hectares, ok. See you later.</storyText>
+            <storyText>Ok, I am sure you have enough work to do for now. You might want to invest in some more or larger equipment to work the four fields you own now. When you are comfortable with the work, we can talk about adding husbandry to your farm. Maybe some pigs to start with. But for now, just keep working and call me when you are done with at least 15 hectares, ok. See you later.</storyText>
             <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:threshedHectares-20.0" />
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:threshedHectares-15.0" />
             </triggers_1>
             <bonus_1>
-                <money>0</money>
+                <money>100000</money>
             </bonus_1>
-            <nextStoryPart_1>14</nextStoryPart_1>
+            <nextStoryPart_1>15</nextStoryPart_1>
         </story_14>     
         <story_15>
             <titleText>Time for your next expansion</titleText>
@@ -234,7 +234,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -252,7 +252,7 @@
             </triggers_1>
             <triggers_2>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:30" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:300" />
             </triggers_2>
             <bonus_1>
                 <money>0</money>
@@ -261,7 +261,7 @@
                 <money>0</money>
             </bonus_2>
             <nextStoryPart_1>17</nextStoryPart_1>
-            <nextStoryPart_1>20</nextStoryPart_1>
+            <nextStoryPart_2>20</nextStoryPart_2>
         </story_16>  
         <story_17>
             <titleText>Perfect spot</titleText>
@@ -270,7 +270,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -284,7 +284,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -298,7 +298,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -312,7 +312,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:60" />
+                <trigger_1 triggerType="timePassed" triggerSticks="true" triggerAttributes="timePassed:600" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
@@ -326,7 +326,7 @@
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fieldJobMissionCount-4.0" />
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fieldJobMissionCount-5.0" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>

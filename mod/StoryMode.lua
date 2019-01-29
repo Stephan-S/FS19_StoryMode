@@ -137,10 +137,10 @@ function StoryMode:update(dt)
 	end;
 	
 	StoryMode.waitTime = StoryMode.waitTimeConstant;
-	print("StoryMode - update(dt) " .. StoryMode.currentStory .. "/" .. StoryMode.lastStory);
+	--print("StoryMode - update(dt) " .. StoryMode.currentStory .. "/" .. StoryMode.lastStory);
 	
-	--DebugUtil.printTableRecursively(g_fruitTypeManager, "-----", 0, 1);
-	print("Map title: " ..  g_currentMission.missionInfo.map.title);
+	--DebugUtil.printTableRecursively(g_currentMission.objectsToClassName, "-----", 0, 1);
+	--print("Map title: " ..  g_currentMission.missionInfo.map.title);
 
 	
 
@@ -169,16 +169,16 @@ end;
 function StoryMode:checkRequirements()
 	local fulfilledOptions = {};
 	for _,storyOption in pairs(StoryMode.storyParts[StoryMode.currentStory].options) do
-		print("Checking storyOption: ");
+		--print("Checking storyOption: ");
 		local fulfilled = true;
 		for _,trigger in pairs(storyOption.triggers) do
-			print("Checking trigger: " .. trigger.triggerType);
+			--print("Checking trigger: " .. trigger.triggerType);
 			local triggerCheck = trigger:checkFulfilled();
-			if triggerCheck then
-				print ("Trigger " .. trigger.triggerType .. " fulfilled")
-			else				
-				print ("Trigger " .. trigger.triggerType .. " not fulfilled")
-			end;
+			--if triggerCheck then
+				--print ("Trigger " .. trigger.triggerType .. " fulfilled")
+			--else				
+				--print ("Trigger " .. trigger.triggerType .. " not fulfilled")
+			--end;
 			fulfilled = fulfilled and triggerCheck;
 		end;
 
