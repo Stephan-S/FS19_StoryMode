@@ -58,6 +58,8 @@ function Trigger:checkFulfilled()
         fulfilled = self:checkFieldStatus();
     elseif self.triggerType == "timePassed" then
         fulfilled = self:checkTimePassed();
+    elseif self.triggerType == "animalCount" then
+        fulfilled = self:checkAnimalCount();
     end;
 
     self.alreadyFulfilled = fulfilled;
@@ -106,7 +108,7 @@ end;
 function Trigger:checkStatReached(statistic, value)
     value = tonumber(value);
     currentValue = self:getStatisticValue(statistic);
-    print("Stat value: " .. currentValue .. " required: " .. value);
+    --print("Stat value: " .. currentValue .. " required: " .. value);
 
     return currentValue >= value;
 end;
@@ -328,11 +330,11 @@ function Trigger:checkFieldForStatus()
                     target = self.fieldTargetFruitPercentage * fieldArea;
                     --print("Target set to: " .. target .. " percentage = " .. self.fieldTargetFruitPercentage);
                 end;
-                print("Target set to: " .. target);
+                --print("Target set to: " .. target);
                 
                 if fruitPixels[self.fieldTargetFruit] ~= nil then
                     
-                    print("fruitPixels[self.fieldTargetFruit] ~= nil: " .. fruitPixels[self.fieldTargetFruit] );
+                    --print("fruitPixels[self.fieldTargetFruit] ~= nil: " .. fruitPixels[self.fieldTargetFruit] );
                     local areaAsDesired = false;
                     if self.fieldTargetFruitPercentageSmaller and fruitPixels[self.fieldTargetFruit] <= target then
                         areaAsDesired = true;
@@ -341,10 +343,10 @@ function Trigger:checkFieldForStatus()
                         areaAsDesired = true;
                     end;
                     if areaAsDesired == true then
-                        print("areaAsDesired == true");
+                        --print("areaAsDesired == true");
                         if fruits[self.fieldTargetFruit] >= self.fieldTargetFruitGrowth then
                             self.alreadyFulfilled = true;
-                            print("Trigger - fieldStatus - fulfilled");
+                            --print("Trigger - fieldStatus - fulfilled");
                             return true;
                         end;
                     end;
@@ -357,7 +359,7 @@ function Trigger:checkFieldForStatus()
                     target = self.fieldTargetFruitPercentage;
                     --print("Target set to: " .. target .. " percentage = " .. self.fieldTargetFruitPercentage);
                 end;
-                print("Target set to: " .. target);
+                --print("Target set to: " .. target);
 
                 local areaAsDesired = false;
                 if self.fieldTargetFruitPercentageSmaller and weedFactor <= target then
@@ -369,7 +371,7 @@ function Trigger:checkFieldForStatus()
 
                 if areaAsDesired then
                     self.alreadyFulfilled = true;
-                    print("Trigger - fieldStatus - fulfilled");
+                    --print("Trigger - fieldStatus - fulfilled");
                     return true;
                 end;
             end;
@@ -425,4 +427,35 @@ function Trigger:checkTimePassed()
     else
         return false;        
     end;
+end;
+
+function Trigger:checkAnimalCount()
+    local animalCountString = self.animalCount;
+    local animalCountStringSplitted = animalCountString:split("-");
+
+    if animalCountStringSplitted ~= nil and animalCountStringSplitted[1] ~= nil and animalCountStringSplitted[2] ~= nil then
+        self.animalType = animalCountStringSplitted[1];
+        self.animalTargetCount = tonumber(animalCountStringSplitted[2]);
+        local animalCount = self:getAnimalCount(self.animalType);
+
+        --print("Stat value: " .. animalCount .. " required: " .. self.animalTargetCount);
+
+        return self.animalTargetCount <= animalCount
+    end;
+
+    return false;
+end;
+
+function Trigger:getAnimalCount(animalType)
+    local animalCount = 0;
+	for _,husbandry in pairs(g_currentMission.husbandries) do
+		if husbandry.modulesByName["animals"] ~= nil then
+			if husbandry.modulesByName["animals"].animalType == animalType then
+				for _,animal in pairs(husbandry.modulesByName["animals"].animals) do
+					animalCount = animalCount + 1;
+				end;
+			end;
+		end;
+    end;
+    return animalCount;
 end;

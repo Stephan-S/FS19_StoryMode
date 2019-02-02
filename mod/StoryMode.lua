@@ -138,8 +138,7 @@ function StoryMode:update(dt)
 	
 	StoryMode.waitTime = StoryMode.waitTimeConstant;
 	--print("StoryMode - update(dt) " .. StoryMode.currentStory .. "/" .. StoryMode.lastStory);
-	
-	--DebugUtil.printTableRecursively(g_currentMission.objectsToClassName, "-----", 0, 1);
+	--DebugUtil.printTableRecursively(g_currentMission.husbandries, "-----", 0, 3);
 	--print("Map title: " ..  g_currentMission.missionInfo.map.title);
 
 	
@@ -189,7 +188,7 @@ function StoryMode:checkRequirements()
 end;
 
 function StoryMode:handleFulFilledStory(storyOption)
-	print("StoryMode - handling fulfilled Story");
+	--print("StoryMode - handling fulfilled Story");
 	if storyOption.bonus ~= nil then
 		if storyOption.bonus.money ~= nil then
 			local owner = g_currentMission.player.farmId
@@ -284,13 +283,15 @@ function StoryMode:readStoryXML()
 	local mapName =  g_currentMission.missionInfo.map.title;
 
 	local customFile = StoryMode.customStoryDirectory .. mapName .. "_Story.xml";
-	print("Customfile: " .. customFile);
+	--print("Customfile: " .. customFile);
 	local modFile = StoryMode.modStoryDirectory.. myName .. "_" .. mapName .. "_mainStory.xml"
 	local file = modFile;
 
 	if fileExists(customFile) then
 		file = customFile;
-		print("Customfile exists");
+		print("Customfile exists. Using: " .. customFile);
+	else
+		print("No custom story file found! If you want to use your own story, place the file at: " .. customFile);
 	end;
 
 	--local file = StoryMode.modStoryDirectory.. myName .. "_mainStory.xml"

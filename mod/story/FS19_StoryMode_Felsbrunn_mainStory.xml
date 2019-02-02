@@ -1,5 +1,5 @@
 ﻿<FS19_StoryModeStory>
-    <storyPartsCount>21</storyPartsCount>
+    <storyPartsCount>23</storyPartsCount>
     <storyParts>
         <story_1>
             <titleText>Introductions</titleText>
@@ -215,7 +215,7 @@
         </story_13>
         <story_14>
             <titleText>Get busy again</titleText>
-            <storyText>Ok, I am sure you have enough work to do for now. You might want to invest in some more or larger equipment to work the four fields you own now. When you are comfortable with the work, we can talk about adding husbandry to your farm. Maybe some pigs to start with. But for now, just keep working and call me when you are done with at least 15 hectares, ok. See you later.</storyText>
+            <storyText>Ok, I am sure you have enough work to do for now. You might want to invest in some more or larger equipment to work the four fields you own now. When you are comfortable with the work, we can talk about adding husbandry to your farm. Maybe some pigs to start with. But for now, just keep working and call me when you are done with at least 15 hectares, ok. Oh and you might want to store some wheat in a silo so you have something to feed the pigs. See you later.</storyText>
             <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Tom.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
@@ -223,7 +223,7 @@
                 <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:threshedHectares-15.0" />
             </triggers_1>
             <bonus_1>
-                <money>100000</money>
+                <money>0</money>
             </bonus_1>
             <nextStoryPart_1>15</nextStoryPart_1>
         </story_14>     
@@ -321,17 +321,45 @@
         </story_20>          
         <story_21>
             <titleText>A fresh start</titleText>
-            <storyText>Hello farmer, Ann here again. I found the plans Mayor Tom had for Felsbrunn in his office. Altough I can't consent his methods, I must admit that his vision of making Felsbrunn a tourist magnet is a great idea. I think we should continue with this project. But this time we should do it by cooperating with the rest of the farmers. And to show that you had nothing to do with the bad intentions of Mayor Tom, I would suggest you help out the other farmers. Do some of theier fieldwork and show us you really want to work with us on this one. Of course you will get paid when you do good work. We will talk again when I hear the feedback of the other farmers. I really hope you are the man we want you to be and not like the person Mayor Tom turned into.</storyText>
+            <storyText>Hello farmer, Ann here again. I found the plans Mayor Tom had for Felsbrunn in his office. Altough I can't consent his methods, I must admit that his vision of making Felsbrunn a tourist magnet is a great idea. I think we should continue with this project. But this time we should do it by cooperating with the rest of the farmers. And to show that you had nothing to do with the bad intentions of Mayor Tom, I would suggest you help out the other farmers. Do some of theier fieldwork and show us you really want to work with us on this one. Of course you will get paid when you do good work. We will talk again when I hear the feedback of the other farmers. I really hope you are the man we want you to be and not like the person Mayor Tom turned into. Go ahead and do at least 10 field jobs for the local farmers.</storyText>
             <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
             <storyOptions>1</storyOptions>
             <triggers_1>
                 <triggerCount>1</triggerCount>
-                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fieldJobMissionCount-5.0" />
+                <trigger_1 triggerType="statToCheck"  triggerSticks="false" triggerAttributes="statToCheck:fieldJobMissionCount-4.0" />
+            </triggers_1>
+            <bonus_1>
+                <money>50000</money>
+            </bonus_1>
+            <nextStoryPart_1>22</nextStoryPart_1>
+        </story_21>      
+        <story_22>
+            <titleText>A solid guy</titleText>
+            <storyText>Nice to see you really care for Felsbrunn. Here is your promised payment. 50.000€. Good work pays well. Now, let's see.. the next step was starting with animal husbandry. Ok so go ahead and buy everything you need to take care of pigs. This includes a pig shed of course and a water trailer, something to provide them with straw and as food source you can start with your own wheat. Get at least 20 pigs and then we can discuss how to grow from there on.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
+            <storyOptions>1</storyOptions>
+            <triggers_1>
+                <triggerCount>1</triggerCount>
+                <trigger_1 triggerType="animalCount"  triggerSticks="false" triggerAttributes="animalCount:PIG-20" />
             </triggers_1>
             <bonus_1>
                 <money>0</money>
             </bonus_1>
-            <nextStoryPart_1>21</nextStoryPart_1>
-        </story_21> 
+            <nextStoryPart_1>23</nextStoryPart_1>
+        </story_22>    
+        <story_23>
+            <titleText>A new pig farmer in town</titleText>
+            <storyText>Great start with the pigs. Now provide well for them and they will breed. I would suggest breeding them until you have at least 60 pigs. Then we can sell some and start investing in maize harvesting to improve the breeding productivity of your pigs even more.</storyText>
+            <storyImage includedInMod="true" includedInAppFolder="false" name_or_path="img/Ann.dds" />
+            <storyOptions>1</storyOptions>
+            <triggers_1>
+                <triggerCount>1</triggerCount>
+                <trigger_1 triggerType="animalCount"  triggerSticks="false" triggerAttributes="animalCount:PIG-60" />
+            </triggers_1>
+            <bonus_1>
+                <money>0</money>
+            </bonus_1>
+            <nextStoryPart_1>23</nextStoryPart_1>
+        </story_23> 
     </storyParts>
 </FS19_StoryModeStory>

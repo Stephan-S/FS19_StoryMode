@@ -7,11 +7,11 @@
 	</title>
 	<description>
 		<en>
-<![CDATA[This mod adds a story mode the game. Only use when starting new savegames!
+<![CDATA[This mod adds a story mode the game. Only use when starting new savegames! For now only the Felsbrunn map has an included story. For the other maps, custom storys can be placed as xml file in the 'StoryModeStories' folder.
 ]]>
 		</en>
 		<de>
-<![CDATA[Dieser Mod fügt einen Storymodus hinzu. Nur bei neuen Spielständen benutzen
+<![CDATA[Dieser Mod fügt einen Storymodus hinzu. Nur bei neuen Spielständen benutzen. Derzeit ist nur eine Story für die Felsbrunn Karte im Mod enthalten. Weitere Storys können als xml abgelegt und nachgeladen werden.
 ]]>
 	   </de>
 	</description>
